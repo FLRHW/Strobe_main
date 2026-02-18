@@ -5,14 +5,14 @@
     <date>Date1</date>
     <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
-    <textvar name="BOARD_NAME">Board Name</textvar>
-    <textvar name="COMPANY">Company Name</textvar>
+    <textvar name="BOARD_NAME">Main Board</textvar>
+    <textvar name="COMPANY">ChurrasCod Electronics</textvar>
     <textvar name="DESIGNER">FR</textvar>
     <textvar name="FABRICATION_NOTES"/>
     <textvar name="GIT_HASH_PCB">7dbe69f</textvar>
     <textvar name="GIT_HASH_SCH">7dbe69f</textvar>
-    <textvar name="GIT_URL">https://github.com/FLRHW/KDT_Hierarchical_KiBot</textvar>
-    <textvar name="PROJECT_NAME">Project Name</textvar>
+    <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_main</textvar>
+    <textvar name="PROJECT_NAME">1 kV strobe</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
     <textvar name="RELEASE_BODY_1.0.1"/>
     <textvar name="RELEASE_BODY_1.0.2"/>
@@ -70,7 +70,7 @@
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
-        <company>Company Name</company>
+        <company>ChurrasCod Electronics</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Strobe_main.kicad_sch</source>
@@ -88,7 +88,7 @@
     <sheet number="2" name="/Block Diagram/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/">
       <title_block>
         <title>Block Diagram</title>
-        <company>Company Name</company>
+        <company>ChurrasCod Electronics</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
@@ -214,7 +214,7 @@
     <sheet number="9" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
       <title_block>
         <title>Revision History</title>
-        <company>Company Name</company>
+        <company>ChurrasCod Electronics</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>

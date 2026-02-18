@@ -5,8 +5,8 @@
 <h1 align="center">Board Name</h1>
 
 <p align="center" width="100%">
-  <a href="/actions/workflows/ci.yaml">
-    <img alt="CI Badge" src="/actions/workflows/ci.yaml/badge.svg?branch=">
+  <a href="https://github.com/FLRHW/KDT_Hierarchical_KiBot/actions/workflows/ci.yaml">
+    <img alt="CI Badge" src="https://github.com/FLRHW/KDT_Hierarchical_KiBot/actions/workflows/ci.yaml/badge.svg?branch=">
   </a>
 </p>
 
@@ -27,7 +27,7 @@
 
 ## DIRECTORY STRUCTURE
 
-    │
+    .
     ├─ Computations       # Misc calculations
     ├─ HTML               # HTML files for generated webpage
     ├─ Images             # Pictures and renders
@@ -58,6 +58,7 @@
     ├─ Report             # Reports for ERC/DRC
     ├─ Schematic          # PDF of schematic
     ├─ Templates          # Title block templates
-    └─ Testing
-       └─ Testpoints      # Testpoints tables      
- 
+    ├─ Testing
+    │  └─ Testpoints      # Testpoints tables      
+    │
+    └─ Variants           # Outputs for assembly variants
