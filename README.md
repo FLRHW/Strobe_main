@@ -27,7 +27,7 @@
 
 ## DIRECTORY STRUCTURE
 
-    .
+    │
     ├─ Computations       # Misc calculations
     ├─ HTML               # HTML files for generated webpage
     ├─ Images             # Pictures and renders
@@ -58,7 +58,6 @@
     ├─ Report             # Reports for ERC/DRC
     ├─ Schematic          # PDF of schematic
     ├─ Templates          # Title block templates
-    ├─ Testing
-    │  └─ Testpoints      # Testpoints tables      
-    │
-    └─ Variants           # Outputs for assembly variants
+    └─ Testing
+       └─ Testpoints      # Testpoints tables      
+ 

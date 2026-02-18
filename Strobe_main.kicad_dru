@@ -1,126 +1,137 @@
 (version 1)
-#PCBWay Custom DRC for Kicad 8
 
-# 6 layers, 2 oz outer and 1 oz inner. Optimized for lowest cost.
+#specify clearance for LV to HV domain
+(rule "LV HV"
+   (constraint clearance (min 2.5mm))
+   (condition "A.hasNetclass('LV') && !B.hasNetclass('LV') && !B.hasNetclass('NR')"))
 
-# ----------------------------------- Minimum trace width and spacing --------------------
+#specify general clearance for 250 V & AC nets
+(rule "250 V"
+   (constraint clearance (min 1.25mm))
+   (condition "A.hasNetclass('250V') || A.hasNetclass('AC') "))
 
-# 2oz copper
-(rule "Minimum Trace Width and Spacing (outer layer)"
-(constraint track_width (min 0.2mm))
-(constraint clearance (min 0.2mm))
-(layer outer)
-(condition "A.Type == 'track'"))
+#specify clearance for AC nets against LV domain
+(rule "AC LV"
+   (constraint clearance (min 2.5mm))
+   (condition "A.hasNetclass('AC') && B.hasNetclass('LV')"))
 
-(rule "Minimum Trace Width and Spacing (innner layer)"
-(constraint track_width (min 0.2mm))
-(constraint clearance (min 0.2mm))
-(layer inner)
-(condition "A.Type == 'track'"))
+#specify clearance for 250 V nets against AC or LV domain
+(rule "250 V AC LV"
+   (constraint clearance (min 2.5mm))
+   (condition "A.hasNetclass('250V') && (B.hasNetclass('LV') || B.hasNetclass('AC'))"))
 
-# ------------------------------------------------------------------------------------------------------
+#specify general clearance for 500 V nets
+(rule "500 V"
+   (constraint clearance (min 2.5mm))
+   (condition "A.hasNetclass('500V')"))
 
-# Drill/hole size - listed here to maintain order of rule application. Must not override rule set in Via hole/diameter size below.
-(rule "drill hole size (mechanical)"
-(constraint hole_size (min 0.15mm) (max 6.3mm)))
+#specify clearance for 500 V nets against AC domain
+(rule "500 V AC"
+   (constraint clearance (min 3.75mm))
+   (condition "A.hasNetclass('500V') && B.hasNetclass('AC')"))
 
-# ----------------------------------- Via hole/diameter size -------------------------------------------
+#specify clearance for 500 V nets against LV domain
+(rule "500 V LV"
+   (constraint clearance (min 5mm))
+   (condition "A.hasNetclass('500V') && B.hasNetclass('LV')"))
 
-(rule "Minimum Via Diameter and Hole Size"
-(constraint hole_size (min 0.25mm))
-(constraint via_diameter (min 0.55mm))
-(condition "A.Type == 'via'"))
+#specify general clearance for 750 V nets
+(rule "750 V"
+   (constraint clearance (min 3.75mm))
+   (condition "A.hasNetclass('750V')"))
 
+#specify clearance for 750 V nets against AC domain
+(rule "750 V AC"
+   (constraint clearance (min 5mm))
+   (condition "A.hasNetclass('750V') && B.hasNetclass('AC')"))
 
-# ----------------------------------- Drill/hole size --------------------------------------------------
+#specify clearance for 750 V nets against LV domain
+(rule "750 V LV"
+   (constraint clearance (min 7.5mm))
+   (condition "A.hasNetclass('750V') && B.hasNetclass('LV')"))
 
-(rule "PTH Hole Size"
-(constraint hole_size (min 0.25mm) (max 6.35mm))
-(condition "A.Type != 'Via' && A.isPlated()"))
+#specify general clearance for inner 1000 V nets
+(rule "1000 V Inner"
+   (layer inner)
+   (constraint clearance (min 2.5mm))
+   (condition "A.hasNetclass('1000V') && !B.hasNetclass('NR')"))
 
-(rule "Minimum Non-plated Hole Size"
-(constraint hole_size (min 0.5mm))
-(condition "A.Type == 'pad' && !A.isPlated()"))
+#specify clearance for outer 1000 V nets
+(rule "1000 V Outer"
+   (layer outer)
+   (constraint clearance (min 5mm))
+   (condition "A.hasNetclass('1000V') && !B.hasNetclass('NR')"))
 
-(rule "Pad Size"
-(constraint hole_size (min 0.25mm))
-(constraint annular_width (min 0.15mm))
-(condition "A.Type == 'Pad' && A.isPlated()"))
+#specify clearance for Lamp_P near J301
+(rule "Lamp_P J301"
+   (layer outer)
+   (constraint clearance (min 3.85mm))
+   (condition "A.NetName == '/300 Lamp drive/LAMP_P' && B.NetName == '/SH1000' "))
 
-(rule "Minimum Castellated Hole Size"
-(constraint hole_size (min 0.6mm))
-(condition "A.Type == 'pad' && A.Fabrication_Property == 'Castellated pad'"))
+#specify clearance for outer 500 V nets against 250 V nets of same branch
+(rule "500 V 250"
+   (layer outer)
+   (constraint clearance (min 1.25mm))
+   (condition "A.hasNetclass('500V') && B.hasNetclass('250V') && ((A.hasNetclass('N') && B.hasNetclass('N')) || (A.hasNetclass('P') && B.hasNetclass('P')) || (A.hasNetclass('Q') && B.hasNetclass('Q')) || (A.hasNetclass('T') && B.hasNetclass('T'))) "))
 
-(rule "Min. Plated Slot Width"
-(constraint hole_size (min 0.5mm))
-(condition "(A.Hole_Size_X != A.Hole_Size_Y) && A.isPlated()"))
+#specify clearance for outer 500 V nets against other 500 V nets of same branch
+(rule "500 V 500"
+   (layer outer)
+   (constraint clearance (min 1.75mm))
+   (condition "A.hasNetclass('500V') && B.hasNetclass('500V') && ((A.hasNetclass('N') && B.hasNetclass('N')) || (A.hasNetclass('P') && B.hasNetclass('P')) || (A.hasNetclass('Q') && B.hasNetclass('Q')) || (A.hasNetclass('T') && B.hasNetclass('T'))) "))
 
-(rule "Min. Non-Plated Slot Width"
-(constraint hole_size (min 0.8mm))
-(condition "(A.Hole_Size_X != A.Hole_Size_Y) && !A.isPlated()"))
+#specify clearance for outer 750 V nets against 250 V nets of same branch
+(rule "750 V 250"
+   (layer outer)
+   (constraint clearance (min 2.5mm))
+   (condition "A.hasNetclass('750V') && B.hasNetclass('250V') && ((A.hasNetclass('N') && B.hasNetclass('N')) || (A.hasNetclass('P') && B.hasNetclass('P')) || (A.hasNetclass('Q') && B.hasNetclass('Q')) || (A.hasNetclass('T') && B.hasNetclass('T'))) "))
 
+#specify clearance for outer 750 V nets against 500 V nets of same branch
+(rule "750 V 500"
+   (layer outer)
+   (constraint clearance (min 1.25mm))
+   (condition "A.hasNetclass('750V') && B.hasNetclass('500V') && ((A.hasNetclass('N') && B.hasNetclass('N')) || (A.hasNetclass('P') && B.hasNetclass('P')) || (A.hasNetclass('Q') && B.hasNetclass('Q')) || (A.hasNetclass('T') && B.hasNetclass('T'))) "))
 
-# ----------------------------------- Minimum clearance ------------------------------------------------
+#specify clearance for outer 1000 V nets against 250 V nets of same branch
+(rule "1000 V 250"
+   (layer outer)
+   (constraint clearance (min 3.75mm))
+   (condition "A.hasNetclass('1000V') && B.hasNetclass('250V') && ((A.hasNetclass('N') && B.hasNetclass('N')) || (A.hasNetclass('P') && B.hasNetclass('P')) || (A.hasNetclass('Q') && B.hasNetclass('Q')) || (A.hasNetclass('T') && B.hasNetclass('T'))) "))
 
-(rule "hole to hole clearance (different nets)"
-(constraint hole_to_hole (min 0.5mm))
-(condition "A.Net != B.Net"))
+#specify clearance for outer 1000 V nets against 500 V nets of same branch
+(rule "1000 V 500"
+   (layer outer)
+   (constraint clearance (min 2.5mm))
+   (condition "A.hasNetclass('1000V') && B.hasNetclass('500V') && ((A.hasNetclass('N') && B.hasNetclass('N')) || (A.hasNetclass('P') && B.hasNetclass('P')) || (A.hasNetclass('Q') && B.hasNetclass('Q')) || (A.hasNetclass('T') && B.hasNetclass('T'))) "))
 
-(rule "via to track clearance"
-(constraint hole_clearance (min 0.254mm))
-(condition "A.Type == 'via' && B.Type == 'track'"))
+#specify clearance for outer 1000 V nets against 750 V nets of same branch
+(rule "1000 V 750"
+   (layer outer)
+   (constraint clearance (min 1.25mm))
+   (condition "A.hasNetclass('1000V') && B.hasNetclass('750V') && ((A.hasNetclass('N') && B.hasNetclass('N')) || (A.hasNetclass('P') && B.hasNetclass('P')) || (A.hasNetclass('Q') && B.hasNetclass('Q')) || (A.hasNetclass('T') && B.hasNetclass('T'))) "))
 
-(rule "via to via clearance (same nets)"
-(constraint hole_to_hole (min 0.254mm))
-(condition "A.Type == 'via' && B.Type == A.Type && A.Net == B.Net"))
+#specify clearance for outer 1000 V nets against 1000 V nets of same branch
+(rule "1000 V 1000"
+   (layer outer)
+   (constraint clearance (min 1.5mm))
+   (condition "A.hasNetclass('1000V') && B.hasNetclass('1000V') && ((A.hasNetclass('Q') && B.hasNetclass('Q')) || (A.hasNetclass('T') && B.hasNetclass('T'))) "))
 
-(rule "pad to pad clearance (with hole, different nets)"
-(constraint hole_to_hole (min 0.5mm))
-(condition "A.Type == 'pad' && B.Type == A.Type && A.Net != B.Net"))
+#specify clearance for 1000 V nets against AC
+(rule "1000 V AC"
+   (constraint clearance (min 6.25mm))
+   (condition "A.hasNetclass('1000V') && B.hasNetclass('AC')"))
 
-(rule "pad to pad clearance (without hole, different nets)"
-(constraint clearance (min 0.2mm))
-(condition "A.Type == 'Pad' && B.Type == 'Pad'"))
+#specify clearance for 1000 V nets against LV domain
+(rule "1000 V LV"
+   (constraint clearance (min 10mm))
+   (condition "A.hasNetclass('1000V') && (B.NetName=='Earth' || B.hasNetclass('LV'))"))
 
-(rule "NPTH to Track clearance"
-(constraint hole_clearance (min 0.254mm))
-(condition "A.Pad_Type == 'NPTH, mechanical' && B.Type == 'track'"))
-
-(rule "NPTH with copper around"
-(constraint hole_clearance (min 0.20mm))
-(condition "A.Pad_Type == 'NPTH, mechanical' && B.Type != 'track'"))
-
-(rule "PTH to Track clearance"
-(constraint hole_clearance (min 0.33mm))
-(condition "A.isPlated() && A.Type != 'Via' && B.Type == 'track'"))
-
-(rule "Pad to Track clearance"
-(constraint clearance (min 0.2mm))
-(condition "A.isPlated() && A.Type != 'Via' && B.Type == 'track'"))
-
-# ----------------------------------- Board Outlines (PICK ONE) -------------------------------------
-#Default Routed Edge Clearance
-(rule "Trace to Outline"
-(constraint edge_clearance (min 0.3mm))
-(condition "A.Type == 'track'"))
-
-# ----------------------------------- Silkscreen ----------------------------------------------------
-(rule "Minimum Text"
-(constraint text_thickness (min 0.15mm))
-(constraint text_height (min 0.8mm))
-(layer "?.Silkscreen"))
-
-(rule "Pad to Silkscreen"
-(constraint silk_clearance (min 0.15mm))
-(layer outer)
-(condition "A.Type == 'pad' && (B.Type == 'text' || B.Type == 'graphic')"))
-
-# ----------------------------------- Test Points Courtyard -----------------------------------------
-(rule "Test Point Courtyard Exclusion"
-(constraint courtyard_clearance (min -1mm))
-(condition "A.Reference =='TP*'"))
-
-# ----------------------------------- Fiducials Courtyard -------------------------------------------
-(rule "Test Point Courtyard Exclusion"
-(constraint courtyard_clearance (min -1mm))
-(condition "A.Reference =='FM*'"))
+#specify clearance for 10 kV nets, ignoring nets of class NR (Not Relevant)
+(rule "10 kV HV"
+   (constraint clearance (min 12mm))
+   (condition "A.hasNetclass('10kV') && !B.hasNetclass('NR')"))
+   
+#specify clearance for 10 kV nets against LV domain, ignoring nets of class NR (Not Relevant)
+(rule "10 kV LV"
+   (constraint clearance (min 20mm))
+   (condition "A.hasNetclass('10kV') && (B.NetName=='Earth' || B.hasNetclass('LV'))"))
