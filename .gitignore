@@ -1,0 +1,53 @@
+# ---------------------------
+# KiCad autosave / backups
+# ---------------------------
+*-backups
+#auto_saved_files#
+_autosave-*
+*.lck
+*.bak
+*.ini
+*.kicad_sch-bak
+*.kicad_pro-bak
+*.kicad_pcb-bak
+*.kicad_prl-bak
+
+# ---------------------------
+# KiCad caches / temp
+# ---------------------------
+fp-info-cache
+*.kicad_prl
+*.kicad_pro.user
+
+# ---------------------------
+# KiBot temp files
+# ---------------------------
+kibot_*.kicad_pcb
+kibot_*.kicad_dru
+kibot_*.kicad_prl
+kibot_*.kicad_pro
+
+# ---------------------------
+# Outputs (generated)
+# ---------------------------
+outputs/
+*.gbr
+*.gbrjob
+*.drl
+*.map
+*.pos
+*.rpt
+
+# ---------------------------
+# 3D editor temp
+# ---------------------------
+*.step~
+*.wrl~
+
+# ---------------------------
+# OS junk
+# ---------------------------
+*Zone.Identifier
+Thumbs.db
+.DS_Store
+
