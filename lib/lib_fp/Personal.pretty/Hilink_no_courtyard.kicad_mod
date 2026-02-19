@@ -138,7 +138,19 @@
 		(uuid "63e196c4-39f1-4915-84aa-2a69b928fd49")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/3D_models/"
+	(model "${KICAD9_3RD_PARTY}/HLK-____.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/lib/3D_models/HLK-____.step"
+		(hide yes)
 		(offset
 			(xyz 0 0 0)
 		)
