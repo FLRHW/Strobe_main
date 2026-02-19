@@ -150,7 +150,6 @@
 		)
 	)
 	(model "${KIPRJMOD}/lib/3D_models/HLK-____.step"
-		(hide yes)
 		(offset
 			(xyz 0 0 0)
 		)
