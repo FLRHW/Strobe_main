@@ -434,13 +434,13 @@
 	)
 	(model "${KIPRJMOD}/lib/3D_models/TO-220-3-Vert_staggered.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -2.54 0 3.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

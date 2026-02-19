@@ -484,13 +484,13 @@
 	)
 	(model "${KIPRJMOD}/lib/3D_models/TO-247-3_mixed_vert.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -5.45 0 2.3)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
