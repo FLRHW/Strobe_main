@@ -1,0 +1,15 @@
+Count,Hole Size,Plated,Hole Shape,Drill Layer Pair,Hole Type
+109,0.30mm (11.81mils),PTH,Round,"F.Cu (Sig, PWR) - B.Cu (Sig, PWR)",Via
+12,0.50mm (19.69mils),PTH,Round,"F.Cu (Sig, PWR) - B.Cu (Sig, PWR)",Via
+31,0.50mm (19.69mils),PTH,Round,"F.Cu (Sig, PWR) - B.Cu (Sig, PWR)",Pad
+10,0.65mm (25.59mils),PTH,Round,"F.Cu (Sig, PWR) - B.Cu (Sig, PWR)",Pad
+2,0.80mm (31.50mils),PTH,Round,"F.Cu (Sig, PWR) - B.Cu (Sig, PWR)",Pad
+2,0.90mm (35.43mils),PTH,Round,"F.Cu (Sig, PWR) - B.Cu (Sig, PWR)",Pad
+4,1.00mm (39.37mils),PTH,Round,"F.Cu (Sig, PWR) - B.Cu (Sig, PWR)",Via
+34,1.00mm (39.37mils),PTH,Round,"F.Cu (Sig, PWR) - B.Cu (Sig, PWR)",Pad
+24,1.02mm (40.16mils),PTH,Round,"F.Cu (Sig, PWR) - B.Cu (Sig, PWR)",Pad
+3,1.10mm (43.31mils),PTH,Round,"F.Cu (Sig, PWR) - B.Cu (Sig, PWR)",Pad
+6,1.20mm (47.24mils),PTH,Round,"F.Cu (Sig, PWR) - B.Cu (Sig, PWR)",Pad
+9,1.50mm (59.06mils),PTH,Round,"F.Cu (Sig, PWR) - B.Cu (Sig, PWR)",Pad
+16,1.80mm (70.87mils),PTH,Round,"F.Cu (Sig, PWR) - B.Cu (Sig, PWR)",Pad
+Total 262,,,,,
