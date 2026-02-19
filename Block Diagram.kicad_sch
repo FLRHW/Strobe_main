@@ -9935,7 +9935,7 @@
 			(color 255 220 210 1.0000)
 		)
 		(uuid "ff259134-84db-47d3-8250-13ef5aa350b1")
-		(property "Sheetname" "Main ctrl"
+		(property "Sheetname" "MCU"
 			(at 185.42 88.9 0)
 			(effects
 				(font
@@ -9944,7 +9944,7 @@
 				(justify left)
 			)
 		)
-		(property "Sheetfile" "Main_ctrl.kicad_sch"
+		(property "Sheetfile" "MCU.kicad_sch"
 			(at 185.42 191.77 0)
 			(effects
 				(font
