@@ -66,7 +66,7 @@
 (rule "Lamp_P J301"
    (layer outer)
    (constraint clearance (min 3.85mm))
-   (condition "A.NetName == '/300 Lamp drive/LAMP_P' && B.NetName == '/SH1000' "))
+   (condition "A.NetName == '/Block Diagram/Lamp driver/LAMP_P' && B.NetName == '/Block Diagram/SH1000' "))
 
 #specify clearance for outer 500 V nets against 250 V nets of same branch
 (rule "500 V 250"

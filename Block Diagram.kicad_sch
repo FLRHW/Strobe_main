@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "${SHEETNAME}")
-		(date "2025-01-12")
+		(date "2025-07-04")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
@@ -1369,109 +1369,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Cosmetic_PWR_4"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(property "Reference" "P"
-				(at 0 5.334 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Cosmetic_PWR_4_1_1"
-				(circle
-					(center 0 3.556)
-					(radius 0.898)
-					(stroke
-						(width 0.2032)
-						(type solid)
-						(color 132 94 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 132 94 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2190,7 +2087,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Local power symbol (sink), cosmetic use only"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2225,11 +2122,10 @@
 						(type none)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "1"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2252,6 +2148,7 @@
 				(hide yes)
 			)
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -2293,7 +2190,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Local power symbol (source), cosmetic use only"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2328,11 +2225,10 @@
 						(type none)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "1"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2794,7 +2690,7 @@
 		(exclude_from_sim no)
 		(at 350.52 15.24 0)
 		(size 53.34 7.62)
-		(margins 2.54 1.27 2.54 1.27)
+		(margins 1.27 1.27 1.27 1.27)
 		(stroke
 			(width -0.0001)
 			(type solid)
@@ -2873,6 +2769,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57ee74da-8ec9-4a2b-b139-1205c066eba3")
+	)
+	(junction
+		(at 41.91 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58037e13-e3b2-422e-8a2e-ac18568795cc")
 	)
 	(junction
 		(at 77.47 165.1)
@@ -3310,7 +3212,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 184.15) (xy 41.91 204.47)
+			(xy 41.91 184.15) (xy 41.91 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3987,6 +3889,16 @@
 			(type default)
 		)
 		(uuid "a8f15122-654e-4988-bca9-7c49b6747ce8")
+	)
+	(wire
+		(pts
+			(xy 41.91 189.23) (xy 41.91 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90b32a4-d566-4f45-818d-074d0654f7a6")
 	)
 	(wire
 		(pts
@@ -5517,7 +5429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (source), cosmetic use only"
 			(at 99.06 66.04 0)
 			(effects
 				(font
@@ -5539,7 +5451,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 55.88 58.42 0)
 		(unit 1)
@@ -5587,7 +5498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
 			(at 55.88 58.42 0)
 			(effects
 				(font
@@ -5609,7 +5520,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 289.56 90.17 0)
 		(unit 1)
@@ -5657,7 +5567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
 			(at 289.56 90.17 0)
 			(effects
 				(font
@@ -5879,7 +5789,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 119.38 58.42 0)
 		(unit 1)
@@ -5927,7 +5836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
 			(at 119.38 58.42 0)
 			(effects
 				(font
@@ -6158,7 +6067,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 55.88 99.06 0)
 		(unit 1)
@@ -6206,7 +6114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
 			(at 55.88 99.06 0)
 			(effects
 				(font
@@ -6410,7 +6318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
 			(at 340.36 92.71 0)
 			(effects
 				(font
@@ -6546,7 +6454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (source), cosmetic use only"
 			(at 99.06 58.42 0)
 			(effects
 				(font
@@ -6681,7 +6589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (source), cosmetic use only"
 			(at 99.06 179.07 0)
 			(effects
 				(font
@@ -6751,7 +6659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (source), cosmetic use only"
 			(at 101.6 179.07 0)
 			(effects
 				(font
@@ -7112,7 +7020,72 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
+		(lib_id "power:PWR_FLAG")
+		(at 41.91 189.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60f360d7-6d5a-4a7a-b063-e621d64b58b3")
+		(property "Reference" "#FLG02"
+			(at 43.815 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 44.45 189.23 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 41.91 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e707044-0b05-4caf-ad5b-8e8bcf35b477")
+		)
+		(instances
+			(project "Strobe_main"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "personal:Cosmetic_PWR")
 		(at 85.09 179.07 0)
 		(unit 1)
@@ -7160,7 +7133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
 			(at 85.09 179.07 0)
 			(effects
 				(font
@@ -7182,7 +7155,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 55.88 66.04 0)
 		(unit 1)
@@ -7230,7 +7202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
 			(at 55.88 66.04 0)
 			(effects
 				(font
@@ -7771,7 +7743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (source), cosmetic use only"
 			(at 41.91 184.15 0)
 			(effects
 				(font
@@ -7993,7 +7965,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 328.93 121.92 0)
 		(mirror y)
@@ -8041,7 +8012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
 			(at 328.93 121.92 0)
 			(effects
 				(font
@@ -8164,7 +8135,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 119.38 66.04 0)
 		(unit 1)
@@ -8212,7 +8182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
 			(at 119.38 66.04 0)
 			(effects
 				(font
@@ -8350,7 +8320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (source), cosmetic use only"
 			(at 162.56 58.42 0)
 			(effects
 				(font
@@ -8419,7 +8389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
 			(at 340.36 173.99 0)
 			(effects
 				(font
@@ -8711,7 +8681,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 55.88 91.44 0)
 		(unit 1)
@@ -8759,7 +8728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
 			(at 55.88 91.44 0)
 			(effects
 				(font
@@ -8781,7 +8750,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 119.38 106.68 0)
 		(unit 1)
@@ -8829,7 +8797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
 			(at 119.38 106.68 0)
 			(effects
 				(font
@@ -8923,7 +8891,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 246.38 90.17 0)
 		(unit 1)
@@ -8971,7 +8938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
 			(at 246.38 90.17 0)
 			(effects
 				(font
@@ -9057,7 +9024,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 182.88 91.44 0)
 		(unit 1)
@@ -9105,7 +9071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
 			(at 182.88 91.44 0)
 			(effects
 				(font
@@ -9415,7 +9381,7 @@
 			(color 255 220 210 1.0000)
 		)
 		(uuid "1b3d73d6-473d-4741-895e-f4c216aab074")
-		(property "Sheetname" "Lamp drive"
+		(property "Sheetname" "Lamp driver"
 			(at 58.42 88.9 0)
 			(effects
 				(font
@@ -9424,7 +9390,7 @@
 				(justify left)
 			)
 		)
-		(property "Sheetfile" "Lamp_drive.kicad_sch"
+		(property "Sheetfile" "Lamp_driver.kicad_sch"
 			(at 58.42 121.285 0)
 			(effects
 				(font

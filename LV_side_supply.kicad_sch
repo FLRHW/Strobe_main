@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${SHEETNAME}")
-		(date "2025-01-12")
+		(date "2025-07-04")
 	)
 	(lib_symbols
 		(symbol "Converter_ACDC:HLK-5M05"
@@ -770,7 +770,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Local power symbol (sink), cosmetic use only"
 				(at 0 0 0)
 				(effects
 					(font
@@ -805,11 +805,10 @@
 						(type none)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "1"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -832,6 +831,7 @@
 				(hide yes)
 			)
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -873,7 +873,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Local power symbol (source), cosmetic use only"
 				(at 0 0 0)
 				(effects
 					(font
@@ -908,11 +908,10 @@
 						(type none)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "1"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -962,7 +961,7 @@
 		(exclude_from_sim no)
 		(at 228.6 15.24 0)
 		(size 53.34 15.24)
-		(margins 2.54 1.27 2.54 1.27)
+		(margins 1.27 1.27 1.27 1.27)
 		(stroke
 			(width -0.0001)
 			(type solid)
@@ -1572,7 +1571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
 			(at 73.66 44.45 0)
 			(effects
 				(font
@@ -1620,7 +1619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Personal:DCDC_converter_Hilink"
+		(property "Footprint" "Personal:Hilink_no_courtyard"
 			(at 93.98 50.8 0)
 			(effects
 				(font
@@ -1788,7 +1787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (source), cosmetic use only"
 			(at 115.57 39.37 0)
 			(effects
 				(font
@@ -1857,7 +1856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
 			(at 76.2 39.37 0)
 			(effects
 				(font
@@ -1927,7 +1926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (source), cosmetic use only"
 			(at 33.02 24.13 0)
 			(effects
 				(font
@@ -2271,7 +2270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (source), cosmetic use only"
 			(at 149.86 39.37 0)
 			(effects
 				(font
@@ -2408,7 +2407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
 			(at 33.02 39.37 0)
 			(effects
 				(font
@@ -2478,7 +2477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (source), cosmetic use only"
 			(at 33.02 31.75 0)
 			(effects
 				(font

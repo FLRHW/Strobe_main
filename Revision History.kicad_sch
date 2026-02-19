@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${SHEETNAME}")
-		(date "2025-01-12")
+		(date "2025-07-04")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
@@ -82,7 +82,7 @@
 		(exclude_from_sim no)
 		(at 223.52 15.24 0)
 		(size 58.42 10.16)
-		(margins 2.54 1.27 2.54 1.27)
+		(margins 1.27 1.27 1.27 1.27)
 		(stroke
 			(width -0.0001)
 			(type solid)
