@@ -66,7 +66,7 @@
 	COPPER TO HOLE		0.300 mm
 	COPPER TO EDGE		0.500 mm
 	HOLE TO HOLE			0.250 mm</textvar>
-    <textvar name="GIT_HASH_PCB">5225739</textvar>
+    <textvar name="GIT_HASH_PCB">76a2d79</textvar>
     <textvar name="GIT_HASH_SCH">5225739</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_main</textvar>
     <textvar name="PROJECT_NAME">1 kV strobe</textvar>
@@ -118,7 +118,7 @@
     <textvar name="SHEET_NAME_39">......................................</textvar>
     <textvar name="SHEET_NAME_4">LV side supply</textvar>
     <textvar name="SHEET_NAME_40">......................................</textvar>
-    <textvar name="SHEET_NAME_5">Lamp drive</textvar>
+    <textvar name="SHEET_NAME_5">Lamp driver</textvar>
     <textvar name="SHEET_NAME_6">Signal conditioning</textvar>
     <textvar name="SHEET_NAME_7">MCU</textvar>
     <textvar name="SHEET_NAME_8">Optical isolation</textvar>
