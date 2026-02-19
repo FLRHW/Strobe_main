@@ -5,6 +5,7 @@
 	(uuid "937141cd-ce6c-41bd-99f8-aff9fbb1a920")
 	(paper "A4")
 	(title_block
+		(title "${SHEETNAME}")
 		(date "2025-01-12")
 	)
 	(lib_symbols
@@ -1957,25 +1958,11 @@
 		)
 		(uuid "b6d71320-c032-4c04-bd30-acb98b5bfb3a")
 	)
-	(text "OPTICAL INTERFACE\n600"
+	(text_box "${SHEETNAME}\n${RefDes}"
 		(exclude_from_sim no)
-		(at 283.21 19.05 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-				(thickness 0.4064)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify right)
-		)
-		(uuid "e1a5dbe2-c01e-4269-910a-1dde8a5accbc")
-	)
-	(text_box "[${#}] ${TITLE}"
-		(exclude_from_sim no)
-		(at 179.07 35.56 0)
-		(size 101.6 12.7)
-		(margins 5.9999 5.9999 5.9999 5.9999)
+		(at 208.28 15.24 0)
+		(size 73.66 15.24)
+		(margins 2.54 1.27 2.54 1.27)
 		(stroke
 			(width -0.0001)
 			(type solid)
@@ -1993,7 +1980,7 @@
 			)
 			(justify right)
 		)
-		(uuid "7df0aa97-3f8f-493d-a9ff-55c21e343577")
+		(uuid "27c0eecb-7a5e-482d-af39-088cda703a1c")
 	)
 	(junction
 		(at 140.97 48.26)

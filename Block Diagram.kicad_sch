@@ -5,7 +5,7 @@
 	(uuid "d4440dba-022e-49b2-97f2-6fc1871c7304")
 	(paper "A3")
 	(title_block
-		(title "Block Diagram")
+		(title "${SHEETNAME}")
 		(date "2025-01-12")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
@@ -2790,11 +2790,11 @@
 		)
 		(uuid "fb73c0e3-683f-4769-a79a-f7aee9fab6a5")
 	)
-	(text_box "[${#}] ${TITLE}"
+	(text_box "${SHEETNAME}"
 		(exclude_from_sim no)
-		(at 304.8 20.32 0)
-		(size 101.6 12.7)
-		(margins 5.9999 5.9999 5.9999 5.9999)
+		(at 350.52 15.24 0)
+		(size 53.34 7.62)
+		(margins 2.54 1.27 2.54 1.27)
 		(stroke
 			(width -0.0001)
 			(type solid)
@@ -2805,14 +2805,14 @@
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 7.62 7.62)
+				(size 5.08 5.08)
 				(thickness 1.2)
 				(bold yes)
 				(color 0 0 194 1)
 			)
 			(justify right)
 		)
-		(uuid "73b2b29c-2473-4e80-be0b-4f57c6856c3e")
+		(uuid "ef80e056-fb65-4f8a-bfaf-a6a758210b2c")
 	)
 	(junction
 		(at 69.85 165.1)
@@ -3690,7 +3690,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 67.31) (xy 162.56 67.31)
+			(xy 160.02 59.69) (xy 162.56 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4050,7 +4050,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 66.04) (xy 162.56 67.31)
+			(xy 162.56 58.42) (xy 162.56 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4949,7 +4949,7 @@
 		(uuid "dec4d26c-7698-465c-a5f5-22998ec8f5a3")
 	)
 	(label "SL3"
-		(at 162.56 66.04 0)
+		(at 162.56 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8303,7 +8303,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_PWR_SRC")
-		(at 162.56 66.04 0)
+		(at 162.56 58.42 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8313,7 +8313,7 @@
 		(fields_autoplaced yes)
 		(uuid "bac61015-0770-40a7-92cc-9cd65dfa0c06")
 		(property "Reference" "P787"
-			(at 162.56 60.706 0)
+			(at 162.56 53.086 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8323,7 +8323,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 162.56 59.69 90)
+			(at 162.56 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8333,7 +8333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 66.04 0)
+			(at 162.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8342,7 +8342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 66.04 0)
+			(at 162.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8351,7 +8351,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 66.04 0)
+			(at 162.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9205,7 +9205,7 @@
 			(color 255 220 210 1.0000)
 		)
 		(uuid "1319f261-23ec-4707-ade3-a432f3dc3535")
-		(property "Sheetname" "400 Signal conditioning"
+		(property "Sheetname" "Signal conditioning"
 			(at 121.92 104.14 0)
 			(effects
 				(font
@@ -9223,7 +9223,7 @@
 				(justify left top)
 			)
 		)
-		(property "Range" "400"
+		(property "RefDes" "400"
 			(at 160.02 104.14 0)
 			(effects
 				(font
@@ -9415,7 +9415,7 @@
 			(color 255 220 210 1.0000)
 		)
 		(uuid "1b3d73d6-473d-4741-895e-f4c216aab074")
-		(property "Sheetname" "300 Lamp drive"
+		(property "Sheetname" "Lamp drive"
 			(at 58.42 88.9 0)
 			(effects
 				(font
@@ -9433,7 +9433,7 @@
 				(justify left top)
 			)
 		)
-		(property "Range" "300"
+		(property "RefDes" "300"
 			(at 96.52 88.9 0)
 			(effects
 				(font
@@ -9535,7 +9535,7 @@
 			(color 255 220 210 1.0000)
 		)
 		(uuid "3688e1c9-04ee-464b-b462-f28561887f84")
-		(property "Sheetname" "600 Optical isolation"
+		(property "Sheetname" "Optical isolation"
 			(at 248.92 88.9 0)
 			(effects
 				(font
@@ -9553,7 +9553,7 @@
 				(justify left top)
 			)
 		)
-		(property "Range" "600"
+		(property "RefDes" "600"
 			(at 287.02 88.9 0)
 			(effects
 				(font
@@ -9745,7 +9745,7 @@
 			(color 255 220 210 1.0000)
 		)
 		(uuid "47295cf9-b4c3-4fa6-9175-14031e0f1359")
-		(property "Sheetname" "200 LV side supply"
+		(property "Sheetname" "LV side supply"
 			(at 121.92 55.88 0)
 			(effects
 				(font
@@ -9754,7 +9754,7 @@
 				(justify left)
 			)
 		)
-		(property "Sheetfile" "Low_supply.kicad_sch"
+		(property "Sheetfile" "LV_side_supply.kicad_sch"
 			(at 121.92 75.5146 0)
 			(effects
 				(font
@@ -9763,7 +9763,7 @@
 				(justify left top)
 			)
 		)
-		(property "Range" "200"
+		(property "RefDes" "200"
 			(at 160.02 55.88 0)
 			(effects
 				(font
@@ -9803,7 +9803,7 @@
 			)
 		)
 		(pin "SL3" output
-			(at 160.02 67.31 0)
+			(at 160.02 59.69 0)
 			(uuid "37cc0eee-95f6-45fc-9182-310c73540c44")
 			(effects
 				(font
@@ -9835,7 +9835,7 @@
 			(color 255 220 210 1.0000)
 		)
 		(uuid "c67a7bf4-f44b-4e1e-aac2-1a1065ee66de")
-		(property "Sheetname" "100 HV side supply"
+		(property "Sheetname" "HV side supply"
 			(at 58.42 55.88 0)
 			(effects
 				(font
@@ -9844,7 +9844,7 @@
 				(justify left)
 			)
 		)
-		(property "Sheetfile" "High_supply.kicad_sch"
+		(property "Sheetfile" "HV_side_supply.kicad_sch"
 			(at 58.42 75.5146 0)
 			(effects
 				(font
@@ -9853,7 +9853,7 @@
 				(justify left top)
 			)
 		)
-		(property "Range" "100"
+		(property "RefDes" "100"
 			(at 96.52 55.88 0)
 			(effects
 				(font
@@ -9935,7 +9935,7 @@
 			(color 255 220 210 1.0000)
 		)
 		(uuid "ff259134-84db-47d3-8250-13ef5aa350b1")
-		(property "Sheetname" "500 Main ctrl"
+		(property "Sheetname" "Main ctrl"
 			(at 185.42 88.9 0)
 			(effects
 				(font
@@ -9953,7 +9953,7 @@
 				(justify left top)
 			)
 		)
-		(property "Range" "500"
+		(property "RefDes" "500"
 			(at 223.52 88.9 0)
 			(effects
 				(font

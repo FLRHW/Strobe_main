@@ -757,6 +757,55 @@
       "/Block Diagram/GND": [
         "LV"
       ],
+      "/Block Diagram/LV side supply/SL5": [
+        "LV"
+      ],
+      "/Block Diagram/Lamp drive/G_TP_REF": [
+        "500V",
+        "T"
+      ],
+      "/Block Diagram/Lamp drive/LAMP_N": [
+        "1000V",
+        "N"
+      ],
+      "/Block Diagram/Lamp drive/LAMP_P": [
+        "1000V",
+        "P"
+      ],
+      "/Block Diagram/Lamp drive/TP_COM": [
+        "500V",
+        "T"
+      ],
+      "/Block Diagram/Lamp drive/TP_DRV_COL": [
+        "1000V",
+        "Q"
+      ],
+      "/Block Diagram/Lamp drive/TP_PRI": [
+        "500V",
+        "T"
+      ],
+      "/Block Diagram/Lamp drive/TP_REF": [
+        "500V",
+        "T"
+      ],
+      "/Block Diagram/Lamp drive/TRIG": [
+        "10kV"
+      ],
+      "/Block Diagram/Optical isolation/LV_NRST": [
+        "LV"
+      ],
+      "/Block Diagram/Optical isolation/LV_RX": [
+        "LV"
+      ],
+      "/Block Diagram/Optical isolation/LV_SWDCLK": [
+        "LV"
+      ],
+      "/Block Diagram/Optical isolation/LV_SWDIO": [
+        "LV"
+      ],
+      "/Block Diagram/Optical isolation/LV_TX": [
+        "LV"
+      ],
       "/Block Diagram/SH1000": [
         "1000V",
         "Q",
@@ -1080,27 +1129,27 @@
     ],
     [
       "c67a7bf4-f44b-4e1e-aac2-1a1065ee66de",
-      "100 HV side supply"
+      "HV side supply"
     ],
     [
       "47295cf9-b4c3-4fa6-9175-14031e0f1359",
-      "200 LV side supply"
+      "LV side supply"
     ],
     [
       "1b3d73d6-473d-4741-895e-f4c216aab074",
-      "300 Lamp drive"
+      "Lamp drive"
     ],
     [
       "1319f261-23ec-4707-ade3-a432f3dc3535",
-      "400 Signal conditioning"
+      "Signal conditioning"
     ],
     [
       "ff259134-84db-47d3-8250-13ef5aa350b1",
-      "500 Main ctrl"
+      "Main ctrl"
     ],
     [
       "3688e1c9-04ee-464b-b462-f28561887f84",
-      "600 Optical isolation"
+      "Optical isolation"
     ],
     [
       "6e125bd6-2f99-4e5d-b3ea-4899f4540739",
@@ -1108,28 +1157,28 @@
     ]
   ],
   "text_variables": {
-    "ASSEMBLY_NOTES": "",
-    "BOARD_NAME": "Main Board",
-    "COMPANY": "ChurrasCod Electronics",
-    "DESIGNER": "FR",
-    "FABRICATION_NOTES": "",
-    "GIT_HASH_PCB": "7dbe69f",
-    "GIT_HASH_SCH": "7dbe69f",
-    "GIT_URL": "https://github.com/FLRHW/Strobe_main",
-    "PROJECT_NAME": "1 kV strobe",
+    "ASSEMBLY_NOTES": "ASSEMBLY NOTES",
+    "BOARD_NAME": "Board Name",
+    "COMPANY": "Company",
+    "DESIGNER": "Author",
+    "FABRICATION_NOTES": "FABRICATION NOTES",
+    "GIT_HASH_PCB": "",
+    "GIT_HASH_SCH": "",
+    "GIT_URL": "",
+    "PROJECT_NAME": "Project Name",
     "RELEASE_BODY_1.0.0": "",
     "RELEASE_BODY_1.0.1": "",
     "RELEASE_BODY_1.0.2": "",
     "RELEASE_BODY_1.1.0": "",
-    "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
-    "RELEASE_DATE": "18-Feb-2026",
-    "RELEASE_DATE_NUM": "2026-02-18",
+    "RELEASE_BODY_UNRELEASED": "",
+    "RELEASE_DATE": "DD-MMM-YYYY",
+    "RELEASE_DATE_NUM": "YYYY-MM-DD",
     "RELEASE_TITLE_1.0.0": "",
     "RELEASE_TITLE_1.0.1": "",
     "RELEASE_TITLE_1.0.2": "",
     "RELEASE_TITLE_1.1.0": "",
-    "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
-    "REVISION": "+ (Unreleased)",
+    "RELEASE_TITLE_UNRELEASED": "",
+    "REVISION": "",
     "SHEET_NAME_1": "Cover Page",
     "SHEET_NAME_10": "......................................",
     "SHEET_NAME_11": "......................................",
@@ -1152,7 +1201,7 @@
     "SHEET_NAME_27": "......................................",
     "SHEET_NAME_28": "......................................",
     "SHEET_NAME_29": "......................................",
-    "SHEET_NAME_3": "100 HV side supply",
+    "SHEET_NAME_3": "Project Architecture",
     "SHEET_NAME_30": "......................................",
     "SHEET_NAME_31": "......................................",
     "SHEET_NAME_32": "......................................",
@@ -1163,13 +1212,13 @@
     "SHEET_NAME_37": "......................................",
     "SHEET_NAME_38": "......................................",
     "SHEET_NAME_39": "......................................",
-    "SHEET_NAME_4": "200 LV side supply",
+    "SHEET_NAME_4": "Section A - Title A",
     "SHEET_NAME_40": "......................................",
-    "SHEET_NAME_5": "300 Lamp drive",
-    "SHEET_NAME_6": "400 Signal conditioning",
-    "SHEET_NAME_7": "500 Main ctrl",
-    "SHEET_NAME_8": "600 Optical isolation",
-    "SHEET_NAME_9": "Revision History",
-    "VARIANT": "DRAFT"
+    "SHEET_NAME_5": "Section B -Title B",
+    "SHEET_NAME_6": "Power - Sequencing",
+    "SHEET_NAME_7": "Revision History",
+    "SHEET_NAME_8": "......................................",
+    "SHEET_NAME_9": "......................................",
+    "VARIANT": ""
   }
 }

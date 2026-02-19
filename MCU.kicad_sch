@@ -5,6 +5,7 @@
 	(uuid "2f4906fe-d3c7-422f-b26d-1639795a553c")
 	(paper "A4")
 	(title_block
+		(title "${SHEETNAME}")
 		(date "2025-01-12")
 	)
 	(lib_symbols
@@ -3066,20 +3067,6 @@
 		)
 		(uuid dcba673b-aaaf-4e1b-bffa-5c067f9b89d0)
 	)
-	(text "MAIN CONTROLLER\n500"
-		(exclude_from_sim no)
-		(at 283.21 19.05 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-				(thickness 0.4064)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify right)
-		)
-		(uuid "12534e4c-841b-4850-8c8a-c12a882f30aa")
-	)
 	(text "BLOCK INTERFACE"
 		(exclude_from_sim no)
 		(at 14.732 16.764 0)
@@ -3164,11 +3151,11 @@
 		)
 		(uuid "d50bd572-b459-4bfe-a864-630379dc7626")
 	)
-	(text_box "[${#}] ${TITLE}"
+	(text_box "${SHEETNAME}\n${RefDes}"
 		(exclude_from_sim no)
-		(at 182.88 33.02 0)
-		(size 101.6 12.7)
-		(margins 5.9999 5.9999 5.9999 5.9999)
+		(at 228.6 15.24 0)
+		(size 53.34 15.24)
+		(margins 2.54 1.27 2.54 1.27)
 		(stroke
 			(width -0.0001)
 			(type solid)
@@ -3186,7 +3173,7 @@
 			)
 			(justify right)
 		)
-		(uuid "f7fbb4d9-7057-4770-8c9a-b14aacddad18")
+		(uuid "fccf8ec5-b8b0-4e03-a7cb-2225d0ee29ee")
 	)
 	(junction
 		(at 64.77 101.6)

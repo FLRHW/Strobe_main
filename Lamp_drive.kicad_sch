@@ -5,6 +5,7 @@
 	(uuid "ae9f10f4-4778-4adb-8c21-8747aa07f57c")
 	(paper "A3")
 	(title_block
+		(title "${SHEETNAME}")
 		(date "2025-01-12")
 	)
 	(lib_symbols
@@ -3642,20 +3643,6 @@
 		)
 		(uuid "d772968f-a78c-46f7-b2ed-c8af8f8592d0")
 	)
-	(text "LAMP DRIVER\n300"
-		(exclude_from_sim no)
-		(at 325.12 19.05 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-				(thickness 0.4064)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify right)
-		)
-		(uuid "e865e59d-df20-480a-aa5d-aea26a81e0c2")
-	)
 	(text "OFF-BOARD\nConnected through\nJ301"
 		(exclude_from_sim no)
 		(at 71.755 95.25 0)
@@ -3678,11 +3665,11 @@
 		)
 		(uuid "f1ef13bb-0b85-4dd7-b860-794b5264572f")
 	)
-	(text_box "[${#}] ${TITLE}"
+	(text_box "${SHEETNAME}\n${RefDes}"
 		(exclude_from_sim no)
-		(at 307.34 34.29 0)
-		(size 101.6 12.7)
-		(margins 5.9999 5.9999 5.9999 5.9999)
+		(at 342.9 15.24 0)
+		(size 60.96 15.24)
+		(margins 2.54 1.27 2.54 1.27)
 		(stroke
 			(width -0.0001)
 			(type solid)
@@ -3700,7 +3687,7 @@
 			)
 			(justify right)
 		)
-		(uuid "453e7f6f-a094-4789-ae81-f08f4a764e8e")
+		(uuid "46db3879-65b4-40bb-87a1-a6586e00ffa1")
 	)
 	(junction
 		(at 144.78 147.32)

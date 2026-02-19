@@ -5,6 +5,7 @@
 	(uuid "8c95c05e-d576-4861-a3ef-6fdb00377772")
 	(paper "A4")
 	(title_block
+		(title "${SHEETNAME}")
 		(date "2025-01-12")
 	)
 	(lib_symbols
@@ -943,20 +944,6 @@
 		)
 		(uuid df9f0814-5f8e-42e4-8def-ade2fc0a6dfc)
 	)
-	(text "HMI SIDE SUPPLY\n200"
-		(exclude_from_sim no)
-		(at 283.21 19.05 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-				(thickness 0.4064)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify right)
-		)
-		(uuid "0c01b1e1-33cc-40b5-825a-34cf5fc888f6")
-	)
 	(text "BLOCK INTERFACE"
 		(exclude_from_sim no)
 		(at 14.732 16.764 0)
@@ -971,11 +958,11 @@
 		)
 		(uuid "b67c8c6c-1c0d-4dfa-9a8d-2317d244118b")
 	)
-	(text_box "[${#}] ${TITLE}"
+	(text_box "${SHEETNAME}\n${RefDes}"
 		(exclude_from_sim no)
-		(at 177.8 29.845 0)
-		(size 101.6 12.7)
-		(margins 5.9999 5.9999 5.9999 5.9999)
+		(at 228.6 15.24 0)
+		(size 53.34 15.24)
+		(margins 2.54 1.27 2.54 1.27)
 		(stroke
 			(width -0.0001)
 			(type solid)
@@ -993,7 +980,7 @@
 			)
 			(justify right)
 		)
-		(uuid "83db00ab-3207-48ae-96d5-5e218c7e3050")
+		(uuid "f0e011ba-83e3-4884-9c4d-c0fc06a1dcfd")
 	)
 	(junction
 		(at 118.11 40.64)

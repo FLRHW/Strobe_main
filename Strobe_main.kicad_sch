@@ -5,6 +5,7 @@
 	(uuid "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c")
 	(paper "A3")
 	(title_block
+		(title "${SHEETNAME}")
 		(date "2025-01-12")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
@@ -646,30 +647,6 @@
 			(justify left top)
 		)
 		(uuid "33c3f6da-ba9e-4d58-9257-d85394a72b7b")
-	)
-	(text_box "DRAFT - Early concept stage, schematic drafted.\n\nPRELIMINARY - Minor schematic changes are expected, ready for layout planning.\n\nCHECKED - DRC completed, schematic and layout ready for review.\n\nRELEASED - Design ready for manufacturing."
-		(exclude_from_sim no)
-		(at 25.4 196.85 0)
-		(size 161.925 44.45)
-		(margins 2 2 2 2)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 132 132 132 1)
-		)
-		(fill
-			(type color)
-			(color 200 200 200 1)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 3.048 3.048)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "352f1519-38c8-4a43-a685-d4a4ca2afb4e")
 	)
 	(text_box "kibot_image_png_3d_viewer_angled_top"
 		(exclude_from_sim no)

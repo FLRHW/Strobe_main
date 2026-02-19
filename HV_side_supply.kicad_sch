@@ -5,6 +5,7 @@
 	(uuid "13ad00d9-41b0-4029-8024-dce44042ae70")
 	(paper "A4")
 	(title_block
+		(title "${SHEETNAME}")
 		(date "2025-01-12")
 	)
 	(lib_symbols
@@ -1289,25 +1290,11 @@
 		)
 		(uuid "9bccfce5-d700-4b53-9222-a80d1c82ddb5")
 	)
-	(text "LAMP SIDE SUPPLY\n100"
+	(text_box "${SHEETNAME}\n${RefDes}"
 		(exclude_from_sim no)
-		(at 277.495 35.56 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-				(thickness 0.4064)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify right)
-		)
-		(uuid "be610397-80e4-487f-97fb-aacf2b1313d7")
-	)
-	(text_box "[${#}] ${TITLE}"
-		(exclude_from_sim no)
-		(at 181.61 13.97 0)
-		(size 101.6 12.7)
-		(margins 5.9999 5.9999 5.9999 5.9999)
+		(at 228.6 15.24 0)
+		(size 53.34 15.24)
+		(margins 2.54 1.27 2.54 1.27)
 		(stroke
 			(width -0.0001)
 			(type solid)
