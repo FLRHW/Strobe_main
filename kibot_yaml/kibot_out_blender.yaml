@@ -92,7 +92,7 @@ outputs:
       resolution_y: 1500
     auto_camera_z_axis_factor: 1
     point_of_view:
-      rotate_x: 150
+      rotate_x: 15
       rotate_y: 25
       rotate_z: 0
       view: top
