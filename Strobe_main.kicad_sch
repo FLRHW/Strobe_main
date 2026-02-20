@@ -13,7 +13,7 @@
 	(lib_symbols)
 	(text "Status: ${VARIANT}"
 		(exclude_from_sim no)
-		(at 220.98 222.25 0)
+		(at 220.98 223.52 0)
 		(effects
 			(font
 				(face "Times New Roman")
