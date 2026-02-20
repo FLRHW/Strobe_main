@@ -12,7 +12,7 @@ outputs:
   dir: '@DIR@'
   options:
     output: '%f-@SUFFIX@%I%v.%x'
-    auto_crop: false
+    auto_crop: true
     enable_crop_workaround: true
     rotate_x: @ROTATE_X@
     rotate_y: @ROTATE_Y@

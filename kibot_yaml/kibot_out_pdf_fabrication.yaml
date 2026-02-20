@@ -1,4 +1,4 @@
-# KiBot output for generating Fabrication Document in PDF format
+        # KiBot output for generating Fabrication Document in PDF format
 # https://kibot.readthedocs.io/en/latest/configuration/outputs/pcb_print.html
 
 kibot:
@@ -93,10 +93,10 @@ outputs:
             color: '#E2E2E2'
           - layer: F.Silkscreen
             color: '#DBDBDB'
-          - layer: F.Fab
-            plot_footprint_refs: false
-            plot_footprint_values: false
-            color: '#818181'
+        #  - layer: F.Fab
+        #    plot_footprint_refs: false
+        #    plot_footprint_values: false
+        #    color: '#818181'
           - layer: F.Dimensions
             color: '#000000'
 
@@ -120,10 +120,10 @@ outputs:
             color: '#E2E2E2'
           - layer: B.Silkscreen
             color: '#DBDBDB'
-          - layer: B.Fab
-            plot_footprint_refs: false
-            plot_footprint_values: false
-            color: '#818181'
+        #  - layer: B.Fab
+        #    plot_footprint_refs: false
+        #    plot_footprint_values: false
+        #    color: '#818181'
           - layer: B.Dimensions
             color: '#000000'
 
