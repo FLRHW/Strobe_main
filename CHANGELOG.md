@@ -2,4 +2,4 @@
 
 ## [Unreleased]
 
-### Migrated schematic and PCB to KDT structure, missing fab docs
+### Migrated schematic and PCB to KDT structure, started preparing fab docs

@@ -168,59 +168,45 @@ outputs:
           - layer: '@LAYER_TP_LIST_TOP@'
             color: '#000000'
 
-      # - scaling: @SCALING@
-        # mirror : true
-        # mirror_pcb_text: true
-        # title: '@DOC_TITLE@'
-        # sheet: 'Bottom Test Points (Scale @SCALING@:1)'
-        # layer_var: 'Bottom Test Points (Scale @SCALING@:1)'
-        # sheet_reference_color: '#000000'
-        # colored_holes: true
-        # holes_color: "#FFFFFF"
-        # layers:
-          # - layer: Edge.Cuts
-            # color: '#000000'
-          # - layer: B.Cu
-            # color: '#E5E5E5'
-          # - layer: B.Mask
-            # color: '#CECECE'
-          # - layer: B.Paste
-            # color: '#CECECE'
-          # - layer: B.Silkscreen
-            # color: '#C7C7C7'
-          # - layer: B.Fab
-            # exclude_filter: '@FAB_EXCLUDE_FILTER@'
-            # plot_footprint_values: false
-            # sketch_pads_on_fab_layers: false
-            # color: '#0B00CC'
-          # - layer: '@LAYER_TP_LIST_BOTTOM@'
-            # color: '#000000'
+      - scaling: @SCALING@
+        mirror : true
+        mirror_pcb_text: true
+        title: '@DOC_TITLE@'
+        sheet: 'Bottom Test Points (Scale @SCALING@:1)'
+        layer_var: 'Bottom Test Points (Scale @SCALING@:1)'
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: Edge.Cuts
+            color: '#000000'
+          - layer: B.Cu
+            color: '#E5E5E5'
+          - layer: B.Mask
+            color: '#CECECE'
+          - layer: B.Paste
+            color: '#CECECE'
+          - layer: B.Silkscreen
+            color: '#C7C7C7'
+          - layer: B.Fab
+            exclude_filter: '@FAB_EXCLUDE_FILTER@'
+            plot_footprint_values: false
+            sketch_pads_on_fab_layers: false
+            color: '#0B00CC'
+          - layer: '@LAYER_TP_LIST_BOTTOM@'
+            color: '#000000'
 
       - scaling: @SCALING@
-        # sheet: '%ln (Scale @SCALING@:1)'
-        # layer_var: '%ln (Scale @SCALING@:1)'
-        sheet: 'F.Cu (Scale @SCALING@:1)'           # NEW
-        layer_var: 'F.Cu (Scale @SCALING@:1)'       # NEW
+        sheet: '%ln (Scale @SCALING@:1)'
+        layer_var: '%ln (Scale @SCALING@:1)'
         title: '@DOC_TITLE@'
         sheet_reference_color: '#000000'
         colored_holes: true
         holes_color: "#FFFFFF"
-        # repeat_for_layer: 'F.Cu'
-        # repeat_layers: 'copper'
+        repeat_for_layer: 'F.Cu'
+        repeat_layers: 'copper'
         layers:
           - layer: 'F.Cu'
-
-    # Entirely new block
-      - scaling: @SCALING@
-        sheet: 'B.Cu (Scale @SCALING@:1)'          
-        layer_var: 'B.Cu (Scale @SCALING@:1)'      
-        title: '@DOC_TITLE@'
-        sheet_reference_color: '#000000'
-        colored_holes: true
-        holes_color: "#FFFFFF"
-        layers:
-          - layer: 'B.Cu'
-
 
 ...
 definitions:
