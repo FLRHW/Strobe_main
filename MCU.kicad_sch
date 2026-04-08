@@ -3292,7 +3292,7 @@
 		(uuid "64778957-e8ac-4760-9257-6a8d9f1db9c8")
 	)
 	(junction
-		(at 152.4 62.23)
+		(at 153.67 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66a1dd62-8a55-488a-8c3a-430b16db79c6")
@@ -3907,7 +3907,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 71.12) (xy 152.4 73.66)
+			(xy 153.67 71.12) (xy 153.67 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4907,7 +4907,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 62.23) (xy 152.4 62.23)
+			(xy 143.51 62.23) (xy 153.67 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4987,7 +4987,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 63.5) (xy 152.4 62.23)
+			(xy 153.67 63.5) (xy 153.67 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5066,7 +5066,7 @@
 		(uuid "fef963dc-e7c4-440c-ad81-69e37a74f155")
 	)
 	(label "SH0"
-		(at 152.4 73.66 0)
+		(at 153.67 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6207,7 +6207,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_GND")
-		(at 152.4 73.66 0)
+		(at 153.67 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6216,7 +6216,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fe77835-b367-423f-bfb2-186ac4df0f10")
 		(property "Reference" "P768"
-			(at 152.4 72.644 0)
+			(at 153.67 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6225,7 +6225,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 154.94 74.8538 0)
+			(at 156.21 74.8538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6235,7 +6235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 73.66 0)
+			(at 153.67 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6244,7 +6244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 73.66 0)
+			(at 153.67 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6253,7 +6253,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 73.66 0)
+			(at 153.67 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8741,7 +8741,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 152.4 62.23 0)
+		(at 153.67 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8750,7 +8750,7 @@
 		(fields_autoplaced yes)
 		(uuid "752d4db7-37db-4f37-a8b0-636bf592515d")
 		(property "Reference" "#FLG0501"
-			(at 152.4 60.325 0)
+			(at 153.67 60.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8759,7 +8759,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 152.4 57.15 0)
+			(at 153.67 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8767,7 +8767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 62.23 0)
+			(at 153.67 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8776,7 +8776,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 62.23 0)
+			(at 153.67 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8785,7 +8785,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 152.4 62.23 0)
+			(at 153.67 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12016,7 +12016,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 152.4 67.31 0)
+		(at 153.67 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12024,7 +12024,7 @@
 		(dnp no)
 		(uuid "e9402f4e-c3d6-4d5a-be41-ff47be06b5ce")
 		(property "Reference" "C504"
-			(at 154.94 66.04 0)
+			(at 156.21 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12033,7 +12033,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 154.94 68.58 0)
+			(at 156.21 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12042,7 +12042,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 153.3652 71.12 0)
+			(at 154.6352 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12051,7 +12051,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 67.31 0)
+			(at 153.67 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12060,7 +12060,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 152.4 67.31 0)
+			(at 153.67 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
