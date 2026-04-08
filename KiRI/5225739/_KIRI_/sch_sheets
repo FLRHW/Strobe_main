@@ -1,9 +1,0 @@
-Strobe_main|Strobe_main.kicad_sch||Strobe_main|Strobe_main
-Block Diagram|Block Diagram.kicad_sch||Block Diagram|Strobe_main-Block Diagram
-HV_side_supply|HV_side_supply.kicad_sch||HV side supply|Strobe_main-Block Diagram-HV side supply
-LV_side_supply|LV_side_supply.kicad_sch||LV side supply|Strobe_main-Block Diagram-LV side supply
-Lamp_driver|Lamp_driver.kicad_sch||Lamp driver|Strobe_main-Block Diagram-Lamp driver
-MCU|MCU.kicad_sch||MCU|Strobe_main-Block Diagram-MCU
-Optical_isolation|Optical_isolation.kicad_sch||Optical isolation|Strobe_main-Block Diagram-Optical isolation
-Sig_cond|Sig_cond.kicad_sch||Signal conditioning|Strobe_main-Block Diagram-Signal conditioning
-Revision History|Revision History.kicad_sch||Revision History|Strobe_main-Revision History
