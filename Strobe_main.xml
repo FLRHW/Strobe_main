@@ -66,8 +66,8 @@
 	COPPER TO HOLE		0.300 mm
 	COPPER TO EDGE		0.500 mm
 	HOLE TO HOLE			0.250 mm</textvar>
-    <textvar name="GIT_HASH_PCB">6b75104</textvar>
-    <textvar name="GIT_HASH_SCH">7f1ecbb</textvar>
+    <textvar name="GIT_HASH_PCB">777fa8c</textvar>
+    <textvar name="GIT_HASH_SCH">b31b0a6</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_main</textvar>
     <textvar name="PROJECT_NAME">1 kV strobe</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -75,8 +75,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">20-Feb-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-02-20</textvar>
+    <textvar name="RELEASE_DATE">08-Apr-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-04-08</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
