@@ -66,7 +66,7 @@
 	COPPER TO HOLE		0.300 mm
 	COPPER TO EDGE		0.500 mm
 	HOLE TO HOLE			0.250 mm</textvar>
-    <textvar name="GIT_HASH_PCB">777fa8c</textvar>
+    <textvar name="GIT_HASH_PCB">b5afdc7</textvar>
     <textvar name="GIT_HASH_SCH">b31b0a6</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_main</textvar>
     <textvar name="PROJECT_NAME">1 kV strobe</textvar>
@@ -75,8 +75,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">08-Apr-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-04-08</textvar>
+    <textvar name="RELEASE_DATE">09-Apr-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-04-09</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -1032,10 +1032,11 @@
       <value>0R</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Block Diagram"/>
@@ -1049,10 +1050,11 @@
       <value>0R</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Block Diagram"/>
@@ -1490,11 +1492,11 @@
     </comp>
     <comp ref="PS101">
       <value>HLK-5M24</value>
-      <footprint>Personal:Hilink_no_courtyard</footprint>
+      <footprint>Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx</footprint>
       <datasheet>http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%975W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%915W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf</datasheet>
       <description>Compact AC/DC board mount power module 5W, 24V 0.208A</description>
       <fields>
-        <field name="Footprint">Personal:Hilink_no_courtyard</field>
+        <field name="Footprint">Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx</field>
         <field name="Datasheet">http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%975W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%915W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf</field>
         <field name="Description">Compact AC/DC board mount power module 5W, 24V 0.208A</field>
       </fields>
@@ -1899,11 +1901,11 @@
     </comp>
     <comp ref="PS201">
       <value>HLK-5M05</value>
-      <footprint>Personal:Hilink_no_courtyard</footprint>
+      <footprint>Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx</footprint>
       <datasheet>http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%975W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%915W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf</datasheet>
       <description>Compact AC/DC board mount power module 5W, 5V 1A</description>
       <fields>
-        <field name="Footprint">Personal:Hilink_no_courtyard</field>
+        <field name="Footprint">Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx</field>
         <field name="Datasheet">http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%975W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%915W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf</field>
         <field name="Description">Compact AC/DC board mount power module 5W, 5V 1A</field>
       </fields>
@@ -1939,10 +1941,11 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -1957,10 +1960,11 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -1975,10 +1979,11 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -1993,10 +1998,11 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -2033,10 +2039,11 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -2051,10 +2058,11 @@
       <value>47n</value>
       <footprint>Capacitor_THT:C_Rect_L11.0mm_W4.2mm_P10.00mm_MKT</footprint>
       <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
       <fields>
         <field name="Footprint">Capacitor_THT:C_Rect_L11.0mm_W4.2mm_P10.00mm_MKT</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -2069,10 +2077,11 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -2087,10 +2096,11 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -2162,6 +2172,7 @@
       <value>S15M</value>
       <footprint>Diode_SMD:D_SMC_Handsoldering</footprint>
       <datasheet>~</datasheet>
+      <description>Diode</description>
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
@@ -2169,9 +2180,9 @@
         <field name="Field8">https://lcsc.com/product-detail/Diodes-General-Purpose_LGE-S15M_C5369358.html</field>
         <field name="Footprint">Diode_SMD:D_SMC_Handsoldering</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Diode</field>
       </fields>
-      <libsource lib="" part="D_2" description="Diode"/>
+      <libsource lib="Device" part="D" description="Diode"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
       <property name="Field7" value="LCSC"/>
@@ -2187,11 +2198,13 @@
     <comp ref="D305">
       <value>1SMA5953B</value>
       <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/z1sma1.pdf</datasheet>
+      <description>1000mW Zener Diode, SMA(DO-214AC)</description>
       <fields>
         <field name="Field5">LCSC</field>
         <field name="Footprint">Diode_SMD:D_SMA</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/z1sma1.pdf</field>
+        <field name="Description">1000mW Zener Diode, SMA(DO-214AC)</field>
       </fields>
       <libsource lib="Diode" part="Z1SMAxxx" description="1000mW Zener Diode, SMA(DO-214AC)"/>
       <property name="Field5" value="LCSC"/>
@@ -2207,14 +2220,15 @@
       <value>1N4148</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
+      <description>Diode</description>
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
         <field name="Footprint">Diode_SMD:D_SOD-123</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Diode</field>
       </fields>
-      <libsource lib="" part="D_1" description="Diode"/>
+      <libsource lib="Device" part="D" description="Diode"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -2229,14 +2243,15 @@
       <value>1N4148</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
+      <description>Diode</description>
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
         <field name="Footprint">Diode_SMD:D_SOD-123</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Diode</field>
       </fields>
-      <libsource lib="" part="D_1" description="Diode"/>
+      <libsource lib="Device" part="D" description="Diode"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -2251,14 +2266,15 @@
       <value>1N4148</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
+      <description>Diode</description>
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
         <field name="Footprint">Diode_SMD:D_SOD-123</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Diode</field>
       </fields>
-      <libsource lib="" part="D_1" description="Diode"/>
+      <libsource lib="Device" part="D" description="Diode"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -2272,11 +2288,13 @@
     <comp ref="D309">
       <value>1SMA5953B</value>
       <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/z1sma1.pdf</datasheet>
+      <description>1000mW Zener Diode, SMA(DO-214AC)</description>
       <fields>
         <field name="Field5">LCSC</field>
         <field name="Footprint">Diode_SMD:D_SMA</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/z1sma1.pdf</field>
+        <field name="Description">1000mW Zener Diode, SMA(DO-214AC)</field>
       </fields>
       <libsource lib="Diode" part="Z1SMAxxx" description="1000mW Zener Diode, SMA(DO-214AC)"/>
       <property name="Field5" value="LCSC"/>
@@ -2423,9 +2441,9 @@
     </comp>
     <comp ref="J301">
       <value>10146581-060_M</value>
-      <footprint>Personal:Amphenol_Minitek_10146581-060_mod_0</footprint>
+      <footprint>Personal:Amphenol_Minitek_10146581-060_mod</footprint>
       <fields>
-        <field name="Footprint">Personal:Amphenol_Minitek_10146581-060_mod_0</field>
+        <field name="Footprint">Personal:Amphenol_Minitek_10146581-060_mod</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2484,9 +2502,9 @@
     </comp>
     <comp ref="J304">
       <value>10146581-060_M</value>
-      <footprint>Personal:Amphenol_Minitek_10146581-060_mod_0</footprint>
+      <footprint>Personal:Amphenol_Minitek_10146581-060_mod</footprint>
       <fields>
-        <field name="Footprint">Personal:Amphenol_Minitek_10146581-060_mod_0</field>
+        <field name="Footprint">Personal:Amphenol_Minitek_10146581-060_mod</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3322,11 +3340,11 @@
     </comp>
     <comp ref="Q301">
       <value>MPF3N150</value>
-      <footprint>Personal:To-220_staggered_2</footprint>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
       <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BUZ11.pdf</datasheet>
       <description>30A Id, 50V Vds, N-Channel Power MOSFET, TO-220</description>
       <fields>
-        <field name="Footprint">Personal:To-220_staggered_2</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
         <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BUZ11.pdf</field>
         <field name="Description">30A Id, 50V Vds, N-Channel Power MOSFET, TO-220</field>
       </fields>
@@ -3343,10 +3361,11 @@
       <value>IXYH55N120</value>
       <footprint>Personal:TO-247_small_p1</footprint>
       <datasheet>~</datasheet>
+      <description>N-IGBT transistor, gate/collector/emitter</description>
       <fields>
         <field name="Footprint">Personal:TO-247_small_p1</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">N-IGBT transistor, gate/collector/emitter</field>
       </fields>
       <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3360,10 +3379,11 @@
       <value>IXYH55N120</value>
       <footprint>Personal:TO-247_mixed_pads_vert</footprint>
       <datasheet>~</datasheet>
+      <description>N-IGBT transistor, gate/collector/emitter</description>
       <fields>
         <field name="Footprint">Personal:TO-247_mixed_pads_vert</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">N-IGBT transistor, gate/collector/emitter</field>
       </fields>
       <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3377,10 +3397,11 @@
       <value>IXYH55N120</value>
       <footprint>Personal:TO-247_mixed_pads_vert</footprint>
       <datasheet>~</datasheet>
+      <description>N-IGBT transistor, gate/collector/emitter</description>
       <fields>
         <field name="Footprint">Personal:TO-247_mixed_pads_vert</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">N-IGBT transistor, gate/collector/emitter</field>
       </fields>
       <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3394,10 +3415,11 @@
       <value>IXYH55N120</value>
       <footprint>Personal:TO-247_mixed_pads_vert</footprint>
       <datasheet>~</datasheet>
+      <description>N-IGBT transistor, gate/collector/emitter</description>
       <fields>
         <field name="Footprint">Personal:TO-247_mixed_pads_vert</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">N-IGBT transistor, gate/collector/emitter</field>
       </fields>
       <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3411,10 +3433,11 @@
       <value>510k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3429,10 +3452,11 @@
       <value>NF</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3447,10 +3471,11 @@
       <value>510k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3465,10 +3490,11 @@
       <value>NF</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3483,10 +3509,11 @@
       <value>510k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3501,10 +3528,11 @@
       <value>510k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3519,10 +3547,11 @@
       <value>15k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3537,10 +3566,11 @@
       <value>510k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3555,10 +3585,11 @@
       <value>510k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3573,10 +3604,11 @@
       <value>510k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3591,10 +3623,11 @@
       <value>510k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3609,10 +3642,11 @@
       <value>3k3</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3627,10 +3661,11 @@
       <value>3k3</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3645,10 +3680,11 @@
       <value>3k3</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3663,10 +3699,11 @@
       <value>NF</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3682,10 +3719,11 @@
       <value>3k3</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3700,10 +3738,11 @@
       <value>NF</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3719,12 +3758,13 @@
       <value>470R</value>
       <footprint>Resistor_THT:R_Axial_Power_L50.0mm_W9.0mm_P55.88mm</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Field5">https://lcsc.com/product-detail/Through-Hole-Resistors_Huaxing-Mechanical-Elec-CR-L10W-470-J_C714789.html</field>
         <field name="Field6">SQZ25W-100Ω±5%-AP</field>
         <field name="Footprint">Resistor_THT:R_Axial_Power_L50.0mm_W9.0mm_P55.88mm</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Field5" value="https://lcsc.com/product-detail/Through-Hole-Resistors_Huaxing-Mechanical-Elec-CR-L10W-470-J_C714789.html"/>
@@ -3744,10 +3784,11 @@
       <value>510k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3762,10 +3803,11 @@
       <value>91k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3780,10 +3822,11 @@
       <value>91k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3798,10 +3841,11 @@
       <value>22k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3816,10 +3860,11 @@
       <value>22k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3834,10 +3879,11 @@
       <value>510k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3852,10 +3898,11 @@
       <value>510k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3870,10 +3917,11 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3888,10 +3936,11 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3906,10 +3955,11 @@
       <value>1R</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3924,10 +3974,11 @@
       <value>33R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3942,10 +3993,11 @@
       <value>33R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3960,10 +4012,11 @@
       <value>33R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3978,10 +4031,11 @@
       <value>10R</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -3996,10 +4050,11 @@
       <value>2R2</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -4014,10 +4069,11 @@
       <value>WSR3R0200FEA</value>
       <footprint>Resistor_SMD:R_Shunt_Vishay_WSR2_WSR3_KelvinConnection</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_Shunt_Vishay_WSR2_WSR3_KelvinConnection</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -4032,10 +4088,11 @@
       <value>WSR3R0200FEA</value>
       <footprint>Resistor_SMD:R_Shunt_Vishay_WSR2_WSR3_KelvinConnection</footprint>
       <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_Shunt_Vishay_WSR2_WSR3_KelvinConnection</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -4050,10 +4107,11 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
       <datasheet>~</datasheet>
+      <description>test point</description>
       <fields>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -4068,10 +4126,11 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
       <datasheet>~</datasheet>
+      <description>test point</description>
       <fields>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -4086,10 +4145,11 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
       <datasheet>~</datasheet>
+      <description>test point</description>
       <fields>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -4104,10 +4164,11 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
       <datasheet>~</datasheet>
+      <description>test point</description>
       <fields>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -4122,10 +4183,11 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
       <datasheet>~</datasheet>
+      <description>test point</description>
       <fields>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -4140,10 +4202,11 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
       <datasheet>~</datasheet>
+      <description>test point</description>
       <fields>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -4158,10 +4221,11 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
       <datasheet>~</datasheet>
+      <description>test point</description>
       <fields>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -4176,10 +4240,11 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
       <datasheet>~</datasheet>
+      <description>test point</description>
       <fields>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -4194,10 +4259,11 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
       <datasheet>~</datasheet>
+      <description>test point</description>
       <fields>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -4212,10 +4278,11 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
       <datasheet>~</datasheet>
+      <description>test point</description>
       <fields>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -4230,10 +4297,11 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
       <datasheet>~</datasheet>
+      <description>test point</description>
       <fields>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -4248,10 +4316,11 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
       <datasheet>~</datasheet>
+      <description>test point</description>
       <fields>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -4266,10 +4335,11 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
       <datasheet>~</datasheet>
+      <description>test point</description>
       <fields>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
-        <field name="Description"/>
+        <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="Lamp driver"/>
@@ -8631,52 +8701,6 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="" part="D_1">
-      <description>Diode</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D</field>
-        <field name="Footprint"/>
-        <field name="Datasheet">~</field>
-        <field name="Description">Diode</field>
-        <field name="Sim.Device">D</field>
-        <field name="Sim.Pins">1=K 2=A</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="" part="D_2">
-      <description>Diode</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D</field>
-        <field name="Footprint"/>
-        <field name="Datasheet">~</field>
-        <field name="Description">Diode</field>
-        <field name="Sim.Device">D</field>
-        <field name="Sim.Pins">1=K 2=A</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Amplifier_Operational" part="TSV912IDT">
       <description>Dual rail-to-rail input/output 8 MHz operational amplifiers, SOIC-8</description>
       <docs>www.st.com/resource/en/datasheet/tsv911.pdf</docs>
@@ -8927,6 +8951,29 @@
         <pin num="2" name="G" type="passive"/>
         <pin num="3" name="3" type="passive"/>
         <pin num="4" name="G" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Diode</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="D_Schottky">
@@ -9338,7 +9385,7 @@
     <libpart lib="personal" part="Cosmetic_IN">
       <fields>
         <field name="Reference">P</field>
-        <field name="Value"/>
+        <field name="Value">In_signal</field>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -9350,7 +9397,7 @@
     <libpart lib="personal" part="Cosmetic_IO">
       <fields>
         <field name="Reference">P</field>
-        <field name="Value"/>
+        <field name="Value">IO_signal</field>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -9362,7 +9409,7 @@
     <libpart lib="personal" part="Cosmetic_OUT">
       <fields>
         <field name="Reference">P</field>
-        <field name="Value"/>
+        <field name="Value">Out_signal</field>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
