@@ -253,342 +253,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "D_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_1_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "D_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_2_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -711,6 +375,174 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2757,12 +2589,13 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "In_signal"
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -2800,7 +2633,7 @@
 					(stroke
 						(width 0.0254)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type outline)
@@ -2813,7 +2646,7 @@
 					(stroke
 						(width 0)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type none)
@@ -2860,12 +2693,13 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "Out_signal"
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -2903,7 +2737,7 @@
 					(stroke
 						(width 0.0254)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type outline)
@@ -2916,7 +2750,7 @@
 					(stroke
 						(width 0)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type none)
@@ -3006,7 +2840,7 @@
 					(stroke
 						(width 0.2032)
 						(type solid)
-						(color 132 94 255 1)
+						(color 132 0 0 1)
 					)
 					(fill
 						(type none)
@@ -3019,7 +2853,7 @@
 					(stroke
 						(width 0)
 						(type solid)
-						(color 132 94 255 1)
+						(color 132 0 0 1)
 					)
 					(fill
 						(type none)
@@ -3109,7 +2943,7 @@
 					(stroke
 						(width 0.2032)
 						(type solid)
-						(color 132 94 255 1)
+						(color 132 0 0 1)
 					)
 					(fill
 						(type outline)
@@ -3122,7 +2956,7 @@
 					(stroke
 						(width 0)
 						(type solid)
-						(color 132 94 255 1)
+						(color 132 0 0 1)
 					)
 					(fill
 						(type none)
@@ -9191,7 +9025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 250.19 196.85 0)
 			(effects
 				(font
@@ -9284,7 +9118,6 @@
 		)
 	)
 	(symbol
-		(lib_name "D_1")
 		(lib_id "Device:D")
 		(at 49.53 170.18 270)
 		(unit 1)
@@ -9330,7 +9163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 49.53 170.18 0)
 			(effects
 				(font
@@ -9418,7 +9251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 81.28 106.68 0)
 			(effects
 				(font
@@ -9506,7 +9339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 127 46.99 0)
 			(effects
 				(font
@@ -9575,7 +9408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 39.37 170.18 0)
 			(effects
 				(font
@@ -9644,7 +9477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 194.31 165.1 0)
 			(effects
 				(font
@@ -9714,7 +9547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 218.44 29.21 0)
 			(effects
 				(font
@@ -10194,7 +10027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 264.16 57.15 0)
 			(effects
 				(font
@@ -10400,7 +10233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 78.74 55.88 0)
 			(effects
 				(font
@@ -10535,7 +10368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 208.28 177.8 0)
 			(effects
 				(font
@@ -10604,7 +10437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 130.81 170.18 0)
 			(effects
 				(font
@@ -10726,7 +10559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Personal:To-220_staggered_2"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 252.73 179.705 0)
 			(effects
 				(font
@@ -11039,7 +10872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 207.01 69.85 0)
 			(effects
 				(font
@@ -11179,7 +11012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 207.01 57.15 0)
 			(effects
 				(font
@@ -11296,7 +11129,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Personal:Amphenol_Minitek_10146581-060_mod_0"
+		(property "Footprint" "Personal:Amphenol_Minitek_10146581-060_mod"
 			(at 136.398 155.194 0)
 			(effects
 				(font
@@ -11458,7 +11291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 264.16 80.01 0)
 			(effects
 				(font
@@ -11528,7 +11361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 128.27 38.1 0)
 			(effects
 				(font
@@ -11550,7 +11383,6 @@
 		)
 	)
 	(symbol
-		(lib_name "D_2")
 		(lib_id "Device:D")
 		(at 279.4 187.96 270)
 		(unit 1)
@@ -11595,7 +11427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 279.4 187.96 0)
 			(effects
 				(font
@@ -11701,7 +11533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 97.79 60.96 0)
 			(effects
 				(font
@@ -11768,7 +11600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 281.94 182.88 0)
 			(effects
 				(font
@@ -11970,7 +11802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 207.01 44.45 0)
 			(effects
 				(font
@@ -12192,7 +12024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-IGBT transistor, gate/collector/emitter"
 			(at 106.68 179.07 0)
 			(effects
 				(font
@@ -12332,7 +12164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 101.6 204.47 0)
 			(effects
 				(font
@@ -12401,7 +12233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 120.65 204.47 0)
 			(effects
 				(font
@@ -12471,7 +12303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 138.43 207.01 0)
 			(effects
 				(font
@@ -12584,7 +12416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Personal:Amphenol_Minitek_10146581-060_mod_0"
+		(property "Footprint" "Personal:Amphenol_Minitek_10146581-060_mod"
 			(at 108.712 98.806 0)
 			(effects
 				(font
@@ -12950,7 +12782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 264.16 29.21 0)
 			(effects
 				(font
@@ -13282,7 +13114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/z1sma1.pdf"
 			(at 194.31 207.01 0)
 			(effects
 				(font
@@ -13291,7 +13123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1000mW Zener Diode, SMA(DO-214AC)"
 			(at 194.31 207.01 0)
 			(effects
 				(font
@@ -13439,7 +13271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 147.32 40.64 0)
 			(effects
 				(font
@@ -13506,7 +13338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 264.16 90.17 0)
 			(effects
 				(font
@@ -13576,7 +13408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 275.59 29.21 0)
 			(effects
 				(font
@@ -13646,7 +13478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 207.01 80.01 0)
 			(effects
 				(font
@@ -13713,7 +13545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 39.37 191.77 0)
 			(effects
 				(font
@@ -13780,7 +13612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 275.59 205.74 0)
 			(effects
 				(font
@@ -13849,7 +13681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 250.19 134.62 0)
 			(effects
 				(font
@@ -14055,7 +13887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 195.58 181.61 0)
 			(effects
 				(font
@@ -14122,7 +13954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 207.01 29.21 0)
 			(effects
 				(font
@@ -14191,7 +14023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 250.19 147.32 0)
 			(effects
 				(font
@@ -14329,7 +14161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 288.29 82.55 0)
 			(effects
 				(font
@@ -14399,7 +14231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 154.94 204.47 0)
 			(effects
 				(font
@@ -14620,7 +14452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 264.16 44.45 0)
 			(effects
 				(font
@@ -14645,7 +14477,6 @@
 		)
 	)
 	(symbol
-		(lib_name "D_1")
 		(lib_id "Device:D")
 		(at 140.97 170.18 270)
 		(unit 1)
@@ -14691,7 +14522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 140.97 170.18 0)
 			(effects
 				(font
@@ -14846,7 +14677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 138.43 203.2 0)
 			(effects
 				(font
@@ -15331,7 +15162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 278.13 74.93 0)
 			(effects
 				(font
@@ -15353,7 +15184,6 @@
 		)
 	)
 	(symbol
-		(lib_name "D_1")
 		(lib_id "Device:D")
 		(at 95.25 170.18 270)
 		(unit 1)
@@ -15399,7 +15229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 95.25 170.18 0)
 			(effects
 				(font
@@ -15486,7 +15316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 250.19 160.02 0)
 			(effects
 				(font
@@ -15555,7 +15385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 220.98 90.17 0)
 			(effects
 				(font
@@ -15830,7 +15660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 264.16 69.85 0)
 			(effects
 				(font
@@ -15900,7 +15730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 231.14 82.55 0)
 			(effects
 				(font
@@ -16193,7 +16023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 138.43 46.99 0)
 			(effects
 				(font
@@ -16330,7 +16160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 278.13 90.17 0)
 			(effects
 				(font
@@ -16390,7 +16220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/z1sma1.pdf"
 			(at 194.31 193.04 0)
 			(effects
 				(font
@@ -16399,7 +16229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1000mW Zener Diode, SMA(DO-214AC)"
 			(at 194.31 193.04 0)
 			(effects
 				(font
@@ -16545,7 +16375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 217.17 207.01 0)
 			(effects
 				(font
@@ -16612,7 +16442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 220.98 177.8 0)
 			(effects
 				(font
@@ -16750,7 +16580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 194.31 139.7 0)
 			(effects
 				(font
@@ -16817,7 +16647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 285.75 196.85 0)
 			(effects
 				(font
@@ -17097,7 +16927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 101.6 45.72 0)
 			(effects
 				(font
@@ -17315,7 +17145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 147.32 53.34 0)
 			(effects
 				(font
@@ -17382,7 +17212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 96.52 116.84 0)
 			(effects
 				(font
@@ -17449,7 +17279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 207.01 90.17 0)
 			(effects
 				(font
@@ -17518,7 +17348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 83.82 170.18 0)
 			(effects
 				(font
@@ -17657,7 +17487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 220.98 74.93 0)
 			(effects
 				(font
@@ -17791,7 +17621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 194.31 152.4 0)
 			(effects
 				(font
@@ -17861,7 +17691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 217.17 194.31 0)
 			(effects
 				(font
@@ -17930,7 +17760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-IGBT transistor, gate/collector/emitter"
 			(at 152.4 179.07 0)
 			(effects
 				(font
@@ -18002,7 +17832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-IGBT transistor, gate/collector/emitter"
 			(at 298.45 205.74 0)
 			(effects
 				(font
@@ -18142,7 +17972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 250.19 121.92 0)
 			(effects
 				(font
@@ -18212,7 +18042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 106.68 158.75 0)
 			(effects
 				(font
@@ -18278,7 +18108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-IGBT transistor, gate/collector/emitter"
 			(at 60.96 179.07 0)
 			(effects
 				(font

@@ -2399,12 +2399,13 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "In_signal"
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -2442,7 +2443,7 @@
 					(stroke
 						(width 0.0254)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type outline)
@@ -2455,7 +2456,7 @@
 					(stroke
 						(width 0)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type none)
@@ -2502,12 +2503,13 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "IO_signal"
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -2545,7 +2547,7 @@
 					(stroke
 						(width 0.0254)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type outline)
@@ -2558,7 +2560,7 @@
 					(stroke
 						(width 0.0254)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type outline)
@@ -2571,7 +2573,7 @@
 					(stroke
 						(width 0)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type none)
@@ -2618,12 +2620,13 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "Out_signal"
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -2661,7 +2664,7 @@
 					(stroke
 						(width 0.0254)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type outline)
@@ -2674,7 +2677,7 @@
 					(stroke
 						(width 0)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type none)
@@ -2764,7 +2767,7 @@
 					(stroke
 						(width 0.2032)
 						(type solid)
-						(color 132 94 255 1)
+						(color 132 0 0 1)
 					)
 					(fill
 						(type none)
@@ -2777,7 +2780,7 @@
 					(stroke
 						(width 0)
 						(type solid)
-						(color 132 94 255 1)
+						(color 132 0 0 1)
 					)
 					(fill
 						(type none)
@@ -2867,7 +2870,7 @@
 					(stroke
 						(width 0.2032)
 						(type solid)
-						(color 132 94 255 1)
+						(color 132 0 0 1)
 					)
 					(fill
 						(type outline)
@@ -2880,7 +2883,7 @@
 					(stroke
 						(width 0)
 						(type solid)
-						(color 132 94 255 1)
+						(color 132 0 0 1)
 					)
 					(fill
 						(type none)

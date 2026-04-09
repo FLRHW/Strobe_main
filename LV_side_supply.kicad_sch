@@ -786,7 +786,7 @@
 					(stroke
 						(width 0.2032)
 						(type solid)
-						(color 132 94 255 1)
+						(color 132 0 0 1)
 					)
 					(fill
 						(type none)
@@ -799,7 +799,7 @@
 					(stroke
 						(width 0)
 						(type solid)
-						(color 132 94 255 1)
+						(color 132 0 0 1)
 					)
 					(fill
 						(type none)
@@ -889,7 +889,7 @@
 					(stroke
 						(width 0.2032)
 						(type solid)
-						(color 132 94 255 1)
+						(color 132 0 0 1)
 					)
 					(fill
 						(type outline)
@@ -902,7 +902,7 @@
 					(stroke
 						(width 0)
 						(type solid)
-						(color 132 94 255 1)
+						(color 132 0 0 1)
 					)
 					(fill
 						(type none)
@@ -1619,7 +1619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Personal:Hilink_no_courtyard"
+		(property "Footprint" "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx"
 			(at 93.98 50.8 0)
 			(effects
 				(font
