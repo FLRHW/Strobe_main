@@ -48,9 +48,9 @@ As a side project, the boost modules have been reverse engineered with the aim t
 - https://github.com/FLRHW/Isolated_12to450V.
 
 ## Design targets
-DC bus voltage: 400 V to 1000 V
-Flash rate: 0.1 Hz to 100 Hz
-Pulse duration: 20 μs to 10 ms
+DC bus voltage: 400 V to 1000 V  
+Flash rate: 0.1 Hz to 100 Hz  
+Pulse duration: 20 μs to 10 ms  
 
 Please note that extremes are not simultaneously achievable. This design relies on storing energy on a capacitor bank to then discharge it into the bulb, hence some time must be reserved for storing that energy. The pulse duration is currently limited in SW to 50 % of the period as a safeguard, but for practical use it must be a much lower percentage.
 
