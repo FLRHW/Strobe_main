@@ -5,112 +5,10 @@
 	(uuid "937141cd-ce6c-41bd-99f8-aff9fbb1a920")
 	(paper "A4")
 	(title_block
-		(date "2025-01-12")
+		(title "${SHEETNAME}")
+		(date "2025-07-04")
 	)
 	(lib_symbols
-		(symbol "Cosmetic_PWR_4"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(property "Reference" "P"
-				(at 0 5.334 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Cosmetic_PWR_4_1_1"
-				(circle
-					(center 0 3.556)
-					(radius 0.898)
-					(stroke
-						(width 0.2032)
-						(type solid)
-						(color 132 94 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 132 94 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1469,12 +1367,13 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "In_signal"
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -1512,7 +1411,7 @@
 					(stroke
 						(width 0.0254)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type outline)
@@ -1525,7 +1424,7 @@
 					(stroke
 						(width 0)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type none)
@@ -1572,12 +1471,13 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "IO_signal"
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -1615,7 +1515,7 @@
 					(stroke
 						(width 0.0254)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type outline)
@@ -1628,7 +1528,7 @@
 					(stroke
 						(width 0.0254)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type outline)
@@ -1641,7 +1541,7 @@
 					(stroke
 						(width 0)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type none)
@@ -1688,12 +1588,13 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "Out_signal"
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -1731,7 +1632,7 @@
 					(stroke
 						(width 0.0254)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type outline)
@@ -1744,7 +1645,7 @@
 					(stroke
 						(width 0)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type none)
@@ -1772,7 +1673,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "personal:Cosmetic_PWR_SRC"
+		(symbol "personal:Cosmetic_PWR"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1818,7 +1719,110 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Local power symbol (sink), cosmetic use only"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Cosmetic_PWR_1_1"
+				(circle
+					(center 0 3.556)
+					(radius 0.898)
+					(stroke
+						(width 0.2032)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "personal:Cosmetic_PWR_SRC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "P"
+				(at 0 5.334 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Local power symbol (source), cosmetic use only"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1834,7 +1838,7 @@
 					(stroke
 						(width 0.2032)
 						(type solid)
-						(color 132 94 255 1)
+						(color 132 0 0 1)
 					)
 					(fill
 						(type outline)
@@ -1847,17 +1851,16 @@
 					(stroke
 						(width 0)
 						(type solid)
-						(color 132 94 255 1)
+						(color 132 0 0 1)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "1"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1957,25 +1960,11 @@
 		)
 		(uuid "b6d71320-c032-4c04-bd30-acb98b5bfb3a")
 	)
-	(text "OPTICAL INTERFACE\n600"
+	(text_box "${SHEETNAME}\n${RefDes}"
 		(exclude_from_sim no)
-		(at 283.21 19.05 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-				(thickness 0.4064)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify right)
-		)
-		(uuid "e1a5dbe2-c01e-4269-910a-1dde8a5accbc")
-	)
-	(text_box "[${#}] ${TITLE}"
-		(exclude_from_sim no)
-		(at 179.07 35.56 0)
-		(size 101.6 12.7)
-		(margins 5.9999 5.9999 5.9999 5.9999)
+		(at 208.28 15.24 0)
+		(size 73.66 15.24)
+		(margins 1.27 1.27 1.27 1.27)
 		(stroke
 			(width -0.0001)
 			(type solid)
@@ -1993,7 +1982,7 @@
 			)
 			(justify right)
 		)
-		(uuid "7df0aa97-3f8f-493d-a9ff-55c21e343577")
+		(uuid "27c0eecb-7a5e-482d-af39-088cda703a1c")
 	)
 	(junction
 		(at 140.97 48.26)
@@ -2026,16 +2015,16 @@
 		(uuid "9d761b04-37d0-445d-ac43-04f5d7fa8025")
 	)
 	(junction
-		(at 143.51 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba3a2f03-406a-4dc6-9b50-c5f29708696d")
-	)
-	(junction
 		(at 172.72 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb2feea7-a2a5-4f0b-9496-568a1adbb346")
+	)
+	(junction
+		(at 151.13 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c227fbe8-87d5-4b47-9009-d9f8bb5298b5")
 	)
 	(junction
 		(at 151.13 107.95)
@@ -2043,9 +2032,15 @@
 		(color 0 0 0 0)
 		(uuid "c6272ede-3f9d-47b5-8323-f7e3240d7275")
 	)
+	(junction
+		(at 144.78 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d44dfd7d-ecb5-4c9b-87ee-56886d089fe7")
+	)
 	(wire
 		(pts
-			(xy 143.51 127) (xy 143.51 129.54)
+			(xy 144.78 127) (xy 144.78 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2355,6 +2350,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 105.41) (xy 151.13 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f9c9133-ac76-471b-b771-fdac775767e0")
+	)
+	(wire
+		(pts
 			(xy 93.98 50.8) (xy 113.03 50.8)
 		)
 		(stroke
@@ -2515,6 +2520,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 105.41) (xy 151.13 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eee35c6-97b0-4b8b-93aa-a5b3d3e53b25")
+	)
+	(wire
+		(pts
 			(xy 104.14 35.56) (xy 104.14 36.83)
 		)
 		(stroke
@@ -2542,6 +2557,16 @@
 			(type default)
 		)
 		(uuid "926a2639-000d-4c75-a978-b1327249577c")
+	)
+	(wire
+		(pts
+			(xy 151.13 105.41) (xy 158.75 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954b7bc6-4e34-45f4-9177-8b4888cd8122")
 	)
 	(wire
 		(pts
@@ -2655,7 +2680,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 105.41) (xy 143.51 105.41)
+			(xy 133.35 105.41) (xy 144.78 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2725,7 +2750,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 105.41) (xy 143.51 119.38)
+			(xy 144.78 105.41) (xy 144.78 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2842,16 +2867,6 @@
 			(type default)
 		)
 		(uuid "dc7caab7-d69d-4b53-a27c-fb0fe8fdb82e")
-	)
-	(wire
-		(pts
-			(xy 143.51 105.41) (xy 158.75 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddc2138f-7d36-485b-90d2-972aa0ef3f8a")
 	)
 	(wire
 		(pts
@@ -3074,7 +3089,7 @@
 		(uuid "36802b73-0e1f-4fb3-833b-930d411b88ea")
 	)
 	(label "GND"
-		(at 143.51 129.54 0)
+		(at 144.78 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3672,7 +3687,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape dot)
-		(at 151.13 102.87 0)
+		(at 148.59 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3681,16 +3696,76 @@
 		)
 		(uuid "12f7c275-b631-442d-acc1-e238e50f751e")
 		(property "Netclass" "LV"
-			(at 151.13 99.06 90)
+			(at 148.59 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify bottom)
 			)
 		)
 		(property "Component Class" ""
-			(at 119.38 327.66 90)
+			(at 116.84 327.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 151.13 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1cfc29cd-4171-41de-bc1f-ee8a55088b16")
+		(property "Netclass" "LV"
+			(at 151.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Component Class" ""
+			(at 182.88 -113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 172.72 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d44229b-fca9-4de3-8cd2-909fa0c752ba")
+		(property "Netclass" "LV"
+			(at 172.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Component Class" ""
+			(at 204.47 -113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3732,25 +3807,55 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape dot)
-		(at 170.18 102.87 0)
+		(at 151.13 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "2aaa27dd-b87c-45f7-8e81-a900b8513d94")
+		(uuid "331c0984-c3e8-45dc-8130-3b61564f9146")
 		(property "Netclass" "LV"
-			(at 170.18 99.06 90)
+			(at 151.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify bottom)
 			)
 		)
 		(property "Component Class" ""
-			(at 138.43 327.66 90)
+			(at 119.38 326.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 170.18 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4f2fdf4d-c074-4289-9b41-4fb6e8473a3f")
+		(property "Netclass" "LV"
+			(at 170.18 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Component Class" ""
+			(at 201.93 -114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,25 +3897,25 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape dot)
-		(at 172.72 101.6 0)
+		(at 170.18 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "55630d40-c0f1-43a3-a357-2e8722be8135")
+		(uuid "5b623bc2-1b74-4ff4-bbf6-88d7b8f6a887")
 		(property "Netclass" "LV"
-			(at 172.72 97.79 90)
+			(at 170.18 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify bottom)
 			)
 		)
 		(property "Component Class" ""
-			(at 140.97 326.39 90)
+			(at 138.43 327.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3852,55 +3957,25 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape dot)
-		(at 170.18 110.49 180)
+		(at 148.59 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "6655e4d8-aed9-4240-8688-deb98e78c845")
+		(uuid "6cc6a108-0bfc-407d-b072-fce4ab1b30cb")
 		(property "Netclass" "LV"
-			(at 170.18 114.3 90)
+			(at 148.59 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify top)
 			)
 		)
 		(property "Component Class" ""
-			(at 201.93 -114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape dot)
-		(at 151.13 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "96ddd289-ad5a-46dd-bdb2-fcb4e9f260c7")
-		(property "Netclass" "LV"
-			(at 151.13 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Component Class" ""
-			(at 182.88 -113.03 90)
+			(at 180.34 -114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,66 +4017,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape dot)
-		(at 143.51 118.11 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a2dae7da-5dec-4d46-9538-717ec9e9dd42")
-		(property "Netclass" "LV"
-			(at 147.32 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -81.28 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape dot)
-		(at 148.59 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b5db922a-85b1-42d1-a703-641b9b029d7c")
-		(property "Netclass" "LV"
-			(at 148.59 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Component Class" ""
-			(at 180.34 -114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape dot)
 		(at 176.53 30.48 270)
 		(effects
 			(font
@@ -4032,6 +4047,36 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape dot)
+		(at 172.72 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebbde9b2-7934-47c8-818c-2d8dfdbfc8a8")
+		(property "Netclass" "LV"
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Component Class" ""
+			(at 140.97 326.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
 		(at 137.16 48.26 0)
 		(effects
 			(font
@@ -4051,36 +4096,6 @@
 		)
 		(property "Component Class" ""
 			(at 105.41 273.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape dot)
-		(at 172.72 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fc2aa2f9-c236-4bce-8cf5-42722f31e791")
-		(property "Netclass" "LV"
-			(at 172.72 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Component Class" ""
-			(at 204.47 -113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4134,6 +4149,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 162.56 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 162.56 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 162.56 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 162.56 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,6 +4250,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 86.36 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 86.36 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 86.36 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3996012d-3201-4d67-9b3b-aa2d65f076bd")
 		)
@@ -4224,7 +4293,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 128.27 91.44 0)
 		(mirror y)
@@ -4273,7 +4341,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 128.27 91.44 0)
 			(effects
 				(font
@@ -4343,7 +4438,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (source), cosmetic use only"
+			(at 35.56 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 35.56 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 35.56 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 35.56 31.75 0)
 			(effects
 				(font
@@ -4416,6 +4538,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 86.36 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 86.36 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 86.36 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5165ebde-a315-44bf-bda7-38349b7d0c3c")
 		)
@@ -4433,16 +4582,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 123.19 0)
+		(at 144.78 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "16d1601b-3b60-4140-82a3-e547d1265872")
 		(property "Reference" "R619"
-			(at 146.05 121.9199 0)
+			(at 146.05 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4451,7 +4599,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 146.05 124.4599 0)
+			(at 146.05 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,7 +4608,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 141.732 123.19 90)
+			(at 143.002 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4469,7 +4617,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 123.19 0)
+			(at 144.78 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4478,7 +4626,34 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 143.51 123.19 0)
+			(at 144.78 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 144.78 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 144.78 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,6 +4733,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10ecbf5d-59a9-4732-8f98-a11dfc1df81f")
 		)
@@ -4571,7 +4773,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 67.31 29.21 0)
 		(mirror y)
@@ -4620,7 +4821,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 67.31 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 67.31 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 67.31 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 67.31 29.21 0)
 			(effects
 				(font
@@ -4686,6 +4914,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 162.56 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 162.56 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 162.56 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 162.56 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4764,6 +5019,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 50.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 50.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 50.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f622437d-6907-43f6-8fa4-110b9f8f0d1a")
 		)
@@ -4777,7 +5059,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 106.68 91.44 0)
 		(mirror y)
@@ -4826,7 +5107,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 106.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 106.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 106.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 106.68 91.44 0)
 			(effects
 				(font
@@ -4899,6 +5207,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 86.36 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 86.36 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 86.36 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4f9c395d-b746-4533-b166-4f2095eb812b")
 		)
@@ -4924,7 +5259,7 @@
 		(dnp no)
 		(uuid "26d113d0-8bc5-456a-bc84-cb9ddc9e7053")
 		(property "Reference" "C603"
-			(at 71.12 86.3599 0)
+			(at 69.85 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,7 +5268,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 71.12 88.8999 0)
+			(at 69.85 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,6 +5295,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 67.31 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 67.31 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CCTC"
+			(at 67.31 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TCC0603X7R104K500CT"
 			(at 67.31 87.63 0)
 			(effects
 				(font
@@ -5039,6 +5401,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 50.8 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 50.8 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 50.8 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4bdf6f6b-5fa4-4557-a6c3-0ab98d89a2de")
 		)
@@ -5052,7 +5441,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 134.62 35.56 0)
 		(mirror y)
@@ -5101,7 +5489,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 134.62 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 134.62 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 134.62 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 134.62 35.56 0)
 			(effects
 				(font
@@ -5130,10 +5545,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2d6b0fd6-7c08-41fc-9cfb-5d210ed583e2")
 		(property "Reference" "R610"
-			(at 140.97 95.2499 0)
+			(at 139.7 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5142,7 +5556,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 140.97 97.7899 0)
+			(at 139.7 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5177,6 +5591,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b88e507c-6b79-4ced-8d67-423db688e87c")
 		)
@@ -5193,7 +5634,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 111.76 35.56 0)
 		(mirror y)
@@ -5242,7 +5682,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 111.76 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 111.76 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 111.76 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 111.76 35.56 0)
 			(effects
 				(font
@@ -5264,7 +5731,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 67.31 82.55 0)
 		(mirror y)
@@ -5313,7 +5779,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 67.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 67.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 67.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 67.31 82.55 0)
 			(effects
 				(font
@@ -5342,10 +5835,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3c8c708c-ac32-427e-9423-e48c31faf2f4")
 		(property "Reference" "R603"
-			(at 143.51 39.3699 0)
+			(at 142.24 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5354,7 +5846,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 143.51 41.9099 0)
+			(at 142.24 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5389,6 +5881,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 140.97 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 140.97 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 140.97 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cf5a1417-3109-4411-ac9f-8358600b4c75")
 		)
@@ -5405,7 +5924,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 93.98 35.56 0)
 		(mirror y)
@@ -5454,7 +5972,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 93.98 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 93.98 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 93.98 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 93.98 35.56 0)
 			(effects
 				(font
@@ -5532,6 +6077,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 64.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 64.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 64.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01742a24-d15e-4cca-90f6-170ab037ea57")
 		)
@@ -5589,6 +6161,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 162.56 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 162.56 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 162.56 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 162.56 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5666,6 +6265,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 64.77 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 64.77 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 64.77 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95e8272f-3af2-475b-aaa4-1f8bc5af5108")
 		)
@@ -5734,6 +6360,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb005cbc-b18b-40f5-ad7e-d9c052e16ad4")
 		)
@@ -5791,6 +6444,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 162.56 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 162.56 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 162.56 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 162.56 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5869,6 +6549,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 181.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 181.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 181.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61f9f27e-17e9-43d2-8406-dad91c21e91a")
 		)
@@ -5937,6 +6644,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 111.76 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 111.76 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 111.76 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a527eea4-68d6-438c-a573-28fbe68d1b79")
 		)
@@ -5994,6 +6728,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 86.36 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 86.36 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 86.36 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 86.36 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6072,6 +6833,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27bbd626-56b7-4617-96c7-90e5241eea63")
 		)
@@ -6140,6 +6928,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59a209df-ce9c-4ad6-9648-f2cbc4e1e5c0")
 		)
@@ -6153,7 +6968,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 151.13 35.56 0)
 		(mirror y)
@@ -6202,7 +7016,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 151.13 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 151.13 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 151.13 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 151.13 35.56 0)
 			(effects
 				(font
@@ -6279,6 +7120,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 50.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 50.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 50.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b58ced1-6c7a-43ec-a709-55a10a2ff6d0")
 		)
@@ -6293,7 +7161,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_GND2")
-		(at 143.51 129.54 0)
+		(at 144.78 129.54 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6303,7 +7171,7 @@
 		(fields_autoplaced yes)
 		(uuid "728414b3-45b4-4f5c-9e40-d5c2458587ea")
 		(property "Reference" "P729"
-			(at 143.51 128.524 0)
+			(at 144.78 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6312,7 +7180,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 140.97 130.8608 0)
+			(at 142.24 130.8608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6322,7 +7190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 129.54 0)
+			(at 144.78 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6331,7 +7199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 129.54 0)
+			(at 144.78 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6340,7 +7208,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 129.54 0)
+			(at 144.78 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 144.78 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 144.78 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6408,6 +7303,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 181.61 110.49 0)
 			(effects
 				(font
@@ -6485,6 +7407,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 128.27 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 128.27 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 128.27 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c3f9923-751f-4056-add7-4f15b16f047b")
 		)
@@ -6505,10 +7454,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d8c289c-be94-4919-905a-20a00d10405f")
 		(property "Reference" "R601"
-			(at 96.52 39.3699 0)
+			(at 95.25 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6517,7 +7465,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 96.52 41.9099 0)
+			(at 95.25 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6544,6 +7492,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 93.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 93.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 93.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 93.98 40.64 0)
 			(effects
 				(font
@@ -6612,6 +7587,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 86.36 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 86.36 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 86.36 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 86.36 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6690,6 +7692,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e557e54a-cfb3-4031-aaa5-144c5d52a164")
 		)
@@ -6703,7 +7732,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 176.53 29.21 0)
 		(mirror y)
@@ -6752,7 +7780,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 176.53 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 176.53 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 176.53 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 176.53 29.21 0)
 			(effects
 				(font
@@ -6821,6 +7876,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 50.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 50.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 50.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 50.8 60.96 0)
 			(effects
 				(font
@@ -6898,6 +7980,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 64.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 64.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 64.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78bc3318-b616-4487-844e-d43ccc0d8825")
 		)
@@ -6967,6 +8076,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 64.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 64.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 64.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9c9e436-9a63-4a46-ae81-bf007bc36cba")
 		)
@@ -6980,7 +8116,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 140.97 35.56 0)
 		(mirror y)
@@ -7029,7 +8164,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 140.97 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 140.97 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 140.97 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 140.97 35.56 0)
 			(effects
 				(font
@@ -7106,6 +8268,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1e5d83b6-d407-48ef-9bb2-4ace418f30b6")
 		)
@@ -7126,10 +8315,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "969faa59-8ceb-41ff-90ff-9d0482997ec6")
 		(property "Reference" "R609"
-			(at 109.22 95.2499 0)
+			(at 107.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7138,7 +8326,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 109.22 97.7899 0)
+			(at 107.95 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7165,6 +8353,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 106.68 96.52 0)
 			(effects
 				(font
@@ -7244,6 +8459,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 67.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 67.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 67.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ca19dcb-28bf-475e-b8b7-6009ff992866")
 		)
@@ -7266,7 +8508,7 @@
 		(dnp no)
 		(uuid "98cecb2b-e7af-48c0-a553-c4a48c8650b3")
 		(property "Reference" "C601"
-			(at 71.12 33.0199 0)
+			(at 69.85 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7275,7 +8517,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 71.12 35.5599 0)
+			(at 69.85 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7302,6 +8544,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 67.31 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 67.31 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CCTC"
+			(at 67.31 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TCC0603X7R104K500CT"
 			(at 67.31 34.29 0)
 			(effects
 				(font
@@ -7382,6 +8651,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 64.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 64.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 64.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b49d460-eea9-4f09-ba94-5d6dedf702b5")
 		)
@@ -7443,6 +8739,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 176.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 176.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 176.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 176.53 40.64 0)
 			(effects
 				(font
@@ -7519,6 +8842,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 181.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 181.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 181.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9a85b53-2827-4c75-8144-b4b9540e64a3")
 		)
@@ -7587,6 +8937,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 50.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 50.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 50.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5e842ae-bdff-412b-a5a2-634c7456e8d7")
 		)
@@ -7600,7 +8977,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 138.43 91.44 0)
 		(mirror y)
@@ -7649,7 +9025,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 138.43 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 138.43 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 138.43 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 138.43 91.44 0)
 			(effects
 				(font
@@ -7726,6 +9129,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c5225ae7-0cf8-4b8e-923f-25ca16dce25c")
 		)
@@ -7794,6 +9224,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 50.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 50.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 50.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7955ad89-bf5c-4ff3-b1b6-2441ecdd97b0")
 		)
@@ -7816,7 +9273,7 @@
 		(dnp no)
 		(uuid "af7fd411-7e07-4bad-9e85-a4fbee62d595")
 		(property "Reference" "C604"
-			(at 180.34 86.3599 0)
+			(at 179.07 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7825,7 +9282,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 180.34 88.8999 0)
+			(at 179.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7852,6 +9309,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CCTC"
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TCC0603X7R104K500CT"
 			(at 176.53 87.63 0)
 			(effects
 				(font
@@ -7930,6 +9414,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 181.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 181.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 181.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcd55c4c-e48d-4052-9543-1fe5e809950e")
 		)
@@ -7943,7 +9454,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 176.53 82.55 0)
 		(mirror y)
@@ -7992,7 +9502,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 176.53 82.55 0)
 			(effects
 				(font
@@ -8058,6 +9595,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 162.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 162.56 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 162.56 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 162.56 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,6 +9700,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 50.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 50.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 50.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcfb836b-bd79-492b-8693-8b6c2268c927")
 		)
@@ -8149,7 +9740,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 104.14 35.56 0)
 		(mirror y)
@@ -8198,7 +9788,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 104.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 104.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 104.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 104.14 35.56 0)
 			(effects
 				(font
@@ -8268,6 +9885,33 @@
 			)
 		)
 		(property "Description" "General-purpose, quad-channel, 3/1 digital isolator"
+			(at 123.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 123.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 123.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ISO6741DWR"
 			(at 123.19 107.95 0)
 			(effects
 				(font
@@ -8389,6 +10033,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51195efe-a9cd-4ff9-94d6-63016c8aa37e")
 		)
@@ -8402,7 +10073,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 118.11 91.44 0)
 		(mirror y)
@@ -8451,7 +10121,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 118.11 91.44 0)
 			(effects
 				(font
@@ -8521,7 +10218,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (source), cosmetic use only"
+			(at 35.56 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 35.56 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 35.56 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 35.56 24.13 0)
 			(effects
 				(font
@@ -8599,6 +10323,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 176.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 176.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 176.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7963c0a9-5725-47b8-a3cd-b981e6b02b8e")
 		)
@@ -8668,6 +10419,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 134.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 134.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 134.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7b68562-e3ae-4004-809d-bbbd0a4fbe26")
 		)
@@ -8725,6 +10503,33 @@
 			)
 		)
 		(property "Description" "I2C Isolator, 2.5 kVrms, Unidirectional Clock, Bidirectional data, SOIC-8"
+			(at 123.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 123.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 123.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ISO1541DR"
 			(at 123.19 48.26 0)
 			(effects
 				(font
@@ -8822,6 +10627,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 67.31 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 67.31 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 67.31 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db0e35de-bb95-4303-8389-6ad32e1e9f0b")
 		)
@@ -8890,6 +10722,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 118.11 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 118.11 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 118.11 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "674938d4-fbea-418d-b44d-0cfbe96ef471")
 		)
@@ -8910,10 +10769,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ed527674-0efe-42ac-bb1e-9e3867c35198")
 		(property "Reference" "R604"
-			(at 153.67 39.3699 0)
+			(at 152.4 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8922,7 +10780,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 153.67 41.9099 0)
+			(at 152.4 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8949,6 +10807,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 151.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 151.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 151.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 151.13 40.64 0)
 			(effects
 				(font
@@ -9027,6 +10912,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 181.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 181.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 181.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "68cc385c-8770-4ff6-86fa-d177f8930bf4")
 		)
@@ -9084,6 +10996,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 86.36 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 86.36 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 86.36 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 86.36 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9158,6 +11097,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 162.56 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 162.56 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 162.56 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e7a25054-eb3a-442a-add3-bfbcf742de3f")
 		)
@@ -9181,10 +11147,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f75e5b96-21d5-4cca-a3ba-911ec5ffabc5")
 		(property "Reference" "R602"
-			(at 106.68 39.3699 0)
+			(at 105.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9193,7 +11158,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 106.68 41.9099 0)
+			(at 105.41 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9228,6 +11193,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 104.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 104.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 104.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "80310228-677e-4253-9766-62aebfe2f806")
 		)
@@ -9253,7 +11245,7 @@
 		(dnp no)
 		(uuid "f9427a86-1381-4aeb-819a-be54b4b15d7f")
 		(property "Reference" "C602"
-			(at 180.34 33.0199 0)
+			(at 179.07 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9262,7 +11254,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 180.34 35.5599 0)
+			(at 179.07 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9289,6 +11281,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CCTC"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TCC0603X7R104K500CT"
 			(at 176.53 34.29 0)
 			(effects
 				(font
@@ -9360,6 +11379,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 35.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 35.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 35.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 35.56 76.2 0)
 			(effects
 				(font

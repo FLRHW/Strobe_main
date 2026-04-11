@@ -5,8 +5,8 @@
 	(uuid "d4440dba-022e-49b2-97f2-6fc1871c7304")
 	(paper "A3")
 	(title_block
-		(title "Block Diagram")
-		(date "2025-01-12")
+		(title "${SHEETNAME}")
+		(date "2025-07-04")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
@@ -1369,109 +1369,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Cosmetic_PWR_4"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(property "Reference" "P"
-				(at 0 5.334 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Cosmetic_PWR_4_1_1"
-				(circle
-					(center 0 3.556)
-					(radius 0.898)
-					(stroke
-						(width 0.2032)
-						(type solid)
-						(color 132 94 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 132 94 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1957,12 +1854,13 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "In_signal"
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -2000,7 +1898,7 @@
 					(stroke
 						(width 0.0254)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type outline)
@@ -2013,7 +1911,7 @@
 					(stroke
 						(width 0)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type none)
@@ -2060,12 +1958,13 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "Out_signal"
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -2103,7 +2002,7 @@
 					(stroke
 						(width 0.0254)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type outline)
@@ -2116,7 +2015,7 @@
 					(stroke
 						(width 0)
 						(type solid)
-						(color 132 94 255 1)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type none)
@@ -2190,7 +2089,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Local power symbol (sink), cosmetic use only"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2206,7 +2105,7 @@
 					(stroke
 						(width 0.2032)
 						(type solid)
-						(color 132 94 255 1)
+						(color 132 0 0 1)
 					)
 					(fill
 						(type none)
@@ -2219,17 +2118,16 @@
 					(stroke
 						(width 0)
 						(type solid)
-						(color 132 94 255 1)
+						(color 132 0 0 1)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "1"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2252,6 +2150,7 @@
 				(hide yes)
 			)
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -2293,7 +2192,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Local power symbol (source), cosmetic use only"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2309,7 +2208,7 @@
 					(stroke
 						(width 0.2032)
 						(type solid)
-						(color 132 94 255 1)
+						(color 132 0 0 1)
 					)
 					(fill
 						(type outline)
@@ -2322,17 +2221,16 @@
 					(stroke
 						(width 0)
 						(type solid)
-						(color 132 94 255 1)
+						(color 132 0 0 1)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "1"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2790,11 +2688,11 @@
 		)
 		(uuid "fb73c0e3-683f-4769-a79a-f7aee9fab6a5")
 	)
-	(text_box "[${#}] ${TITLE}"
+	(text_box "${SHEETNAME}"
 		(exclude_from_sim no)
-		(at 304.8 20.32 0)
-		(size 101.6 12.7)
-		(margins 5.9999 5.9999 5.9999 5.9999)
+		(at 350.52 15.24 0)
+		(size 53.34 7.62)
+		(margins 1.27 1.27 1.27 1.27)
 		(stroke
 			(width -0.0001)
 			(type solid)
@@ -2805,14 +2703,14 @@
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 7.62 7.62)
+				(size 5.08 5.08)
 				(thickness 1.2)
 				(bold yes)
 				(color 0 0 194 1)
 			)
 			(justify right)
 		)
-		(uuid "73b2b29c-2473-4e80-be0b-4f57c6856c3e")
+		(uuid "ef80e056-fb65-4f8a-bfaf-a6a758210b2c")
 	)
 	(junction
 		(at 69.85 165.1)
@@ -2873,6 +2771,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57ee74da-8ec9-4a2b-b139-1205c066eba3")
+	)
+	(junction
+		(at 41.91 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58037e13-e3b2-422e-8a2e-ac18568795cc")
 	)
 	(junction
 		(at 77.47 165.1)
@@ -3310,7 +3214,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 184.15) (xy 41.91 204.47)
+			(xy 41.91 184.15) (xy 41.91 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3690,7 +3594,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 67.31) (xy 162.56 67.31)
+			(xy 160.02 59.69) (xy 162.56 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3990,6 +3894,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 189.23) (xy 41.91 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90b32a4-d566-4f45-818d-074d0654f7a6")
+	)
+	(wire
+		(pts
 			(xy 287.02 127) (xy 323.85 127)
 		)
 		(stroke
@@ -4050,7 +3964,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 66.04) (xy 162.56 67.31)
+			(xy 162.56 58.42) (xy 162.56 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4949,7 +4863,7 @@
 		(uuid "dec4d26c-7698-465c-a5f5-22998ec8f5a3")
 	)
 	(label "SL3"
-		(at 162.56 66.04 0)
+		(at 162.56 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5517,7 +5431,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (source), cosmetic use only"
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 99.06 66.04 0)
 			(effects
 				(font
@@ -5539,7 +5480,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 55.88 58.42 0)
 		(unit 1)
@@ -5587,7 +5527,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 55.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 55.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 55.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 55.88 58.42 0)
 			(effects
 				(font
@@ -5609,7 +5576,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 289.56 90.17 0)
 		(unit 1)
@@ -5657,7 +5623,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 289.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 289.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 289.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 289.56 90.17 0)
 			(effects
 				(font
@@ -5733,6 +5726,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 317.5 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 317.5 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 317.5 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
@@ -5790,6 +5810,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.85 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 69.85 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 69.85 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 69.85 165.1 0)
 			(effects
 				(font
@@ -5866,6 +5913,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 74.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 74.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 74.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8ba1e07-db4b-4ab4-8758-f6fb34f0d412")
 		)
@@ -5879,7 +5953,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 119.38 58.42 0)
 		(unit 1)
@@ -5927,7 +6000,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 119.38 58.42 0)
 			(effects
 				(font
@@ -6004,6 +6104,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 77.47 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 77.47 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 77.47 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c77bc10-04d1-4c7f-b693-08ce4175c8be")
 		)
@@ -6063,6 +6190,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 347.98 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 347.98 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 347.98 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 347.98 177.8 0)
 			(effects
 				(font
@@ -6145,6 +6299,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 328.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 328.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 328.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64178a5e-920b-418b-a772-70eaf9fc5183")
 		)
@@ -6158,7 +6339,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 55.88 99.06 0)
 		(unit 1)
@@ -6206,7 +6386,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 55.88 99.06 0)
 			(effects
 				(font
@@ -6350,6 +6557,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 46.99 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 46.99 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 46.99 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e58e9bf9-a273-4fef-aafa-8fa77414e02d")
 		)
@@ -6410,7 +6644,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 340.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 340.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 340.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 340.36 92.71 0)
 			(effects
 				(font
@@ -6546,7 +6807,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (source), cosmetic use only"
+			(at 99.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 99.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 99.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 99.06 58.42 0)
 			(effects
 				(font
@@ -6681,7 +6969,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (source), cosmetic use only"
+			(at 99.06 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 99.06 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 99.06 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 99.06 179.07 0)
 			(effects
 				(font
@@ -6751,7 +7066,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (source), cosmetic use only"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 101.6 179.07 0)
 			(effects
 				(font
@@ -6829,6 +7171,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 322.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 322.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 322.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3adecc81-89ee-4d62-a638-4e95287066ec")
 		)
@@ -6889,6 +7258,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 340.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 340.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 340.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 340.36 101.6 0)
 			(effects
 				(font
@@ -7031,6 +7427,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b943c150-11fd-4bb7-ac31-f576743debf0")
 		)
@@ -7099,6 +7522,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 289.56 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 289.56 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 289.56 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c6de4c3-5cde-4918-aea8-899afda1ed13")
 		)
@@ -7112,7 +7562,72 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
+		(lib_id "power:PWR_FLAG")
+		(at 41.91 189.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60f360d7-6d5a-4a7a-b063-e621d64b58b3")
+		(property "Reference" "#FLG02"
+			(at 43.815 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 44.45 189.23 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 41.91 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e707044-0b05-4caf-ad5b-8e8bcf35b477")
+		)
+		(instances
+			(project "Strobe_main"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "personal:Cosmetic_PWR")
 		(at 85.09 179.07 0)
 		(unit 1)
@@ -7160,7 +7675,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 85.09 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 85.09 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 85.09 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 85.09 179.07 0)
 			(effects
 				(font
@@ -7182,7 +7724,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 55.88 66.04 0)
 		(unit 1)
@@ -7230,7 +7771,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 55.88 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 55.88 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 55.88 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 55.88 66.04 0)
 			(effects
 				(font
@@ -7359,8 +7927,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 340.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 340.36 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 340.36 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 340.36 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7439,6 +8034,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 182.88 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 182.88 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 182.88 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2208671f-bf42-43ba-ab17-64b7d80a11e8")
 		)
@@ -7507,6 +8129,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 72.39 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 72.39 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 72.39 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc24ebc9-b80e-40b1-8e13-a666238dead3")
 		)
@@ -7562,8 +8211,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 350.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 350.52 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 350.52 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 350.52 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7642,6 +8318,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 320.04 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 320.04 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 320.04 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25779ece-b765-44b4-882c-a410ef9cec79")
 		)
@@ -7702,6 +8405,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 80.01 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 80.01 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 80.01 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 80.01 165.1 0)
 			(effects
 				(font
@@ -7771,7 +8501,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (source), cosmetic use only"
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 41.91 184.15 0)
 			(effects
 				(font
@@ -7848,6 +8605,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 340.36 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 340.36 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 340.36 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a0d94124-e572-484c-9bdb-6ce6923b858a")
 		)
@@ -7908,6 +8692,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 99.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 99.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 99.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 99.06 74.93 0)
 			(effects
 				(font
@@ -7983,6 +8794,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 342.9 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 342.9 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 342.9 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
@@ -7993,7 +8831,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 328.93 121.92 0)
 		(mirror y)
@@ -8041,7 +8878,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 328.93 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 328.93 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 328.93 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 328.93 121.92 0)
 			(effects
 				(font
@@ -8115,8 +8979,26 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "https://www.lcsc.com/product-detail/IDC-Connectors_ZHOURI-DC3-2-54-10PAL_C5156674.html?s_z=n_JILN%2520321010SG0ABK00A01"
-			(at 328.93 137.16 0)
+		(property "Config" ""
+			(at 328.93 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ZHOURI"
+			(at 328.93 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "DC3-2.54-10PAS"
+			(at 328.93 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8164,7 +9046,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 119.38 66.04 0)
 		(unit 1)
@@ -8212,7 +9093,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 119.38 66.04 0)
 			(effects
 				(font
@@ -8289,6 +9197,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 119.38 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 119.38 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 119.38 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ca2bba5-9c19-495a-808b-4994b404ab47")
 		)
@@ -8303,7 +9238,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_PWR_SRC")
-		(at 162.56 66.04 0)
+		(at 162.56 58.42 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8313,7 +9248,7 @@
 		(fields_autoplaced yes)
 		(uuid "bac61015-0770-40a7-92cc-9cd65dfa0c06")
 		(property "Reference" "P787"
-			(at 162.56 60.706 0)
+			(at 162.56 53.086 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8323,7 +9258,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 162.56 59.69 90)
+			(at 162.56 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8333,7 +9268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 66.04 0)
+			(at 162.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8342,7 +9277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 66.04 0)
+			(at 162.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8350,8 +9285,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 162.56 66.04 0)
+		(property "Description" "Local power symbol (source), cosmetic use only"
+			(at 162.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 162.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 162.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 162.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8419,7 +9381,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 340.36 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 340.36 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 340.36 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 340.36 173.99 0)
 			(effects
 				(font
@@ -8496,6 +9485,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 55.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 55.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 55.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c625f0a-4649-4af2-ac9d-f76fcaa96427")
 		)
@@ -8564,6 +9580,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 246.38 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 246.38 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 246.38 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5edcf8f4-86f5-4eba-9798-59c8ab4a6639")
 		)
@@ -8621,6 +9664,33 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x12, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 66.04 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 66.04 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 66.04 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "430452427"
 			(at 66.04 189.23 0)
 			(effects
 				(font
@@ -8711,7 +9781,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 55.88 91.44 0)
 		(unit 1)
@@ -8759,7 +9828,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 55.88 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 55.88 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 55.88 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 55.88 91.44 0)
 			(effects
 				(font
@@ -8781,7 +9877,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 119.38 106.68 0)
 		(unit 1)
@@ -8829,7 +9924,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 119.38 106.68 0)
 			(effects
 				(font
@@ -8904,6 +10026,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 347.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 347.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 347.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e525b521-0173-4299-8123-3d1399bc305e")
 		)
@@ -8923,7 +10072,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 246.38 90.17 0)
 		(unit 1)
@@ -8971,7 +10119,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 246.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 246.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 246.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 246.38 90.17 0)
 			(effects
 				(font
@@ -9047,6 +10222,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 317.5 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 317.5 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 317.5 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
@@ -9057,7 +10259,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Cosmetic_PWR_4")
 		(lib_id "personal:Cosmetic_PWR")
 		(at 182.88 91.44 0)
 		(unit 1)
@@ -9105,7 +10306,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 182.88 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 182.88 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 182.88 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 182.88 91.44 0)
 			(effects
 				(font
@@ -9181,6 +10409,33 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 342.9 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 342.9 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 342.9 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
@@ -9205,7 +10460,7 @@
 			(color 255 220 210 1.0000)
 		)
 		(uuid "1319f261-23ec-4707-ade3-a432f3dc3535")
-		(property "Sheetname" "400 Signal conditioning"
+		(property "Sheetname" "Signal conditioning"
 			(at 121.92 104.14 0)
 			(effects
 				(font
@@ -9223,7 +10478,7 @@
 				(justify left top)
 			)
 		)
-		(property "Range" "400"
+		(property "RefDes" "400"
 			(at 160.02 104.14 0)
 			(effects
 				(font
@@ -9415,7 +10670,7 @@
 			(color 255 220 210 1.0000)
 		)
 		(uuid "1b3d73d6-473d-4741-895e-f4c216aab074")
-		(property "Sheetname" "300 Lamp drive"
+		(property "Sheetname" "Lamp driver"
 			(at 58.42 88.9 0)
 			(effects
 				(font
@@ -9424,7 +10679,7 @@
 				(justify left)
 			)
 		)
-		(property "Sheetfile" "Lamp_drive.kicad_sch"
+		(property "Sheetfile" "Lamp_driver.kicad_sch"
 			(at 58.42 121.285 0)
 			(effects
 				(font
@@ -9433,7 +10688,7 @@
 				(justify left top)
 			)
 		)
-		(property "Range" "300"
+		(property "RefDes" "300"
 			(at 96.52 88.9 0)
 			(effects
 				(font
@@ -9535,7 +10790,7 @@
 			(color 255 220 210 1.0000)
 		)
 		(uuid "3688e1c9-04ee-464b-b462-f28561887f84")
-		(property "Sheetname" "600 Optical isolation"
+		(property "Sheetname" "Optical isolation"
 			(at 248.92 88.9 0)
 			(effects
 				(font
@@ -9553,7 +10808,7 @@
 				(justify left top)
 			)
 		)
-		(property "Range" "600"
+		(property "RefDes" "600"
 			(at 287.02 88.9 0)
 			(effects
 				(font
@@ -9745,7 +11000,7 @@
 			(color 255 220 210 1.0000)
 		)
 		(uuid "47295cf9-b4c3-4fa6-9175-14031e0f1359")
-		(property "Sheetname" "200 LV side supply"
+		(property "Sheetname" "LV side supply"
 			(at 121.92 55.88 0)
 			(effects
 				(font
@@ -9754,7 +11009,7 @@
 				(justify left)
 			)
 		)
-		(property "Sheetfile" "Low_supply.kicad_sch"
+		(property "Sheetfile" "LV_side_supply.kicad_sch"
 			(at 121.92 75.5146 0)
 			(effects
 				(font
@@ -9763,7 +11018,7 @@
 				(justify left top)
 			)
 		)
-		(property "Range" "200"
+		(property "RefDes" "200"
 			(at 160.02 55.88 0)
 			(effects
 				(font
@@ -9803,7 +11058,7 @@
 			)
 		)
 		(pin "SL3" output
-			(at 160.02 67.31 0)
+			(at 160.02 59.69 0)
 			(uuid "37cc0eee-95f6-45fc-9182-310c73540c44")
 			(effects
 				(font
@@ -9835,7 +11090,7 @@
 			(color 255 220 210 1.0000)
 		)
 		(uuid "c67a7bf4-f44b-4e1e-aac2-1a1065ee66de")
-		(property "Sheetname" "100 HV side supply"
+		(property "Sheetname" "HV side supply"
 			(at 58.42 55.88 0)
 			(effects
 				(font
@@ -9844,7 +11099,7 @@
 				(justify left)
 			)
 		)
-		(property "Sheetfile" "High_supply.kicad_sch"
+		(property "Sheetfile" "HV_side_supply.kicad_sch"
 			(at 58.42 75.5146 0)
 			(effects
 				(font
@@ -9853,7 +11108,7 @@
 				(justify left top)
 			)
 		)
-		(property "Range" "100"
+		(property "RefDes" "100"
 			(at 96.52 55.88 0)
 			(effects
 				(font
@@ -9935,7 +11190,7 @@
 			(color 255 220 210 1.0000)
 		)
 		(uuid "ff259134-84db-47d3-8250-13ef5aa350b1")
-		(property "Sheetname" "500 Main ctrl"
+		(property "Sheetname" "MCU"
 			(at 185.42 88.9 0)
 			(effects
 				(font
@@ -9944,7 +11199,7 @@
 				(justify left)
 			)
 		)
-		(property "Sheetfile" "Main_ctrl.kicad_sch"
+		(property "Sheetfile" "MCU.kicad_sch"
 			(at 185.42 191.77 0)
 			(effects
 				(font
@@ -9953,7 +11208,7 @@
 				(justify left top)
 			)
 		)
-		(property "Range" "500"
+		(property "RefDes" "500"
 			(at 223.52 88.9 0)
 			(effects
 				(font

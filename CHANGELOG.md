@@ -2,18 +2,4 @@
 
 ## [Unreleased]
 
-### Fixed
-
--   Fixes
-
-### Added
-
--   Additions
-
-### Changed
-
--   Changes
-
-### Removed
-
--   Deletions
+### Migrated existing project to template (KDT)
