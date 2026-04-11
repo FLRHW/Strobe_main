@@ -39,7 +39,7 @@ definitions:
   ROTATE_X: 0
   ROTATE_Y: 0
   ROTATE_Z: 0
-  ZOOM: 1
+  ZOOM: 0
   HEIGHT: 2000
   WIDTH: 2000
   KEY_COLOR: '#00FF00'
