@@ -1673,7 +1673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx"
+		(property "Footprint" "Personal:Hilink_no_courtyard"
 			(at 93.98 50.8 0)
 			(effects
 				(font

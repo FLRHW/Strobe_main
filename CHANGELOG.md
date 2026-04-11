@@ -2,4 +2,4 @@
 
 ## [Unreleased]
 
-### Migrated schematic and PCB to KDT structure, started preparing fab docs
+### Migrated existing project to template (KDT)

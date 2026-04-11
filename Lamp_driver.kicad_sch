@@ -11213,7 +11213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Personal:To-220_staggered_2"
 			(at 252.73 179.705 0)
 			(effects
 				(font
@@ -11990,7 +11990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Personal:Amphenol_Minitek_10146581-060_mod"
+		(property "Footprint" "Personal:Amphenol_Minitek_10146581-060_mod_0"
 			(at 136.398 155.194 0)
 			(effects
 				(font
@@ -13754,7 +13754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Personal:Amphenol_Minitek_10146581-060_mod"
+		(property "Footprint" "Personal:Amphenol_Minitek_10146581-060_mod_0"
 			(at 108.712 98.806 0)
 			(effects
 				(font
@@ -15290,7 +15290,7 @@
 				)
 			)
 		)
-		(property "Value" "2R2"
+		(property "Value" "0"
 			(at 39.37 189.23 90)
 			(effects
 				(font
