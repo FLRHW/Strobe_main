@@ -1,32 +1,32 @@
 Testpoint Ref.,Net,Net Class,X,Y,Side,Pad Type,Value,Footprint
-TP301,/Block Diagram/Lamp driver/VBS,Default,60.0000,29.8000,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP302,/Block Diagram/Lamp driver/DRV_OUT,Default,58.4000,28.6000,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP303,/Block Diagram/Lamp driver/Lamp_EN,Default,59.5000,38.2500,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP304,/Block Diagram/Lamp driver/DRV_RET,Default,53.2500,29.2500,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP305,/Block Diagram/SH0,Default,53.2500,38.7500,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP306,/Block Diagram/Lamp driver/Um_Col,Default,7.5000,23.0000,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP307,/Block Diagram/Lamp driver/Um_Lmp,Default,50.2500,44.7500,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP308,/Block Diagram/Lamp driver/LAMP_P,"1000V,P,Default",76.2500,103.0000,top,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP309,/Block Diagram/Lamp driver/TP_REF,"500V,T,Default",81.2500,88.2500,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP310,/Block Diagram/Lamp driver/TP_PRI,"500V,T,Default",92.0000,88.5000,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP311,/Block Diagram/Lamp driver/LAMP_N,"1000V,N,Default",17.0000,6.5000,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP312,/Block Diagram/Lamp driver/Im_Pulse,Default,51.5000,42.2500,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP313,/Block Diagram/SH0,Default,44.2500,31.5000,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP401,/Block Diagram/Signal conditioning/Free_OUT,Default,19.5000,27.7500,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP501,/Block Diagram/MCU/U_SH1000_buf,Default,33.0000,55.0000,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP502,/Block Diagram/MCU/U_SH240_buf,Default,36.2500,55.0000,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP503,/Block Diagram/MCU/I_SH240,Default,29.0000,42.0000,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP504,/Block Diagram/MCU/I_SH1000,Default,27.2500,40.7500,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP505,/Block Diagram/MCU/U_L_buf,Default,29.0000,39.5000,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP506,Net-(U501-PB0),Default,25.7500,35.2500,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP507,/Block Diagram/MCU/I_P_buf,Default,29.7500,36.2500,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP508,Net-(U501-PB3),Default,12.5000,41.5000,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP509,/Block Diagram/MCU/U_C_buf,Default,29.7500,33.5000,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP510,Net-(U501-PB4),Default,12.5000,43.7500,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP511,Net-(U501-PA7),Default,27.0000,33.5000,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP512,Net-(U501-PB5),Default,12.5000,46.0000,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP513,/Block Diagram/Vbus_ctrl,Default,22.7500,40.0000,top,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP514,/Block Diagram/Light_sns,Default,11.0000,33.5000,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP515,/Block Diagram/MCU/INT_EN,Default,14.0000,34.5000,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP516,Net-(U501-PA12),Default,11.0000,35.7500,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP517,Net-(U501-PA15),Default,12.5000,39.2500,bottom,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP301,/Block Diagram/Lamp driver/VBS,Default,60.0000,29.8000,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP302,/Block Diagram/Lamp driver/DRV_OUT,Default,58.4000,28.6000,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP303,/Block Diagram/Lamp driver/Lamp_EN,Default,59.5000,38.2500,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP304,/Block Diagram/Lamp driver/DRV_RET,Default,53.2500,29.2500,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP305,/Block Diagram/SH0,Default,53.2500,38.7500,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP306,/Block Diagram/Lamp driver/Um_Col,Default,7.5000,23.0000,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP307,/Block Diagram/Lamp driver/Um_Lmp,Default,50.2500,44.7500,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP308,/Block Diagram/Lamp driver/LAMP_P,"1000V,P,Default",76.2500,103.0000,top,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP309,/Block Diagram/Lamp driver/TP_REF,"500V,T,Default",81.2500,88.2500,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP310,/Block Diagram/Lamp driver/TP_PRI,"500V,T,Default",92.0000,88.5000,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP311,/Block Diagram/Lamp driver/LAMP_N,"1000V,N,Default",17.0000,6.5000,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP312,/Block Diagram/Lamp driver/Im_Pulse,Default,51.5000,42.2500,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP313,/Block Diagram/SH0,Default,44.2500,31.5000,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP401,/Block Diagram/Signal conditioning/Free_OUT,Default,19.5000,27.7500,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP501,/Block Diagram/MCU/U_SH1000_buf,Default,33.0000,55.0000,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP502,/Block Diagram/MCU/U_SH240_buf,Default,36.2500,55.0000,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP503,/Block Diagram/MCU/I_SH240,Default,29.0000,42.0000,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP504,/Block Diagram/MCU/I_SH1000,Default,27.2500,40.7500,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP505,/Block Diagram/MCU/U_L_buf,Default,29.0000,39.5000,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP506,Net-(U501-PB0),Default,25.7500,35.2500,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP507,/Block Diagram/MCU/I_P_buf,Default,29.7500,36.2500,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP508,Net-(U501-PB3),Default,12.5000,41.5000,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP509,/Block Diagram/MCU/U_C_buf,Default,29.7500,33.5000,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP510,Net-(U501-PB4),Default,12.5000,43.7500,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP511,Net-(U501-PA7),Default,27.0000,33.5000,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP512,Net-(U501-PB5),Default,12.5000,46.0000,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP513,/Block Diagram/Vbus_ctrl,Default,22.7500,40.0000,top,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP514,/Block Diagram/Light_sns,Default,11.0000,33.5000,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP515,/Block Diagram/MCU/INT_EN,Default,14.0000,34.5000,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP516,Net-(U501-PA12),Default,11.0000,35.7500,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP517,Net-(U501-PA15),Default,12.5000,39.2500,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm

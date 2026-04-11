@@ -66,18 +66,18 @@
 	COPPER TO HOLE		0.300 mm
 	COPPER TO EDGE		0.500 mm
 	HOLE TO HOLE			0.250 mm</textvar>
-    <textvar name="GIT_HASH_PCB">12733c5</textvar>
+    <textvar name="GIT_HASH_PCB">a7b8ec5</textvar>
     <textvar name="GIT_HASH_SCH">b31b0a6</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_main</textvar>
     <textvar name="PROJECT_NAME">1 kV strobe</textvar>
-    <textvar name="RELEASE_BODY_1.0.0"/>
+    <textvar name="RELEASE_BODY_1.0.0">Version 1.0.0 not found.</textvar>
     <textvar name="RELEASE_BODY_1.0.1"/>
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_DATE">11-Apr-2026</textvar>
     <textvar name="RELEASE_DATE_NUM">2026-04-11</textvar>
-    <textvar name="RELEASE_TITLE_1.0.0"/>
+    <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
@@ -123,7 +123,7 @@
     <textvar name="SHEET_NAME_7">MCU</textvar>
     <textvar name="SHEET_NAME_8">Optical isolation</textvar>
     <textvar name="SHEET_NAME_9">Revision History</textvar>
-    <textvar name="VARIANT">PRELIMINARY</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>${SHEETNAME}</title>
@@ -1928,14 +1928,14 @@
     </comp>
     <comp ref="PS101">
       <value>HLK-5M24</value>
-      <footprint>Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx</footprint>
+      <footprint>Personal:Hilink_no_courtyard</footprint>
       <datasheet>http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%975W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%915W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf</datasheet>
       <description>Compact AC/DC board mount power module 5W, 24V 0.208A</description>
       <fields>
         <field name="Config"/>
         <field name="Manufacturer">Hilink</field>
         <field name="Manufacturer Part Number">HLK-5M24</field>
-        <field name="Footprint">Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx</field>
+        <field name="Footprint">Personal:Hilink_no_courtyard</field>
         <field name="Datasheet">http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%975W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%915W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf</field>
         <field name="Description">Compact AC/DC board mount power module 5W, 24V 0.208A</field>
       </fields>
@@ -2475,14 +2475,14 @@
     </comp>
     <comp ref="PS201">
       <value>HLK-5M05</value>
-      <footprint>Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx</footprint>
+      <footprint>Personal:Hilink_no_courtyard</footprint>
       <datasheet>http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%975W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%915W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf</datasheet>
       <description>Compact AC/DC board mount power module 5W, 5V 1A</description>
       <fields>
         <field name="Config"/>
         <field name="Manufacturer">Hilink</field>
         <field name="Manufacturer Part Number">HLK-5M05</field>
-        <field name="Footprint">Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx</field>
+        <field name="Footprint">Personal:Hilink_no_courtyard</field>
         <field name="Datasheet">http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%975W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%915W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf</field>
         <field name="Description">Compact AC/DC board mount power module 5W, 5V 1A</field>
       </fields>
@@ -3178,12 +3178,12 @@
     </comp>
     <comp ref="J301">
       <value>10146581-060_M</value>
-      <footprint>Personal:Amphenol_Minitek_10146581-060_mod</footprint>
+      <footprint>Personal:Amphenol_Minitek_10146581-060_mod_0</footprint>
       <fields>
         <field name="Config"/>
         <field name="Manufacturer">Amphenol</field>
         <field name="Manufacturer Part Number">10146581-060</field>
-        <field name="Footprint">Personal:Amphenol_Minitek_10146581-060_mod</field>
+        <field name="Footprint">Personal:Amphenol_Minitek_10146581-060_mod_0</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3253,12 +3253,12 @@
     </comp>
     <comp ref="J304">
       <value>10146581-060_M</value>
-      <footprint>Personal:Amphenol_Minitek_10146581-060_mod</footprint>
+      <footprint>Personal:Amphenol_Minitek_10146581-060_mod_0</footprint>
       <fields>
         <field name="Config"/>
         <field name="Manufacturer">Amphenol</field>
         <field name="Manufacturer Part Number">10146581-060</field>
-        <field name="Footprint">Personal:Amphenol_Minitek_10146581-060_mod</field>
+        <field name="Footprint">Personal:Amphenol_Minitek_10146581-060_mod_0</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4392,14 +4392,14 @@
     </comp>
     <comp ref="Q301">
       <value>MPF3N150</value>
-      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <footprint>Personal:To-220_staggered_2</footprint>
       <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BUZ11.pdf</datasheet>
       <description>30A Id, 50V Vds, N-Channel Power MOSFET, TO-220</description>
       <fields>
         <field name="Config"/>
         <field name="Manufacturer">C42401746</field>
         <field name="Manufacturer Part Number">MPF3N150</field>
-        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Footprint">Personal:To-220_staggered_2</field>
         <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BUZ11.pdf</field>
         <field name="Description">30A Id, 50V Vds, N-Channel Power MOSFET, TO-220</field>
       </fields>
@@ -5320,7 +5320,7 @@
       <tstamps>8551a3f9-f7ff-45cd-8ef7-5dba3f1a652b</tstamps>
     </comp>
     <comp ref="R337">
-      <value>2R2</value>
+      <value>0</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>

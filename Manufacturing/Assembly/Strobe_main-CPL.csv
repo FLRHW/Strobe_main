@@ -55,10 +55,10 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "HS301","Heatsink","Heatsink_26_16_40",56.7500,10.5000,0.0000,top
 "HS302","Heatsink","Heatsink_26_16_40",32.7500,10.5000,0.0000,top
 "HS303","Heatsink","Heatsink_26_16_40",80.7500,10.5000,0.0000,top
-"J301","10146581-060_M","Amphenol_Minitek_10146581-060_mod",69.2500,101.5000,90.0000,top
+"J301","10146581-060_M","Amphenol_Minitek_10146581-060_mod_0",69.2500,101.5000,90.0000,top
 "J302","T44007","T44007",96.0000,48.5000,90.0000,top
 "J303","T44007","T44007",76.0000,48.5000,-90.0000,top
-"J304","10146581-060_M","Amphenol_Minitek_10146581-060_mod",100.0000,64.7500,90.0000,top
+"J304","10146581-060_M","Amphenol_Minitek_10146581-060_mod_0",100.0000,64.7500,90.0000,top
 "J305","T44007","T44007",76.0000,33.0000,-90.0000,top
 "J306","T44007","T44007",96.0000,33.0000,-90.0000,top
 "J501","HX JN1.27-2x5P ZZ H4.9","HX JN1.27-2x5P ZZ H4.9",13.2500,65.0000,-90.0000,top
@@ -67,10 +67,10 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "J801","Molex 430452427","Molex_Micro-Fit_3.0_43045-2412_2x12_P3.00mm_Vertical",67.0000,59.2500,90.0000,top
 "J901","Header","PinHeader_1x03_P2.54mm_Vertical",7.7500,36.2500,0.0000,top
 "J1001","Header","PinHeader_1x03_P2.54mm_Vertical",13.2380,72.5000,-90.0000,top
-"PS101","HLK-5M24","Converter_ACDC_Hi-Link_HLK-5Mxx",42.9330,65.3080,180.0000,top
-"PS201","HLK-5M05","Converter_ACDC_Hi-Link_HLK-5Mxx",42.9880,91.6620,180.0000,top
+"PS101","HLK-5M24","Hilink_no_courtyard",42.9330,65.3080,180.0000,top
+"PS201","HLK-5M05","Hilink_no_courtyard",42.9880,91.6620,180.0000,top
 "PT301","ZS1052-S_HT","ZS1052-S_HT",94.4500,72.2500,0.0000,top
-"Q301","MPF3N150","TO-220-3_Vertical",99.4992,90.5556,180.0000,top
+"Q301","MPF3N150","To-220_staggered_2",99.4992,90.5556,180.0000,top
 "Q302","IXYH55N120","TO-247_small_p1",80.0000,62.8000,90.0000,top
 "Q303","IXYH55N120","TO-247_mixed_pads_vert",80.7500,13.7500,180.0000,top
 "Q304","IXYH55N120","TO-247_mixed_pads_vert",32.7500,13.7500,180.0000,top
@@ -109,9 +109,9 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "R334","33R","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",32.2500,23.7500,0.0000,top
 "R335","33R","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",80.2500,23.7500,0.0000,top
 "R336","10R","R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",75.5000,62.7500,90.0000,bottom
-"R337","2R2","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",55.0000,28.0000,90.0000,bottom
-"R338","WSR3R0200FEA","R_Shunt_Vishay_WSR2_WSR3_KelvinConnection",64.5000,32.0000,90.0000,bottom
-"R339","WSR3R0200FEA","R_Shunt_Vishay_WSR2_WSR3_KelvinConnection",75.7500,31.0000,90.0000,bottom
+"R337","0","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",55.0000,28.0000,90.0000,bottom
+"R338","20m","R_Shunt_Vishay_WSR2_WSR3_KelvinConnection",64.5000,32.0000,90.0000,bottom
+"R339","20m","R_Shunt_Vishay_WSR2_WSR3_KelvinConnection",75.7500,31.0000,90.0000,bottom
 "R401","10k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",49.0000,35.2500,90.0000,bottom
 "R402","10k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",47.5000,35.2500,90.0000,bottom
 "R403","10k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",19.2500,25.0000,90.0000,bottom
