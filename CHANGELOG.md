@@ -2,7 +2,7 @@
 
 ## [Unreleased]
 
-To do:
+Documentation of issues / to do list:
 - decrease impedance of Ipeak measurement divider, remove buffer and feed signal directly to MCU
 - rework gate drive resistors
 - rework power input (use DCDC modules instead of ACDC; do not use linear for large Vdrop)
