@@ -4,6 +4,7 @@
 
 To do:
 - decrease impedance of Ipeak measurement divider, remove buffer and feed signal directly to MCU
+- rework gate drive resistors
 - rework power input (use DCDC modules instead of ACDC; do not use linear for large Vdrop)
 - increase testpoints hole diameters; add extra "GND testpoints"
 - add reset pull up
@@ -11,6 +12,7 @@ To do:
 - increase R323, R328, R329 (total ~ 1 Meg)
 - increase R330 and R331 (total 220 k)
 - add 100 k in parallel to D303
+- add mlcc to rst line
 
 ## [1.0.0] - 2026-04-11
 

@@ -77,6 +77,17 @@ Any reference to third‑party marks is purely descriptive and does not imply en
 * Users are responsible for checking any patent, copyright, or regulatory constraints that may apply to their own use
 
 
+## Known issues / improvement potentials
+- Gate drive circuit needs rework. D306-D308 are useless as the turn-off does not need to be sped up. R337 package is too small should anything other than a 0 Ohm link be used (in terms of power dissipation)
+- There is no capacitor decoupling the MCU reset line, which is sensitive and causes unwanted resets
+- Pulse transformer driver cannot achieve 200 Hz. Change R324-R327 to total ~100 k for that path, change R323, R328, R329 to total ~ 1 Meg, change R330 and R331 to total ~220 k and add 100 k in parallel to D303
+- Ipeak measurement path cuttof frequency is too low. Potentially remove the buffer and feed the signal directly to MCU
+- Power distribution architecture could be improved. The power dissipation on the 3.3 V linear regulator is inconveniently high. Besides replacing that by a SMPS, the AC mains feed and accompanying ACDC converters could be replaced by a low voltage DC feed and DCDC converters.
+- Heatsinks were placed only as "insurance policy". While a proper power loss calculation has not yet been carried out, testing revealed no heating of the IGBTs whatsoever
+- Test points holes are too small for oscilloscope probes. Additional GND test points would also be beneficial
+
+
+
 ***
 
 ## DIRECTORY STRUCTURE
