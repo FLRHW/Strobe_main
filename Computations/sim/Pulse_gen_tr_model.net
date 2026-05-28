@@ -1,0 +1,29 @@
+* Z:\mnt\data\01_Engineering\01_Projects\12_1_kV_strobe_v2\01_Strobe_main\Computations\sim\Pulse_gen_tr_model.asc
+V1 bus 0 PULSE(400 1000 0 1 1u 1m 1.1)
+R1 bus drain 100k
+C1 Cap 0 47n
+S1 0 N003 trig 0 MYSW
+V2 trig 0 PULSE(-1 1 2u 1u 1u 9u 5m)
+M1 drain N001 Cap Cap STW11NM80
+D1 0 N004 KDZLV150
+D2 N004 ref KDZLV150
+C2 ref 0 47n
+R2 N001 ref 200k
+D3 Cap N001 MMBZ24VALY
+R3 ref bus 990k
+R4 N001 Cap 100k
+L1 N003 Cap 20µ Rser=0.32
+L2 N003 HV 18m Rser=220
+R5 HV 0 1Meg
+D4 N002 Cap VS-E5TH1512
+R6 N003 N002 1
+.model D D
+.lib C:\users\f\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\users\f\Documents\LTspiceXVII\lib\cmp\standard.mos
+.model MYSW SW()
+.tran 30u
+K1 L1 L2 0.9
+.backanno
+.end

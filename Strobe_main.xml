@@ -66,25 +66,25 @@
 	COPPER TO HOLE		0.300 mm
 	COPPER TO EDGE		0.500 mm
 	HOLE TO HOLE			0.250 mm</textvar>
-    <textvar name="GIT_HASH_PCB">876b77c</textvar>
-    <textvar name="GIT_HASH_SCH">876b77c</textvar>
+    <textvar name="GIT_HASH_PCB">01a0afa</textvar>
+    <textvar name="GIT_HASH_SCH">b31b0a6</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_main</textvar>
     <textvar name="PROJECT_NAME">1 kV strobe</textvar>
     <textvar name="RELEASE_BODY_1.0.0">___________________________________
 
 Migrated existing project to template (KDT)</textvar>
-    <textvar name="RELEASE_BODY_1.0.1"/>
+    <textvar name="RELEASE_BODY_1.0.1">Version 1.0.1 not found.</textvar>
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">11-Apr-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-04-11</textvar>
+    <textvar name="RELEASE_DATE">28-May-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-05-28</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-04-11</textvar>
-    <textvar name="RELEASE_TITLE_1.0.1"/>
+    <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">1.0.0</textvar>
+    <textvar name="REVISION">1.0.0+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">......................................</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
@@ -125,12 +125,12 @@ Migrated existing project to template (KDT)</textvar>
     <textvar name="SHEET_NAME_7">MCU</textvar>
     <textvar name="SHEET_NAME_8">Optical isolation</textvar>
     <textvar name="SHEET_NAME_9">Revision History</textvar>
-    <textvar name="VARIANT">RELEASED</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>${SHEETNAME}</title>
         <company>ChurrasCod Electronics</company>
-        <rev>1.0.0</rev>
+        <rev>1.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Strobe_main.kicad_sch</source>
         <comment number="1" value=""/>
@@ -148,7 +148,7 @@ Migrated existing project to template (KDT)</textvar>
       <title_block>
         <title>${SHEETNAME}</title>
         <company>ChurrasCod Electronics</company>
-        <rev>1.0.0</rev>
+        <rev>1.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
         <comment number="1" value=""/>
@@ -274,7 +274,7 @@ Migrated existing project to template (KDT)</textvar>
       <title_block>
         <title>${SHEETNAME}</title>
         <company>ChurrasCod Electronics</company>
-        <rev>1.0.0</rev>
+        <rev>1.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
