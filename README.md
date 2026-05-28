@@ -11,7 +11,7 @@
 </p>
 
 <p align="center" width="100%">
-    <img src="Images/dummy_image.png">
+    <img src="Images/top.jpg">
 </p>
 
 ***
@@ -35,26 +35,29 @@ So that's what this repo contains: a Xenon-based strobe light, aiming to drive a
 
 
 ## Project overview
-This repository contains KiCad v9 design files and STM32 source code for the main board of a Xenon-based strobe light system.
-The system is divided into three separate boards:
+This repository contains KiCad v9 design files for the main board of a Xenon-based strobe light system.
+The system is divided into three separate modules:
 - HMI - so the user can set desired operating conditions (bus voltage, pulse width and pulse frequency)
 - Main board - drives the Xenon bulb, generating the trigger pulse and actively interrupting the discharge according to the required pulse width
 - Power supply - to produce an adjustable DC supply. To realise that I intend to eventually design an AC-mains powered converter, including a PFC circuit. As an interim solution, off-the-shelf boost converter modules are used: two such modules are connected in series, each providing up to 450 V output while supplied by 12 V batteries.
-
-Working prototypes exist for both the HMI and main board. This repository covers only the main board and the HMI board will soon be available on its onw repo.
 
 As a side project, the boost modules have been reverse engineered with the aim to modify them from non-isolated to isolated. This work is covered under the following repos:
 - https://github.com/FLRHW/StepUp_module_12to450V
 - https://github.com/FLRHW/Isolated_12to450V.
 
+The STM32 source code for the main board is kept on a separate repository:
+https://github.com/FLRHW/Strobe_main_source
+
+HMI board is also covered on a separate repository:
+https://github.com/FLRHW/Strobe_HMI
+
+
 ## Design targets
 DC bus voltage: 400 V to 1000 V  
-Flash rate: 0.1 Hz to 100 Hz  
+Flash rate: 0.1 Hz to 200 Hz  
 Pulse duration: 20 μs to 10 ms  
 
-Please note that extremes are not simultaneously achievable. This design relies on storing energy on a capacitor bank to then discharge it into the bulb, hence some time must be reserved for storing that energy. The pulse duration is currently limited in SW to 50 % of the period as a safeguard, but for practical use it must be a much lower percentage.
-
-Also, the output capacitors currently in use are not large enough to reach 10 ms pulse duration - at least not at high output voltages as the bulb current seems to increase non linearly with the bus voltage.
+Please note that the above parameters are only the limits encoded in SW. This design relies on storing energy on a capacitor bank to then discharge it into the bulb, so, even though the SW currently limits the pulse duration to 50 % of the period, long period durations might be unachievable. The duration strongly depends on on the lamp used, capacitor bank and bus voltage. As an example, with the XOP-15 and a 400 uF bank charged at 700 V, the discharge current reaches 450 A and the bank voltage collapses in less than 1 ms. Additionally, the HV power supply and current limiting resistor bank will determine how fast the capacitor bank is recharged, limiting the flash rate x pulse duration.
 
 ## Intended use
 This repository is intended for:
