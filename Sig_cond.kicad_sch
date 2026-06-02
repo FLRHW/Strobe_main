@@ -1282,21 +1282,8 @@
 		)
 	)
 	(rectangle
-		(start 13.97 87.63)
-		(end 218.44 153.67)
-		(stroke
-			(width 0.254)
-			(type dash)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4618e97d-f8cc-4102-aef8-e0462360f1d8)
-	)
-	(rectangle
 		(start 13.97 13.97)
-		(end 55.88 85.09)
+		(end 55.88 50.8)
 		(stroke
 			(width 0.508)
 			(type dash)
@@ -1333,20 +1320,6 @@
 			(justify left top)
 		)
 		(uuid "79d3d14c-0265-4bf4-8ad0-519bb4da2e9a")
-	)
-	(text "PFC VOLTAGES & CURRENTS"
-		(exclude_from_sim no)
-		(at 15.24 89.535 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-				(thickness 0.4064)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "8e2ea340-96cc-4a3f-bf2d-63a93d976ec2")
 	)
 	(text "BLOCK INTERFACE"
 		(exclude_from_sim no)
@@ -1423,70 +1396,10 @@
 		(uuid "44de588b-8c4a-4032-8e45-82a40d30bef1")
 	)
 	(junction
-		(at 165.1 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d1b6550-bfe3-4d9b-8e74-602646833361")
-	)
-	(junction
-		(at 146.05 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74ea42d0-f1d1-48fd-a005-6143fbdec90b")
-	)
-	(junction
-		(at 193.04 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7944bc5c-b326-4921-ae1e-109fb093790b")
-	)
-	(junction
-		(at 193.04 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86aca67b-bcbb-4d15-92c2-7bb67f700d97")
-	)
-	(junction
-		(at 147.32 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8dbbb953-cbee-40d7-b2fe-6816dd3d145e")
-	)
-	(junction
-		(at 167.64 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e24b8a1-b238-4350-9ba3-8f002bdc8411")
-	)
-	(junction
 		(at 105.41 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bac3c14-8047-4a86-8b47-1c0eaa9973b0")
-	)
-	(junction
-		(at 76.2 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af0f7983-64cc-403d-a9c9-11bc254d41e6")
-	)
-	(junction
-		(at 162.56 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc27cb02-1374-4fea-b5f8-0322c10423d5")
-	)
-	(junction
-		(at 91.44 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfd5606e-c9ee-48eb-9142-78730a5c3f6f")
-	)
-	(junction
-		(at 93.98 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddb7cbdc-1785-4fc3-8ee3-1be5b44eaf41")
 	)
 	(junction
 		(at 171.45 36.83)
@@ -1500,18 +1413,6 @@
 		(color 0 0 0 0)
 		(uuid "eaae5f2a-d65d-4bcb-8c93-57c39388a3d3")
 	)
-	(no_connect
-		(at 80.01 104.14)
-		(uuid "1161667b-cfe6-484e-86c8-00f8d55bb0af")
-	)
-	(no_connect
-		(at 95.25 106.68)
-		(uuid "1dd89453-eef0-4168-805d-9a5c3eef1182")
-	)
-	(no_connect
-		(at 80.01 109.22)
-		(uuid "c8831e0a-0204-4e92-9ba2-cf6362509f8e")
-	)
 	(wire
 		(pts
 			(xy 78.74 25.4) (xy 78.74 26.67)
@@ -1524,16 +1425,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 104.14) (xy 151.13 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0939d630-80e3-48cd-9a1a-6a6895343dac")
-	)
-	(wire
-		(pts
 			(xy 78.74 58.42) (xy 81.28 58.42)
 		)
 		(stroke
@@ -1541,16 +1432,6 @@
 			(type default)
 		)
 		(uuid "0be1af6b-bc1e-4a15-9efc-1f7beb384462")
-	)
-	(wire
-		(pts
-			(xy 74.93 133.35) (xy 76.2 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ec92d65-89e3-4aa7-9577-7cc27d262194")
 	)
 	(wire
 		(pts
@@ -1574,16 +1455,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 133.35) (xy 180.34 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13aabd40-5c97-47b3-be75-1b080b0d118b")
-	)
-	(wire
-		(pts
 			(xy 170.18 36.83) (xy 171.45 36.83)
 		)
 		(stroke
@@ -1591,26 +1462,6 @@
 			(type default)
 		)
 		(uuid "18b1722f-0e37-4bbb-8815-3472f860f96f")
-	)
-	(wire
-		(pts
-			(xy 149.86 109.22) (xy 149.86 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18e83407-0dfb-4469-933a-a763523587c2")
-	)
-	(wire
-		(pts
-			(xy 157.48 124.46) (xy 157.48 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a70e114-6713-4644-8795-1611cc2a435f")
 	)
 	(wire
 		(pts
@@ -1624,16 +1475,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 60.96) (xy 48.26 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2045d5d7-f4f8-4bb4-ab9a-f2101cd4384e")
-	)
-	(wire
-		(pts
 			(xy 162.56 74.93) (xy 162.56 78.74)
 		)
 		(stroke
@@ -1641,56 +1482,6 @@
 			(type default)
 		)
 		(uuid "21ac24b4-f89f-49d2-b86d-6fba8147734e")
-	)
-	(wire
-		(pts
-			(xy 30.48 53.34) (xy 48.26 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21d03522-9fda-46ef-af1d-233b1af16603")
-	)
-	(wire
-		(pts
-			(xy 147.32 133.35) (xy 147.32 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "244c2372-5279-4063-a589-1a7c5069cdff")
-	)
-	(wire
-		(pts
-			(xy 30.48 40.64) (xy 48.26 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25d9be39-3b52-447f-b938-13f1fec2fe27")
-	)
-	(wire
-		(pts
-			(xy 190.5 97.79) (xy 190.5 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2600afe6-c923-4c51-ba9c-d59ee0ffeb0d")
-	)
-	(wire
-		(pts
-			(xy 76.2 142.24) (xy 76.2 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "265f5a4f-0cb7-4452-b87e-8015b1c27fde")
 	)
 	(wire
 		(pts
@@ -1704,27 +1495,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 106.68) (xy 180.34 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "298805dc-b7a6-4461-bd0e-7545479a4219")
-	)
-	(wire
-		(pts
-			(xy 204.47 99.06) (xy 193.04 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a667a34-5531-464f-a381-64a85bb56828")
-	)
-	(wire
-		(pts
-			(xy 30.48 50.8) (xy 48.26 50.8)
+			(xy 30.48 40.64) (xy 48.26 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1741,16 +1512,6 @@
 			(type default)
 		)
 		(uuid "2cc985cc-56d2-42c9-a8e6-65dc5576a034")
-	)
-	(wire
-		(pts
-			(xy 162.56 133.35) (xy 165.1 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d5c0680-bfb5-4ddb-a3f0-4411f846f73a")
 	)
 	(wire
 		(pts
@@ -1834,53 +1595,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 114.3) (xy 167.64 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "468f2aac-17be-4556-8ae8-f8aa39714e1c")
-	)
-	(wire
-		(pts
-			(xy 91.44 133.35) (xy 93.98 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a107d33-5b71-4ed9-a691-ffb129cb9ff4")
-	)
-	(wire
-		(pts
-			(xy 30.48 48.26) (xy 48.26 48.26)
+			(xy 30.48 38.1) (xy 48.26 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4b260a57-80a7-439d-add9-2908e2131174")
-	)
-	(wire
-		(pts
-			(xy 86.36 140.97) (xy 86.36 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51940ba4-2cfa-4c65-b586-d82472213e13")
-	)
-	(wire
-		(pts
-			(xy 147.32 142.24) (xy 147.32 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52387254-5205-4555-b8a7-882eb7f8d448")
 	)
 	(wire
 		(pts
@@ -1934,26 +1655,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 133.35) (xy 67.31 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56438bdb-4efa-403b-9b49-2d053818ea14")
-	)
-	(wire
-		(pts
-			(xy 140.97 95.25) (xy 140.97 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57626774-cc82-499d-af8e-394ebbb43a57")
-	)
-	(wire
-		(pts
 			(xy 87.63 39.37) (xy 87.63 44.45)
 		)
 		(stroke
@@ -1974,36 +1675,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 104.14) (xy 146.05 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68140d18-ff11-421d-b112-812b89a98d8d")
-	)
-	(wire
-		(pts
-			(xy 167.64 106.68) (xy 167.64 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a212206-61a6-4f8e-9877-9d8b8277e792")
-	)
-	(wire
-		(pts
-			(xy 146.05 133.35) (xy 147.32 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a5ca482-bb18-4afe-9c56-ffd3711f2f22")
-	)
-	(wire
-		(pts
 			(xy 144.78 41.91) (xy 144.78 45.72)
 		)
 		(stroke
@@ -2014,53 +1685,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 45.72) (xy 48.26 45.72)
+			(xy 30.48 35.56) (xy 48.26 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7ea31dfe-9e4c-4726-bb9e-6408bf82baf3")
-	)
-	(wire
-		(pts
-			(xy 76.2 133.35) (xy 76.2 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fc36cd5-55f1-4fa6-85bf-1ee9a790ccdd")
-	)
-	(wire
-		(pts
-			(xy 30.48 43.18) (xy 48.26 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82347fc8-5370-4b2a-8c89-c2734379ac63")
-	)
-	(wire
-		(pts
-			(xy 93.98 142.24) (xy 93.98 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "854ec17f-ba36-4d7b-ba7b-f1bd7d0ef3f0")
-	)
-	(wire
-		(pts
-			(xy 204.47 115.57) (xy 204.47 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "900ee196-c52b-4089-b093-e0f64f53083b")
 	)
 	(wire
 		(pts
@@ -2071,16 +1702,6 @@
 			(type default)
 		)
 		(uuid "92d2c87f-c4c6-49db-8fdc-95613e3b6ce1")
-	)
-	(wire
-		(pts
-			(xy 165.1 133.35) (xy 165.1 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96a95def-d212-4349-86ca-96d9fa39f50e")
 	)
 	(wire
 		(pts
@@ -2104,36 +1725,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 116.84) (xy 190.5 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f707844-1b61-4d6a-9b8f-f0d14dce6b5b")
-	)
-	(wire
-		(pts
-			(xy 86.36 124.46) (xy 86.36 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a18310cb-fa1c-4c30-a30e-be62ffaabab6")
-	)
-	(wire
-		(pts
-			(xy 193.04 116.84) (xy 204.47 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2eb67bd-33bc-4339-a1c5-7bb86cc445f4")
-	)
-	(wire
-		(pts
 			(xy 92.71 74.93) (xy 92.71 76.2)
 		)
 		(stroke
@@ -2151,16 +1742,6 @@
 			(type default)
 		)
 		(uuid "a7cfb5a9-2862-4bb6-b26a-e805d678067e")
-	)
-	(wire
-		(pts
-			(xy 30.48 35.56) (xy 48.26 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a82b85b4-cd5c-475d-9ce7-f35295618bf0")
 	)
 	(wire
 		(pts
@@ -2184,36 +1765,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 133.35) (xy 162.56 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adad01e3-050a-4aaa-bb18-dc7dcde7a588")
-	)
-	(wire
-		(pts
-			(xy 30.48 55.88) (xy 48.26 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3149b03-76a8-4f6a-9d8a-ce73b7b1aaca")
-	)
-	(wire
-		(pts
-			(xy 93.98 133.35) (xy 93.98 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b508c6c8-5e0d-4431-a3ff-85d3b18c913f")
-	)
-	(wire
-		(pts
 			(xy 78.74 57.15) (xy 78.74 58.42)
 		)
 		(stroke
@@ -2224,17 +1775,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 100.33) (xy 204.47 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b59a8e32-5f55-440e-8588-7cbb365cd6f1")
-	)
-	(wire
-		(pts
-			(xy 33.02 63.5) (xy 33.02 66.04)
+			(xy 33.02 43.18) (xy 33.02 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2264,16 +1805,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 111.76) (xy 140.97 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8a8a524-f240-4616-8b07-3ddf0365ac76")
-	)
-	(wire
-		(pts
 			(xy 121.92 67.31) (xy 132.08 67.31)
 		)
 		(stroke
@@ -2284,26 +1815,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 140.97) (xy 157.48 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bff0d12f-b571-46aa-974f-12a4d68455e8")
-	)
-	(wire
-		(pts
-			(xy 193.04 111.76) (xy 193.04 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c02484b7-bc4b-455a-9fe2-d8fd7dd3f60d")
-	)
-	(wire
-		(pts
 			(xy 81.28 58.42) (xy 81.28 63.5)
 		)
 		(stroke
@@ -2311,26 +1822,6 @@
 			(type default)
 		)
 		(uuid "c62f93fe-a7f0-404c-9593-329aac990b22")
-	)
-	(wire
-		(pts
-			(xy 190.5 99.06) (xy 193.04 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7305df5-4b6c-41ee-8dee-dcef11d2491a")
-	)
-	(wire
-		(pts
-			(xy 166.37 106.68) (xy 167.64 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9a32de0-f5fd-4a74-b8d7-984c26dc7453")
 	)
 	(wire
 		(pts
@@ -2354,16 +1845,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 133.35) (xy 91.44 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce2bc312-0bdb-494c-a753-4b4f12edd392")
-	)
-	(wire
-		(pts
 			(xy 140.97 67.31) (xy 140.97 68.58)
 		)
 		(stroke
@@ -2371,26 +1852,6 @@
 			(type default)
 		)
 		(uuid "d8172ce7-ba4f-450d-8622-ffe036c5001e")
-	)
-	(wire
-		(pts
-			(xy 30.48 58.42) (xy 48.26 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d92dc97b-24b2-4f2f-98ab-4ef7c7a7531b")
-	)
-	(wire
-		(pts
-			(xy 190.5 116.84) (xy 193.04 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df346793-5fdf-4bfe-b9b9-d547b129df68")
 	)
 	(wire
 		(pts
@@ -2404,26 +1865,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 133.35) (xy 138.43 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8bb46ea-b5d4-491b-bf54-60fa7bb47a72")
-	)
-	(wire
-		(pts
-			(xy 165.1 142.24) (xy 165.1 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec487111-c562-4e5a-a477-556a53e2b11f")
-	)
-	(wire
-		(pts
 			(xy 78.74 76.2) (xy 81.28 76.2)
 		)
 		(stroke
@@ -2434,17 +1875,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 109.22) (xy 151.13 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efd35825-68ff-470f-b47f-533462bf3345")
-	)
-	(wire
-		(pts
-			(xy 30.48 63.5) (xy 33.02 63.5)
+			(xy 30.48 43.18) (xy 33.02 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2484,26 +1915,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 133.35) (xy 111.76 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f993bfdb-8516-4cd3-9cef-741cbdce31e0")
-	)
-	(wire
-		(pts
-			(xy 193.04 99.06) (xy 193.04 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd56abcc-af53-4677-850b-d2a7aca1ab37")
-	)
-	(wire
-		(pts
 			(xy 139.7 67.31) (xy 140.97 67.31)
 		)
 		(stroke
@@ -2513,37 +1924,7 @@
 		(uuid "fd6277ae-a042-48b7-9802-e25adff1294d")
 	)
 	(label "SH0"
-		(at 140.97 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "17267247-3a13-41f0-81ab-ea9c0cc9347e")
-	)
-	(label "SH0"
-		(at 93.98 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "18b3772f-c881-4f3c-a00f-ed2ce5b32852")
-	)
-	(label "Im_S1k"
-		(at 127 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1c5f8116-dc7d-4a97-bf19-87a40c391dd6")
-	)
-	(label "SH0"
-		(at 33.02 66.04 0)
+		(at 33.02 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2562,48 +1943,8 @@
 		)
 		(uuid "2323a964-ba30-44a0-aa7e-60f89b36e55f")
 	)
-	(label "SH0"
-		(at 190.5 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "23f85e06-2787-4ca1-82f1-8ff446990e02")
-	)
-	(label "SH0"
-		(at 86.36 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "24f39a84-ea5d-4ed2-a579-7235e2e36363")
-	)
-	(label "I_SH240"
-		(at 111.76 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "271cfbfa-ea48-4792-a370-a51a6e485e9f")
-	)
-	(label "SH3"
-		(at 140.97 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "272ceb5e-adfb-4573-ad79-538cf66f5625")
-	)
 	(label "Mon_IL_prot"
-		(at 48.26 45.72 180)
+		(at 48.26 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2611,16 +1952,6 @@
 			(justify right bottom)
 		)
 		(uuid "2eecbbd1-bb22-47b9-bbf9-3b96975e941e")
-	)
-	(label "SH0"
-		(at 165.1 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3230e4ae-d50f-4218-931c-56cf6b87d632")
 	)
 	(label "Mon_LMP"
 		(at 48.26 33.02 180)
@@ -2643,26 +1974,6 @@
 		(uuid "3bcf42b3-6042-4703-b8ad-bbc301dff391")
 	)
 	(label "SH0"
-		(at 157.48 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f11699f-cb12-4d4e-94fe-805cf352298d")
-	)
-	(label "SH0"
-		(at 147.32 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4101ed7c-356c-42e3-946b-bc026b7c195f")
-	)
-	(label "SH0"
 		(at 140.97 78.74 0)
 		(effects
 			(font
@@ -2671,26 +1982,6 @@
 			(justify left bottom)
 		)
 		(uuid "4c2eb187-6ada-40f8-a813-703fbe08791e")
-	)
-	(label "SH3"
-		(at 190.5 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "561ad1da-424a-4659-a9bd-169f46ad2c92")
-	)
-	(label "U_SH240_buf"
-		(at 180.34 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "56fff6f7-9536-4080-b68a-b9282aceccab")
 	)
 	(label "SH0"
 		(at 162.56 78.74 0)
@@ -2703,7 +1994,7 @@
 		(uuid "5aa05f2e-d316-4fc8-87f9-3e7f9645ad23")
 	)
 	(label "Mon_LMP_buf"
-		(at 48.26 50.8 180)
+		(at 48.26 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2711,36 +2002,6 @@
 			(justify right bottom)
 		)
 		(uuid "5b4c61e4-418a-4a57-8995-4069b4b066c4")
-	)
-	(label "Um_SH240"
-		(at 48.26 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "64b2d2dd-1b79-4210-9064-4681ae73952f")
-	)
-	(label "SH3"
-		(at 157.48 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "68670646-150d-4acf-bc22-10da96e0d72b")
-	)
-	(label "SH3"
-		(at 86.36 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7260d178-b0ae-406a-bbd0-3912d256f089")
 	)
 	(label "Mon_S1k"
 		(at 48.26 30.48 180)
@@ -2753,7 +2014,7 @@
 		(uuid "736500e7-fa7c-4555-83cd-b8a6eb02b446")
 	)
 	(label "Mon_S1k_buf"
-		(at 48.26 48.26 180)
+		(at 48.26 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2761,16 +2022,6 @@
 			(justify right bottom)
 		)
 		(uuid "8596d495-b219-4a50-aef3-6e861aecded4")
-	)
-	(label "Um_SH240"
-		(at 127 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "87885eef-a03e-4cfa-9337-5c49e26d8c77")
 	)
 	(label "SH3"
 		(at 33.02 24.13 0)
@@ -2782,36 +2033,6 @@
 		)
 		(uuid "95bafdb2-4f19-4eeb-b80e-b5eb1390359d")
 	)
-	(label "U_S1k_buf"
-		(at 48.26 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "95c6c56d-6577-41e0-9469-e468926a3a46")
-	)
-	(label "SH0"
-		(at 76.2 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "994935cb-6587-4725-8436-4ed60bcf5bbe")
-	)
-	(label "Im_SH240"
-		(at 55.88 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c75bf14-12fb-4b52-97e9-024694f58299")
-	)
 	(label "Mon_LMP"
 		(at 64.77 34.29 0)
 		(effects
@@ -2821,36 +2042,6 @@
 			(justify left bottom)
 		)
 		(uuid "9e7bdab2-5c50-4d39-bca7-53b59e9fc81e")
-	)
-	(label "U_SH240_buf"
-		(at 48.26 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aa4e7efe-513c-41fe-ab10-df162d0b4f54")
-	)
-	(label "I_SH240"
-		(at 48.26 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "af01b365-4516-4c2c-8c65-e484d0890089")
-	)
-	(label "I_S1k"
-		(at 180.34 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b2e8d3da-4d07-4e09-b75c-cca9acc29da8")
 	)
 	(label "SH3"
 		(at 78.74 57.15 0)
@@ -2881,16 +2072,6 @@
 			(justify left bottom)
 		)
 		(uuid "bb9f5750-6f4c-473e-92c6-107d098e73bd")
-	)
-	(label "Im_SH240"
-		(at 48.26 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c7ad6c8e-ebd2-449a-9381-a4069cc5557a")
 	)
 	(label "Mon_IL_prot"
 		(at 182.88 67.31 180)
@@ -2942,16 +2123,6 @@
 		)
 		(uuid "decd2e27-8a8c-4ef4-a533-3e23445ba00a")
 	)
-	(label "I_S1k"
-		(at 48.26 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e2805c30-468c-419b-be5d-252e643cf23a")
-	)
 	(label "SH3"
 		(at 78.74 25.4 0)
 		(effects
@@ -2992,19 +2163,9 @@
 		)
 		(uuid "f4fb207b-b494-471d-84aa-81ac1d63cb02")
 	)
-	(label "Im_S1k"
-		(at 48.26 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ffdc72d8-e00a-424a-9a32-3ecdc0d1b301")
-	)
 	(hierarchical_label "Mon_IL_prot"
 		(shape output)
-		(at 30.48 45.72 180)
+		(at 30.48 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3026,7 +2187,7 @@
 	)
 	(hierarchical_label "Mon_S1k_buf"
 		(shape output)
-		(at 30.48 48.26 180)
+		(at 30.48 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3035,20 +2196,9 @@
 		)
 		(uuid "1ca09a63-6a8f-452a-9213-a3c558282bc7")
 	)
-	(hierarchical_label "I_SH240"
-		(shape output)
-		(at 30.48 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ad4dde7-70be-48e7-aa29-ba62a5806df4")
-	)
 	(hierarchical_label "SH0"
 		(shape bidirectional)
-		(at 30.48 63.5 180)
+		(at 30.48 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3068,17 +2218,6 @@
 		)
 		(uuid "7de1e7ea-e14e-4dcc-a5e5-75bf16399154")
 	)
-	(hierarchical_label "U_S1k_buf"
-		(shape output)
-		(at 30.48 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "89ada3b1-a7ee-43df-bdcc-3a8f6a01975b")
-	)
 	(hierarchical_label "SH3"
 		(shape input)
 		(at 30.48 25.4 180)
@@ -3089,28 +2228,6 @@
 			(justify right)
 		)
 		(uuid "9e5e358b-622a-4622-8b02-df38e824bf1b")
-	)
-	(hierarchical_label "Um_SH240"
-		(shape input)
-		(at 30.48 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a08aacff-f881-4495-a779-f94fc798b374")
-	)
-	(hierarchical_label "Im_SH240"
-		(shape input)
-		(at 30.48 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b86dd6b0-75fd-4cb6-a172-e834275e7ccf")
 	)
 	(hierarchical_label "Mon_LMP"
 		(shape input)
@@ -3125,7 +2242,7 @@
 	)
 	(hierarchical_label "Mon_LMP_buf"
 		(shape output)
-		(at 30.48 50.8 180)
+		(at 30.48 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3133,229 +2250,6 @@
 			(justify right)
 		)
 		(uuid "d54a75b2-d87c-4c82-919b-d9e99d5542b7")
-	)
-	(hierarchical_label "I_S1k"
-		(shape output)
-		(at 30.48 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "daf3329a-aebf-4129-89b3-5d03e049f98c")
-	)
-	(hierarchical_label "U_SH240_buf"
-		(shape output)
-		(at 30.48 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e38ff19c-4363-4992-a473-51020246bc76")
-	)
-	(hierarchical_label "Im_S1k"
-		(shape input)
-		(at 30.48 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e5edf0d1-337e-4e23-973d-813faf4d06fb")
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_OUT")
-		(at 48.26 40.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0356291d-2a72-4572-93ba-fb575ff3de49")
-		(property "Reference" "P452"
-			(at 48.26 41.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 52.07 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 48.26 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 48.26 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 48.26 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f565092d-520b-4e32-a407-a2745b45c3e5")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P452")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_OUT")
-		(at 180.34 133.35 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "067cd143-7647-4811-a543-8362325817ef")
-		(property "Reference" "P608"
-			(at 180.34 134.366 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 184.15 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 180.34 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 180.34 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 180.34 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "556ad429-8d9c-4ec3-bd55-0044d3bddd1f")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P608")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TSV912IDT")
@@ -3466,292 +2360,6 @@
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
 					(reference "U401")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_OUT")
-		(at 48.26 43.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a2e6c15-2141-4f82-9519-dbc6f06b656b")
-		(property "Reference" "P574"
-			(at 48.26 44.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 52.07 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 48.26 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 48.26 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 48.26 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b56797a2-4e04-442a-a135-bc578e885eae")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P574")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_GND")
-		(at 76.2 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ade825a-319b-4192-a87c-11fa74fbbaab")
-		(property "Reference" "P826"
-			(at 76.2 143.764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 78.74 145.9738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 76.2 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 76.2 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 76.2 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42238107-0693-4470-b7b1-0d78b3e757e3")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P826")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_PWR")
-		(at 190.5 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b6fbd1e-26e4-4198-8122-42addfcedcf6")
-		(property "Reference" "P593"
-			(at 190.5 92.456 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 193.04 95.5122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Local power symbol (sink), cosmetic use only"
-			(at 190.5 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 190.5 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 190.5 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 190.5 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9a42f84-8df8-4262-b064-26cad679151a")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P593")
-					(unit 1)
 				)
 			)
 		)
@@ -4334,213 +2942,6 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_IN")
-		(at 127 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "41ee98f6-e4fd-4306-b670-89d0b6ec9439")
-		(property "Reference" "P867"
-			(at 127.254 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 128.27 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 127 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 127 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 127 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d229f86-a5a1-4d58-b7ff-0d4768efd6d4")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P867")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TSV912IDT")
-		(at 87.63 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44834b69-0a64-4e9f-8830-a6e9a16e8281")
-		(property "Reference" "U403"
-			(at 87.63 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TSV912IDT"
-			(at 87.63 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 87.63 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "www.st.com/resource/en/datasheet/tsv911.pdf"
-			(at 87.63 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual rail-to-rail input/output 8 MHz operational amplifiers, SOIC-8"
-			(at 87.63 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 87.63 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ST"
-			(at 87.63 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "TSV912IDT"
-			(at 87.63 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "2f6fc0e9-fe75-4449-ae5b-3027b8153aee")
-		)
-		(pin "3"
-			(uuid "45fbaebc-31bb-4f8e-b3cc-2d754d2690be")
-		)
-		(pin "2"
-			(uuid "5d1230f4-ef99-4af2-981d-ced7d0153b4c")
-		)
-		(pin "1"
-			(uuid "d2fa7700-acd7-4d3c-90ab-4aa8ba4ce404")
-		)
-		(pin "5"
-			(uuid "eea93925-39bc-4847-8767-4c7fb2bf231f")
-		)
-		(pin "7"
-			(uuid "d17ffe13-0c7c-45fd-b520-ae30b95c50c4")
-		)
-		(pin "8"
-			(uuid "8cd27bd2-d23a-4ea5-a02e-d05eac37d2d9")
-		)
-		(pin "4"
-			(uuid "2d9fad90-5ab9-43c7-b0a6-ff9e6bbe4e58")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "U403")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_IN")
 		(at 121.92 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4635,7 +3036,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_GND")
-		(at 33.02 66.04 0)
+		(at 33.02 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4644,7 +3045,7 @@
 		(fields_autoplaced yes)
 		(uuid "48f5e855-391b-413f-a93a-ae6a511cb333")
 		(property "Reference" "P585"
-			(at 33.02 65.024 0)
+			(at 33.02 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4653,7 +3054,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 35.56 67.2338 0)
+			(at 35.56 46.9138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4663,7 +3064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 66.04 0)
+			(at 33.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4672,7 +3073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 66.04 0)
+			(at 33.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4681,7 +3082,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 66.04 0)
+			(at 33.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4690,7 +3091,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 33.02 66.04 0)
+			(at 33.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4699,7 +3100,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 33.02 66.04 0)
+			(at 33.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,7 +3109,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 33.02 66.04 0)
+			(at 33.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,292 +3338,6 @@
 		)
 	)
 	(symbol
-		(lib_id "personal:Cosmetic_OUT")
-		(at 48.26 35.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ad605c5-17d1-41ce-9bbc-7ae95fbb4796")
-		(property "Reference" "P450"
-			(at 48.26 36.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 52.07 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 48.26 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 48.26 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 48.26 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37854765-b1e7-4639-8b4a-b94aefa52fbb")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P450")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 93.98 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e82e5c9-08a1-4b9a-a856-81fafe2d9642")
-		(property "Reference" "C405"
-			(at 96.774 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 96.774 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 94.9452 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 93.98 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 93.98 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "CCTC"
-			(at 93.98 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "TCC0603X7R104K500CT"
-			(at 93.98 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2211eb7f-253d-41d1-9049-7bad7fda6fcd")
-		)
-		(pin "2"
-			(uuid "63b6bd65-27b2-492d-a437-01ac7cd95f48")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "C405")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_GND")
-		(at 165.1 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e8b97db-1168-4fb4-9f51-124f403db7dd")
-		(property "Reference" "P831"
-			(at 165.1 143.764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 167.64 145.9738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 165.1 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 165.1 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 165.1 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37c9c170-4d8f-43d2-bc47-11a015d11611")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P831")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:BAV99")
 		(at 78.74 34.29 90)
 		(unit 1)
@@ -5322,295 +3437,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAV99")
-		(at 157.48 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5746fd99-31f0-431b-b204-113960b8ce89")
-		(property "Reference" "D407"
-			(at 159.385 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BAV199"
-			(at 166.624 130.302 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 170.18 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
-			(at 157.48 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 157.48 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 157.48 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 157.48 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "BAV199LT1G"
-			(at 157.48 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc6a5220-19a4-400a-9a56-89e62bf0b7db")
-		)
-		(pin "2"
-			(uuid "778cc486-f008-474a-a378-075b7a90a8b9")
-		)
-		(pin "3"
-			(uuid "5fc4cf28-4c7b-419d-9dff-1e3fd9db6845")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "D407")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_GND")
-		(at 93.98 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "595a7fbc-ae21-46f3-807d-5b893635b66b")
-		(property "Reference" "P828"
-			(at 93.98 143.764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 96.52 145.9738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 93.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 93.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 93.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 93.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f721939b-e8bf-4756-9fb2-124dd9fcd9aa")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P828")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_GND")
-		(at 147.32 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5cd127dd-7f17-4cd2-af08-073c1581b198")
-		(property "Reference" "P829"
-			(at 147.32 143.764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 149.86 145.9738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 147.32 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 147.32 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 147.32 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "728aea6b-5a7b-40d0-a8ba-bdeec883ec06")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P829")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 151.13 72.39 0)
 		(unit 1)
@@ -5701,200 +3527,6 @@
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
 					(reference "C402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_OUT")
-		(at 111.76 133.35 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f81b08e-be20-4b79-842a-411de6142416")
-		(property "Reference" "P606"
-			(at 111.76 134.366 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 115.57 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 111.76 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 111.76 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 111.76 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed67a8eb-1727-44f0-ae72-fab91ff15d8c")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P606")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAV99")
-		(at 86.36 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6263874b-9ca8-4459-94c7-3edaa0f215d5")
-		(property "Reference" "D406"
-			(at 88.265 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BAV199"
-			(at 95.504 130.302 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 99.06 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
-			(at 86.36 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 86.36 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 86.36 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 86.36 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "BAV199LT1G"
-			(at 86.36 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96d97970-ebf7-447e-a848-7c3a02cb4ea9")
-		)
-		(pin "2"
-			(uuid "c2149739-8276-4478-98be-e674f8bfd007")
-		)
-		(pin "3"
-			(uuid "d7bc54bb-c2a4-4cb0-b046-5e89a302eae4")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "D406")
 					(unit 1)
 				)
 			)
@@ -6091,290 +3723,6 @@
 		)
 	)
 	(symbol
-		(lib_id "personal:Cosmetic_GND")
-		(at 157.48 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c56b932-21d9-474d-9a31-4fe8c143ef8b")
-		(property "Reference" "P830"
-			(at 157.48 143.764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 160.02 145.9738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 157.48 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 157.48 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 157.48 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e60e5ae4-55da-4228-b8c4-40f2c39dd4ec")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P830")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_IN")
-		(at 127 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "711288bb-932b-4642-9e31-bb55bb1341f5")
-		(property "Reference" "P868"
-			(at 127.254 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 128.27 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 127 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 127 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 127 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e54e443f-966d-4b8a-ac8b-a972b172870f")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P868")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_IN")
-		(at 48.26 60.96 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "715d2159-d78e-4557-add1-599ca5d11781")
-		(property "Reference" "P878"
-			(at 48.006 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 46.99 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 48.26 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 48.26 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 48.26 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "329ab25b-3d8d-4dcb-8bcc-51e047008d28")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P878")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:BAV99")
 		(at 162.56 67.31 90)
 		(unit 1)
@@ -6468,197 +3816,6 @@
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
 					(reference "D401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 76.2 138.43 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "7609e36c-8c85-4e61-b303-67c7d6bf9a9b")
-		(property "Reference" "R406"
-			(at 78.74 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 78.74 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 77.978 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 76.2 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 76.2 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 76.2 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 76.2 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f13224f3-fff3-4e31-b505-ca3c2d9d6648")
-		)
-		(pin "1"
-			(uuid "bb780ba5-e376-4dd0-bd45-e35afc045a03")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "R406")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_IN")
-		(at 48.26 53.34 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "7ce9380f-3fd0-46d2-a11c-56564490125f")
-		(property "Reference" "P875"
-			(at 48.006 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 46.99 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c8f4eee-4aac-4921-9197-a97d117b70ae")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P875")
 					(unit 1)
 				)
 			)
@@ -7048,196 +4205,6 @@
 		)
 	)
 	(symbol
-		(lib_id "personal:Cosmetic_OUT")
-		(at 180.34 106.68 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90cf5762-fbad-43a7-8119-a18fb21be895")
-		(property "Reference" "P599"
-			(at 180.34 107.696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 184.15 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 180.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 180.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 180.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6858c7da-a0cf-4419-a684-6ecdd9235f4a")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P599")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_IN")
-		(at 48.26 58.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "91303cd1-40f8-4479-81fb-ea203d249329")
-		(property "Reference" "P877"
-			(at 48.006 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 46.99 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 48.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 48.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 48.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d33b9984-a6b3-47d6-9e91-2ab90ddf71a6")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P877")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "personal:Cosmetic_PWR")
 		(at 144.78 25.4 0)
 		(unit 1)
@@ -7328,101 +4295,6 @@
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
 					(reference "P583")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_GND")
-		(at 190.5 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ff377f2-7e65-4e13-a375-182d414bfff9")
-		(property "Reference" "P825"
-			(at 190.5 118.364 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 193.04 120.5738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 190.5 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 190.5 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 190.5 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad7e2fa8-c68d-475b-a40e-107097261773")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P825")
 					(unit 1)
 				)
 			)
@@ -7619,103 +4491,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 71.12 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5e96cbd-60a0-4feb-b85d-8802d4c36c0f")
-		(property "Reference" "R404"
-			(at 71.12 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 71.12 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 71.12 135.128 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 71.12 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 71.12 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Generic"
-			(at 71.12 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 71.12 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9dd08b8c-b751-43d3-ac34-96aa2582bece")
-		)
-		(pin "1"
-			(uuid "53e6531e-56ad-4c3b-9109-eeb6cf2d644d")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "R404")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "personal:Cosmetic_IN")
-		(at 48.26 48.26 0)
+		(at 48.26 38.1 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7724,7 +4501,7 @@
 		(dnp no)
 		(uuid "ab467266-54c7-42a7-9b8d-9e529b0c7606")
 		(property "Reference" "P873"
-			(at 48.006 46.99 0)
+			(at 48.006 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7733,7 +4510,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 46.99 48.26 0)
+			(at 46.99 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7743,7 +4520,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 48.26 0)
+			(at 48.26 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7752,7 +4529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 48.26 0)
+			(at 48.26 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7761,7 +4538,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 48.26 0)
+			(at 48.26 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7770,7 +4547,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 48.26 48.26 0)
+			(at 48.26 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7779,7 +4556,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 48.26 48.26 0)
+			(at 48.26 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7788,7 +4565,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 48.26 48.26 0)
+			(at 48.26 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7803,102 +4580,6 @@
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
 					(reference "P873")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_PWR")
-		(at 86.36 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aebb5c1e-87f4-40b7-a2d2-d6db4cca01b4")
-		(property "Reference" "P603"
-			(at 86.36 119.126 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 88.9 122.1822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Local power symbol (sink), cosmetic use only"
-			(at 86.36 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 86.36 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 86.36 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 86.36 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c07a9781-99e0-43b1-a7e2-0e2cb6e48fd8")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P603")
 					(unit 1)
 				)
 			)
@@ -8098,7 +4779,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_IN")
-		(at 48.26 50.8 0)
+		(at 48.26 40.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8107,7 +4788,7 @@
 		(dnp no)
 		(uuid "b5ab2239-95d7-4999-9ba9-2bd4ccfa9a62")
 		(property "Reference" "P874"
-			(at 48.006 49.53 0)
+			(at 48.006 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8116,7 +4797,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 46.99 50.8 0)
+			(at 46.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8126,7 +4807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 50.8 0)
+			(at 48.26 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8135,7 +4816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 50.8 0)
+			(at 48.26 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8144,7 +4825,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 50.8 0)
+			(at 48.26 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8153,7 +4834,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 48.26 50.8 0)
+			(at 48.26 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8162,7 +4843,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 48.26 50.8 0)
+			(at 48.26 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8171,7 +4852,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 48.26 50.8 0)
+			(at 48.26 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8186,214 +4867,6 @@
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
 					(reference "P874")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TSV912IDT")
-		(at 158.75 106.68 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b708ddc8-0d5d-4d18-8f70-8c7c64091aba")
-		(property "Reference" "U403"
-			(at 158.75 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TSV912IDT"
-			(at 158.75 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 158.75 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "www.st.com/resource/en/datasheet/tsv911.pdf"
-			(at 158.75 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual rail-to-rail input/output 8 MHz operational amplifiers, SOIC-8"
-			(at 158.75 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 158.75 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ST"
-			(at 158.75 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "TSV912IDT"
-			(at 158.75 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "3eec2200-a50c-4b37-ace2-4ff3172e9acb")
-		)
-		(pin "3"
-			(uuid "ce73b402-33ff-4f2b-8864-e995339504a1")
-		)
-		(pin "2"
-			(uuid "c26ebda8-d13b-4815-ba43-460be32acdd0")
-		)
-		(pin "1"
-			(uuid "5aca7125-43e9-46aa-a247-168b59451056")
-		)
-		(pin "5"
-			(uuid "3064985f-1297-455e-8210-ce4dfecc5011")
-		)
-		(pin "7"
-			(uuid "f86ccf71-3679-4900-b575-54d072ce82b8")
-		)
-		(pin "8"
-			(uuid "8cd27bd2-d23a-4ea5-a02e-d05eac37d2d7")
-		)
-		(pin "4"
-			(uuid "2d9fad90-5ab9-43c7-b0a6-ff9e6bbe4e56")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "U403")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_GND")
-		(at 86.36 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be1a6bbe-ca2a-4bc7-b686-84d99b2805e3")
-		(property "Reference" "P827"
-			(at 86.36 143.764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 88.9 145.9738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 86.36 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 86.36 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 86.36 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb341d70-6685-4a69-8b4c-2876d10ac08d")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P827")
 					(unit 1)
 				)
 			)
@@ -8488,102 +4961,6 @@
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
 					(reference "P871")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 147.32 138.43 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "c4b2f9de-bdbb-4e0a-b353-4016d54b9a48")
-		(property "Reference" "R407"
-			(at 149.86 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 149.86 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 149.098 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 147.32 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 147.32 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 147.32 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 147.32 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "961f770d-7714-4f05-b028-5643fa4f5ea6")
-		)
-		(pin "1"
-			(uuid "2535d326-9a5e-47bb-80c9-78501591854f")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "R407")
 					(unit 1)
 				)
 			)
@@ -8780,101 +5157,6 @@
 		)
 	)
 	(symbol
-		(lib_id "personal:Cosmetic_GND")
-		(at 140.97 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca84afd3-fde4-4b20-9bdd-cf11fb5a79de")
-		(property "Reference" "P824"
-			(at 140.97 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 143.51 116.7638 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 140.97 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 140.97 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 140.97 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 140.97 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6588a9d3-5b1f-4f50-8353-0cd9537ee481")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P824")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 135.89 67.31 90)
 		(unit 1)
@@ -8969,412 +5251,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TSV912IDT")
-		(at 207.01 107.95 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1f5a34a-4efd-4a06-9e36-05e9484cf878")
-		(property "Reference" "U403"
-			(at 205.74 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TSV912IDT"
-			(at 205.74 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 207.01 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "www.st.com/resource/en/datasheet/tsv911.pdf"
-			(at 207.01 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual rail-to-rail input/output 8 MHz operational amplifiers, SOIC-8"
-			(at 207.01 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 207.01 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ST"
-			(at 207.01 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "TSV912IDT"
-			(at 207.01 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "2f6fc0e9-fe75-4449-ae5b-3027b8153aed")
-		)
-		(pin "3"
-			(uuid "ce73b402-33ff-4f2b-8864-e995339504a2")
-		)
-		(pin "2"
-			(uuid "c26ebda8-d13b-4815-ba43-460be32acdd1")
-		)
-		(pin "1"
-			(uuid "5aca7125-43e9-46aa-a247-168b59451057")
-		)
-		(pin "5"
-			(uuid "eea93925-39bc-4847-8767-4c7fb2bf231e")
-		)
-		(pin "7"
-			(uuid "d17ffe13-0c7c-45fd-b520-ae30b95c50c3")
-		)
-		(pin "8"
-			(uuid "9541683b-926b-4e10-9e5b-68b441ec0dc2")
-		)
-		(pin "4"
-			(uuid "3fd5da82-c613-4608-9768-84e048e6aaf2")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "U403")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 165.1 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d28d9e78-19e4-4285-96f9-15da53d9180e")
-		(property "Reference" "C406"
-			(at 167.894 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 167.894 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 166.0652 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 165.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 165.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "CCTC"
-			(at 165.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "TCC0603X7R104K500CT"
-			(at 165.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09ec8db2-86bb-47d3-91e5-7b209299bb54")
-		)
-		(pin "2"
-			(uuid "6b0b5f09-7588-4fa3-8e54-5eb85b3f42c9")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "C406")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAV99")
-		(at 140.97 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dde33388-adb4-4fed-bc5a-356e2e409311")
-		(property "Reference" "D405"
-			(at 142.875 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BAV199"
-			(at 150.114 101.092 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 153.67 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
-			(at 140.97 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 140.97 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 140.97 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 140.97 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "BAV199LT1G"
-			(at 140.97 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "680c3e15-8c61-40b2-a7b5-cc3620593574")
-		)
-		(pin "2"
-			(uuid "e3fbbdb4-0937-4c46-b449-f80b5464efae")
-		)
-		(pin "3"
-			(uuid "b60e674e-4b9e-4066-9258-e892e1f36069")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "D405")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_PWR")
-		(at 157.48 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2540f45-012c-4c0e-a5bd-ba0e6447ef5b")
-		(property "Reference" "P604"
-			(at 157.48 119.126 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 160.02 122.1822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Local power symbol (sink), cosmetic use only"
-			(at 157.48 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 157.48 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 157.48 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 157.48 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45bb466e-bfc6-4c20-b1ed-4b351e53cf57")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P604")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "personal:Cosmetic_IN")
 		(at 130.81 34.29 0)
 		(unit 1)
@@ -9463,102 +5339,6 @@
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
 					(reference "P869")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 193.04 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1e45207-1f72-490a-b0ae-415d7dd12f2f")
-		(property "Reference" "C404"
-			(at 195.834 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 195.834 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 194.0052 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 193.04 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 193.04 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "CCTC"
-			(at 193.04 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "TCC0603X7R104K500CT"
-			(at 193.04 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e24853b-263e-4eab-b636-993dbfeb7658")
-		)
-		(pin "2"
-			(uuid "77fd8ffa-729f-4ded-8b72-abb31358410a")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "C404")
 					(unit 1)
 				)
 			)
@@ -9681,101 +5461,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_IN")
-		(at 55.88 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "f33f0401-bf29-4f79-bfb0-3dcef2aaa5c7")
-		(property "Reference" "P866"
-			(at 56.134 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 57.15 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 55.88 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 55.88 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 55.88 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06cf75ba-61f6-4739-96de-c91bebb23dc4")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P866")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_IN")
-		(at 48.26 45.72 0)
+		(at 48.26 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9784,7 +5470,7 @@
 		(dnp no)
 		(uuid "f6b88caa-d52d-4b5a-ad12-c859bd6b84ae")
 		(property "Reference" "P872"
-			(at 48.006 44.45 0)
+			(at 48.006 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9793,7 +5479,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 46.99 45.72 0)
+			(at 46.99 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9803,7 +5489,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 45.72 0)
+			(at 48.26 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9812,7 +5498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 45.72 0)
+			(at 48.26 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9821,7 +5507,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 45.72 0)
+			(at 48.26 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9830,7 +5516,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 48.26 45.72 0)
+			(at 48.26 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9839,7 +5525,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 48.26 45.72 0)
+			(at 48.26 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9848,7 +5534,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 48.26 45.72 0)
+			(at 48.26 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9863,292 +5549,6 @@
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
 					(reference "P872")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_IN")
-		(at 49.53 66.04 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "fb035d44-6b0a-4360-af52-a3ef0ac4a6a2")
-		(property "Reference" "P306"
-			(at 49.276 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 48.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 49.53 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 49.53 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 49.53 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf66fa11-2ea1-4131-8951-5db3eca652cd")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P306")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_PWR")
-		(at 140.97 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fccc7c58-5b40-4c54-9f1f-59329b86d0f3")
-		(property "Reference" "P595"
-			(at 140.97 89.916 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 143.51 92.9722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Local power symbol (sink), cosmetic use only"
-			(at 140.97 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 140.97 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 140.97 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 140.97 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53de41e4-1859-4fd8-8f6a-bde3d26b1c3b")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P595")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 142.24 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ffb4190e-cc99-470c-bfd8-45104254c078")
-		(property "Reference" "R405"
-			(at 142.24 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 142.24 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 142.24 135.128 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 142.24 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 142.24 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Generic"
-			(at 142.24 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 142.24 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "439ee6fb-5259-41ce-a869-0fe36a157822")
-		)
-		(pin "1"
-			(uuid "0dac79ef-1802-4701-bc3e-48d041e7216c")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "R405")
 					(unit 1)
 				)
 			)
