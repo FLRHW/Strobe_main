@@ -263,113 +263,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1494,40 +1387,22 @@
 		(uuid "48dae242-56f3-480b-8134-0a368eaf34c6")
 	)
 	(junction
-		(at 193.04 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05133c4b-3900-4ba3-9222-46123ffb22be")
-	)
-	(junction
 		(at 83.82 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f73136a-a667-4bb6-b75b-1d63572ffb1e")
 	)
 	(junction
-		(at 171.45 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1177a748-c895-4596-a539-69ef3a8a80c2")
-	)
-	(junction
-		(at 123.19 67.31)
+		(at 140.97 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13c485bd-836a-4585-9ff8-fcb52fabbe7c")
 	)
 	(junction
-		(at 193.04 43.18)
+		(at 81.28 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d3f3acb-855b-437e-b209-8978fdf7ace1")
-	)
-	(junction
-		(at 193.04 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "233f9d86-0e9b-411b-a69a-200f14a5b172")
 	)
 	(junction
 		(at 149.86 34.29)
@@ -1536,22 +1411,16 @@
 		(uuid "2c474f13-9cad-4134-b8c0-c7cefe0d3a7d")
 	)
 	(junction
-		(at 193.04 25.4)
+		(at 81.28 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3eddcc56-7967-4af4-8552-0c009e1ffadb")
 	)
 	(junction
-		(at 149.86 67.31)
+		(at 167.64 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44de588b-8c4a-4032-8e45-82a40d30bef1")
-	)
-	(junction
-		(at 74.93 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5332052e-6cc5-4da2-9ef3-bb128c509a7c")
 	)
 	(junction
 		(at 165.1 133.35)
@@ -1570,12 +1439,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7944bc5c-b326-4921-ae1e-109fb093790b")
-	)
-	(junction
-		(at 92.71 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84d249f9-53d1-4117-9226-d2cbc18cb7ff")
 	)
 	(junction
 		(at 193.04 99.06)
@@ -1600,12 +1463,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bac3c14-8047-4a86-8b47-1c0eaa9973b0")
-	)
-	(junction
-		(at 96.52 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a64c41c4-4075-4603-9616-c1bd1991de0d")
 	)
 	(junction
 		(at 76.2 133.35)
@@ -1638,10 +1495,22 @@
 		(uuid "e8f76fad-ed0d-4739-afe5-aa48a4c04ae1")
 	)
 	(junction
-		(at 133.35 67.31)
+		(at 151.13 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eaae5f2a-d65d-4bcb-8c93-57c39388a3d3")
+	)
+	(no_connect
+		(at 80.01 104.14)
+		(uuid "1161667b-cfe6-484e-86c8-00f8d55bb0af")
+	)
+	(no_connect
+		(at 95.25 106.68)
+		(uuid "1dd89453-eef0-4168-805d-9a5c3eef1182")
+	)
+	(no_connect
+		(at 80.01 109.22)
+		(uuid "c8831e0a-0204-4e92-9ba2-cf6362509f8e")
 	)
 	(wire
 		(pts
@@ -1665,23 +1534,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 25.4) (xy 193.04 25.4)
+			(xy 78.74 58.42) (xy 81.28 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0be1af6b-bc1e-4a15-9efc-1f7beb384462")
-	)
-	(wire
-		(pts
-			(xy 73.66 76.2) (xy 73.66 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ca75c52-9c49-41cc-9870-dcfb9109ca85")
 	)
 	(wire
 		(pts
@@ -1705,33 +1564,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 68.58) (xy 92.71 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10b6e449-1ea8-4cd3-aa46-88188a70128d")
-	)
-	(wire
-		(pts
-			(xy 144.78 58.42) (xy 144.78 59.69)
+			(xy 162.56 58.42) (xy 162.56 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "11c567fc-a294-4cf2-9fd4-15e891698948")
-	)
-	(wire
-		(pts
-			(xy 69.85 111.76) (xy 69.85 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12b93295-23e9-4f30-8a43-1519616fa1e7")
 	)
 	(wire
 		(pts
@@ -1742,16 +1581,6 @@
 			(type default)
 		)
 		(uuid "13aabd40-5c97-47b3-be75-1b080b0d118b")
-	)
-	(wire
-		(pts
-			(xy 74.93 104.14) (xy 80.01 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1843a33f-5826-4e6c-8b0b-07803a4f5244")
 	)
 	(wire
 		(pts
@@ -1775,16 +1604,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 43.18) (xy 48.26 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a432327-52bf-4734-9ce4-5bda491abd9b")
-	)
-	(wire
-		(pts
 			(xy 157.48 124.46) (xy 157.48 125.73)
 		)
 		(stroke
@@ -1792,16 +1611,6 @@
 			(type default)
 		)
 		(uuid "1a70e114-6713-4644-8795-1611cc2a435f")
-	)
-	(wire
-		(pts
-			(xy 92.71 76.2) (xy 73.66 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c82e16e-bd0a-4efc-b305-34f3f066499c")
 	)
 	(wire
 		(pts
@@ -1825,7 +1634,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 74.93) (xy 144.78 78.74)
+			(xy 162.56 74.93) (xy 162.56 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1945,17 +1754,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 104.14) (xy 74.93 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2da54c14-d5ad-4cf6-9391-367d13ab9989")
-	)
-	(wire
-		(pts
-			(xy 149.86 67.31) (xy 154.94 67.31)
+			(xy 167.64 67.31) (xy 182.88 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1965,23 +1764,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 76.2) (xy 133.35 78.74)
+			(xy 151.13 76.2) (xy 151.13 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3186c3ad-5196-4213-80df-8c0d486f6a99")
-	)
-	(wire
-		(pts
-			(xy 96.52 106.68) (xy 111.76 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33072254-c3b8-452c-9ead-22404dbcc8de")
 	)
 	(wire
 		(pts
@@ -2005,16 +1794,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 76.2) (xy 190.5 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "371777d7-4c52-44b5-8276-07534e687eac")
-	)
-	(wire
-		(pts
 			(xy 105.41 36.83) (xy 105.41 44.45)
 		)
 		(stroke
@@ -2035,7 +1814,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 76.2) (xy 123.19 78.74)
+			(xy 140.97 76.2) (xy 140.97 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2045,33 +1824,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 36.83) (xy 114.3 36.83)
+			(xy 105.41 36.83) (xy 118.11 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b8c162c-3f6f-477a-bcdc-890a0dcf04c6")
-	)
-	(wire
-		(pts
-			(xy 171.45 69.85) (xy 180.34 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "421af4aa-5aef-4acc-8e6b-a280c9b0d6dd")
-	)
-	(wire
-		(pts
-			(xy 153.67 72.39) (xy 153.67 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44618b15-0bf0-45ef-8347-61a6c634e652")
+		(uuid "3d5f1631-054e-42cf-b124-b873762bfc96")
 	)
 	(wire
 		(pts
@@ -2135,7 +1894,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 38.1) (xy 193.04 43.18)
+			(xy 81.28 71.12) (xy 81.28 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2145,7 +1904,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 43.18) (xy 190.5 45.72)
+			(xy 78.74 76.2) (xy 78.74 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2162,16 +1921,6 @@
 			(type default)
 		)
 		(uuid "53520557-ad3a-49aa-9e2e-78f3beb85c86")
-	)
-	(wire
-		(pts
-			(xy 153.67 77.47) (xy 171.45 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "537fbd28-4dcb-499a-ab14-7c68ae037c19")
 	)
 	(wire
 		(pts
@@ -2215,26 +1964,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 74.93) (xy 64.77 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e0d7ca6-c7cf-4460-9d15-7b4d12caab9f")
-	)
-	(wire
-		(pts
-			(xy 193.04 71.12) (xy 193.04 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6181fd94-c4c7-4373-8454-506b116ecad7")
-	)
-	(wire
-		(pts
 			(xy 78.74 41.91) (xy 78.74 45.72)
 		)
 		(stroke
@@ -2242,16 +1971,6 @@
 			(type default)
 		)
 		(uuid "64853c7b-a09e-4bdb-83fe-2cb5fa238cdc")
-	)
-	(wire
-		(pts
-			(xy 171.45 69.85) (xy 171.45 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66c62ea3-8608-4793-a543-a8dc360ee0e9")
 	)
 	(wire
 		(pts
@@ -2285,16 +2004,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 106.68) (xy 96.52 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c1effff-709d-4a80-b9e5-235259bb3a48")
-	)
-	(wire
-		(pts
 			(xy 144.78 41.91) (xy 144.78 45.72)
 		)
 		(stroke
@@ -2302,16 +2011,6 @@
 			(type default)
 		)
 		(uuid "6c436077-961c-4124-992c-25f45c0af79f")
-	)
-	(wire
-		(pts
-			(xy 78.74 114.3) (xy 96.52 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "741fb617-dc48-4d81-bf55-3dd09543db06")
 	)
 	(wire
 		(pts
@@ -2335,13 +2034,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 76.2) (xy 193.04 76.2)
+			(xy 30.48 43.18) (xy 48.26 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83212894-8bfa-45e7-8e12-d6232cf2faa9")
+		(uuid "82347fc8-5370-4b2a-8c89-c2734379ac63")
 	)
 	(wire
 		(pts
@@ -2355,26 +2054,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 74.93) (xy 204.47 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c4e055b-9f1e-478d-b8fc-ea97e7e2d892")
-	)
-	(wire
-		(pts
-			(xy 171.45 36.83) (xy 180.34 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d213a87-c448-4fb1-b383-5fcefe61dedf")
-	)
-	(wire
-		(pts
 			(xy 204.47 115.57) (xy 204.47 116.84)
 		)
 		(stroke
@@ -2382,16 +2061,6 @@
 			(type default)
 		)
 		(uuid "900ee196-c52b-4089-b093-e0f64f53083b")
-	)
-	(wire
-		(pts
-			(xy 190.5 57.15) (xy 190.5 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90995e5f-a5fb-47b0-b162-aea64ab2b0ab")
 	)
 	(wire
 		(pts
@@ -2412,16 +2081,6 @@
 			(type default)
 		)
 		(uuid "96a95def-d212-4349-86ca-96d9fa39f50e")
-	)
-	(wire
-		(pts
-			(xy 64.77 67.31) (xy 64.77 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b3e6a8c-19a3-4a32-8c9e-e5c8b8923614")
 	)
 	(wire
 		(pts
@@ -2455,16 +2114,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 68.58) (xy 92.71 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0b76b32-0d95-4b63-a83a-1bed3afdcd47")
-	)
-	(wire
-		(pts
 			(xy 86.36 124.46) (xy 86.36 125.73)
 		)
 		(stroke
@@ -2485,7 +2134,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 41.91) (xy 204.47 43.18)
+			(xy 92.71 74.93) (xy 92.71 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2525,17 +2174,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 106.68) (xy 96.52 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab47bb3f-cda6-449e-8da6-98b64e8dc1ad")
-	)
-	(wire
-		(pts
-			(xy 133.35 67.31) (xy 133.35 68.58)
+			(xy 151.13 67.31) (xy 151.13 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2552,16 +2191,6 @@
 			(type default)
 		)
 		(uuid "adad01e3-050a-4aaa-bb18-dc7dcde7a588")
-	)
-	(wire
-		(pts
-			(xy 78.74 109.22) (xy 80.01 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0af53f9-1442-46bb-8678-9f878c32c823")
 	)
 	(wire
 		(pts
@@ -2585,7 +2214,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 24.13) (xy 190.5 25.4)
+			(xy 78.74 57.15) (xy 78.74 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2615,7 +2244,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 25.4) (xy 193.04 25.4)
+			(xy 92.71 58.42) (xy 81.28 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2625,13 +2254,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 66.04) (xy 74.93 66.04)
+			(xy 171.45 36.83) (xy 184.15 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7bb8167-9a34-4682-8831-8f7e846798e5")
+		(uuid "b7be12c3-a5f5-4fc3-af05-74d0c9198fa6")
 	)
 	(wire
 		(pts
@@ -2645,27 +2274,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 95.25) (xy 69.85 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bac41fe4-17ba-48a0-ac86-8bbc9264b7ac")
-	)
-	(wire
-		(pts
-			(xy 153.67 72.39) (xy 154.94 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbcbc382-039e-4c80-b248-3328007d2177")
-	)
-	(wire
-		(pts
-			(xy 104.14 67.31) (xy 114.3 67.31)
+			(xy 121.92 67.31) (xy 132.08 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2695,17 +2304,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 109.22) (xy 78.74 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4850015-8164-47b6-bed5-78b02c763fee")
-	)
-	(wire
-		(pts
-			(xy 193.04 25.4) (xy 193.04 30.48)
+			(xy 81.28 58.42) (xy 81.28 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2745,7 +2344,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 67.31) (xy 133.35 67.31)
+			(xy 140.97 67.31) (xy 151.13 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2765,37 +2364,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 58.42) (xy 193.04 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfc56a59-b526-4851-91f6-d70fc39d7d47")
-	)
-	(wire
-		(pts
-			(xy 193.04 58.42) (xy 193.04 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d08ee356-1e94-4515-aaf4-6dfb75f00856")
-	)
-	(wire
-		(pts
-			(xy 30.48 38.1) (xy 48.26 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d12316de-13f1-4ff3-8e4c-28fc4966f831")
-	)
-	(wire
-		(pts
-			(xy 123.19 67.31) (xy 123.19 68.58)
+			(xy 140.97 67.31) (xy 140.97 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2845,16 +2414,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 76.2) (xy 204.47 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea741dcd-fbd4-432f-8595-894d9db8aff9")
-	)
-	(wire
-		(pts
 			(xy 165.1 142.24) (xy 165.1 144.78)
 		)
 		(stroke
@@ -2865,7 +2424,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 43.18) (xy 193.04 43.18)
+			(xy 78.74 76.2) (xy 81.28 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2895,17 +2454,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 59.69) (xy 204.47 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f27a51f7-dfa8-4327-b3b5-ccde12647d9b")
-	)
-	(wire
-		(pts
-			(xy 133.35 67.31) (xy 149.86 67.31)
+			(xy 151.13 67.31) (xy 167.64 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2915,7 +2464,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 43.18) (xy 204.47 43.18)
+			(xy 81.28 76.2) (xy 92.71 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2925,23 +2474,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 26.67) (xy 204.47 25.4)
+			(xy 92.71 59.69) (xy 92.71 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f616b5f5-d9f4-4741-a6a4-61b61c814111")
-	)
-	(wire
-		(pts
-			(xy 204.47 58.42) (xy 193.04 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8d8a07c-1c1f-45c8-ac66-60c672c70049")
 	)
 	(wire
 		(pts
@@ -2955,16 +2494,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 69.85) (xy 171.45 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faa5536e-4474-4d2e-ab21-b4e2e6cac43b")
-	)
-	(wire
-		(pts
 			(xy 193.04 99.06) (xy 193.04 104.14)
 		)
 		(stroke
@@ -2975,33 +2504,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 67.31) (xy 123.19 67.31)
+			(xy 139.7 67.31) (xy 140.97 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fd6277ae-a042-48b7-9802-e25adff1294d")
-	)
-	(wire
-		(pts
-			(xy 73.66 71.12) (xy 74.93 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff8c31fd-ea79-4944-b146-d9f80f83d6dc")
-	)
-	(label "Um_SH1000"
-		(at 48.26 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "07fb7d78-80e2-4c01-98fd-d432bbd1e71e")
 	)
 	(label "SH0"
 		(at 140.97 115.57 0)
@@ -3023,7 +2532,7 @@
 		)
 		(uuid "18b3772f-c881-4f3c-a00f-ed2ce5b32852")
 	)
-	(label "Im_SH1000"
+	(label "Im_S1k"
 		(at 127 133.35 0)
 		(effects
 			(font
@@ -3043,7 +2552,7 @@
 		)
 		(uuid "22557b24-da41-42c8-b7ac-82293c410891")
 	)
-	(label "Um_Lmp"
+	(label "Mon_S1k"
 		(at 130.81 34.29 0)
 		(effects
 			(font
@@ -3093,17 +2602,7 @@
 		)
 		(uuid "272ceb5e-adfb-4573-ad79-538cf66f5625")
 	)
-	(label "Free_IN"
-		(at 64.77 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "275328bb-caed-4e20-8b01-14fc9417dbc5")
-	)
-	(label "I_P_buf"
+	(label "Mon_IL_prot"
 		(at 48.26 45.72 180)
 		(effects
 			(font
@@ -3123,7 +2622,7 @@
 		)
 		(uuid "3230e4ae-d50f-4218-931c-56cf6b87d632")
 	)
-	(label "Um_Col"
+	(label "Mon_LMP"
 		(at 48.26 33.02 180)
 		(effects
 			(font
@@ -3133,7 +2632,7 @@
 		)
 		(uuid "370849bc-f66c-44e7-98e5-17ee7d4bfbd2")
 	)
-	(label "Im_Pulse"
+	(label "Mon_IL"
 		(at 48.26 27.94 180)
 		(effects
 			(font
@@ -3164,7 +2663,7 @@
 		(uuid "4101ed7c-356c-42e3-946b-bc026b7c195f")
 	)
 	(label "SH0"
-		(at 123.19 78.74 0)
+		(at 140.97 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3193,18 +2692,8 @@
 		)
 		(uuid "56fff6f7-9536-4080-b68a-b9282aceccab")
 	)
-	(label "SH3"
-		(at 69.85 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "59ef2408-96cc-459f-a166-1c6165de053b")
-	)
 	(label "SH0"
-		(at 144.78 78.74 0)
+		(at 162.56 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3213,7 +2702,7 @@
 		)
 		(uuid "5aa05f2e-d316-4fc8-87f9-3e7f9645ad23")
 	)
-	(label "U_C_buf"
+	(label "Mon_LMP_buf"
 		(at 48.26 50.8 180)
 		(effects
 			(font
@@ -3253,7 +2742,7 @@
 		)
 		(uuid "7260d178-b0ae-406a-bbd0-3912d256f089")
 	)
-	(label "Um_Lmp"
+	(label "Mon_S1k"
 		(at 48.26 30.48 180)
 		(effects
 			(font
@@ -3263,17 +2752,7 @@
 		)
 		(uuid "736500e7-fa7c-4555-83cd-b8a6eb02b446")
 	)
-	(label "SH0"
-		(at 69.85 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f31e061-04ab-4b4b-85a2-aeb26cdcc1de")
-	)
-	(label "U_L_buf"
+	(label "Mon_S1k_buf"
 		(at 48.26 48.26 180)
 		(effects
 			(font
@@ -3303,7 +2782,7 @@
 		)
 		(uuid "95bafdb2-4f19-4eeb-b80e-b5eb1390359d")
 	)
-	(label "U_SH1000_buf"
+	(label "U_S1k_buf"
 		(at 48.26 55.88 180)
 		(effects
 			(font
@@ -3333,7 +2812,7 @@
 		)
 		(uuid "9c75bf14-12fb-4b52-97e9-024694f58299")
 	)
-	(label "Um_Col"
+	(label "Mon_LMP"
 		(at 64.77 34.29 0)
 		(effects
 			(font
@@ -3342,16 +2821,6 @@
 			(justify left bottom)
 		)
 		(uuid "9e7bdab2-5c50-4d39-bca7-53b59e9fc81e")
-	)
-	(label "Free_OUT"
-		(at 81.28 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1d4c23b-86ee-46df-a902-46cf22b7cfbf")
 	)
 	(label "U_SH240_buf"
 		(at 48.26 53.34 180)
@@ -3373,7 +2842,7 @@
 		)
 		(uuid "af01b365-4516-4c2c-8c65-e484d0890089")
 	)
-	(label "I_SH1000"
+	(label "I_S1k"
 		(at 180.34 133.35 180)
 		(effects
 			(font
@@ -3384,7 +2853,7 @@
 		(uuid "b2e8d3da-4d07-4e09-b75c-cca9acc29da8")
 	)
 	(label "SH3"
-		(at 190.5 24.13 0)
+		(at 78.74 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3393,8 +2862,8 @@
 		)
 		(uuid "b7418402-d847-4715-9f7e-7ea5a878aad0")
 	)
-	(label "Im_Pulse"
-		(at 104.14 67.31 0)
+	(label "Mon_IL"
+		(at 121.92 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3404,7 +2873,7 @@
 		(uuid "b9e45fb0-6e97-4139-b7ba-17fcdced3076")
 	)
 	(label "SH3"
-		(at 144.78 58.42 0)
+		(at 162.56 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3423,8 +2892,8 @@
 		)
 		(uuid "c7ad6c8e-ebd2-449a-9381-a4069cc5557a")
 	)
-	(label "I_P_buf"
-		(at 180.34 69.85 180)
+	(label "Mon_IL_prot"
+		(at 182.88 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3434,17 +2903,7 @@
 		(uuid "ca36af87-8416-46c3-809f-effcafa0f8f0")
 	)
 	(label "SH0"
-		(at 64.77 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca4b1e58-bf3f-4789-8e30-462a50063008")
-	)
-	(label "SH0"
-		(at 133.35 78.74 0)
+		(at 151.13 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3453,8 +2912,8 @@
 		)
 		(uuid "cec1cd01-eaf7-40bd-b640-4242ed208d63")
 	)
-	(label "U_L_buf"
-		(at 180.34 36.83 180)
+	(label "Mon_S1k_buf"
+		(at 184.15 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3462,16 +2921,6 @@
 			(justify right bottom)
 		)
 		(uuid "d3f52f98-e5ff-423b-84ef-9046a82fd4f9")
-	)
-	(label "Um_SH1000"
-		(at 55.88 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d67074eb-eb46-43f6-b490-faad60d568aa")
 	)
 	(label "SH0"
 		(at 144.78 45.72 0)
@@ -3483,16 +2932,6 @@
 		)
 		(uuid "ddc9ad88-e507-450d-bb7d-3af0cf251634")
 	)
-	(label "U_SH1000_buf"
-		(at 111.76 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "de05b5ff-284f-40e9-a7ce-56531e1d5828")
-	)
 	(label "SH0"
 		(at 78.74 45.72 0)
 		(effects
@@ -3503,7 +2942,7 @@
 		)
 		(uuid "decd2e27-8a8c-4ef4-a533-3e23445ba00a")
 	)
-	(label "I_SH1000"
+	(label "I_S1k"
 		(at 48.26 60.96 180)
 		(effects
 			(font
@@ -3523,18 +2962,8 @@
 		)
 		(uuid "e58c297a-3258-4959-ab8c-888a20af21b8")
 	)
-	(label "SH3"
-		(at 190.5 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e89de184-2124-4f2b-b0ad-3396cd8d8249")
-	)
-	(label "U_C_buf"
-		(at 114.3 36.83 180)
+	(label "Mon_LMP_buf"
+		(at 118.11 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3542,16 +2971,6 @@
 			(justify right bottom)
 		)
 		(uuid "e9744873-8f35-473e-955d-1205a4f7f9fb")
-	)
-	(label "SH0"
-		(at 190.5 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ed6e905b-e8b7-445d-b0c5-2b0226cdec71")
 	)
 	(label "SH3"
 		(at 144.78 25.4 0)
@@ -3564,7 +2983,7 @@
 		(uuid "f39032e2-166e-4750-aaf5-025aaaf1ef37")
 	)
 	(label "SH0"
-		(at 190.5 45.72 0)
+		(at 78.74 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3573,7 +2992,7 @@
 		)
 		(uuid "f4fb207b-b494-471d-84aa-81ac1d63cb02")
 	)
-	(label "Im_SH1000"
+	(label "Im_S1k"
 		(at 48.26 43.18 180)
 		(effects
 			(font
@@ -3583,7 +3002,7 @@
 		)
 		(uuid "ffdc72d8-e00a-424a-9a32-3ecdc0d1b301")
 	)
-	(hierarchical_label "I_P_buf"
+	(hierarchical_label "Mon_IL_prot"
 		(shape output)
 		(at 30.48 45.72 180)
 		(effects
@@ -3594,7 +3013,7 @@
 		)
 		(uuid "019a6493-11ea-420d-84d3-ebb93e602b03")
 	)
-	(hierarchical_label "Im_Pulse"
+	(hierarchical_label "Mon_IL"
 		(shape input)
 		(at 30.48 27.94 180)
 		(effects
@@ -3605,7 +3024,7 @@
 		)
 		(uuid "0df5a0a9-75a3-435c-a3ae-f18326606c6b")
 	)
-	(hierarchical_label "U_L_buf"
+	(hierarchical_label "Mon_S1k_buf"
 		(shape output)
 		(at 30.48 48.26 180)
 		(effects
@@ -3627,17 +3046,6 @@
 		)
 		(uuid "3ad4dde7-70be-48e7-aa29-ba62a5806df4")
 	)
-	(hierarchical_label "Um_SH1000"
-		(shape input)
-		(at 30.48 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4f29554c-1123-4d53-8cc2-ec49407130be")
-	)
 	(hierarchical_label "SH0"
 		(shape bidirectional)
 		(at 30.48 63.5 180)
@@ -3649,7 +3057,7 @@
 		)
 		(uuid "764a7c38-b807-4ccb-89d1-5d5d85829084")
 	)
-	(hierarchical_label "Um_Lmp"
+	(hierarchical_label "Mon_S1k"
 		(shape input)
 		(at 30.48 30.48 180)
 		(effects
@@ -3660,7 +3068,7 @@
 		)
 		(uuid "7de1e7ea-e14e-4dcc-a5e5-75bf16399154")
 	)
-	(hierarchical_label "U_SH1000_buf"
+	(hierarchical_label "U_S1k_buf"
 		(shape output)
 		(at 30.48 55.88 180)
 		(effects
@@ -3704,7 +3112,7 @@
 		)
 		(uuid "b86dd6b0-75fd-4cb6-a172-e834275e7ccf")
 	)
-	(hierarchical_label "Um_Col"
+	(hierarchical_label "Mon_LMP"
 		(shape input)
 		(at 30.48 33.02 180)
 		(effects
@@ -3715,7 +3123,7 @@
 		)
 		(uuid "bd63bffa-40df-48d9-8c8b-cee4ab13426e")
 	)
-	(hierarchical_label "U_C_buf"
+	(hierarchical_label "Mon_LMP_buf"
 		(shape output)
 		(at 30.48 50.8 180)
 		(effects
@@ -3726,7 +3134,7 @@
 		)
 		(uuid "d54a75b2-d87c-4c82-919b-d9e99d5542b7")
 	)
-	(hierarchical_label "I_SH1000"
+	(hierarchical_label "I_S1k"
 		(shape output)
 		(at 30.48 60.96 180)
 		(effects
@@ -3748,7 +3156,7 @@
 		)
 		(uuid "e38ff19c-4363-4992-a473-51020246bc76")
 	)
-	(hierarchical_label "Im_SH1000"
+	(hierarchical_label "Im_S1k"
 		(shape input)
 		(at 30.48 43.18 180)
 		(effects
@@ -3855,100 +3263,6 @@
 		)
 	)
 	(symbol
-		(lib_id "personal:Cosmetic_IN")
-		(at 55.88 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "04d586e7-35a4-4e75-9a6c-2270fa4a30fd")
-		(property "Reference" "P865"
-			(at 56.134 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 57.15 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 55.88 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 55.88 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 55.88 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a8bee7a1-bc4d-4840-b781-31cf284ec830")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P865")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "personal:Cosmetic_OUT")
 		(at 180.34 133.35 180)
 		(unit 1)
@@ -4038,101 +3352,6 @@
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
 					(reference "P608")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_OUT")
-		(at 111.76 106.68 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10d958bc-e677-4ba9-bb87-b22c3d6fbc3d")
-		(property "Reference" "P598"
-			(at 111.76 107.696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 115.57 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 111.76 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 111.76 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 111.76 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00effb80-9ada-4c23-9c6e-ca7bb306b0b2")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P598")
 					(unit 1)
 				)
 			)
@@ -4539,7 +3758,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_GND")
-		(at 133.35 78.74 0)
+		(at 151.13 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4548,7 +3767,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bdbec26-62ed-470d-9ec7-0e0885d496dc")
 		(property "Reference" "P820"
-			(at 133.35 77.724 0)
+			(at 151.13 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,7 +3776,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 135.89 79.9338 0)
+			(at 153.67 79.9338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4567,7 +3786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 78.74 0)
+			(at 151.13 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,7 +3795,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 78.74 0)
+			(at 151.13 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,7 +3804,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 78.74 0)
+			(at 151.13 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,7 +3813,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 133.35 78.74 0)
+			(at 151.13 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4603,7 +3822,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 133.35 78.74 0)
+			(at 151.13 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,7 +3831,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 133.35 78.74 0)
+			(at 151.13 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,7 +3853,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_PWR")
-		(at 190.5 24.13 0)
+		(at 78.74 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4643,7 +3862,7 @@
 		(fields_autoplaced yes)
 		(uuid "24c156d3-fe50-4a6e-b9b1-b7024bb250f9")
 		(property "Reference" "P442"
-			(at 190.5 18.796 0)
+			(at 78.74 51.816 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4653,7 +3872,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 193.04 21.8522 0)
+			(at 81.28 54.8722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4663,7 +3882,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 24.13 0)
+			(at 78.74 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4672,7 +3891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 24.13 0)
+			(at 78.74 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4681,7 +3900,7 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
-			(at 190.5 24.13 0)
+			(at 78.74 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4690,7 +3909,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 190.5 24.13 0)
+			(at 78.74 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4699,7 +3918,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 190.5 24.13 0)
+			(at 78.74 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,7 +3927,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 190.5 24.13 0)
+			(at 78.74 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4723,101 +3942,6 @@
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
 					(reference "P442")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_GND")
-		(at 190.5 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b033756-53eb-4350-a4d2-5ecc48c3e69e")
-		(property "Reference" "P822"
-			(at 190.5 77.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 193.04 79.9338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 190.5 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 190.5 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 190.5 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "658f5c34-3b67-4257-8ac8-f8d0e073064b")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P822")
 					(unit 1)
 				)
 			)
@@ -5019,7 +4143,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_OUT")
-		(at 180.34 69.85 180)
+		(at 182.88 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5028,7 +4152,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a4a65d2-3c37-4670-9644-1f2dc64dff84")
 		(property "Reference" "P449"
-			(at 180.34 70.866 0)
+			(at 182.88 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,7 +4161,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 184.15 69.85 0)
+			(at 186.69 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +4171,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 69.85 0)
+			(at 182.88 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5056,7 +4180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 69.85 0)
+			(at 182.88 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5065,7 +4189,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 69.85 0)
+			(at 182.88 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5074,7 +4198,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 180.34 69.85 0)
+			(at 182.88 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5083,7 +4207,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 180.34 69.85 0)
+			(at 182.88 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5092,7 +4216,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 180.34 69.85 0)
+			(at 182.88 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5417,7 +4541,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_IN")
-		(at 104.14 67.31 0)
+		(at 121.92 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5425,7 +4549,7 @@
 		(dnp no)
 		(uuid "48cdecb6-4c07-42c6-acff-28cf1f1df9bf")
 		(property "Reference" "P870"
-			(at 104.394 66.04 0)
+			(at 122.174 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5434,7 +4558,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 105.41 67.31 0)
+			(at 123.19 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5444,7 +4568,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 67.31 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5453,7 +4577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 67.31 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5462,7 +4586,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 67.31 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5471,7 +4595,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 104.14 67.31 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,7 +4604,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 104.14 67.31 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5489,7 +4613,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 104.14 67.31 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5606,7 +4730,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_OUT")
-		(at 180.34 36.83 180)
+		(at 184.15 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5615,7 +4739,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a647ed2-c68e-470d-926b-231586d53ff8")
 		(property "Reference" "P588"
-			(at 180.34 37.846 0)
+			(at 184.15 37.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5624,7 +4748,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 184.15 36.83 0)
+			(at 187.96 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5634,7 +4758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 36.83 0)
+			(at 184.15 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5643,7 +4767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 36.83 0)
+			(at 184.15 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,7 +4776,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 36.83 0)
+			(at 184.15 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5661,7 +4785,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 180.34 36.83 0)
+			(at 184.15 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5670,7 +4794,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 180.34 36.83 0)
+			(at 184.15 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5679,7 +4803,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 180.34 36.83 0)
+			(at 184.15 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +4825,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TSV912IDT")
-		(at 82.55 68.58 0)
+		(at 162.56 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5710,7 +4834,7 @@
 		(fields_autoplaced yes)
 		(uuid "4acbe8ba-8188-46b5-acef-6955fc58184b")
 		(property "Reference" "U401"
-			(at 82.55 58.42 0)
+			(at 162.56 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5718,7 +4842,7 @@
 			)
 		)
 		(property "Value" "TSV912IDT"
-			(at 82.55 60.96 0)
+			(at 162.56 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5726,7 +4850,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 82.55 68.58 0)
+			(at 162.56 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,7 +4859,7 @@
 			)
 		)
 		(property "Datasheet" "www.st.com/resource/en/datasheet/tsv911.pdf"
-			(at 82.55 68.58 0)
+			(at 162.56 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5744,7 +4868,7 @@
 			)
 		)
 		(property "Description" "Dual rail-to-rail input/output 8 MHz operational amplifiers, SOIC-8"
-			(at 82.55 68.58 0)
+			(at 162.56 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,7 +4877,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 82.55 68.58 0)
+			(at 162.56 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +4886,7 @@
 			)
 		)
 		(property "Manufacturer" "ST"
-			(at 82.55 68.58 0)
+			(at 162.56 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5771,7 +4895,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TSV912IDT"
-			(at 82.55 68.58 0)
+			(at 162.56 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6487,121 +5611,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TSV912IDT")
-		(at 162.56 69.85 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d7b3f3c-54ae-4202-819a-d361dacf7bb3")
-		(property "Reference" "U402"
-			(at 162.56 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TSV912IDT"
-			(at 162.56 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 162.56 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "www.st.com/resource/en/datasheet/tsv911.pdf"
-			(at 162.56 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual rail-to-rail input/output 8 MHz operational amplifiers, SOIC-8"
-			(at 162.56 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 162.56 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ST"
-			(at 162.56 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "TSV912IDT"
-			(at 162.56 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "de749f4c-8d39-4b3c-adf9-9cefac559163")
-		)
-		(pin "3"
-			(uuid "ce73b402-33ff-4f2b-8864-e995339504a3")
-		)
-		(pin "2"
-			(uuid "c26ebda8-d13b-4815-ba43-460be32acdd2")
-		)
-		(pin "1"
-			(uuid "5aca7125-43e9-46aa-a247-168b59451058")
-		)
-		(pin "5"
-			(uuid "81b25489-0056-4109-9e14-d7dfa18c3e03")
-		)
-		(pin "7"
-			(uuid "be460946-228f-4a8c-9f5b-f902651f42b5")
-		)
-		(pin "8"
-			(uuid "8cd27bd2-d23a-4ea5-a02e-d05eac37d2d8")
-		)
-		(pin "4"
-			(uuid "2d9fad90-5ab9-43c7-b0a6-ff9e6bbe4e57")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "U402")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 133.35 72.39 0)
+		(at 151.13 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6609,7 +5620,7 @@
 		(dnp no)
 		(uuid "5eea3ef8-ff3c-4b93-86d9-70151755ac7c")
 		(property "Reference" "C402"
-			(at 136.144 71.12 0)
+			(at 153.924 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,8 +5628,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 136.144 73.66 0)
+		(property "Value" "4n7"
+			(at 153.924 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6627,7 +5638,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 134.3152 76.2 0)
+			(at 152.0952 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,7 +5647,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 72.39 0)
+			(at 151.13 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6645,7 +5656,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 133.35 72.39 0)
+			(at 151.13 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6654,7 +5665,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 133.35 72.39 0)
+			(at 151.13 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6663,7 +5674,7 @@
 			)
 		)
 		(property "Manufacturer" "CCTC"
-			(at 133.35 72.39 0)
+			(at 151.13 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,7 +5683,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TCC0603X7R104K500CT"
-			(at 133.35 72.39 0)
+			(at 151.13 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6890,101 +5901,6 @@
 		)
 	)
 	(symbol
-		(lib_id "personal:Cosmetic_GND")
-		(at 64.77 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "642d0b37-2fa6-4fab-aa73-500c15d8b452")
-		(property "Reference" "P816"
-			(at 64.77 76.454 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 67.31 78.6638 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 64.77 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 64.77 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 64.77 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bdf06c1-c62d-4d4f-a704-5a449fa63f1c")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P816")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "personal:Cosmetic_OUT")
 		(at 48.26 30.48 180)
 		(unit 1)
@@ -7081,7 +5997,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_OUT")
-		(at 114.3 36.83 180)
+		(at 118.11 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7090,7 +6006,7 @@
 		(fields_autoplaced yes)
 		(uuid "688ab0a6-e193-4e1a-8344-18a53c308da2")
 		(property "Reference" "P589"
-			(at 114.3 37.846 0)
+			(at 118.11 37.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,7 +6015,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 118.11 36.83 0)
+			(at 121.92 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7109,7 +6025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 36.83 0)
+			(at 118.11 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7118,7 +6034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 36.83 0)
+			(at 118.11 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7127,7 +6043,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 36.83 0)
+			(at 118.11 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7136,7 +6052,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 114.3 36.83 0)
+			(at 118.11 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7145,7 +6061,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 114.3 36.83 0)
+			(at 118.11 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7154,7 +6070,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 114.3 36.83 0)
+			(at 118.11 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7460,7 +6376,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BAV99")
-		(at 144.78 67.31 90)
+		(at 162.56 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7468,7 +6384,7 @@
 		(dnp no)
 		(uuid "718a6806-4314-4f25-b448-527eb64eb1b9")
 		(property "Reference" "D401"
-			(at 146.685 62.23 90)
+			(at 164.465 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,7 +6393,7 @@
 			)
 		)
 		(property "Value" "BAV199"
-			(at 153.924 64.262 90)
+			(at 171.704 64.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7486,7 +6402,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 157.48 67.31 0)
+			(at 175.26 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7495,7 +6411,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
-			(at 144.78 67.31 0)
+			(at 162.56 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7504,7 +6420,7 @@
 			)
 		)
 		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 144.78 67.31 0)
+			(at 162.56 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7513,7 +6429,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 144.78 67.31 90)
+			(at 162.56 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7522,7 +6438,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 144.78 67.31 90)
+			(at 162.56 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7531,7 +6447,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "BAV199LT1G"
-			(at 144.78 67.31 90)
+			(at 162.56 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7750,7 +6666,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_PWR")
-		(at 144.78 58.42 0)
+		(at 162.56 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7759,7 +6675,7 @@
 		(fields_autoplaced yes)
 		(uuid "8180e790-711e-40ef-b157-8b0e2a56d35a")
 		(property "Reference" "P443"
-			(at 144.78 53.086 0)
+			(at 162.56 53.086 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7769,7 +6685,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 147.32 56.1422 0)
+			(at 165.1 56.1422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7779,7 +6695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 58.42 0)
+			(at 162.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7788,7 +6704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 58.42 0)
+			(at 162.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7797,7 +6713,7 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
-			(at 144.78 58.42 0)
+			(at 162.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7806,7 +6722,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 144.78 58.42 0)
+			(at 162.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7815,7 +6731,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 144.78 58.42 0)
+			(at 162.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7824,7 +6740,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 144.78 58.42 0)
+			(at 162.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7845,104 +6761,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 64.77 71.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8308a7cd-18fc-4ecb-bfc3-9681552ff371")
-		(property "Reference" "R403"
-			(at 66.04 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 66.04 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 66.548 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 64.77 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 64.77 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Generic"
-			(at 64.77 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 64.77 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9ed0e275-c9a2-4a66-b0d3-aa96eba2d958")
-		)
-		(pin "1"
-			(uuid "a482c3d5-fdfe-4c36-b4d6-5192b193f77d")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "R403")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 193.04 34.29 0)
+		(at 81.28 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7950,7 +6770,7 @@
 		(dnp no)
 		(uuid "8516f167-4724-452c-9750-53b13d413cfe")
 		(property "Reference" "C401"
-			(at 195.834 33.02 0)
+			(at 84.074 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7959,7 +6779,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 195.834 35.56 0)
+			(at 84.074 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7968,7 +6788,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 194.0052 38.1 0)
+			(at 82.2452 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7977,7 +6797,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 34.29 0)
+			(at 81.28 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7986,7 +6806,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 193.04 34.29 0)
+			(at 81.28 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7995,7 +6815,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 193.04 34.29 0)
+			(at 81.28 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8004,7 +6824,7 @@
 			)
 		)
 		(property "Manufacturer" "CCTC"
-			(at 193.04 34.29 0)
+			(at 81.28 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8013,7 +6833,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TCC0603X7R104K500CT"
-			(at 193.04 34.29 0)
+			(at 81.28 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8038,7 +6858,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 72.39 180)
+		(at 140.97 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8046,7 +6866,7 @@
 		(dnp no)
 		(uuid "88d315c1-0638-4132-b102-d437684951f2")
 		(property "Reference" "R402"
-			(at 124.46 71.12 0)
+			(at 142.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8054,8 +6874,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 124.46 73.66 0)
+		(property "Value" "220"
+			(at 142.24 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8064,7 +6884,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 124.968 72.39 90)
+			(at 142.748 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8073,7 +6893,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 72.39 0)
+			(at 140.97 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8082,7 +6902,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 72.39 0)
+			(at 140.97 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8091,7 +6911,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 123.19 72.39 0)
+			(at 140.97 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8100,7 +6920,7 @@
 			)
 		)
 		(property "Manufacturer" "Generic"
-			(at 123.19 72.39 0)
+			(at 140.97 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8109,7 +6929,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 123.19 72.39 0)
+			(at 140.97 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8222,119 +7042,6 @@
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
 					(reference "P818")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TSV912IDT")
-		(at 162.56 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ec6b4a1-7f71-4099-8c35-b927c0e7c22e")
-		(property "Reference" "U402"
-			(at 162.56 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TSV912IDT"
-			(at 162.56 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 162.56 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "www.st.com/resource/en/datasheet/tsv911.pdf"
-			(at 162.56 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual rail-to-rail input/output 8 MHz operational amplifiers, SOIC-8"
-			(at 162.56 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 162.56 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ST"
-			(at 162.56 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "TSV912IDT"
-			(at 162.56 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "2f6fc0e9-fe75-4449-ae5b-3027b8153af0")
-		)
-		(pin "3"
-			(uuid "05b029bd-d607-4ddc-abed-42dde6f39f09")
-		)
-		(pin "2"
-			(uuid "cd87a3f2-f7d9-4b63-bf52-ea62c1b24c58")
-		)
-		(pin "1"
-			(uuid "792fa163-76d5-47bb-834b-fd46f8852dd7")
-		)
-		(pin "5"
-			(uuid "eea93925-39bc-4847-8767-4c7fb2bf2321")
-		)
-		(pin "7"
-			(uuid "d17ffe13-0c7c-45fd-b520-ae30b95c50c6")
-		)
-		(pin "8"
-			(uuid "8cd27bd2-d23a-4ea5-a02e-d05eac37d2db")
-		)
-		(pin "4"
-			(uuid "2d9fad90-5ab9-43c7-b0a6-ff9e6bbe4e5a")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "U402")
 					(unit 1)
 				)
 			)
@@ -8722,103 +7429,8 @@
 		)
 	)
 	(symbol
-		(lib_id "personal:Cosmetic_OUT")
-		(at 48.26 38.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ff86654-8bc5-4483-8bb7-0ed0da917e6d")
-		(property "Reference" "P451"
-			(at 48.26 39.116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 52.07 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 48.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 48.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 48.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f1e99e5-01d4-4e4b-b043-2fea50912ade")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P451")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "personal:Cosmetic_GND")
-		(at 123.19 78.74 0)
+		(at 140.97 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8827,7 +7439,7 @@
 		(fields_autoplaced yes)
 		(uuid "a358b6d8-5420-4d9c-a5c8-c99f14c94169")
 		(property "Reference" "P819"
-			(at 123.19 77.724 0)
+			(at 140.97 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8836,7 +7448,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 125.73 79.9338 0)
+			(at 143.51 79.9338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8846,7 +7458,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 78.74 0)
+			(at 140.97 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8855,7 +7467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 78.74 0)
+			(at 140.97 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8864,7 +7476,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 78.74 0)
+			(at 140.97 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8873,7 +7485,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 123.19 78.74 0)
+			(at 140.97 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8882,7 +7494,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 123.19 78.74 0)
+			(at 140.97 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8891,7 +7503,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 123.19 78.74 0)
+			(at 140.97 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8913,7 +7525,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_GND")
-		(at 190.5 45.72 0)
+		(at 78.74 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8922,7 +7534,7 @@
 		(fields_autoplaced yes)
 		(uuid "a392e69b-5ad9-4aa5-8f96-a8450e318234")
 		(property "Reference" "P817"
-			(at 190.5 44.704 0)
+			(at 78.74 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8931,7 +7543,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 193.04 46.9138 0)
+			(at 81.28 79.9338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8941,7 +7553,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 45.72 0)
+			(at 78.74 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8950,7 +7562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 45.72 0)
+			(at 78.74 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8959,7 +7571,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 45.72 0)
+			(at 78.74 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8968,7 +7580,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 190.5 45.72 0)
+			(at 78.74 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8977,7 +7589,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 190.5 45.72 0)
+			(at 78.74 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8986,7 +7598,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 190.5 45.72 0)
+			(at 78.74 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9197,105 +7809,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAV99")
-		(at 69.85 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae7e9210-c26d-4fbd-9dc4-e65970de0743")
-		(property "Reference" "D404"
-			(at 71.755 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BAV199"
-			(at 78.994 101.092 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 82.55 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
-			(at 69.85 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 69.85 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 69.85 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 69.85 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "BAV199LT1G"
-			(at 69.85 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f760c094-a81c-4de5-8c2c-47b179afa12f")
-		)
-		(pin "2"
-			(uuid "b0ec0343-a82b-4c5b-8c75-3b83b989f861")
-		)
-		(pin "3"
-			(uuid "dcaf331a-6897-41cd-b3bf-b85a6f224973")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "D404")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "personal:Cosmetic_PWR")
 		(at 86.36 124.46 0)
 		(unit 1)
@@ -9393,7 +7906,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_GND")
-		(at 144.78 78.74 0)
+		(at 162.56 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9402,7 +7915,7 @@
 		(fields_autoplaced yes)
 		(uuid "b03051ee-d7b8-4129-aeb6-352ef2d357b2")
 		(property "Reference" "P821"
-			(at 144.78 77.724 0)
+			(at 162.56 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9411,7 +7924,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 147.32 79.9338 0)
+			(at 165.1 79.9338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9421,7 +7934,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 78.74 0)
+			(at 162.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9430,7 +7943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 78.74 0)
+			(at 162.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9439,7 +7952,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 78.74 0)
+			(at 162.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9448,7 +7961,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 144.78 78.74 0)
+			(at 162.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9457,7 +7970,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 144.78 78.74 0)
+			(at 162.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9466,7 +7979,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 144.78 78.74 0)
+			(at 162.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9787,196 +8300,6 @@
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
 					(reference "U403")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 92.71 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba926ba9-cf9f-47b8-a13f-2774c71a4ea3")
-		(property "Reference" "TP401"
-			(at 90.17 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 93.9799 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 97.79 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 92.71 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 92.71 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 92.71 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 92.71 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55a407fc-935e-4bef-97f1-79b0c5e8ba9e")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "TP401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_PWR")
-		(at 69.85 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdc64032-b38b-4c67-8ec3-dfa28a84e99a")
-		(property "Reference" "P594"
-			(at 69.85 89.916 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 72.39 92.9722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Local power symbol (sink), cosmetic use only"
-			(at 69.85 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 69.85 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 69.85 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 69.85 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d63e0b8e-1735-4ba2-836f-a75bde056a35")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P594")
-					(unit 1)
 				)
 			)
 		)
@@ -10553,7 +8876,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 118.11 67.31 90)
+		(at 135.89 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10561,15 +8884,15 @@
 		(dnp no)
 		(uuid "cdb08bb6-876d-4173-8b77-d9423404cc60")
 		(property "Reference" "R401"
-			(at 118.11 62.865 90)
+			(at 135.89 62.865 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 118.11 64.77 90)
+		(property "Value" "220"
+			(at 135.89 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10577,7 +8900,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 118.11 69.088 90)
+			(at 135.89 69.088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10586,7 +8909,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 67.31 0)
+			(at 135.89 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10595,7 +8918,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 118.11 67.31 0)
+			(at 135.89 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10604,7 +8927,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 118.11 67.31 90)
+			(at 135.89 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10613,7 +8936,7 @@
 			)
 		)
 		(property "Manufacturer" "Generic"
-			(at 118.11 67.31 90)
+			(at 135.89 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10622,7 +8945,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 118.11 67.31 90)
+			(at 135.89 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10851,197 +9174,6 @@
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
 					(reference "C406")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_PWR")
-		(at 190.5 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3e36ce6-3cf9-4263-bbbe-848215141b23")
-		(property "Reference" "P581"
-			(at 190.5 51.816 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 193.04 54.8722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Local power symbol (sink), cosmetic use only"
-			(at 190.5 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 190.5 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 190.5 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 190.5 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "388bcf46-d3f4-495b-ac2c-717a8dd80395")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P581")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_GND")
-		(at 69.85 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d67c676e-59c9-4b27-8520-183fd2d2d897")
-		(property "Reference" "P823"
-			(at 69.85 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 72.39 116.7638 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 69.85 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 69.85 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 69.85 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d838e9a-7708-4afe-8834-102dd38440de")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P823")
 					(unit 1)
 				)
 			)
@@ -11338,197 +9470,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 193.04 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb42c68e-6c43-4c9b-a291-b796a7317756")
-		(property "Reference" "C403"
-			(at 195.834 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 195.834 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 194.0052 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 193.04 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 193.04 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "CCTC"
-			(at 193.04 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "TCC0603X7R104K500CT"
-			(at 193.04 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46f884c9-3f2f-4fca-841d-ed44fa6a9377")
-		)
-		(pin "2"
-			(uuid "d0f7d85b-1a1e-43fd-a2a8-7ceb6081b523")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "C403")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_IN")
-		(at 48.26 55.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "f1bb3408-01b9-4b81-a6e6-e334b4cea962")
-		(property "Reference" "P876"
-			(at 48.006 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 46.99 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 48.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 48.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 48.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a78ba4f-a10d-4a2f-a17c-c9bd0d870e83")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "P876")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 193.04 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11625,122 +9566,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TSV912IDT")
-		(at 207.01 67.31 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2a77827-4727-41f4-8ead-1075e99a195a")
-		(property "Reference" "U402"
-			(at 205.74 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TSV912IDT"
-			(at 205.74 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 207.01 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "www.st.com/resource/en/datasheet/tsv911.pdf"
-			(at 207.01 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual rail-to-rail input/output 8 MHz operational amplifiers, SOIC-8"
-			(at 207.01 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 207.01 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ST"
-			(at 207.01 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "TSV912IDT"
-			(at 207.01 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "2f6fc0e9-fe75-4449-ae5b-3027b8153aef")
-		)
-		(pin "3"
-			(uuid "ce73b402-33ff-4f2b-8864-e995339504a4")
-		)
-		(pin "2"
-			(uuid "c26ebda8-d13b-4815-ba43-460be32acdd3")
-		)
-		(pin "1"
-			(uuid "5aca7125-43e9-46aa-a247-168b59451059")
-		)
-		(pin "5"
-			(uuid "eea93925-39bc-4847-8767-4c7fb2bf2320")
-		)
-		(pin "7"
-			(uuid "d17ffe13-0c7c-45fd-b520-ae30b95c50c5")
-		)
-		(pin "8"
-			(uuid "03ebcbdd-ca16-432a-8c15-941fc94c62fc")
-		)
-		(pin "4"
-			(uuid "f3dcff95-54fa-40b9-b0d0-52bdbcce0ffe")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
-					(reference "U402")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TSV912IDT")
-		(at 207.01 34.29 0)
+		(at 95.25 67.31 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11749,7 +9575,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2cc86da-f7e9-4a67-b499-4ec34f92a6c1")
 		(property "Reference" "U401"
-			(at 205.74 33.0199 0)
+			(at 93.98 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11758,7 +9584,7 @@
 			)
 		)
 		(property "Value" "TSV912IDT"
-			(at 205.74 35.5599 0)
+			(at 93.98 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11767,7 +9593,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 207.01 34.29 0)
+			(at 95.25 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11776,7 +9602,7 @@
 			)
 		)
 		(property "Datasheet" "www.st.com/resource/en/datasheet/tsv911.pdf"
-			(at 207.01 34.29 0)
+			(at 95.25 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11785,7 +9611,7 @@
 			)
 		)
 		(property "Description" "Dual rail-to-rail input/output 8 MHz operational amplifiers, SOIC-8"
-			(at 207.01 34.29 0)
+			(at 95.25 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11794,7 +9620,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 207.01 34.29 0)
+			(at 95.25 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11803,7 +9629,7 @@
 			)
 		)
 		(property "Manufacturer" "ST"
-			(at 207.01 34.29 0)
+			(at 95.25 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11812,7 +9638,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TSV912IDT"
-			(at 207.01 34.29 0)
+			(at 95.25 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12037,6 +9863,101 @@
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
 					(reference "P872")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "personal:Cosmetic_IN")
+		(at 49.53 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "fb035d44-6b0a-4360-af52-a3ef0ac4a6a2")
+		(property "Reference" "P306"
+			(at 49.276 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 48.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 49.53 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 49.53 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 49.53 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf66fa11-2ea1-4131-8951-5db3eca652cd")
+		)
+		(instances
+			(project "Strobe_main"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1319f261-23ec-4707-ade3-a432f3dc3535"
+					(reference "P306")
 					(unit 1)
 				)
 			)

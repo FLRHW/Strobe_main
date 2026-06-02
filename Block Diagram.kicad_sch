@@ -2779,12 +2779,6 @@
 		(uuid "58037e13-e3b2-422e-8a2e-ac18568795cc")
 	)
 	(junction
-		(at 77.47 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72c0f459-58ca-4e82-8df3-b135ffeec1dc")
-	)
-	(junction
 		(at 57.15 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2875,6 +2869,10 @@
 	(no_connect
 		(at 57.15 181.61)
 		(uuid "72c85327-4ebb-45e6-9b8f-efd469fbdaf2")
+	)
+	(no_connect
+		(at 71.12 179.07)
+		(uuid "837fd9ea-6f6c-4067-a669-953d759ee0f4")
 	)
 	(no_connect
 		(at 57.15 184.15)
@@ -3334,16 +3332,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 165.1) (xy 77.47 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4489dc77-be29-4864-b71e-94a651970680")
-	)
-	(wire
-		(pts
 			(xy 99.06 184.15) (xy 99.06 186.69)
 		)
 		(stroke
@@ -3361,16 +3349,6 @@
 			(type default)
 		)
 		(uuid "456234ca-94b8-4cd1-88b9-3406a584c036")
-	)
-	(wire
-		(pts
-			(xy 77.47 179.07) (xy 71.12 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4715edbf-f97e-4c7b-91d7-e825d167c4d3")
 	)
 	(wire
 		(pts
@@ -3691,16 +3669,6 @@
 			(type default)
 		)
 		(uuid "846895cb-2ec1-4334-ad79-0a88fe11cfac")
-	)
-	(wire
-		(pts
-			(xy 77.47 134.62) (xy 121.92 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86a1503e-a071-4cb4-8b85-c0ab4161591d")
 	)
 	(wire
 		(pts
@@ -4031,16 +3999,6 @@
 			(type default)
 		)
 		(uuid "b742a678-7ecd-40a5-9923-687c7fb8b28d")
-	)
-	(wire
-		(pts
-			(xy 77.47 134.62) (xy 77.47 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b76e362d-21cf-47aa-8bb0-3d00f708f5a1")
 	)
 	(wire
 		(pts
@@ -4582,7 +4540,7 @@
 		)
 		(uuid "05259bdc-491b-43f7-a3ab-1c745f866a8b")
 	)
-	(label "SH1000"
+	(label "S1k"
 		(at 41.91 184.15 0)
 		(effects
 			(font
@@ -4662,16 +4620,6 @@
 		)
 		(uuid "5b55f6dd-572e-4826-8813-fba8b8074e1a")
 	)
-	(label "Um_SH1000"
-		(at 96.52 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "62f565f6-f7b2-419c-8a17-b315364c5c2c")
-	)
 	(label "SL3"
 		(at 289.56 92.71 0)
 		(effects
@@ -4702,7 +4650,7 @@
 		)
 		(uuid "7ebf2d72-5cbd-4a4f-9d45-2ea2578a07cd")
 	)
-	(label "SH1000"
+	(label "S1k"
 		(at 55.88 91.44 180)
 		(effects
 			(font
@@ -4832,7 +4780,7 @@
 		)
 		(uuid "d449f021-d023-4052-afc6-c1f0e8006e09")
 	)
-	(label "Im_SH1000"
+	(label "Im_S1k"
 		(at 96.52 129.54 0)
 		(effects
 			(font
@@ -6043,101 +5991,6 @@
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
 					(reference "P851")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "personal:Cosmetic_OUT")
-		(at 77.47 165.1 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "2f2ba309-4195-4bf7-8778-a80251fadbdf")
-		(property "Reference" "P9"
-			(at 76.454 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 77.47 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 77.47 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 77.47 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 77.47 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c77bc10-04d1-4c7f-b693-08ce4175c8be")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P9")
 					(unit 1)
 				)
 			)
@@ -10507,7 +10360,7 @@
 				(justify left)
 			)
 		)
-		(pin "U_L_buf" output
+		(pin "Mon_S1k_buf" output
 			(at 160.02 113.03 0)
 			(uuid "225dbc72-68c1-4541-98d6-96fe34959ea9")
 			(effects
@@ -10517,7 +10370,7 @@
 				(justify right)
 			)
 		)
-		(pin "U_C_buf" output
+		(pin "Mon_LMP_buf" output
 			(at 160.02 115.57 0)
 			(uuid "78167ee3-45ed-4d4f-953c-bb484d1ee0dc")
 			(effects
@@ -10527,7 +10380,7 @@
 				(justify right)
 			)
 		)
-		(pin "I_P_buf" output
+		(pin "Mon_IL_prot" output
 			(at 160.02 118.11 0)
 			(uuid "58b3c5b9-0dda-4053-b114-23e56492709d")
 			(effects
@@ -10537,7 +10390,7 @@
 				(justify right)
 			)
 		)
-		(pin "Um_Col" input
+		(pin "Mon_LMP" input
 			(at 121.92 115.57 180)
 			(uuid "1a8ca09b-d9dc-4aee-b837-96e96d4b9de0")
 			(effects
@@ -10547,7 +10400,7 @@
 				(justify left)
 			)
 		)
-		(pin "Im_Pulse" input
+		(pin "Mon_IL" input
 			(at 121.92 118.11 180)
 			(uuid "9b7b27a3-a818-410a-b6e6-6e5e64470c28")
 			(effects
@@ -10557,7 +10410,7 @@
 				(justify left)
 			)
 		)
-		(pin "Um_Lmp" input
+		(pin "Mon_S1k" input
 			(at 121.92 113.03 180)
 			(uuid "3f413f73-8b68-4b03-aef9-f2d9837c8969")
 			(effects
@@ -10567,7 +10420,7 @@
 				(justify left)
 			)
 		)
-		(pin "I_SH1000" output
+		(pin "I_S1k" output
 			(at 160.02 134.62 0)
 			(uuid "43a60908-3343-47fe-9665-f17b2d40205a")
 			(effects
@@ -10587,17 +10440,7 @@
 				(justify left)
 			)
 		)
-		(pin "Um_SH1000" input
-			(at 121.92 134.62 180)
-			(uuid "8fa8d03a-1d6c-4128-a0ed-0e8722d16592")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Im_SH1000" input
+		(pin "Im_S1k" input
 			(at 121.92 129.54 180)
 			(uuid "f9975ab5-f3a2-4d90-9778-44cacafcd530")
 			(effects
@@ -10637,7 +10480,7 @@
 				(justify right)
 			)
 		)
-		(pin "U_SH1000_buf" output
+		(pin "U_S1k_buf" output
 			(at 160.02 129.54 0)
 			(uuid "70b1a87e-0aa0-4ebe-a8f6-1b72d5ed91d1")
 			(effects
@@ -10707,7 +10550,7 @@
 				(justify left)
 			)
 		)
-		(pin "SH1000" input
+		(pin "S1k" input
 			(at 58.42 92.71 180)
 			(uuid "c86731aa-2822-4670-9f0c-7eef899d0e17")
 			(effects
@@ -10727,7 +10570,7 @@
 				(justify left)
 			)
 		)
-		(pin "Lamp_EN" input
+		(pin "LMP_EN" input
 			(at 96.52 97.79 0)
 			(uuid "9f57a9ef-b56e-44b1-a34f-c39d409d1815")
 			(effects
@@ -10737,7 +10580,7 @@
 				(justify right)
 			)
 		)
-		(pin "Um_Col" output
+		(pin "Mon_LMP" output
 			(at 96.52 115.57 0)
 			(uuid "10b2a659-9782-4b61-abd9-010a00d2db87")
 			(effects
@@ -10747,7 +10590,7 @@
 				(justify right)
 			)
 		)
-		(pin "Um_Lmp" output
+		(pin "Mon_S1k" output
 			(at 96.52 113.03 0)
 			(uuid "83c4ff38-4adf-452c-bb03-25d402d1caff")
 			(effects
@@ -10757,7 +10600,7 @@
 				(justify right)
 			)
 		)
-		(pin "Im_Pulse" output
+		(pin "Mon_IL" output
 			(at 96.52 118.11 0)
 			(uuid "e3a5b87d-aa1a-41d1-9449-03a80d41e2be")
 			(effects
@@ -11227,7 +11070,7 @@
 				(justify left)
 			)
 		)
-		(pin "Lamp_EN" output
+		(pin "LMP_EN" output
 			(at 185.42 97.79 180)
 			(uuid "630e92d1-cd7f-4431-adde-212b615baaf7")
 			(effects
@@ -11307,7 +11150,7 @@
 				(justify right)
 			)
 		)
-		(pin "U_L_buf" input
+		(pin "Mon_S1k_buf" input
 			(at 185.42 113.03 180)
 			(uuid "f79ad340-523e-45fb-889c-6d68eb7b39d7")
 			(effects
@@ -11327,7 +11170,7 @@
 				(justify left)
 			)
 		)
-		(pin "U_C_buf" input
+		(pin "Mon_LMP_buf" input
 			(at 185.42 115.57 180)
 			(uuid "f8e8b9bd-560c-4859-b287-3b8024e72a0a")
 			(effects
@@ -11337,7 +11180,7 @@
 				(justify left)
 			)
 		)
-		(pin "I_P_buf" input
+		(pin "Mon_IL_prot" input
 			(at 185.42 118.11 180)
 			(uuid "bffdbbb4-6a99-4b0e-a5f9-3b56eb335067")
 			(effects
@@ -11347,7 +11190,7 @@
 				(justify left)
 			)
 		)
-		(pin "I_SH1000" input
+		(pin "I_S1k" input
 			(at 185.42 134.62 180)
 			(uuid "99f09adb-0b59-4059-a36f-b9a67a080f47")
 			(effects
@@ -11367,7 +11210,7 @@
 				(justify left)
 			)
 		)
-		(pin "U_SH1000_buf" input
+		(pin "U_S1k_buf" input
 			(at 185.42 129.54 180)
 			(uuid "a5a2a359-4a49-4eaa-b827-70810b845169")
 			(effects

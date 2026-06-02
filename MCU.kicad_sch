@@ -5108,7 +5108,7 @@
 		)
 		(uuid "1230c805-da19-4810-b968-4ebc3f7f7566")
 	)
-	(label "I_SH1000"
+	(label "I_S1k"
 		(at 184.15 95.25 180)
 		(effects
 			(font
@@ -5208,7 +5208,7 @@
 		)
 		(uuid "2d29ff90-fcf6-415f-8afd-a3f307ef5250")
 	)
-	(label "I_P_buf"
+	(label "Mon_IL_prot"
 		(at 184.15 100.33 180)
 		(effects
 			(font
@@ -5238,7 +5238,7 @@
 		)
 		(uuid "4cfde275-4e81-4f15-9899-c975f2c76c4a")
 	)
-	(label "Lamp_EN"
+	(label "LMP_EN"
 		(at 110.49 26.67 180)
 		(effects
 			(font
@@ -5278,7 +5278,7 @@
 		)
 		(uuid "5cc703b5-2fee-4366-9c02-6780507b5072")
 	)
-	(label "I_SH1000"
+	(label "I_S1k"
 		(at 50.8 55.88 180)
 		(effects
 			(font
@@ -5308,7 +5308,7 @@
 		)
 		(uuid "6d645340-e9f4-497b-9d3a-5aca6cb15d82")
 	)
-	(label "U_SH1000_buf"
+	(label "U_S1k_buf"
 		(at 184.15 87.63 180)
 		(effects
 			(font
@@ -5348,7 +5348,7 @@
 		)
 		(uuid "7f551b83-4173-4cb2-a35a-44c7c85ad0d2")
 	)
-	(label "U_C_buf"
+	(label "Mon_LMP_buf"
 		(at 184.15 102.87 180)
 		(effects
 			(font
@@ -5358,7 +5358,7 @@
 		)
 		(uuid "818e76b8-7d5e-43a9-b178-618824329759")
 	)
-	(label "U_L_buf"
+	(label "Mon_S1k_buf"
 		(at 184.15 97.79 180)
 		(effects
 			(font
@@ -5428,7 +5428,7 @@
 		)
 		(uuid "96a63606-d0cf-494e-a2e1-f4bcc491865b")
 	)
-	(label "U_L_buf"
+	(label "Mon_S1k_buf"
 		(at 50.8 40.64 180)
 		(effects
 			(font
@@ -5498,7 +5498,7 @@
 		)
 		(uuid "a8b18239-9bd8-47f8-94e3-a1ac0f60024f")
 	)
-	(label "Lamp_EN"
+	(label "LMP_EN"
 		(at 50.8 60.96 180)
 		(effects
 			(font
@@ -5528,7 +5528,7 @@
 		)
 		(uuid "b8f1c51a-0e13-4f6a-8765-deb1e455e5cb")
 	)
-	(label "I_P_buf"
+	(label "Mon_IL_prot"
 		(at 50.8 45.72 180)
 		(effects
 			(font
@@ -5588,7 +5588,7 @@
 		)
 		(uuid "c05264bf-cd4c-4de5-826d-99b1609c2ef7")
 	)
-	(label "U_SH1000_buf"
+	(label "U_S1k_buf"
 		(at 50.8 50.8 180)
 		(effects
 			(font
@@ -5658,7 +5658,7 @@
 		)
 		(uuid "f235ba12-8561-41ee-8e08-c7d3534b5ac4")
 	)
-	(label "U_C_buf"
+	(label "Mon_LMP_buf"
 		(at 50.8 43.18 180)
 		(effects
 			(font
@@ -5701,7 +5701,7 @@
 		)
 		(uuid "38ad1842-91ad-4859-8076-138ce4495a4b")
 	)
-	(hierarchical_label "Lamp_EN"
+	(hierarchical_label "LMP_EN"
 		(shape output)
 		(at 33.02 60.96 180)
 		(effects
@@ -5734,7 +5734,7 @@
 		)
 		(uuid "650e1f5f-520a-40dc-b401-b23e8d0d8814")
 	)
-	(hierarchical_label "U_L_buf"
+	(hierarchical_label "Mon_S1k_buf"
 		(shape input)
 		(at 33.02 40.64 180)
 		(effects
@@ -5745,7 +5745,7 @@
 		)
 		(uuid "6b24c762-580a-4fd8-8853-3c794f083689")
 	)
-	(hierarchical_label "I_SH1000"
+	(hierarchical_label "I_S1k"
 		(shape input)
 		(at 33.02 55.88 180)
 		(effects
@@ -5778,7 +5778,7 @@
 		)
 		(uuid "812d0bdc-0b28-45d6-96ae-6a0b3d5fff09")
 	)
-	(hierarchical_label "U_C_buf"
+	(hierarchical_label "Mon_LMP_buf"
 		(shape input)
 		(at 33.02 43.18 180)
 		(effects
@@ -5789,7 +5789,7 @@
 		)
 		(uuid "8a0ac451-14a9-4810-bd49-3107d51d7dce")
 	)
-	(hierarchical_label "I_P_buf"
+	(hierarchical_label "Mon_IL_prot"
 		(shape input)
 		(at 33.02 45.72 180)
 		(effects
@@ -5844,7 +5844,7 @@
 		)
 		(uuid "d6851d70-ca33-4a8d-a978-b876cad08d0f")
 	)
-	(hierarchical_label "U_SH1000_buf"
+	(hierarchical_label "U_S1k_buf"
 		(shape input)
 		(at 33.02 50.8 180)
 		(effects

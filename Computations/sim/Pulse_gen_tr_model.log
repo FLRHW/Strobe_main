@@ -1,21 +1,26 @@
 Circuit: * Z:\mnt\data\01_Engineering\01_Projects\12_1_kV_strobe_v2\01_Strobe_main\Computations\sim\Pulse_gen_tr_model.asc
 
 Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 2e-006 to 2.002e-006
+Heightened Def Con from 0.0100025 to 0.0100025
+Heightened Def Con from 0.0150025 to 0.0150025
+Heightened Def Con from 0.0300025 to 0.0300025
+Heightened Def Con from 0.0900025 to 0.0900025
 
-Date: Thu May 28 19:06:09 2026
-Total elapsed time: 0.187 seconds.
+Date: Mon Jun 01 19:53:01 2026
+Total elapsed time: 0.409 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2944
-traniter = 2895
-tranpoints = 1166
-accept = 1128
-rejected = 38
+totiter = 36020
+traniter = 35978
+tranpoints = 10168
+accept = 7521
+rejected = 2652
 matrix size = 23
 fillins = 10
 solver = Normal
 Matrix Compiler1: 2.18 KB object code size  0.4/0.3/[0.2]
-Matrix Compiler2: off  [0.3]/0.5/0.3
+Matrix Compiler2: 2.05 KB object code size  0.3/0.4/[0.3]
 
