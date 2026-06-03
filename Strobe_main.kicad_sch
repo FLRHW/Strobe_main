@@ -352,20 +352,6 @@
 		)
 		(uuid "ea04c009-8a6e-4df8-a10e-287d81493227")
 	)
-	(text "${SHEET_NAME_4}"
-		(exclude_from_sim no)
-		(at 38.1 86.36 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#4")
-		)
-		(uuid "f38b3e41-64f1-4162-9fc3-42a2ad6ca733")
-	)
 	(text "9"
 		(exclude_from_sim no)
 		(at 31.75 124.46 0)
@@ -632,7 +618,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
-					(page "9")
+					(page "8")
 				)
 			)
 		)
