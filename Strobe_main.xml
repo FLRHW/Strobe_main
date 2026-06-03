@@ -66,8 +66,8 @@
 	COPPER TO HOLE		0.300 mm
 	COPPER TO EDGE		0.500 mm
 	HOLE TO HOLE			0.250 mm</textvar>
-    <textvar name="GIT_HASH_PCB">9773310</textvar>
-    <textvar name="GIT_HASH_SCH">b31b0a6</textvar>
+    <textvar name="GIT_HASH_PCB">c741cc4</textvar>
+    <textvar name="GIT_HASH_SCH">c741cc4</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_main</textvar>
     <textvar name="PROJECT_NAME">1 kV strobe</textvar>
     <textvar name="RELEASE_BODY_1.0.0">___________________________________
@@ -77,8 +77,8 @@ Migrated existing project to template (KDT)</textvar>
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">02-Jun-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-06-02</textvar>
+    <textvar name="RELEASE_DATE">03-Jun-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-06-03</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-04-11</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -107,7 +107,7 @@ Migrated existing project to template (KDT)</textvar>
     <textvar name="SHEET_NAME_27">......................................</textvar>
     <textvar name="SHEET_NAME_28">......................................</textvar>
     <textvar name="SHEET_NAME_29">......................................</textvar>
-    <textvar name="SHEET_NAME_3">HV side supply</textvar>
+    <textvar name="SHEET_NAME_3">Power supply</textvar>
     <textvar name="SHEET_NAME_30">......................................</textvar>
     <textvar name="SHEET_NAME_31">......................................</textvar>
     <textvar name="SHEET_NAME_32">......................................</textvar>
@@ -118,13 +118,13 @@ Migrated existing project to template (KDT)</textvar>
     <textvar name="SHEET_NAME_37">......................................</textvar>
     <textvar name="SHEET_NAME_38">......................................</textvar>
     <textvar name="SHEET_NAME_39">......................................</textvar>
-    <textvar name="SHEET_NAME_4">LV side supply</textvar>
+    <textvar name="SHEET_NAME_4">Lamp driver</textvar>
     <textvar name="SHEET_NAME_40">......................................</textvar>
-    <textvar name="SHEET_NAME_5">Lamp driver</textvar>
-    <textvar name="SHEET_NAME_6">Signal conditioning</textvar>
-    <textvar name="SHEET_NAME_7">MCU</textvar>
-    <textvar name="SHEET_NAME_8">Optical isolation</textvar>
-    <textvar name="SHEET_NAME_9">Revision History</textvar>
+    <textvar name="SHEET_NAME_5">Signal conditioning</textvar>
+    <textvar name="SHEET_NAME_6">MCU</textvar>
+    <textvar name="SHEET_NAME_7">Optical isolation</textvar>
+    <textvar name="SHEET_NAME_8">Revision History</textvar>
+    <textvar name="SHEET_NAME_9">......................................</textvar>
     <textvar name="VARIANT">PRELIMINARY</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -396,29 +396,23 @@ Migrated existing project to template (KDT)</textvar>
       <sheetpath names="/Block Diagram/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/"/>
       <tstamps>a7228af7-84fe-4c79-8f26-0df60504722f</tstamps>
     </comp>
-    <comp ref="J801">
-      <value>Molex 430452427</value>
-      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-2412_2x12_P3.00mm_Vertical</footprint>
+    <comp ref="J800">
+      <value>Molex 430451227</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-1212_2x06_P3.00mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <description>Generic connector, double row, 02x12, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <description>Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <fields>
-        <field name="Config"/>
-        <field name="Manufacturer">Molex</field>
-        <field name="Manufacturer Part Number">430452427</field>
-        <field name="Footprint">Connector_Molex:Molex_Micro-Fit_3.0_43045-2412_2x12_P3.00mm_Vertical</field>
+        <field name="Footprint">Connector_Molex:Molex_Micro-Fit_3.0_43045-1212_2x06_P3.00mm_Vertical</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Generic connector, double row, 02x12, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+        <field name="Description">Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
-      <libsource lib="Connector_Generic" part="Conn_02x12_Top_Bottom" description="Generic connector, double row, 02x12, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Config" value=""/>
-      <property name="Manufacturer" value="Molex"/>
-      <property name="Manufacturer Part Number" value="430452427"/>
+      <libsource lib="Connector_Generic" part="Conn_02x06_Top_Bottom" description="Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="Block Diagram"/>
       <property name="Sheetfile" value="Block Diagram.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/Block Diagram/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/"/>
-      <tstamps>d8f15a68-9b5a-4f53-a3a5-0a6d3acfd132</tstamps>
+      <tstamps>62ad7dd9-6ecc-4f7c-8677-b08752cefaf9</tstamps>
     </comp>
     <comp ref="J901">
       <value>Header</value>
@@ -1365,48 +1359,6 @@ Migrated existing project to template (KDT)</textvar>
       <sheetpath names="/Block Diagram/Power supply/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/c67a7bf4-f44b-4e1e-aac2-1a1065ee66de/"/>
       <tstamps>522ab0f9-9fd9-4adc-890b-a5286ee9a530</tstamps>
     </comp>
-    <comp ref="Mod100">
-      <value>WB0524S-1W</value>
-      <footprint>Personal:WB___S-1W</footprint>
-      <fields>
-        <field name="LCSC PN">C20598690</field>
-        <field name="Manufacturer">RLT</field>
-        <field name="Manufacturer PN">WB2405S-1W</field>
-        <field name="Footprint">Personal:WB___S-1W</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="WB____S-1W" description=""/>
-      <property name="LCSC PN" value="C20598690"/>
-      <property name="Manufacturer" value="RLT"/>
-      <property name="Manufacturer PN" value="WB2405S-1W"/>
-      <property name="Sheetname" value="Power supply"/>
-      <property name="Sheetfile" value="Power_supply.kicad_sch"/>
-      <property name="RefDes" value="100"/>
-      <sheetpath names="/Block Diagram/Power supply/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/c67a7bf4-f44b-4e1e-aac2-1a1065ee66de/"/>
-      <tstamps>1503db63-58d9-4e79-808d-aa84c5bef8c1</tstamps>
-    </comp>
-    <comp ref="Mod101">
-      <value>WB0505S-1W</value>
-      <footprint>Personal:WB___S-1W</footprint>
-      <fields>
-        <field name="LCSC PN">C20598690</field>
-        <field name="Manufacturer">RLT</field>
-        <field name="Manufacturer PN">WB2405S-1W</field>
-        <field name="Footprint">Personal:WB___S-1W</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="WB____S-1W" description=""/>
-      <property name="LCSC PN" value="C20598690"/>
-      <property name="Manufacturer" value="RLT"/>
-      <property name="Manufacturer PN" value="WB2405S-1W"/>
-      <property name="Sheetname" value="Power supply"/>
-      <property name="Sheetfile" value="Power_supply.kicad_sch"/>
-      <property name="RefDes" value="100"/>
-      <sheetpath names="/Block Diagram/Power supply/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/c67a7bf4-f44b-4e1e-aac2-1a1065ee66de/"/>
-      <tstamps>fc149925-5923-4154-808b-9ffdd8e5f30a</tstamps>
-    </comp>
     <comp ref="P100">
       <value>~</value>
       <description>Local power symbol (source), cosmetic use only</description>
@@ -2078,6 +2030,38 @@ Migrated existing project to template (KDT)</textvar>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block Diagram/Power supply/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/c67a7bf4-f44b-4e1e-aac2-1a1065ee66de/"/>
       <tstamps>24a6ec36-38db-437d-907f-8cb93fa9a458</tstamps>
+    </comp>
+    <comp ref="PS100">
+      <value>B0505S-2W</value>
+      <footprint>Personal:DCDC_converter_THT_BxxxxS-2W</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C5198437.pdf?spm=wm.fly.bg.0.pdf___wm.fly.tp.2.ml&amp;lcsc_vid=QFNdBQUER1ANU1EFTwJaBFcFEwAKVABWEgJcVQEFE1UxVlNeR1VYVVFfRVFWUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRFZWSQwSGg0%3D</datasheet>
+      <fields>
+        <field name="Footprint">Personal:DCDC_converter_THT_BxxxxS-2W</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C5198437.pdf?spm=wm.fly.bg.0.pdf___wm.fly.tp.2.ml&amp;lcsc_vid=QFNdBQUER1ANU1EFTwJaBFcFEwAKVABWEgJcVQEFE1UxVlNeR1VYVVFfRVFWUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRFZWSQwSGg0%3D</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="B0505S-2W" description=""/>
+      <property name="Sheetname" value="Power supply"/>
+      <property name="Sheetfile" value="Power_supply.kicad_sch"/>
+      <property name="RefDes" value="100"/>
+      <sheetpath names="/Block Diagram/Power supply/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/c67a7bf4-f44b-4e1e-aac2-1a1065ee66de/"/>
+      <tstamps>c5ffa3cb-318d-4ce8-bb5a-8b6c41293dd5</tstamps>
+    </comp>
+    <comp ref="PS101">
+      <value>B0524S-2W</value>
+      <footprint>Personal:DCDC_converter_THT_BxxxxS-2W</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C5198437.pdf?spm=wm.fly.bg.0.pdf___wm.fly.tp.2.ml&amp;lcsc_vid=QFNdBQUER1ANU1EFTwJaBFcFEwAKVABWEgJcVQEFE1UxVlNeR1VYVVFfRVFWUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRFZWSQwSGg0%3D</datasheet>
+      <fields>
+        <field name="Footprint">Personal:DCDC_converter_THT_BxxxxS-2W</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C5198437.pdf?spm=wm.fly.bg.0.pdf___wm.fly.tp.2.ml&amp;lcsc_vid=QFNdBQUER1ANU1EFTwJaBFcFEwAKVABWEgJcVQEFE1UxVlNeR1VYVVFfRVFWUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRFZWSQwSGg0%3D</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="B0524S-2W" description=""/>
+      <property name="Sheetname" value="Power supply"/>
+      <property name="Sheetfile" value="Power_supply.kicad_sch"/>
+      <property name="RefDes" value="100"/>
+      <sheetpath names="/Block Diagram/Power supply/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/c67a7bf4-f44b-4e1e-aac2-1a1065ee66de/"/>
+      <tstamps>cf4b0d78-4a84-4504-bbcd-d09ce9346096</tstamps>
     </comp>
     <comp ref="R100">
       <value>470</value>
@@ -9996,18 +9980,18 @@ Migrated existing project to template (KDT)</textvar>
         <pin num="10" name="Pin_10" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector_Generic" part="Conn_02x12_Top_Bottom">
-      <description>Generic connector, double row, 02x12, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector_Generic" part="Conn_02x06_Top_Bottom">
+      <description>Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
         <fp>Connector*:*_2x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_02x12_Top_Bottom</field>
+        <field name="Value">Conn_02x06_Top_Bottom</field>
         <field name="Footprint"/>
         <field name="Datasheet">~</field>
-        <field name="Description">Generic connector, double row, 02x12, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+        <field name="Description">Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -10022,18 +10006,6 @@ Migrated existing project to template (KDT)</textvar>
         <pin num="10" name="Pin_10" type="passive"/>
         <pin num="11" name="Pin_11" type="passive"/>
         <pin num="12" name="Pin_12" type="passive"/>
-        <pin num="13" name="Pin_13" type="passive"/>
-        <pin num="14" name="Pin_14" type="passive"/>
-        <pin num="15" name="Pin_15" type="passive"/>
-        <pin num="16" name="Pin_16" type="passive"/>
-        <pin num="17" name="Pin_17" type="passive"/>
-        <pin num="18" name="Pin_18" type="passive"/>
-        <pin num="19" name="Pin_19" type="passive"/>
-        <pin num="20" name="Pin_20" type="passive"/>
-        <pin num="21" name="Pin_21" type="passive"/>
-        <pin num="22" name="Pin_22" type="passive"/>
-        <pin num="23" name="Pin_23" type="passive"/>
-        <pin num="24" name="Pin_24" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -10464,6 +10436,40 @@ Migrated existing project to template (KDT)</textvar>
         <pin num="6" name="Pin_6" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="personal" part="B0505S-2W">
+      <docs>https://www.lcsc.com/datasheet/C5198437.pdf?spm=wm.fly.bg.0.pdf___wm.fly.tp.2.ml&amp;lcsc_vid=QFNdBQUER1ANU1EFTwJaBFcFEwAKVABWEgJcVQEFE1UxVlNeR1VYVVFfRVFWUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRFZWSQwSGg0%3D</docs>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">B0505S-2W</field>
+        <field name="Footprint">Personal:DCDC_converter_THT_BxxxxS-2W</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C5198437.pdf?spm=wm.fly.bg.0.pdf___wm.fly.tp.2.ml&amp;lcsc_vid=QFNdBQUER1ANU1EFTwJaBFcFEwAKVABWEgJcVQEFE1UxVlNeR1VYVVFfRVFWUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRFZWSQwSGg0%3D</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+Vin" type="power_in"/>
+        <pin num="2" name="-Vin" type="power_in"/>
+        <pin num="4" name="-Vout" type="power_out"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="+Vout" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="B0524S-2W">
+      <docs>https://www.lcsc.com/datasheet/C5198437.pdf?spm=wm.fly.bg.0.pdf___wm.fly.tp.2.ml&amp;lcsc_vid=QFNdBQUER1ANU1EFTwJaBFcFEwAKVABWEgJcVQEFE1UxVlNeR1VYVVFfRVFWUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRFZWSQwSGg0%3D</docs>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">B0524S-2W</field>
+        <field name="Footprint">Personal:DCDC_converter_THT_BxxxxS-2W</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C5198437.pdf?spm=wm.fly.bg.0.pdf___wm.fly.tp.2.ml&amp;lcsc_vid=QFNdBQUER1ANU1EFTwJaBFcFEwAKVABWEgJcVQEFE1UxVlNeR1VYVVFfRVFWUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRFZWSQwSGg0%3D</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+Vin" type="power_in"/>
+        <pin num="2" name="-Vin" type="power_in"/>
+        <pin num="4" name="-Vout" type="power_out"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="+Vout" type="power_out"/>
+      </pins>
+    </libpart>
     <libpart lib="personal" part="Cosmetic_GND">
       <fields>
         <field name="Reference">P</field>
@@ -10563,24 +10569,6 @@ Migrated existing project to template (KDT)</textvar>
         <pin num="2" name="Ref" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="personal" part="WB____S-1W">
-      <fields>
-        <field name="Reference">Mod</field>
-        <field name="Value">WB____S-1W</field>
-        <field name="Footprint">Personal:WB___S-1W</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-        <field name="LCSC PN">C20598690</field>
-        <field name="Manufacturer">RLT</field>
-        <field name="Manufacturer PN">WB2405S-1W</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Vin-" type="passive"/>
-        <pin num="2" name="Vin+" type="passive"/>
-        <pin num="3" name="0V" type="passive"/>
-        <pin num="4" name="Vo+" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="personal" part="ZS1052-S_HT">
       <fields>
         <field name="Reference">PT</field>
@@ -10648,7 +10636,6 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="J1001" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J701" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="J701" pin="7" pinfunction="Pin_7" pintype="passive"/>
-      <node ref="Mod101" pin="3" pinfunction="0V" pintype="passive"/>
       <node ref="P105" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P116" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P121" pin="1" pinfunction="1" pintype="passive"/>
@@ -10664,6 +10651,7 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="P718" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P728" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P729" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="PS100" pin="4" pinfunction="-Vout" pintype="power_out"/>
       <node ref="R619" pin="2" pintype="passive"/>
       <node ref="U102" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="U601" pin="4" pinfunction="GND1" pintype="power_in"/>
@@ -10939,14 +10927,14 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="U501" pin="18" pinfunction="PA8" pintype="bidirectional"/>
     </net>
     <net code="34" name="/Block Diagram/MCU/SUP_RX" class="Default">
-      <node ref="J801" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J800" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="P133" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P733" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP504" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U501" pin="8" pinfunction="PA3" pintype="bidirectional"/>
     </net>
     <net code="35" name="/Block Diagram/MCU/SUP_TX" class="Default">
-      <node ref="J801" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J800" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="P134" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P732" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP503" pin="1" pinfunction="1" pintype="passive"/>
@@ -10985,20 +10973,20 @@ Migrated existing project to template (KDT)</textvar>
     <net code="41" name="/Block Diagram/Power supply/SH24" class="Default">
       <node ref="C100" pin="1" pintype="passive"/>
       <node ref="C103" pin="1" pintype="passive"/>
-      <node ref="Mod100" pin="4" pinfunction="Vo+" pintype="passive"/>
       <node ref="P130" pin="1" pintype="power_in"/>
+      <node ref="PS101" pin="6" pinfunction="+Vout" pintype="power_out"/>
       <node ref="U100" pin="3" pinfunction="VI" pintype="power_in"/>
     </net>
     <net code="42" name="/Block Diagram/Power supply/SL5" class="Default">
       <node ref="C105" pin="1" pintype="passive"/>
-      <node ref="Mod101" pin="4" pinfunction="Vo+" pintype="passive"/>
       <node ref="P119" pin="1" pintype="power_in"/>
+      <node ref="PS100" pin="6" pinfunction="+Vout" pintype="power_out"/>
       <node ref="U102" pin="3" pinfunction="VI" pintype="power_in"/>
     </net>
     <net code="43" name="/Block Diagram/S1k" class="Default">
       <node ref="J302" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J303" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J801" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="J800" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="P11" pin="1" pintype="power_in"/>
       <node ref="P305" pin="1" pintype="power_in"/>
       <node ref="P351" pin="1" pintype="power_in"/>
@@ -11046,11 +11034,8 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="J305" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J501" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="J501" pin="6" pinfunction="Pin_6" pintype="passive"/>
-      <node ref="J801" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="J800" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J901" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="Mod100" pin="1" pinfunction="Vin-" pintype="passive"/>
-      <node ref="Mod100" pin="3" pinfunction="0V" pintype="passive"/>
-      <node ref="Mod101" pin="1" pinfunction="Vin-" pintype="passive"/>
       <node ref="P103" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P108" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P109" pin="1" pinfunction="1" pintype="passive"/>
@@ -11123,6 +11108,9 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="P820" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P821" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P832" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="PS100" pin="2" pinfunction="-Vin" pintype="power_in"/>
+      <node ref="PS101" pin="2" pinfunction="-Vin" pintype="power_in"/>
+      <node ref="PS101" pin="4" pinfunction="-Vout" pintype="power_out"/>
       <node ref="Q302" pin="3" pinfunction="E" pintype="passive"/>
       <node ref="R101" pin="2" pintype="passive"/>
       <node ref="R314" pin="1" pintype="passive"/>
@@ -11211,15 +11199,15 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="C101" pin="1" pintype="passive"/>
       <node ref="C102" pin="1" pintype="passive"/>
       <node ref="C104" pin="1" pintype="passive"/>
-      <node ref="J801" pin="7" pinfunction="Pin_7" pintype="passive"/>
-      <node ref="Mod100" pin="2" pinfunction="Vin+" pintype="passive"/>
-      <node ref="Mod101" pin="2" pinfunction="Vin+" pintype="passive"/>
+      <node ref="J800" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="P100" pin="1" pintype="power_in"/>
       <node ref="P106" pin="1" pintype="power_in"/>
       <node ref="P107" pin="1" pintype="power_in"/>
       <node ref="P118" pin="1" pintype="power_in"/>
       <node ref="P5" pin="1" pintype="power_in"/>
       <node ref="P848" pin="1" pintype="power_in"/>
+      <node ref="PS100" pin="1" pinfunction="+Vin" pintype="power_in"/>
+      <node ref="PS101" pin="1" pinfunction="+Vin" pintype="power_in"/>
       <node ref="U101" pin="3" pinfunction="VI" pintype="power_in"/>
     </net>
     <net code="47" name="/Block Diagram/SH20" class="Default">
@@ -11265,7 +11253,7 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="U602" pin="1" pinfunction="V_{CC1}" pintype="power_in"/>
     </net>
     <net code="49" name="/Block Diagram/Vbus_ctrl" class="Default">
-      <node ref="J801" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J800" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="P743" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P757" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P8" pin="1" pinfunction="1" pintype="passive"/>
@@ -11273,7 +11261,7 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="U501" pin="19" pinfunction="PA9" pintype="bidirectional"/>
     </net>
     <net code="50" name="Earth" class="Default">
-      <node ref="J801" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J800" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="R702" pin="1" pintype="passive"/>
     </net>
     <net code="51" name="Net-(D304-A)" class="Default">
@@ -11484,70 +11472,40 @@ Migrated existing project to template (KDT)</textvar>
     <net code="100" name="unconnected-(J501-Pin_10-Pad10)" class="Default">
       <node ref="J501" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
     </net>
-    <net code="101" name="unconnected-(J801-Pin_1-Pad1)" class="Default">
-      <node ref="J801" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="101" name="unconnected-(J800-Pin_4-Pad4)" class="Default">
+      <node ref="J800" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
     </net>
-    <net code="102" name="unconnected-(J801-Pin_2-Pad2)" class="Default">
-      <node ref="J801" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    <net code="102" name="unconnected-(J800-Pin_5-Pad5)" class="Default">
+      <node ref="J800" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
     </net>
-    <net code="103" name="unconnected-(J801-Pin_3-Pad3)" class="Default">
-      <node ref="J801" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    <net code="103" name="unconnected-(J800-Pin_10-Pad10)" class="Default">
+      <node ref="J800" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
     </net>
-    <net code="104" name="unconnected-(J801-Pin_4-Pad4)" class="Default">
-      <node ref="J801" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    <net code="104" name="unconnected-(J800-Pin_11-Pad11)" class="Default">
+      <node ref="J800" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
     </net>
-    <net code="105" name="unconnected-(J801-Pin_5-Pad5)" class="Default">
-      <node ref="J801" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    <net code="105" name="unconnected-(J800-Pin_12-Pad12)" class="Default">
+      <node ref="J800" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
     </net>
-    <net code="106" name="unconnected-(J801-Pin_9-Pad9)" class="Default">
-      <node ref="J801" pin="9" pinfunction="Pin_9" pintype="passive"/>
-    </net>
-    <net code="107" name="unconnected-(J801-Pin_10-Pad10)" class="Default">
-      <node ref="J801" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
-    </net>
-    <net code="108" name="unconnected-(J801-Pin_11-Pad11)" class="Default">
-      <node ref="J801" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
-    </net>
-    <net code="109" name="unconnected-(J801-Pin_12-Pad12)" class="Default">
-      <node ref="J801" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
-    </net>
-    <net code="110" name="unconnected-(J801-Pin_13-Pad13)" class="Default">
-      <node ref="J801" pin="13" pinfunction="Pin_13" pintype="passive"/>
-    </net>
-    <net code="111" name="unconnected-(J801-Pin_14-Pad14)" class="Default">
-      <node ref="J801" pin="14" pinfunction="Pin_14" pintype="passive"/>
-    </net>
-    <net code="112" name="unconnected-(J801-Pin_15-Pad15)" class="Default">
-      <node ref="J801" pin="15" pinfunction="Pin_15" pintype="passive"/>
-    </net>
-    <net code="113" name="unconnected-(J801-Pin_16-Pad16)" class="Default">
-      <node ref="J801" pin="16" pinfunction="Pin_16" pintype="passive"/>
-    </net>
-    <net code="114" name="unconnected-(J801-Pin_17-Pad17)" class="Default">
-      <node ref="J801" pin="17" pinfunction="Pin_17" pintype="passive"/>
-    </net>
-    <net code="115" name="unconnected-(J801-Pin_20-Pad20)" class="Default">
-      <node ref="J801" pin="20" pinfunction="Pin_20" pintype="passive"/>
-    </net>
-    <net code="116" name="unconnected-(J801-Pin_22-Pad22)" class="Default">
-      <node ref="J801" pin="22" pinfunction="Pin_22" pintype="passive+no_connect"/>
-    </net>
-    <net code="117" name="unconnected-(J801-Pin_23-Pad23)" class="Default">
-      <node ref="J801" pin="23" pinfunction="Pin_23" pintype="passive+no_connect"/>
-    </net>
-    <net code="118" name="unconnected-(LA301-Pad1)" class="Default">
+    <net code="106" name="unconnected-(LA301-Pad1)" class="Default">
       <node ref="LA301" pin="1" pintype="passive+no_connect"/>
     </net>
-    <net code="119" name="unconnected-(LA301-Pad2)" class="Default">
+    <net code="107" name="unconnected-(LA301-Pad2)" class="Default">
       <node ref="LA301" pin="2" pintype="passive+no_connect"/>
     </net>
-    <net code="120" name="unconnected-(LA301-Pad3)" class="Default">
+    <net code="108" name="unconnected-(LA301-Pad3)" class="Default">
       <node ref="LA301" pin="3" pintype="passive+no_connect"/>
     </net>
-    <net code="121" name="unconnected-(PT301-NC-Pad3)" class="Default">
+    <net code="109" name="unconnected-(PS100-NC-Pad5)" class="Default">
+      <node ref="PS100" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(PS101-NC-Pad5)" class="Default">
+      <node ref="PS101" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(PT301-NC-Pad3)" class="Default">
       <node ref="PT301" pin="3" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="122" name="unconnected-(U301-LO-Pad4)" class="Default">
+    <net code="112" name="unconnected-(U301-LO-Pad4)" class="Default">
       <node ref="U301" pin="4" pinfunction="LO" pintype="output+no_connect"/>
     </net>
   </nets>

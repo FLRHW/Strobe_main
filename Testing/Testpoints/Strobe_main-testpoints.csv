@@ -1,13 +1,13 @@
 Testpoint Ref.,Net,Net Class,X,Y,Side,Pad Type,Value,Footprint
 TP301,/Block Diagram/Lamp driver/VBS,Default,60.0000,29.8000,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP302,"/Block Diagram/SH0,/Block Diagram/Lamp driver/LMP_EN",Default,58.4000,28.6000,bottom,THRU,Testpoint_osc_probe,Testpoint_osc_no_lead
+TP302,"/Block Diagram/Lamp driver/LMP_EN,/Block Diagram/SH0",Default,58.4000,28.6000,bottom,THRU,Testpoint_osc_probe,Testpoint_osc_no_lead
 TP303,"/Block Diagram/Lamp driver/Mon_LMP,/Block Diagram/SH0",Default,59.5000,38.2500,bottom,THRU,Testpoint_osc_probe,Testpoint_osc_no_lead
 TP304,"/Block Diagram/SH0,/Block Diagram/Lamp driver/Mon_S1k",Default,53.2500,29.2500,bottom,THRU,Testpoint_osc_probe,Testpoint_osc_no_lead
 TP308,/Block Diagram/S1k,"1000V,T,P,Q,Default",76.2500,103.0000,top,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
 TP309,/Block Diagram/Lamp driver/TP_REF,"500V,T,Default",81.2500,88.2500,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
 TP310,/Block Diagram/Lamp driver/TP_PRI,"500V,T,Default",92.0000,88.5000,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
 TP311,/Block Diagram/Lamp driver/LMP,"1000V,N,Default",17.0000,6.5000,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP312,"/Block Diagram/Lamp driver/Mon_IL,/Block Diagram/SH0",Default,51.5000,42.2500,bottom,THRU,Testpoint_osc_probe,Testpoint_osc_no_lead
+TP312,"/Block Diagram/SH0,/Block Diagram/Lamp driver/Mon_IL",Default,51.5000,42.2500,bottom,THRU,Testpoint_osc_probe,Testpoint_osc_no_lead
 TP313,"/Block Diagram/SH0,/Block Diagram/Lamp driver/DRV_OUT",Default,44.2500,31.5000,bottom,THRU,Testpoint_osc_probe,Testpoint_osc_no_lead
 TP501,Net-(U501-PA0),Default,33.0000,55.0000,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
 TP502,Net-(U501-PA1),Default,36.2500,55.0000,bottom,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
