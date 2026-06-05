@@ -137,8 +137,8 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.1,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.075,
-        "min_via_annular_width": 0.1,
+        "min_track_width": 0.1,
+        "min_via_annular_width": 0.125,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -191,13 +191,10 @@
       ],
       "track_widths": [
         0.0,
-        0.15,
         0.2,
-        0.25,
-        0.3,
-        0.35,
         0.4,
-        0.5
+        0.8,
+        1.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -231,20 +228,16 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.55,
-          "drill": 0.25
-        },
-        {
           "diameter": 0.6,
           "drill": 0.3
         },
         {
-          "diameter": 0.7,
-          "drill": 0.3
+          "diameter": 0.8,
+          "drill": 0.5
         },
         {
-          "diameter": 0.8,
-          "drill": 0.4
+          "diameter": 1.2,
+          "drill": 0.9
         }
       ],
       "zones_allow_external_fillets": false
@@ -952,6 +945,12 @@
         "NR"
       ],
       "unconnected-(J800-Pin_5-Pad5)": [
+        "NR"
+      ],
+      "unconnected-(J800-Pin_8-Pad8)": [
+        "NR"
+      ],
+      "unconnected-(J800-Pin_9-Pad9)": [
         "NR"
       ],
       "unconnected-(J801-Pin_10-Pad10)": [

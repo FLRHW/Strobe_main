@@ -62,7 +62,7 @@
    (constraint clearance (min 5mm))
    (condition "A.hasNetclass('1000V') && !B.hasNetclass('NR')"))
 
-#specify clearance for Lamp_P near J301
+#specify clearance for Lamp_P near J301 / Not applicable for schematic newer than 1.0.1
 (rule "Lamp_P J301"
    (layer outer)
    (constraint clearance (min 3.85mm))
