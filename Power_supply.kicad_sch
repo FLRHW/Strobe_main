@@ -735,7 +735,7 @@
 				)
 			)
 			(symbol "B0505S-2W_1_0"
-				(pin no_connect line
+				(pin passive line
 					(at 10.16 0 180)
 					(length 2.54)
 					(name "NC"
@@ -941,7 +941,7 @@
 				)
 			)
 			(symbol "B0524S-2W_1_0"
-				(pin no_connect line
+				(pin passive line
 					(at 10.16 0 180)
 					(length 2.54)
 					(name "NC"
@@ -1555,6 +1555,24 @@
 		(color 0 0 0 0)
 		(uuid "fc547851-88f2-400b-93ba-82b76efbf03e")
 	)
+	(no_connect
+		(at 139.7 40.64)
+		(uuid "0369666d-b5cd-43ab-bfa9-df302a9e61de")
+	)
+	(no_connect
+		(at 139.7 116.84)
+		(uuid "8b1eff52-5250-437e-b6c1-04241885e4cf")
+	)
+	(wire
+		(pts
+			(xy 138.43 40.64) (xy 139.7 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "048f2314-fa7b-4045-9993-8b5512731849")
+	)
 	(wire
 		(pts
 			(xy 200.66 55.88) (xy 200.66 59.69)
@@ -1584,6 +1602,16 @@
 			(type default)
 		)
 		(uuid "098ad907-bac8-4819-999d-a07ad1116bd4")
+	)
+	(wire
+		(pts
+			(xy 138.43 116.84) (xy 139.7 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc47c81-adb0-482b-8c2b-1d3e9ad53c91")
 	)
 	(wire
 		(pts
@@ -2683,6 +2711,36 @@
 		)
 		(property "Component Class" ""
 			(at 110.49 339.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 139.7 116.84 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f2d9e3a-30c5-4007-b4e4-527b682ccc32")
+		(property "Netclass" "LV"
+			(at 143.51 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -85.09 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
