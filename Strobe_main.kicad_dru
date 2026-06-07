@@ -20,6 +20,21 @@
    (constraint clearance (min 2.5mm))
    (condition "A.hasNetclass('250V') && (B.hasNetclass('LV') || B.hasNetclass('AC'))"))
 
+#specify general clearance for 400 V nets
+(rule "400 V"
+   (constraint clearance (min 2mm))
+   (condition "A.hasNetclass('400V')"))
+
+#specify reduced clearance on specific 400 V nets against other 400 V nets
+(rule "400 V"
+   (constraint clearance (min 0.5mm))
+   (condition "(A.NetName == '/Block Diagram/Lamp driver/G_TP_REF' && B.NetName == '/Block Diagram/Lamp driver/TP_PRI') || (A.NetName == '/Block Diagram/Lamp driver/TP_INT' && B.NetName == '/Block Diagram/Lamp driver/TP_COM')"))
+
+#specify clearance for 400 V nets against LV domain
+(rule "400 V LV"
+   (constraint clearance (min 5mm))
+   (condition "A.hasNetclass('400V') && B.hasNetclass('LV')"))
+
 #specify general clearance for 500 V nets
 (rule "500 V"
    (constraint clearance (min 2.5mm))

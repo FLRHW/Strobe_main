@@ -1,0 +1,55 @@
+Circuit: * Z:\mnt\data\01_Engineering\01_Projects\12_1_kV_strobe_v2\01_Strobe_main\Computations\sim\Pulse_gen_tr_model_no_IGBT.asc
+
+WARNING: Less than two connections to node NC_01.  This node is used by M1.
+Instance "m:u1:os": Width narrower than recommended for a level 3 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.00100083
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 0.00100083
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+Heightened Def Con from 1.39618e-013 to 1.12514e-009
+Heightened Def Con from 2.00925e-006 to 2.01337e-006
+Heightened Def Con from 3.55808e-006 to 3.56208e-006
+
+Date: Sun Jun 07 16:27:01 2026
+Total elapsed time: 0.462 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 6165
+traniter = 4425
+tranpoints = 1798
+accept = 1530
+rejected = 271
+matrix size = 42
+fillins = 61
+solver = Normal
+Matrix Compiler1: 6.12 KB object code size  1.0/0.6/[0.4]
+Matrix Compiler2: off  [0.7]/1.1/0.7
+
