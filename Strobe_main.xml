@@ -66,7 +66,7 @@
 	COPPER TO HOLE		0.300 mm
 	COPPER TO EDGE		0.500 mm
 	HOLE TO HOLE			0.250 mm</textvar>
-    <textvar name="GIT_HASH_PCB">6ee9bf0</textvar>
+    <textvar name="GIT_HASH_PCB">cb3e7e3</textvar>
     <textvar name="GIT_HASH_SCH">c741cc4</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_main</textvar>
     <textvar name="PROJECT_NAME">1 kV strobe</textvar>
@@ -77,8 +77,8 @@ Migrated existing project to template (KDT)</textvar>
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">08-Jun-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-06-08</textvar>
+    <textvar name="RELEASE_DATE">09-Jun-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-06-09</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-04-11</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -4522,14 +4522,14 @@ Migrated existing project to template (KDT)</textvar>
     </comp>
     <comp ref="R324">
       <value>100k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P5.08mm_Vertical</footprint>
+      <footprint>Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="Config"/>
         <field name="Manufacturer">Generic</field>
         <field name="Manufacturer Part Number"/>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P5.08mm_Vertical</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
@@ -10642,13 +10642,14 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="U501" pin="18" pinfunction="PA8" pintype="bidirectional"/>
     </net>
     <net code="35" name="/Block Diagram/MCU/SUP_RX" class="Default">
-      <node ref="J800" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J800" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="P133" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P733" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP504" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U501" pin="8" pinfunction="PA3" pintype="bidirectional"/>
     </net>
     <net code="36" name="/Block Diagram/MCU/SUP_TX" class="Default">
+      <node ref="J800" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="P134" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P732" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP503" pin="1" pinfunction="1" pintype="passive"/>
@@ -10700,7 +10701,7 @@ Migrated existing project to template (KDT)</textvar>
     <net code="44" name="/Block Diagram/S1k" class="Default">
       <node ref="J302" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J303" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J800" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J800" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="P11" pin="1" pintype="power_in"/>
       <node ref="P305" pin="1" pintype="power_in"/>
       <node ref="P351" pin="1" pintype="power_in"/>
@@ -10745,7 +10746,7 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="D402" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D403" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J305" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J800" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J800" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J901" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="P103" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P108" pin="1" pinfunction="1" pintype="passive"/>
@@ -10902,6 +10903,7 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="C101" pin="1" pintype="passive"/>
       <node ref="C102" pin="1" pintype="passive"/>
       <node ref="C104" pin="1" pintype="passive"/>
+      <node ref="J800" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="P100" pin="1" pintype="power_in"/>
       <node ref="P106" pin="1" pintype="power_in"/>
       <node ref="P107" pin="1" pintype="power_in"/>
@@ -10955,7 +10957,7 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="U602" pin="1" pinfunction="V_{CC1}" pintype="power_in"/>
     </net>
     <net code="50" name="/Block Diagram/Vbus_ctrl" class="Default">
-      <node ref="J800" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J800" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="P743" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P757" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P8" pin="1" pinfunction="1" pintype="passive"/>
@@ -11156,49 +11158,43 @@ Migrated existing project to template (KDT)</textvar>
     <net code="97" name="unconnected-(J304-Pin_5-Pad5)" class="Default">
       <node ref="J304" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
     </net>
-    <net code="98" name="unconnected-(J800-Pin_3-Pad3)" class="Default">
+    <net code="98" name="unconnected-(J800-Pin_2-Pad2)" class="Default">
+      <node ref="J800" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(J800-Pin_3-Pad3)" class="Default">
       <node ref="J800" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
     </net>
-    <net code="99" name="unconnected-(J800-Pin_4-Pad4)" class="Default">
-      <node ref="J800" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
-    </net>
-    <net code="100" name="unconnected-(J800-Pin_5-Pad5)" class="Default">
-      <node ref="J800" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    <net code="100" name="unconnected-(J800-Pin_7-Pad7)" class="Default">
+      <node ref="J800" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
     </net>
     <net code="101" name="unconnected-(J800-Pin_8-Pad8)" class="Default">
       <node ref="J800" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
     </net>
-    <net code="102" name="unconnected-(J800-Pin_9-Pad9)" class="Default">
-      <node ref="J800" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    <net code="102" name="unconnected-(J800-Pin_11-Pad11)" class="Default">
+      <node ref="J800" pin="11" pinfunction="Pin_11" pintype="passive"/>
     </net>
-    <net code="103" name="unconnected-(J800-Pin_10-Pad10)" class="Default">
-      <node ref="J800" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    <net code="103" name="unconnected-(J800-Pin_12-Pad12)" class="Default">
+      <node ref="J800" pin="12" pinfunction="Pin_12" pintype="passive"/>
     </net>
-    <net code="104" name="unconnected-(J800-Pin_11-Pad11)" class="Default">
-      <node ref="J800" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
-    </net>
-    <net code="105" name="unconnected-(J800-Pin_12-Pad12)" class="Default">
-      <node ref="J800" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
-    </net>
-    <net code="106" name="unconnected-(LA301-Pad1)" class="Default">
+    <net code="104" name="unconnected-(LA301-Pad1)" class="Default">
       <node ref="LA301" pin="1" pintype="passive+no_connect"/>
     </net>
-    <net code="107" name="unconnected-(LA301-Pad2)" class="Default">
+    <net code="105" name="unconnected-(LA301-Pad2)" class="Default">
       <node ref="LA301" pin="2" pintype="passive+no_connect"/>
     </net>
-    <net code="108" name="unconnected-(LA301-Pad3)" class="Default">
+    <net code="106" name="unconnected-(LA301-Pad3)" class="Default">
       <node ref="LA301" pin="3" pintype="passive+no_connect"/>
     </net>
-    <net code="109" name="unconnected-(PS100-NC-Pad5)" class="Default">
+    <net code="107" name="unconnected-(PS100-NC-Pad5)" class="Default">
       <node ref="PS100" pin="5" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="110" name="unconnected-(PS101-NC-Pad5)" class="Default">
+    <net code="108" name="unconnected-(PS101-NC-Pad5)" class="Default">
       <node ref="PS101" pin="5" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="111" name="unconnected-(PT301-NC-Pad3)" class="Default">
+    <net code="109" name="unconnected-(PT301-NC-Pad3)" class="Default">
       <node ref="PT301" pin="3" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="112" name="unconnected-(U301-LO-Pad4)" class="Default">
+    <net code="110" name="unconnected-(U301-LO-Pad4)" class="Default">
       <node ref="U301" pin="4" pinfunction="LO" pintype="output+no_connect"/>
     </net>
   </nets>
