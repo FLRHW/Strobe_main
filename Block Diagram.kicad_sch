@@ -2148,7 +2148,7 @@
 	)
 	(rectangle
 		(start 317.5 193.04)
-		(end 367.03 218.44)
+		(end 367.03 228.6)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -2372,7 +2372,7 @@
 		(uuid "6235075f-1d26-4fa7-b2bb-081d4fdf8dec")
 	)
 	(junction
-		(at 160.02 232.41)
+		(at 344.17 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ce21753-23da-4922-9158-66d78cb044f2")
@@ -3397,7 +3397,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 238.76) (xy 160.02 232.41)
+			(xy 344.17 215.9) (xy 344.17 209.55)
 		)
 		(stroke
 			(width 0)
@@ -4295,7 +4295,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape dot)
-		(at 160.02 237.49 270)
+		(at 344.17 214.63 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4304,7 +4304,7 @@
 		)
 		(uuid "ef1ed6b5-498d-475f-a035-ea2c3da70c54")
 		(property "Netclass" "LV"
-			(at 165.1 237.49 0)
+			(at 349.25 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4313,7 +4313,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 387.35 191.77 0)
+			(at 571.5 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,7 +4613,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 322.58 213.36 0)
+		(at 322.58 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4622,7 +4622,7 @@
 		(fields_autoplaced yes)
 		(uuid "2464fcb4-838a-4fae-ae36-babbdf26275a")
 		(property "Reference" "H102"
-			(at 325.12 212.0899 0)
+			(at 325.12 204.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4631,7 +4631,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 325.12 214.6299 0)
+			(at 325.12 207.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,7 +4640,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 322.58 213.36 0)
+			(at 322.58 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4649,7 +4649,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 322.58 213.36 0)
+			(at 322.58 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4658,7 +4658,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 322.58 213.36 0)
+			(at 322.58 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4667,7 +4667,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 322.58 213.36 0)
+			(at 322.58 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4676,7 +4676,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 322.58 213.36 0)
+			(at 322.58 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4685,7 +4685,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 322.58 213.36 0)
+			(at 322.58 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5252,7 +5252,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 160.02 232.41 270)
+		(at 344.17 209.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5260,7 +5260,7 @@
 		(dnp no)
 		(uuid "3b653a0e-b24d-4508-ab0e-4cccfa6bcf83")
 		(property "Reference" "#FLG05"
-			(at 161.925 232.41 0)
+			(at 346.075 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5269,7 +5269,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 162.56 232.41 90)
+			(at 346.71 209.55 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5278,7 +5278,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 232.41 0)
+			(at 344.17 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5287,7 +5287,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 232.41 0)
+			(at 344.17 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5296,7 +5296,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 160.02 232.41 0)
+			(at 344.17 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,7 +5318,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 160.02 229.87 0)
+		(at 344.17 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5327,7 +5327,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fd4e75a-3665-4459-80b2-9450ae571e69")
 		(property "Reference" "H100"
-			(at 162.56 227.3299 0)
+			(at 346.71 204.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5336,7 +5336,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 162.56 229.8699 0)
+			(at 346.71 207.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5345,7 +5345,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 160.02 229.87 0)
+			(at 344.17 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5354,7 +5354,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 229.87 0)
+			(at 344.17 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5363,7 +5363,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 160.02 229.87 0)
+			(at 344.17 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6193,7 +6193,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth_Protective")
-		(at 160.02 238.76 0)
+		(at 344.17 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6201,7 +6201,7 @@
 		(dnp no)
 		(uuid "68394e6f-1b4b-40d4-85a9-9438b8dc2688")
 		(property "Reference" "#PWR01"
-			(at 160.02 248.92 0)
+			(at 344.17 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,7 +6210,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 160.02 246.38 0)
+			(at 344.17 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6218,7 +6218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 241.3 0)
+			(at 344.17 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6227,7 +6227,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 241.3 0)
+			(at 344.17 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,7 +6236,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
-			(at 160.02 238.76 0)
+			(at 344.17 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6829,7 +6829,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 347.98 213.36 0)
+		(at 322.58 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6838,7 +6838,7 @@
 		(fields_autoplaced yes)
 		(uuid "91f4963f-1d4b-4fb4-ba2e-d57afa8b7843")
 		(property "Reference" "H104"
-			(at 350.52 212.0899 0)
+			(at 325.12 219.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6847,7 +6847,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 350.52 214.6299 0)
+			(at 325.12 222.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6856,7 +6856,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 347.98 213.36 0)
+			(at 322.58 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,7 +6865,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 347.98 213.36 0)
+			(at 322.58 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6874,7 +6874,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 347.98 213.36 0)
+			(at 322.58 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6883,7 +6883,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 347.98 213.36 0)
+			(at 322.58 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6892,7 +6892,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 347.98 213.36 0)
+			(at 322.58 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6901,7 +6901,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 347.98 213.36 0)
+			(at 322.58 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8094,97 +8094,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 322.58 205.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc82dca0-a7c4-48ba-b948-42f54eb07203")
-		(property "Reference" "H101"
-			(at 325.12 204.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 325.12 207.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 322.58 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 322.58 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 322.58 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 322.58 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 322.58 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 322.58 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "H101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "personal:Cosmetic_PWR")
 		(at 213.36 91.44 0)
 		(unit 1)
@@ -8282,7 +8191,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 347.98 205.74 0)
+		(at 322.58 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8291,7 +8200,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff92fa9f-6dcd-45b9-b57f-14d5e301c862")
 		(property "Reference" "H103"
-			(at 350.52 204.4699 0)
+			(at 325.12 212.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8300,7 +8209,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 350.52 207.0099 0)
+			(at 325.12 214.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8309,7 +8218,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 347.98 205.74 0)
+			(at 322.58 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8318,7 +8227,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 347.98 205.74 0)
+			(at 322.58 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8327,7 +8236,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 347.98 205.74 0)
+			(at 322.58 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8336,7 +8245,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 347.98 205.74 0)
+			(at 322.58 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8345,7 +8254,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 347.98 205.74 0)
+			(at 322.58 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8354,7 +8263,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 347.98 205.74 0)
+			(at 322.58 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
