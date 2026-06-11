@@ -3,7 +3,7 @@
   <design>
     <source>/github/workspace/Strobe_main.kicad_sch</source>
     <date>Date1</date>
-    <tool>Eeschema 9.0.7+1</tool>
+    <tool>Eeschema 9.0.9-9.0.9~ubuntu25.10.1</tool>
     <textvar name="ASSEMBLY_NOTES">ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)
 
 1)	DO NOT POPULATE PARTS MARKED WITH A RED CROSS.
@@ -60,13 +60,13 @@
 	BOARD THICKNESS		2.278 mm
 	TRACE WIDTH			0.200 mm
 	TRACE TO TRACE		0.200 mm
-	MIN. HOLE (PTH)			0.250 mm
+	MIN. HOLE (PTH)			0.300 mm
 	MIN. HOLE (NPTH)		1.000 mm
 	ANNULAR RING			0.150 mm
 	COPPER TO HOLE		0.300 mm
 	COPPER TO EDGE		0.500 mm
 	HOLE TO HOLE			0.250 mm</textvar>
-    <textvar name="GIT_HASH_PCB">2db8fa8</textvar>
+    <textvar name="GIT_HASH_PCB">52e7da6</textvar>
     <textvar name="GIT_HASH_SCH">c741cc4</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_main</textvar>
     <textvar name="PROJECT_NAME">1 kV strobe</textvar>
@@ -77,8 +77,8 @@ Migrated existing project to template (KDT)</textvar>
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">09-Jun-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-06-09</textvar>
+    <textvar name="RELEASE_DATE">11-Jun-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-06-11</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-04-11</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -10501,20 +10501,26 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="TP304" pin="1" pinfunction="Sig" pintype="passive"/>
       <node ref="U401" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="15" name="/Block Diagram/Lamp driver/TP_COM" class="Default">
+    <net code="15" name="/Block Diagram/Lamp driver/REF_M" class="Default">
+      <node ref="C307" pin="2" pintype="passive"/>
+      <node ref="C309" pin="1" pintype="passive"/>
+      <node ref="D305" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D309" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="16" name="/Block Diagram/Lamp driver/TP_COM" class="Default">
       <node ref="PT301" pin="1" pinfunction="C" pintype="passive"/>
       <node ref="Q100" pin="2" pinfunction="D" pintype="passive"/>
       <node ref="R332" pin="1" pintype="passive"/>
     </net>
-    <net code="16" name="/Block Diagram/Lamp driver/TP_DRV_COL" class="Default">
+    <net code="17" name="/Block Diagram/Lamp driver/TP_DRV_COL" class="Default">
       <node ref="Q301" pin="2" pinfunction="D" pintype="passive"/>
       <node ref="R324" pin="2" pintype="passive"/>
     </net>
-    <net code="17" name="/Block Diagram/Lamp driver/TP_INT" class="Default">
+    <net code="18" name="/Block Diagram/Lamp driver/TP_INT" class="Default">
       <node ref="D304" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R332" pin="2" pintype="passive"/>
     </net>
-    <net code="18" name="/Block Diagram/Lamp driver/TP_PRI" class="Default">
+    <net code="19" name="/Block Diagram/Lamp driver/TP_PRI" class="Default">
       <node ref="C308" pin="1" pintype="passive"/>
       <node ref="D303" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D304" pin="1" pinfunction="K" pintype="passive"/>
@@ -10523,25 +10529,29 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="R319" pin="2" pintype="passive"/>
       <node ref="TP310" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="19" name="/Block Diagram/Lamp driver/TP_REF" class="Default">
+    <net code="20" name="/Block Diagram/Lamp driver/TP_REF" class="Default">
       <node ref="C307" pin="1" pintype="passive"/>
       <node ref="D305" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R329" pin="1" pintype="passive"/>
       <node ref="R330" pin="1" pintype="passive"/>
       <node ref="TP309" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="20" name="/Block Diagram/Lamp driver/TRIG" class="Default">
+    <net code="21" name="/Block Diagram/Lamp driver/TP_RM" class="Default">
+      <node ref="R330" pin="2" pintype="passive"/>
+      <node ref="R331" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="/Block Diagram/Lamp driver/TRIG" class="Default">
       <node ref="J304" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="P366" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P864" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="PT301" pin="4" pinfunction="S" pintype="passive"/>
     </net>
-    <net code="21" name="/Block Diagram/Lamp driver/VBS" class="Default">
+    <net code="23" name="/Block Diagram/Lamp driver/VBS" class="Default">
       <node ref="C301" pin="1" pintype="passive"/>
       <node ref="D301" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U301" pin="8" pinfunction="VB" pintype="passive"/>
     </net>
-    <net code="22" name="/Block Diagram/Light_sns" class="Default">
+    <net code="24" name="/Block Diagram/Light_sns" class="Default">
       <node ref="J901" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="P328" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P529" pin="1" pinfunction="1" pintype="passive"/>
@@ -10549,12 +10559,12 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="TP514" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U501" pin="20" pinfunction="PA10" pintype="bidirectional"/>
     </net>
-    <net code="23" name="/Block Diagram/MCU/BOOT0" class="Default">
+    <net code="25" name="/Block Diagram/MCU/BOOT0" class="Default">
       <node ref="R504" pin="1" pintype="passive"/>
       <node ref="TP518" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U501" pin="31" pinfunction="PB8" pintype="bidirectional"/>
     </net>
-    <net code="24" name="/Block Diagram/MCU/HV_EXT_EN" class="Default">
+    <net code="26" name="/Block Diagram/MCU/HV_EXT_EN" class="Default">
       <node ref="P703" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P723" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P755" pin="1" pinfunction="1" pintype="passive"/>
@@ -10562,7 +10572,7 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="R502" pin="1" pintype="passive"/>
       <node ref="R615" pin="1" pintype="passive"/>
     </net>
-    <net code="25" name="/Block Diagram/MCU/HV_NRST" class="Default">
+    <net code="27" name="/Block Diagram/MCU/HV_NRST" class="Default">
       <node ref="C109" pin="1" pintype="passive"/>
       <node ref="P687" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P721" pin="1" pinfunction="1" pintype="passive"/>
@@ -10572,7 +10582,7 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="R613" pin="1" pintype="passive"/>
       <node ref="U501" pin="4" pinfunction="PG10" pintype="bidirectional"/>
     </net>
-    <net code="26" name="/Block Diagram/MCU/HV_RX" class="Default">
+    <net code="28" name="/Block Diagram/MCU/HV_RX" class="Default">
       <node ref="P691" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P719" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P737" pin="1" pinfunction="1" pintype="passive"/>
@@ -10580,7 +10590,7 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="R611" pin="1" pintype="passive"/>
       <node ref="U501" pin="30" pinfunction="PB7" pintype="bidirectional"/>
     </net>
-    <net code="27" name="/Block Diagram/MCU/HV_SWDCLK" class="Default">
+    <net code="29" name="/Block Diagram/MCU/HV_SWDCLK" class="Default">
       <node ref="P686" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P696" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P707" pin="1" pinfunction="1" pintype="passive"/>
@@ -10588,7 +10598,7 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="R607" pin="1" pintype="passive"/>
       <node ref="U501" pin="24" pinfunction="PA14" pintype="bidirectional"/>
     </net>
-    <net code="28" name="/Block Diagram/MCU/HV_SWDIO" class="Default">
+    <net code="30" name="/Block Diagram/MCU/HV_SWDIO" class="Default">
       <node ref="P649" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P775" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P776" pin="1" pinfunction="1" pintype="passive"/>
@@ -10596,7 +10606,7 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="R605" pin="1" pintype="passive"/>
       <node ref="U501" pin="23" pinfunction="PA13" pintype="bidirectional"/>
     </net>
-    <net code="29" name="/Block Diagram/MCU/HV_TX" class="Default">
+    <net code="31" name="/Block Diagram/MCU/HV_TX" class="Default">
       <node ref="P690" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P725" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P741" pin="1" pinfunction="1" pintype="passive"/>
@@ -10604,14 +10614,14 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="R617" pin="1" pintype="passive"/>
       <node ref="U501" pin="29" pinfunction="PB6" pintype="bidirectional"/>
     </net>
-    <net code="30" name="/Block Diagram/MCU/INT_EN" class="Default">
+    <net code="32" name="/Block Diagram/MCU/INT_EN" class="Default">
       <node ref="P758" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P763" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R501" pin="1" pintype="passive"/>
       <node ref="TP515" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U501" pin="21" pinfunction="PA11" pintype="bidirectional"/>
     </net>
-    <net code="31" name="/Block Diagram/MCU/Mon_IL_prot" class="Default">
+    <net code="33" name="/Block Diagram/MCU/Mon_IL_prot" class="Default">
       <node ref="C402" pin="1" pintype="passive"/>
       <node ref="D401" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="P449" pin="1" pinfunction="1" pintype="passive"/>
@@ -10623,7 +10633,7 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="TP507" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U501" pin="10" pinfunction="PA5" pintype="bidirectional"/>
     </net>
-    <net code="32" name="/Block Diagram/MCU/Mon_LMP_buf" class="Default">
+    <net code="34" name="/Block Diagram/MCU/Mon_LMP_buf" class="Default">
       <node ref="P589" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P736" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P748" pin="1" pinfunction="1" pintype="passive"/>
@@ -10633,7 +10643,7 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="U401" pin="7" pintype="output"/>
       <node ref="U501" pin="11" pinfunction="PA6" pintype="bidirectional"/>
     </net>
-    <net code="33" name="/Block Diagram/MCU/Mon_S1k_buf" class="Default">
+    <net code="35" name="/Block Diagram/MCU/Mon_S1k_buf" class="Default">
       <node ref="P588" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P734" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P746" pin="1" pinfunction="1" pintype="passive"/>
@@ -10643,71 +10653,71 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="U401" pin="2" pinfunction="-" pintype="input"/>
       <node ref="U501" pin="9" pinfunction="PA4" pintype="bidirectional"/>
     </net>
-    <net code="34" name="/Block Diagram/MCU/ST_LED" class="Default">
+    <net code="36" name="/Block Diagram/MCU/ST_LED" class="Default">
       <node ref="P740" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P756" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R503" pin="2" pintype="passive"/>
       <node ref="R505" pin="1" pintype="passive"/>
       <node ref="U501" pin="18" pinfunction="PA8" pintype="bidirectional"/>
     </net>
-    <net code="35" name="/Block Diagram/MCU/SUP_RX" class="Default">
+    <net code="37" name="/Block Diagram/MCU/SUP_RX" class="Default">
       <node ref="J800" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="P133" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P733" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP504" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U501" pin="8" pinfunction="PA3" pintype="bidirectional"/>
     </net>
-    <net code="36" name="/Block Diagram/MCU/SUP_TX" class="Default">
+    <net code="38" name="/Block Diagram/MCU/SUP_TX" class="Default">
       <node ref="J800" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="P134" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P732" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP503" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U501" pin="7" pinfunction="PA2" pintype="bidirectional"/>
     </net>
-    <net code="37" name="/Block Diagram/Optical isolation/LV_NRST" class="Default">
+    <net code="39" name="/Block Diagram/Optical isolation/LV_NRST" class="Default">
       <node ref="J701" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="P722" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P731" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R614" pin="2" pintype="passive"/>
     </net>
-    <net code="38" name="/Block Diagram/Optical isolation/LV_RX" class="Default">
+    <net code="40" name="/Block Diagram/Optical isolation/LV_RX" class="Default">
       <node ref="J701" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="P695" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P726" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R618" pin="2" pintype="passive"/>
     </net>
-    <net code="39" name="/Block Diagram/Optical isolation/LV_SWDCLK" class="Default">
+    <net code="41" name="/Block Diagram/Optical isolation/LV_SWDCLK" class="Default">
       <node ref="J701" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="P697" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P730" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R608" pin="2" pintype="passive"/>
     </net>
-    <net code="40" name="/Block Diagram/Optical isolation/LV_SWDIO" class="Default">
+    <net code="42" name="/Block Diagram/Optical isolation/LV_SWDIO" class="Default">
       <node ref="J701" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="P694" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P833" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R606" pin="2" pintype="passive"/>
     </net>
-    <net code="41" name="/Block Diagram/Optical isolation/LV_TX" class="Default">
+    <net code="43" name="/Block Diagram/Optical isolation/LV_TX" class="Default">
       <node ref="J701" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="P692" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P720" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R612" pin="2" pintype="passive"/>
     </net>
-    <net code="42" name="/Block Diagram/Power supply/SH24" class="Default">
+    <net code="44" name="/Block Diagram/Power supply/SH24" class="Default">
       <node ref="C100" pin="1" pintype="passive"/>
       <node ref="C103" pin="1" pintype="passive"/>
       <node ref="P130" pin="1" pintype="power_in"/>
       <node ref="PS101" pin="6" pinfunction="+Vout" pintype="power_out"/>
       <node ref="U100" pin="3" pinfunction="VI" pintype="power_in"/>
     </net>
-    <net code="43" name="/Block Diagram/Power supply/SL5" class="Default">
+    <net code="45" name="/Block Diagram/Power supply/SL5" class="Default">
       <node ref="C105" pin="1" pintype="passive"/>
       <node ref="P119" pin="1" pintype="power_in"/>
       <node ref="PS100" pin="6" pinfunction="+Vout" pintype="power_out"/>
       <node ref="U102" pin="3" pinfunction="VI" pintype="power_in"/>
     </net>
-    <net code="44" name="/Block Diagram/S1k" class="Default">
+    <net code="46" name="/Block Diagram/S1k" class="Default">
       <node ref="J302" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J303" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J800" pin="7" pinfunction="Pin_7" pintype="passive"/>
@@ -10723,7 +10733,7 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="R324" pin="1" pintype="passive"/>
       <node ref="TP308" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="45" name="/Block Diagram/SH0" class="Default">
+    <net code="47" name="/Block Diagram/SH0" class="Default">
       <node ref="C100" pin="2" pintype="passive"/>
       <node ref="C101" pin="2" pintype="passive"/>
       <node ref="C102" pin="2" pintype="passive"/>
@@ -10860,7 +10870,7 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="Y501" pin="2" pinfunction="G" pintype="passive"/>
       <node ref="Y501" pin="4" pinfunction="G" pintype="passive"/>
     </net>
-    <net code="46" name="/Block Diagram/SH3" class="Default">
+    <net code="48" name="/Block Diagram/SH3" class="Default">
       <node ref="C107" pin="1" pintype="passive"/>
       <node ref="C401" pin="1" pintype="passive"/>
       <node ref="C501" pin="1" pintype="passive"/>
@@ -10910,7 +10920,7 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="U601" pin="8" pinfunction="VCC2" pintype="power_in"/>
       <node ref="U602" pin="16" pinfunction="V_{CC2}" pintype="power_in"/>
     </net>
-    <net code="47" name="/Block Diagram/SH5" class="Default">
+    <net code="49" name="/Block Diagram/SH5" class="Default">
       <node ref="C101" pin="1" pintype="passive"/>
       <node ref="C102" pin="1" pintype="passive"/>
       <node ref="C104" pin="1" pintype="passive"/>
@@ -10925,7 +10935,7 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="PS101" pin="1" pinfunction="+Vin" pintype="power_in"/>
       <node ref="U101" pin="3" pinfunction="VI" pintype="power_in"/>
     </net>
-    <net code="48" name="/Block Diagram/SH20" class="Default">
+    <net code="50" name="/Block Diagram/SH20" class="Default">
       <node ref="C106" pin="1" pintype="passive"/>
       <node ref="C302" pin="1" pintype="passive"/>
       <node ref="D301" pin="2" pinfunction="A" pintype="passive"/>
@@ -10940,7 +10950,7 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="U301" pin="2" pinfunction="~{SD}" pintype="input"/>
       <node ref="U301" pin="5" pinfunction="VCC" pintype="power_in"/>
     </net>
-    <net code="49" name="/Block Diagram/SL3" class="Default">
+    <net code="51" name="/Block Diagram/SL3" class="Default">
       <node ref="C108" pin="1" pintype="passive"/>
       <node ref="C602" pin="1" pintype="passive"/>
       <node ref="C604" pin="1" pintype="passive"/>
@@ -10967,7 +10977,7 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="U601" pin="1" pinfunction="VCC1" pintype="power_in"/>
       <node ref="U602" pin="1" pinfunction="V_{CC1}" pintype="power_in"/>
     </net>
-    <net code="50" name="/Block Diagram/Vbus_ctrl" class="Default">
+    <net code="52" name="/Block Diagram/Vbus_ctrl" class="Default">
       <node ref="J800" pin="12" pinfunction="Pin_12" pintype="passive"/>
       <node ref="P743" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P757" pin="1" pinfunction="1" pintype="passive"/>
@@ -10975,65 +10985,55 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="TP513" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U501" pin="19" pinfunction="PA9" pintype="bidirectional"/>
     </net>
-    <net code="51" name="Earth" class="Default">
+    <net code="53" name="Earth" class="Default">
       <node ref="H100" pin="1" pinfunction="1" pintype="input"/>
       <node ref="J701" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J701" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
-    <net code="52" name="Net-(D305-A)" class="Default">
-      <node ref="C307" pin="2" pintype="passive"/>
-      <node ref="C309" pin="1" pintype="passive"/>
-      <node ref="D305" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D309" pin="1" pinfunction="K" pintype="passive"/>
-    </net>
-    <net code="53" name="Net-(D501-K)" class="Default">
+    <net code="54" name="Net-(D501-K)" class="Default">
       <node ref="D501" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D502" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R503" pin="1" pintype="passive"/>
     </net>
-    <net code="54" name="Net-(R301-Pad1)" class="Default">
+    <net code="55" name="Net-(R301-Pad1)" class="Default">
       <node ref="R301" pin="1" pintype="passive"/>
       <node ref="R305" pin="2" pintype="passive"/>
     </net>
-    <net code="55" name="Net-(R303-Pad1)" class="Default">
+    <net code="56" name="Net-(R303-Pad1)" class="Default">
       <node ref="R303" pin="1" pintype="passive"/>
       <node ref="R306" pin="2" pintype="passive"/>
     </net>
-    <net code="56" name="Net-(R305-Pad1)" class="Default">
+    <net code="57" name="Net-(R305-Pad1)" class="Default">
       <node ref="R305" pin="1" pintype="passive"/>
       <node ref="R308" pin="2" pintype="passive"/>
     </net>
-    <net code="57" name="Net-(R306-Pad1)" class="Default">
+    <net code="58" name="Net-(R306-Pad1)" class="Default">
       <node ref="R306" pin="1" pintype="passive"/>
       <node ref="R309" pin="2" pintype="passive"/>
     </net>
-    <net code="58" name="Net-(R308-Pad1)" class="Default">
+    <net code="59" name="Net-(R308-Pad1)" class="Default">
       <node ref="R308" pin="1" pintype="passive"/>
       <node ref="R310" pin="2" pintype="passive"/>
     </net>
-    <net code="59" name="Net-(R309-Pad1)" class="Default">
+    <net code="60" name="Net-(R309-Pad1)" class="Default">
       <node ref="R309" pin="1" pintype="passive"/>
       <node ref="R311" pin="2" pintype="passive"/>
     </net>
-    <net code="60" name="Net-(R312-Pad1)" class="Default">
+    <net code="61" name="Net-(R312-Pad1)" class="Default">
       <node ref="R312" pin="1" pintype="passive"/>
       <node ref="R314" pin="2" pintype="passive"/>
     </net>
-    <net code="61" name="Net-(R313-Pad1)" class="Default">
+    <net code="62" name="Net-(R313-Pad1)" class="Default">
       <node ref="R313" pin="1" pintype="passive"/>
       <node ref="R316" pin="2" pintype="passive"/>
     </net>
-    <net code="62" name="Net-(R323-Pad2)" class="Default">
+    <net code="63" name="Net-(R323-Pad2)" class="Default">
       <node ref="R323" pin="2" pintype="passive"/>
       <node ref="R328" pin="1" pintype="passive"/>
     </net>
-    <net code="63" name="Net-(R328-Pad2)" class="Default">
+    <net code="64" name="Net-(R328-Pad2)" class="Default">
       <node ref="R328" pin="2" pintype="passive"/>
       <node ref="R329" pin="2" pintype="passive"/>
-    </net>
-    <net code="64" name="Net-(R330-Pad2)" class="Default">
-      <node ref="R330" pin="2" pintype="passive"/>
-      <node ref="R331" pin="1" pintype="passive"/>
     </net>
     <net code="65" name="Net-(U100-ADJ)" class="Default">
       <node ref="R100" pin="2" pintype="passive"/>
