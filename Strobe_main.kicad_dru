@@ -30,6 +30,11 @@
    (constraint clearance (min 0.5mm))
    (condition "(A.NetName == '/Block Diagram/Lamp driver/G_TP_REF' && B.NetName == '/Block Diagram/Lamp driver/TP_PRI') || (A.NetName == '/Block Diagram/Lamp driver/TP_INT' && B.NetName == '/Block Diagram/Lamp driver/TP_COM')"))
 
+#specify reduced clearance on specific 300 V nets against other 300 V / 250 V nets
+(rule "300 V x 300 V"
+   (constraint clearance (min 1mm))
+   (condition "(A.NetName == '/Block Diagram/Lamp driver/TP_REF' && B.NetName == '/Block Diagram/Lamp driver/REF_M') || (A.NetName == '/Block Diagram/Lamp driver/TP_REF' && B.NetName == '/Block Diagram/Lamp driver/TP_RM') || (A.NetName == '/Block Diagram/Lamp driver/G_TP_REF' && B.NetName == '/Block Diagram/Lamp driver/TP_RM')"))
+
 #specify clearance for 300 V nets against LV domain
 (rule "300 V LV"
    (constraint clearance (min 5mm))
