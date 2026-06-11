@@ -3,7 +3,7 @@
   <design>
     <source>/github/workspace/Strobe_main.kicad_sch</source>
     <date>Date1</date>
-    <tool>Eeschema 9.0.9-9.0.9~ubuntu25.10.1</tool>
+    <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES">ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)
 
 1)	DO NOT POPULATE PARTS MARKED WITH A RED CROSS.
@@ -66,7 +66,7 @@
 	COPPER TO HOLE		0.300 mm
 	COPPER TO EDGE		0.500 mm
 	HOLE TO HOLE			0.250 mm</textvar>
-    <textvar name="GIT_HASH_PCB">52e7da6</textvar>
+    <textvar name="GIT_HASH_PCB">a00b65d</textvar>
     <textvar name="GIT_HASH_SCH">c741cc4</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_main</textvar>
     <textvar name="PROJECT_NAME">1 kV strobe</textvar>
@@ -290,31 +290,6 @@ Migrated existing project to template (KDT)</textvar>
       <property name="ki_fp_filters" value="MountingHole*Pad*"/>
       <sheetpath names="/Block Diagram/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/"/>
       <tstamps>3fd4e75a-3665-4459-80b2-9450ae571e69</tstamps>
-    </comp>
-    <comp ref="H101">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
-      <datasheet>~</datasheet>
-      <description>Mounting Hole without connection</description>
-      <fields>
-        <field name="Config"/>
-        <field name="Manufacturer"/>
-        <field name="Manufacturer Part Number"/>
-        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole without connection</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Config" value=""/>
-      <property name="Manufacturer" value=""/>
-      <property name="Manufacturer Part Number" value=""/>
-      <property name="Sheetname" value="Block Diagram"/>
-      <property name="Sheetfile" value="Block Diagram.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <property name="ki_fp_filters" value="MountingHole*"/>
-      <sheetpath names="/Block Diagram/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/"/>
-      <tstamps>fc82dca0-a7c4-48ba-b948-42f54eb07203</tstamps>
     </comp>
     <comp ref="H102">
       <value>MountingHole</value>
@@ -6162,6 +6137,28 @@ Migrated existing project to template (KDT)</textvar>
       <sheetpath names="/Block Diagram/MCU/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/ff259134-84db-47d3-8250-13ef5aa350b1/"/>
       <tstamps>70f162ac-d76d-47b1-858b-e05a71ee0f7b</tstamps>
     </comp>
+    <comp ref="P140">
+      <value>~</value>
+      <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="RefDes" value="500"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Block Diagram/MCU/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/ff259134-84db-47d3-8250-13ef5aa350b1/"/>
+      <tstamps>0397008e-26bc-4637-ae0f-a2516512e045</tstamps>
+    </comp>
     <comp ref="P501">
       <value>~</value>
       <description>Local power symbol (source), cosmetic use only</description>
@@ -7292,58 +7289,6 @@ Migrated existing project to template (KDT)</textvar>
       <sheetpath names="/Block Diagram/MCU/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/ff259134-84db-47d3-8250-13ef5aa350b1/"/>
       <tstamps>bd361820-1507-4dbf-be62-ebc7298372ab</tstamps>
     </comp>
-    <comp ref="TP503">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
-      <datasheet>~</datasheet>
-      <description>test point</description>
-      <fields>
-        <field name="Config"/>
-        <field name="Manufacturer"/>
-        <field name="Manufacturer Part Number"/>
-        <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Config" value=""/>
-      <property name="Manufacturer" value=""/>
-      <property name="Manufacturer Part Number" value=""/>
-      <property name="Sheetname" value="MCU"/>
-      <property name="Sheetfile" value="MCU.kicad_sch"/>
-      <property name="RefDes" value="500"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/Block Diagram/MCU/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/ff259134-84db-47d3-8250-13ef5aa350b1/"/>
-      <tstamps>58f121d7-976c-488b-96cb-abe0a37e4b56</tstamps>
-    </comp>
-    <comp ref="TP504">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
-      <datasheet>~</datasheet>
-      <description>test point</description>
-      <fields>
-        <field name="Config"/>
-        <field name="Manufacturer"/>
-        <field name="Manufacturer Part Number"/>
-        <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Config" value=""/>
-      <property name="Manufacturer" value=""/>
-      <property name="Manufacturer Part Number" value=""/>
-      <property name="Sheetname" value="MCU"/>
-      <property name="Sheetfile" value="MCU.kicad_sch"/>
-      <property name="RefDes" value="500"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/Block Diagram/MCU/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/ff259134-84db-47d3-8250-13ef5aa350b1/"/>
-      <tstamps>571dd1cd-3f59-4221-9089-bb41c59c81d5</tstamps>
-    </comp>
     <comp ref="TP505">
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
@@ -7629,32 +7574,6 @@ Migrated existing project to template (KDT)</textvar>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Block Diagram/MCU/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/ff259134-84db-47d3-8250-13ef5aa350b1/"/>
       <tstamps>236d1d1a-bb6a-4785-a466-3b272ca099cb</tstamps>
-    </comp>
-    <comp ref="TP516">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
-      <datasheet>~</datasheet>
-      <description>test point</description>
-      <fields>
-        <field name="Config"/>
-        <field name="Manufacturer"/>
-        <field name="Manufacturer Part Number"/>
-        <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Config" value=""/>
-      <property name="Manufacturer" value=""/>
-      <property name="Manufacturer Part Number" value=""/>
-      <property name="Sheetname" value="MCU"/>
-      <property name="Sheetfile" value="MCU.kicad_sch"/>
-      <property name="RefDes" value="500"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/Block Diagram/MCU/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/ff259134-84db-47d3-8250-13ef5aa350b1/"/>
-      <tstamps>1dc7ec32-97f7-4ec2-a4f9-a1f1c0742002</tstamps>
     </comp>
     <comp ref="TP517">
       <value>TestPoint</value>
@@ -10565,12 +10484,14 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="U501" pin="31" pinfunction="PB8" pintype="bidirectional"/>
     </net>
     <net code="26" name="/Block Diagram/MCU/HV_EXT_EN" class="Default">
+      <node ref="P140" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P703" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P723" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P755" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P764" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R502" pin="1" pintype="passive"/>
       <node ref="R615" pin="1" pintype="passive"/>
+      <node ref="U501" pin="22" pinfunction="PA12" pintype="bidirectional"/>
     </net>
     <net code="27" name="/Block Diagram/MCU/HV_NRST" class="Default">
       <node ref="C109" pin="1" pintype="passive"/>
@@ -10664,14 +10585,12 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="J800" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="P133" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P733" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="TP504" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U501" pin="8" pinfunction="PA3" pintype="bidirectional"/>
     </net>
     <net code="38" name="/Block Diagram/MCU/SUP_TX" class="Default">
       <node ref="J800" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="P134" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P732" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="TP503" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U501" pin="7" pinfunction="PA2" pintype="bidirectional"/>
     </net>
     <net code="39" name="/Block Diagram/Optical isolation/LV_NRST" class="Default">
@@ -11052,150 +10971,146 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="TP511" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U501" pin="12" pinfunction="PA7" pintype="bidirectional"/>
     </net>
-    <net code="69" name="Net-(U501-PA12)" class="Default">
-      <node ref="TP516" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U501" pin="22" pinfunction="PA12" pintype="bidirectional"/>
-    </net>
-    <net code="70" name="Net-(U501-PA15)" class="Default">
+    <net code="69" name="Net-(U501-PA15)" class="Default">
       <node ref="TP517" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U501" pin="25" pinfunction="PA15" pintype="bidirectional"/>
     </net>
-    <net code="71" name="Net-(U501-PB0)" class="Default">
+    <net code="70" name="Net-(U501-PB0)" class="Default">
       <node ref="TP506" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U501" pin="13" pinfunction="PB0" pintype="bidirectional"/>
     </net>
-    <net code="72" name="Net-(U501-PB3)" class="Default">
+    <net code="71" name="Net-(U501-PB3)" class="Default">
       <node ref="TP508" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U501" pin="26" pinfunction="PB3" pintype="bidirectional"/>
     </net>
-    <net code="73" name="Net-(U501-PB4)" class="Default">
+    <net code="72" name="Net-(U501-PB4)" class="Default">
       <node ref="TP510" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U501" pin="27" pinfunction="PB4" pintype="bidirectional"/>
     </net>
-    <net code="74" name="Net-(U501-PB5)" class="Default">
+    <net code="73" name="Net-(U501-PB5)" class="Default">
       <node ref="TP512" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U501" pin="28" pinfunction="PB5" pintype="bidirectional"/>
     </net>
-    <net code="75" name="Net-(U501-PF0)" class="Default">
+    <net code="74" name="Net-(U501-PF0)" class="Default">
       <node ref="C505" pin="1" pintype="passive"/>
       <node ref="U501" pin="2" pinfunction="PF0" pintype="bidirectional"/>
       <node ref="Y501" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="76" name="Net-(U501-PF1)" class="Default">
+    <net code="75" name="Net-(U501-PF1)" class="Default">
       <node ref="C506" pin="1" pintype="passive"/>
       <node ref="U501" pin="3" pinfunction="PF1" pintype="bidirectional"/>
       <node ref="Y501" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="77" name="Net-(U601-SCL1)" class="Default">
+    <net code="76" name="Net-(U601-SCL1)" class="Default">
       <node ref="R604" pin="2" pintype="passive"/>
       <node ref="R608" pin="1" pintype="passive"/>
       <node ref="U601" pin="3" pinfunction="SCL1" pintype="input"/>
     </net>
-    <net code="78" name="Net-(U601-SCL2)" class="Default">
+    <net code="77" name="Net-(U601-SCL2)" class="Default">
       <node ref="R601" pin="2" pintype="passive"/>
       <node ref="R607" pin="2" pintype="passive"/>
       <node ref="U601" pin="6" pinfunction="SCL2" pintype="output"/>
     </net>
-    <net code="79" name="Net-(U601-SDA1)" class="Default">
+    <net code="78" name="Net-(U601-SDA1)" class="Default">
       <node ref="R603" pin="2" pintype="passive"/>
       <node ref="R606" pin="1" pintype="passive"/>
       <node ref="U601" pin="2" pinfunction="SDA1" pintype="bidirectional"/>
     </net>
-    <net code="80" name="Net-(U601-SDA2)" class="Default">
+    <net code="79" name="Net-(U601-SDA2)" class="Default">
       <node ref="R602" pin="2" pintype="passive"/>
       <node ref="R605" pin="2" pintype="passive"/>
       <node ref="U601" pin="7" pinfunction="SDA2" pintype="bidirectional"/>
     </net>
-    <net code="81" name="Net-(U602-EN1)" class="Default">
+    <net code="80" name="Net-(U602-EN1)" class="Default">
       <node ref="R610" pin="2" pintype="passive"/>
       <node ref="U602" pin="7" pinfunction="EN1" pintype="input"/>
     </net>
-    <net code="82" name="Net-(U602-EN2)" class="Default">
+    <net code="81" name="Net-(U602-EN2)" class="Default">
       <node ref="R609" pin="2" pintype="passive"/>
       <node ref="U602" pin="10" pinfunction="EN2" pintype="input"/>
     </net>
-    <net code="83" name="Net-(U602-INA)" class="Default">
+    <net code="82" name="Net-(U602-INA)" class="Default">
       <node ref="R612" pin="1" pintype="passive"/>
       <node ref="U602" pin="3" pinfunction="INA" pintype="input"/>
     </net>
-    <net code="84" name="Net-(U602-INB)" class="Default">
+    <net code="83" name="Net-(U602-INB)" class="Default">
       <node ref="R614" pin="1" pintype="passive"/>
       <node ref="R619" pin="1" pintype="passive"/>
       <node ref="U602" pin="4" pinfunction="INB" pintype="input"/>
     </net>
-    <net code="85" name="Net-(U602-INC)" class="Default">
+    <net code="84" name="Net-(U602-INC)" class="Default">
       <node ref="R616" pin="1" pintype="passive"/>
       <node ref="U602" pin="5" pinfunction="INC" pintype="input"/>
     </net>
-    <net code="86" name="Net-(U602-IND)" class="Default">
+    <net code="85" name="Net-(U602-IND)" class="Default">
       <node ref="R617" pin="2" pintype="passive"/>
       <node ref="U602" pin="11" pinfunction="IND" pintype="input"/>
     </net>
-    <net code="87" name="Net-(U602-OUTA)" class="Default">
+    <net code="86" name="Net-(U602-OUTA)" class="Default">
       <node ref="R611" pin="2" pintype="passive"/>
       <node ref="U602" pin="14" pinfunction="OUTA" pintype="output"/>
     </net>
-    <net code="88" name="Net-(U602-OUTB)" class="Default">
+    <net code="87" name="Net-(U602-OUTB)" class="Default">
       <node ref="R613" pin="2" pintype="passive"/>
       <node ref="U602" pin="13" pinfunction="OUTB" pintype="output"/>
     </net>
-    <net code="89" name="Net-(U602-OUTC)" class="Default">
+    <net code="88" name="Net-(U602-OUTC)" class="Default">
       <node ref="R615" pin="2" pintype="passive"/>
       <node ref="U602" pin="12" pinfunction="OUTC" pintype="output"/>
     </net>
-    <net code="90" name="Net-(U602-OUTD)" class="Default">
+    <net code="89" name="Net-(U602-OUTD)" class="Default">
       <node ref="R618" pin="1" pintype="passive"/>
       <node ref="U602" pin="6" pinfunction="OUTD" pintype="output"/>
     </net>
-    <net code="91" name="unconnected-(C305-Pad1)" class="Default">
+    <net code="90" name="unconnected-(C305-Pad1)" class="Default">
       <node ref="C305" pin="1" pintype="passive+no_connect"/>
     </net>
-    <net code="92" name="unconnected-(C305-Pad2)" class="Default">
+    <net code="91" name="unconnected-(C305-Pad2)" class="Default">
       <node ref="C305" pin="2" pintype="passive+no_connect"/>
     </net>
-    <net code="93" name="unconnected-(J304-Pin_1-Pad1)" class="Default">
+    <net code="92" name="unconnected-(J304-Pin_1-Pad1)" class="Default">
       <node ref="J304" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
     </net>
-    <net code="94" name="unconnected-(J304-Pin_2-Pad2)" class="Default">
+    <net code="93" name="unconnected-(J304-Pin_2-Pad2)" class="Default">
       <node ref="J304" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
     </net>
-    <net code="95" name="unconnected-(J304-Pin_5-Pad5)" class="Default">
+    <net code="94" name="unconnected-(J304-Pin_5-Pad5)" class="Default">
       <node ref="J304" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
     </net>
-    <net code="96" name="unconnected-(J800-Pin_1-Pad1)" class="Default">
+    <net code="95" name="unconnected-(J800-Pin_1-Pad1)" class="Default">
       <node ref="J800" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
     </net>
-    <net code="97" name="unconnected-(J800-Pin_2-Pad2)" class="Default">
+    <net code="96" name="unconnected-(J800-Pin_2-Pad2)" class="Default">
       <node ref="J800" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
     </net>
-    <net code="98" name="unconnected-(J800-Pin_3-Pad3)" class="Default">
+    <net code="97" name="unconnected-(J800-Pin_3-Pad3)" class="Default">
       <node ref="J800" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
     </net>
-    <net code="99" name="unconnected-(J800-Pin_8-Pad8)" class="Default">
+    <net code="98" name="unconnected-(J800-Pin_8-Pad8)" class="Default">
       <node ref="J800" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
     </net>
-    <net code="100" name="unconnected-(J800-Pin_9-Pad9)" class="Default">
+    <net code="99" name="unconnected-(J800-Pin_9-Pad9)" class="Default">
       <node ref="J800" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
     </net>
-    <net code="101" name="unconnected-(LA301-Pad1)" class="Default">
+    <net code="100" name="unconnected-(LA301-Pad1)" class="Default">
       <node ref="LA301" pin="1" pintype="passive+no_connect"/>
     </net>
-    <net code="102" name="unconnected-(LA301-Pad2)" class="Default">
+    <net code="101" name="unconnected-(LA301-Pad2)" class="Default">
       <node ref="LA301" pin="2" pintype="passive+no_connect"/>
     </net>
-    <net code="103" name="unconnected-(LA301-Pad3)" class="Default">
+    <net code="102" name="unconnected-(LA301-Pad3)" class="Default">
       <node ref="LA301" pin="3" pintype="passive+no_connect"/>
     </net>
-    <net code="104" name="unconnected-(PS100-NC-Pad5)" class="Default">
+    <net code="103" name="unconnected-(PS100-NC-Pad5)" class="Default">
       <node ref="PS100" pin="5" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="105" name="unconnected-(PS101-NC-Pad5)" class="Default">
+    <net code="104" name="unconnected-(PS101-NC-Pad5)" class="Default">
       <node ref="PS101" pin="5" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="106" name="unconnected-(PT301-NC-Pad3)" class="Default">
+    <net code="105" name="unconnected-(PT301-NC-Pad3)" class="Default">
       <node ref="PT301" pin="3" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="107" name="unconnected-(U301-LO-Pad4)" class="Default">
+    <net code="106" name="unconnected-(U301-LO-Pad4)" class="Default">
       <node ref="U301" pin="4" pinfunction="LO" pintype="output+no_connect"/>
     </net>
   </nets>

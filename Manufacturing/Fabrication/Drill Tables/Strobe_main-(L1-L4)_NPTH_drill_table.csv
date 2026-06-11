@@ -1,5 +1,5 @@
 Count,Hole Size,Plated,Hole Shape,Drill Layer Pair,Hole Type
 2,1.02mm (40.16mils),NPTH,Round,"F.Cu (Sig, PWR) - B.Cu (Sig, PWR)",Mechanical
 1,1.35mm (53.15mils),NPTH,Round,"F.Cu (Sig, PWR) - B.Cu (Sig, PWR)",Mechanical
-4,3.20mm (125.98mils),NPTH,Round,"F.Cu (Sig, PWR) - B.Cu (Sig, PWR)",Mechanical
-Total 7,,,,,
+3,3.20mm (125.98mils),NPTH,Round,"F.Cu (Sig, PWR) - B.Cu (Sig, PWR)",Mechanical
+Total 6,,,,,
