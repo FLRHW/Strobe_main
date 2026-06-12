@@ -4390,16 +4390,6 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 212.09) (xy 299.72 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cfd2de5-2535-4a17-874f-4f74a7df8c5e")
-	)
-	(wire
-		(pts
 			(xy 148.59 41.91) (xy 148.59 44.45)
 		)
 		(stroke
@@ -5101,16 +5091,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 212.09) (xy 299.72 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8abfb135-38b8-4ff7-a2a9-92882d5091a6")
-	)
-	(wire
-		(pts
 			(xy 215.9 48.26) (xy 215.9 53.34)
 		)
 		(stroke
@@ -5619,16 +5599,6 @@
 			(type default)
 		)
 		(uuid "bb283c09-be11-40de-961f-b3b068fcf6f9")
-	)
-	(wire
-		(pts
-			(xy 274.32 212.09) (xy 287.02 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc4b43ee-1728-4b43-a701-90133339c4b2")
 	)
 	(wire
 		(pts
@@ -6261,16 +6231,6 @@
 		)
 		(uuid "0d0a69ab-9f3b-4b84-8d51-b7a0f43d2873")
 	)
-	(label "SH0"
-		(at 299.72 217.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1000c33a-3297-4f43-8c6b-398bdb1e153d")
-	)
 	(label "DRV_RET"
 		(at 160.02 52.07 180)
 		(effects
@@ -6420,16 +6380,6 @@
 			(justify left bottom)
 		)
 		(uuid "60023717-7529-40f9-b791-ee1d09c94fa9")
-	)
-	(label "DRV_RET"
-		(at 274.32 212.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "614768a5-d502-4ee6-9895-6942fbcfa69a")
 	)
 	(label "SH0"
 		(at 96.52 144.78 0)
@@ -12866,101 +12816,6 @@
 		)
 	)
 	(symbol
-		(lib_id "personal:Cosmetic_GND")
-		(at 299.72 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "652c0858-64f6-42a1-88b3-21cadb15f03c")
-		(property "Reference" "P138"
-			(at 299.72 216.154 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 302.26 218.3638 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 299.72 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 299.72 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 299.72 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 299.72 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 299.72 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3927e3d5-57f4-4edb-907b-518bc362367f")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1b3d73d6-473d-4741-895e-f4c216aab074"
-					(reference "P138")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "personal:Cosmetic_IN")
 		(at 48.26 43.18 0)
 		(mirror y)
@@ -16339,100 +16194,6 @@
 		)
 	)
 	(symbol
-		(lib_id "personal:Cosmetic_IN")
-		(at 274.32 212.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "b54a0458-4da7-4c0f-9ae9-1abfa7063b3b")
-		(property "Reference" "P137"
-			(at 274.574 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 275.59 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 274.32 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 274.32 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 274.32 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 274.32 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 274.32 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3336e5cd-015c-4bd2-92d8-7e3ec7535db8")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1b3d73d6-473d-4741-895e-f4c216aab074"
-					(reference "P137")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Zener")
 		(at 97.79 185.42 270)
 		(unit 1)
@@ -18897,100 +18658,6 @@
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1b3d73d6-473d-4741-895e-f4c216aab074"
 					(reference "R328")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 290.83 212.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f18129c0-abd9-41d7-8113-f3075b309e1b")
-		(property "Reference" "R102"
-			(at 288.29 209.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10R"
-			(at 294.64 209.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 290.83 213.868 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 290.83 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 290.83 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 290.83 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Generic"
-			(at 290.83 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 290.83 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d28a1220-e6bc-4584-acd5-7197456914e6")
-		)
-		(pin "2"
-			(uuid "cee19e05-27bf-4ec9-bfd8-08a980f01c70")
-		)
-		(instances
-			(project "Strobe_main"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1b3d73d6-473d-4741-895e-f4c216aab074"
-					(reference "R102")
 					(unit 1)
 				)
 			)
