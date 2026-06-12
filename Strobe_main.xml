@@ -66,7 +66,7 @@
 	COPPER TO HOLE		0.300 mm
 	COPPER TO EDGE		0.500 mm
 	HOLE TO HOLE			0.250 mm</textvar>
-    <textvar name="GIT_HASH_PCB">1a59f31</textvar>
+    <textvar name="GIT_HASH_PCB">4b77bde</textvar>
     <textvar name="GIT_HASH_SCH">c741cc4</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_main</textvar>
     <textvar name="PROJECT_NAME">1 kV strobe</textvar>
@@ -2903,50 +2903,6 @@ Migrated existing project to template (KDT)</textvar>
       <sheetpath names="/Block Diagram/Lamp driver/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1b3d73d6-473d-4741-895e-f4c216aab074/"/>
       <tstamps>86a31146-bdd5-4183-ba35-b64b818b8df4</tstamps>
     </comp>
-    <comp ref="P137">
-      <value>~</value>
-      <fields>
-        <field name="Config"/>
-        <field name="Manufacturer"/>
-        <field name="Manufacturer Part Number"/>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_IN" description=""/>
-      <property name="Config" value=""/>
-      <property name="Manufacturer" value=""/>
-      <property name="Manufacturer Part Number" value=""/>
-      <property name="Sheetname" value="Lamp driver"/>
-      <property name="Sheetfile" value="Lamp_driver.kicad_sch"/>
-      <property name="RefDes" value="300"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block Diagram/Lamp driver/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1b3d73d6-473d-4741-895e-f4c216aab074/"/>
-      <tstamps>b54a0458-4da7-4c0f-9ae9-1abfa7063b3b</tstamps>
-    </comp>
-    <comp ref="P138">
-      <value>~</value>
-      <fields>
-        <field name="Config"/>
-        <field name="Manufacturer"/>
-        <field name="Manufacturer Part Number"/>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND" description=""/>
-      <property name="Config" value=""/>
-      <property name="Manufacturer" value=""/>
-      <property name="Manufacturer Part Number" value=""/>
-      <property name="Sheetname" value="Lamp driver"/>
-      <property name="Sheetfile" value="Lamp_driver.kicad_sch"/>
-      <property name="RefDes" value="300"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block Diagram/Lamp driver/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1b3d73d6-473d-4741-895e-f4c216aab074/"/>
-      <tstamps>652c0858-64f6-42a1-88b3-21cadb15f03c</tstamps>
-    </comp>
     <comp ref="P301">
       <value>~</value>
       <fields>
@@ -4086,31 +4042,6 @@ Migrated existing project to template (KDT)</textvar>
       <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
       <sheetpath names="/Block Diagram/Lamp driver/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1b3d73d6-473d-4741-895e-f4c216aab074/"/>
       <tstamps>f91587e6-5731-441d-841d-f2d06f636c95</tstamps>
-    </comp>
-    <comp ref="R102">
-      <value>10R</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
-      <fields>
-        <field name="Config"/>
-        <field name="Manufacturer">Generic</field>
-        <field name="Manufacturer Part Number"/>
-        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Config" value=""/>
-      <property name="Manufacturer" value="Generic"/>
-      <property name="Manufacturer Part Number" value=""/>
-      <property name="Sheetname" value="Lamp driver"/>
-      <property name="Sheetfile" value="Lamp_driver.kicad_sch"/>
-      <property name="RefDes" value="300"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Block Diagram/Lamp driver/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1b3d73d6-473d-4741-895e-f4c216aab074/"/>
-      <tstamps>f18129c0-abd9-41d7-8113-f3075b309e1b</tstamps>
     </comp>
     <comp ref="R301">
       <value>510k</value>
@@ -6159,6 +6090,28 @@ Migrated existing project to template (KDT)</textvar>
       <sheetpath names="/Block Diagram/MCU/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/ff259134-84db-47d3-8250-13ef5aa350b1/"/>
       <tstamps>0397008e-26bc-4637-ae0f-a2516512e045</tstamps>
     </comp>
+    <comp ref="P141">
+      <value>~</value>
+      <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="Cosmetic_GND" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="RefDes" value="500"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Block Diagram/MCU/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/ff259134-84db-47d3-8250-13ef5aa350b1/"/>
+      <tstamps>c63f20b2-c9c1-44ac-930f-83577af7c8b4</tstamps>
+    </comp>
     <comp ref="P501">
       <value>~</value>
       <description>Local power symbol (source), cosmetic use only</description>
@@ -7236,6 +7189,32 @@ Migrated existing project to template (KDT)</textvar>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block Diagram/MCU/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/ff259134-84db-47d3-8250-13ef5aa350b1/"/>
       <tstamps>c181885f-325a-430f-9f35-377acc4a3a50</tstamps>
+    </comp>
+    <comp ref="TP100">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="RefDes" value="500"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Block Diagram/MCU/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/ff259134-84db-47d3-8250-13ef5aa350b1/"/>
+      <tstamps>b1291af4-0bec-42f5-83ba-ebb91e35a15e</tstamps>
     </comp>
     <comp ref="TP501">
       <value>TestPoint</value>
@@ -10321,10 +10300,8 @@ Migrated existing project to template (KDT)</textvar>
     <net code="4" name="/Block Diagram/Lamp driver/DRV_RET" class="Default">
       <node ref="C301" pin="2" pintype="passive"/>
       <node ref="D302" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="P137" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P344" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P862" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R102" pin="1" pintype="passive"/>
       <node ref="R307" pin="1" pintype="passive"/>
       <node ref="R337" pin="2" pintype="passive"/>
       <node ref="U301" pin="6" pinfunction="VS" pintype="passive"/>
@@ -10705,8 +10682,8 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="P132" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P135" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P136" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P138" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P139" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P141" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P15" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P301" pin="1" pinfunction="1" pintype="passive"/>
@@ -10762,7 +10739,6 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="PS101" pin="4" pinfunction="-Vout" pintype="power_out"/>
       <node ref="Q100" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="R101" pin="2" pintype="passive"/>
-      <node ref="R102" pin="2" pintype="passive"/>
       <node ref="R314" pin="1" pintype="passive"/>
       <node ref="R316" pin="1" pintype="passive"/>
       <node ref="R338" pin="2" pintype="passive"/>
@@ -10770,6 +10746,7 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="R402" pin="1" pintype="passive"/>
       <node ref="R504" pin="2" pintype="passive"/>
       <node ref="R505" pin="2" pintype="passive"/>
+      <node ref="TP100" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP302" pin="2" pinfunction="Ref" pintype="passive"/>
       <node ref="TP303" pin="2" pinfunction="Ref" pintype="passive"/>
       <node ref="TP304" pin="2" pinfunction="Ref" pintype="passive"/>

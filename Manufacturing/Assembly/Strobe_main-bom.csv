@@ -22,7 +22,7 @@ Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufactur
 21,13,R501 R605 R606 R607 R608 R611 R612 R613 R614 R615 R616 R617 R618,0R,~,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,Resistor,Generic,,
 22,2,R338 R339,20m,~,R_Shunt_Vishay_WSR2_WSR3_KelvinConnection,Resistor,Vishay Intertech,WSR3R0200FEA,
 23,1,R332,1R,~,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,Resistor,Generic,,
-24,2,R102 R336,10R,~,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,Resistor,Generic,,
+24,1,R336,10R,~,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,Resistor,Generic,,
 25,1,R337,22R,~,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,Resistor,Generic,,
 26,3,R333 R334 R335,91R,~,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,Resistor,Generic,,
 27,2,R401 R402,220,~,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,Resistor,Generic,,
