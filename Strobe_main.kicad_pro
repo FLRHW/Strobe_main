@@ -469,7 +469,7 @@
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
-      "simulation_model_issue": "ignore",
+      "simulation_model_issue": "warning",
       "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -535,7 +535,7 @@
         "line_style": 0,
         "name": "250V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(91, 91, 0)",
         "track_width": 0.2,
         "wire_width": 6
@@ -546,9 +546,18 @@
         "line_style": 0,
         "name": "300V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(123, 123, 0)",
         "track_width": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "400V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(132, 132, 0)",
         "wire_width": 6
       },
       {
@@ -579,7 +588,7 @@
         "line_style": 0,
         "name": "AC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(221, 133, 0)",
         "track_width": 0.2,
         "wire_width": 6
@@ -589,7 +598,7 @@
         "clearance": 0.25,
         "name": "LV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 12,
+        "priority": 13,
         "schematic_color": "rgb(0, 0, 177)",
         "wire_width": 6
       },
@@ -599,7 +608,7 @@
         "line_style": 0,
         "name": "N",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgb(132, 0, 132)",
         "track_width": 0.2,
         "wire_width": 6
@@ -609,7 +618,7 @@
         "clearance": 0.25,
         "name": "NR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 11,
+        "priority": 12,
         "schematic_color": "rgb(0, 0, 0)",
         "wire_width": 6
       },
@@ -619,7 +628,7 @@
         "line_style": 0,
         "name": "P",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.2,
         "wire_width": 6
@@ -630,7 +639,7 @@
         "line_style": 0,
         "name": "Q",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
+        "priority": 11,
         "schematic_color": "rgb(72, 0, 72)",
         "track_width": 0.2,
         "wire_width": 6
@@ -641,7 +650,7 @@
         "line_style": 0,
         "name": "T",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(255, 0, 255)",
         "track_width": 0.2,
         "wire_width": 6
@@ -848,6 +857,30 @@
       "Net-(J701-Pin_2)": [
         "LV"
       ],
+      "Net-(R20-Pad1)": [
+        "750V",
+        "N"
+      ],
+      "Net-(R21-Pad1)": [
+        "750V",
+        "P"
+      ],
+      "Net-(R22-Pad1)": [
+        "500V",
+        "N"
+      ],
+      "Net-(R23-Pad1)": [
+        "500V",
+        "P"
+      ],
+      "Net-(R25-Pad1)": [
+        "250V",
+        "N"
+      ],
+      "Net-(R26-Pad1)": [
+        "250V",
+        "P"
+      ],
       "Net-(R301-Pad1)": [
         "750V",
         "N"
@@ -892,8 +925,16 @@
         "500V",
         "T"
       ],
+      "Net-(R33-Pad2)": [
+        "750V",
+        "T"
+      ],
       "Net-(R330-Pad2)": [
         "300V",
+        "T"
+      ],
+      "Net-(R34-Pad2)": [
+        "500V",
         "T"
       ],
       "Net-(R701-Pad1)": [
@@ -919,6 +960,36 @@
       ],
       "Net-(U602-OUTD)": [
         "LV"
+      ],
+      "Net-(U80-SCL1)": [
+        "LV"
+      ],
+      "Net-(U80-SDA1)": [
+        "LV"
+      ],
+      "Net-(U81-EN1)": [
+        "LV"
+      ],
+      "Net-(U81-INA)": [
+        "LV"
+      ],
+      "Net-(U81-INB)": [
+        "LV"
+      ],
+      "Net-(U81-INC)": [
+        "LV"
+      ],
+      "Net-(U81-OUTD)": [
+        "LV"
+      ],
+      "unconnected-(J23-Pin_1-Pad1)": [
+        "NR"
+      ],
+      "unconnected-(J23-Pin_2-Pad2)": [
+        "NR"
+      ],
+      "unconnected-(J23-Pin_5-Pad5)": [
+        "NR"
       ],
       "unconnected-(J301-Pin_2-Pad2)": [
         "NR"
@@ -957,6 +1028,21 @@
         "NR"
       ],
       "unconnected-(J308-Pin_9-Pad9)": [
+        "NR"
+      ],
+      "unconnected-(J4-Pin_1-Pad1)": [
+        "NR"
+      ],
+      "unconnected-(J4-Pin_2-Pad2)": [
+        "NR"
+      ],
+      "unconnected-(J4-Pin_3-Pad3)": [
+        "NR"
+      ],
+      "unconnected-(J4-Pin_8-Pad8)": [
+        "NR"
+      ],
+      "unconnected-(J4-Pin_9-Pad9)": [
         "NR"
       ],
       "unconnected-(J800-Pin_1-Pad1)": [
@@ -1019,7 +1105,13 @@
       "unconnected-(PS100-NC-Pad5)": [
         "LV"
       ],
+      "unconnected-(PS11-NC-Pad5)": [
+        "LV"
+      ],
       "unconnected-(PT100-NC-Pad3)": [
+        "NR"
+      ],
+      "unconnected-(PT20-NC-Pad3)": [
         "NR"
       ],
       "unconnected-(PT301-NC-Pad3)": [
@@ -1043,7 +1135,7 @@
     "page_layout_descr_file": "Templates/KDT_Template_PCB_GIT_A3.kicad_wks"
   },
   "schematic": {
-    "annotate_start_num": 99,
+    "annotate_start_num": 79,
     "bom_export_filename": "Manufacturing/Assembly/KDT_Hierarchical_KiBot-bom-k8.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -1248,7 +1340,7 @@
     "BOARD_NAME": "Main board",
     "COMPANY": "ChurrasCod Electronics",
     "DESIGNER": "FR",
-    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING ARE FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tARE FOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: HAL SNPB\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR GREEN.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY CHURRASCOD ELECTRONICS.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t100.000 \u00d7 100.000 mm\n\tBOARD THICKNESS\t\t2.278 mm\n\tTRACE WIDTH\t\t\t0.200 mm\n\tTRACE TO TRACE\t\t0.200 mm\n\tMIN. HOLE (PTH)\t\t\t0.300 mm\n\tMIN. HOLE (NPTH)\t\t1.000 mm\n\tANNULAR RING\t\t\t0.150 mm\n\tCOPPER TO HOLE\t\t0.300 mm\n\tCOPPER TO EDGE\t\t0.500 mm\n\tHOLE TO HOLE\t\t\t0.250 mm",
+    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING ARE FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tARE FOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: HAL SNPB\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR GREEN.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY CHURRASCOD ELECTRONICS.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t100.000 × 100.000 mm\n\tBOARD THICKNESS\t\t2.278 mm\n\tTRACE WIDTH\t\t\t0.200 mm\n\tTRACE TO TRACE\t\t0.200 mm\n\tMIN. HOLE (PTH)\t\t\t0.300 mm\n\tMIN. HOLE (NPTH)\t\t1.000 mm\n\tANNULAR RING\t\t\t0.150 mm\n\tCOPPER TO HOLE\t\t0.300 mm\n\tCOPPER TO EDGE\t\t0.500 mm\n\tHOLE TO HOLE\t\t\t0.250 mm",
     "GIT_HASH_PCB": "4b77bde",
     "GIT_HASH_SCH": "c741cc4",
     "GIT_URL": "https://github.com/FLRHW/Strobe_main",

@@ -2348,12 +2348,6 @@
 		(uuid "ef80e056-fb65-4f8a-bfaf-a6a758210b2c")
 	)
 	(junction
-		(at 158.75 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0bf12828-2f5c-4e70-8c58-7184b5f48a6f")
-	)
-	(junction
 		(at 146.05 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2442,10 +2436,6 @@
 	(no_connect
 		(at 142.24 194.31)
 		(uuid "3ef3feca-ba40-4fe9-a95f-7f550f4cc79d")
-	)
-	(no_connect
-		(at 162.56 209.55)
-		(uuid "4c656535-b1c2-45b8-b582-ff3d1a9f9b7d")
 	)
 	(no_connect
 		(at 142.24 189.23)
@@ -3047,16 +3037,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 208.28) (xy 158.75 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dddfeaa-9cee-4668-874e-be102f95952d")
-	)
-	(wire
-		(pts
 			(xy 48.26 99.06) (xy 48.26 100.33)
 		)
 		(stroke
@@ -3097,16 +3077,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 208.28) (xy 158.75 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87a6da60-6b66-43d9-aa66-f0b00304ca53")
-	)
-	(wire
-		(pts
 			(xy 328.93 144.78) (xy 328.93 142.24)
 		)
 		(stroke
@@ -3114,16 +3084,6 @@
 			(type default)
 		)
 		(uuid "87fa02a6-b028-4811-9c0c-e5daa87565b1")
-	)
-	(wire
-		(pts
-			(xy 158.75 208.28) (xy 157.48 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89c22fec-fc28-4562-871c-d63038145e05")
 	)
 	(wire
 		(pts
@@ -3544,16 +3504,6 @@
 			(type default)
 		)
 		(uuid "df960ef2-a0b5-408a-b7e4-1f74b53455da")
-	)
-	(wire
-		(pts
-			(xy 162.56 209.55) (xy 158.75 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0d5f307-d821-409a-9ffc-45ecb3348ab9")
 	)
 	(wire
 		(pts
@@ -4141,37 +4091,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape dot)
-		(at 160.02 208.28 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "72bca3fc-689e-4af9-92fe-c3dcac5c3888")
-		(property "Netclass" "NR"
-			(at 163.195 208.28 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -177.8 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape dot)
 		(at 187.96 194.31 90)
 		(effects
 			(font
@@ -4333,7 +4252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17163413-810f-44ad-8d1f-0a6b26664496")
-		(property "Reference" "P786"
+		(property "Reference" "P11"
 			(at 91.44 93.726 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4413,7 +4332,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P786")
+					(reference "P11")
 					(unit 1)
 				)
 			)
@@ -4429,7 +4348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "185fc8f9-e69e-45ed-b22e-1013d3e7e1c6")
-		(property "Reference" "P848"
+		(property "Reference" "P1"
 			(at 48.26 86.106 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4509,7 +4428,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P848")
+					(reference "P1")
 					(unit 1)
 				)
 			)
@@ -4525,7 +4444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "238833c4-4327-432c-86c6-7cb5eeb45e77")
-		(property "Reference" "P854"
+		(property "Reference" "P7"
 			(at 307.34 86.106 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4605,7 +4524,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P854")
+					(reference "P7")
 					(unit 1)
 				)
 			)
@@ -4621,7 +4540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2464fcb4-838a-4fae-ae36-babbdf26275a")
-		(property "Reference" "H102"
+		(property "Reference" "H1"
 			(at 325.12 204.4699 0)
 			(effects
 				(font
@@ -4696,7 +4615,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "H102")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -4712,7 +4631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f4312e3-93eb-4bf6-bb66-aa9a42200828")
-		(property "Reference" "J901"
+		(property "Reference" "J3"
 			(at 349.25 168.91 0)
 			(effects
 				(font
@@ -4796,7 +4715,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "J901")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4812,7 +4731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31a1708e-37df-47e9-ab3c-f429e1bbe16e")
-		(property "Reference" "P702"
+		(property "Reference" "P20"
 			(at 334.01 152.654 0)
 			(effects
 				(font
@@ -4891,7 +4810,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P702")
+					(reference "P20")
 					(unit 1)
 				)
 			)
@@ -4907,7 +4826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31e56c33-5076-45d1-b9a5-f0107c0fa50f")
-		(property "Reference" "P847"
+		(property "Reference" "P12"
 			(at 111.76 93.726 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4987,7 +4906,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P847")
+					(reference "P12")
 					(unit 1)
 				)
 			)
@@ -5069,7 +4988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "350573ce-ffc8-4fc1-8611-34e055d6a157")
-		(property "Reference" "P15"
+		(property "Reference" "P28"
 			(at 135.89 186.944 0)
 			(effects
 				(font
@@ -5148,7 +5067,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P15")
+					(reference "P28")
 					(unit 1)
 				)
 			)
@@ -5164,7 +5083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a1f90fb-e28d-422a-a6b1-a77ac72c98b6")
-		(property "Reference" "P352"
+		(property "Reference" "P8"
 			(at 345.44 87.376 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5244,7 +5163,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P352")
+					(reference "P8")
 					(unit 1)
 				)
 			)
@@ -5259,7 +5178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b653a0e-b24d-4508-ab0e-4cccfa6bcf83")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG03"
 			(at 346.075 209.55 0)
 			(effects
 				(font
@@ -5310,7 +5229,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "#FLG05")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -5326,7 +5245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fd4e75a-3665-4459-80b2-9450ae571e69")
-		(property "Reference" "H100"
+		(property "Reference" "H2"
 			(at 346.71 204.4699 0)
 			(effects
 				(font
@@ -5377,7 +5296,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "H100")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5394,7 +5313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "419564b1-46d7-4896-84c0-79ee54aa17f4")
-		(property "Reference" "P785"
+		(property "Reference" "P2"
 			(at 91.44 86.106 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5474,7 +5393,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P785")
+					(reference "P2")
 					(unit 1)
 				)
 			)
@@ -5489,7 +5408,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51a7c36b-540e-4d6d-80ef-f892cf31a48d")
-		(property "Reference" "#PWR0301"
+		(property "Reference" "#PWR01"
 			(at 361.95 139.7 0)
 			(effects
 				(font
@@ -5539,7 +5458,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "#PWR0301")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5556,7 +5475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52e0352d-9a88-4c9e-9040-69f72caa48c2")
-		(property "Reference" "P5"
+		(property "Reference" "P25"
 			(at 187.96 169.926 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5636,7 +5555,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P5")
+					(reference "P25")
 					(unit 1)
 				)
 			)
@@ -5653,7 +5572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58753c3e-4e05-4d8c-87d6-6943534c2f9c")
-		(property "Reference" "P358"
+		(property "Reference" "P9"
 			(at 327.66 97.536 0)
 			(effects
 				(font
@@ -5732,7 +5651,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P358")
+					(reference "P9")
 					(unit 1)
 				)
 			)
@@ -5748,7 +5667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58786c60-92c5-40bc-88bf-cc4ed1dd166b")
-		(property "Reference" "P359"
+		(property "Reference" "P13"
 			(at 345.44 100.584 0)
 			(effects
 				(font
@@ -5827,7 +5746,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P359")
+					(reference "P13")
 					(unit 1)
 				)
 			)
@@ -5844,7 +5763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5abe5f8e-c70c-4e2e-9023-55edd5c72073")
-		(property "Reference" "P310"
+		(property "Reference" "P15"
 			(at 48.26 109.474 0)
 			(effects
 				(font
@@ -5923,7 +5842,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P310")
+					(reference "P15")
 					(unit 1)
 				)
 			)
@@ -5939,7 +5858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bec0572-facc-41ae-ba58-982aa3b9e86e")
-		(property "Reference" "P320"
+		(property "Reference" "P22"
 			(at 307.34 157.734 0)
 			(effects
 				(font
@@ -6018,7 +5937,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P320")
+					(reference "P22")
 					(unit 1)
 				)
 			)
@@ -6101,7 +6020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62ad7dd9-6ecc-4f7c-8677-b08752cefaf9")
-		(property "Reference" "J800"
+		(property "Reference" "J4"
 			(at 151.13 173.99 0)
 			(effects
 				(font
@@ -6185,7 +6104,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "J800")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6200,7 +6119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68394e6f-1b4b-40d4-85a9-9438b8dc2688")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 344.17 226.06 0)
 			(effects
 				(font
@@ -6250,7 +6169,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6266,7 +6185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70294261-d624-4a41-b52e-30bca06bd7a7")
-		(property "Reference" "P801"
+		(property "Reference" "P30"
 			(at 213.36 189.484 0)
 			(effects
 				(font
@@ -6345,7 +6264,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P801")
+					(reference "P30")
 					(unit 1)
 				)
 			)
@@ -6361,7 +6280,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "7ded74f0-f943-47e2-a0be-58c9a1d338a8")
-		(property "Reference" "P328"
+		(property "Reference" "P26"
 			(at 325.12 178.816 0)
 			(effects
 				(font
@@ -6440,7 +6359,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P328")
+					(reference "P26")
 					(unit 1)
 				)
 			)
@@ -6456,7 +6375,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "8d35b3e4-d8ca-4dbf-9891-7813a898b809")
-		(property "Reference" "P8"
+		(property "Reference" "P23"
 			(at 167.64 166.624 0)
 			(effects
 				(font
@@ -6535,7 +6454,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P8")
+					(reference "P23")
 					(unit 1)
 				)
 			)
@@ -6551,7 +6470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f3535ae-c453-48aa-b0be-8b26df81d477")
-		(property "Reference" "P11"
+		(property "Reference" "P31"
 			(at 187.96 186.436 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6631,7 +6550,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P11")
+					(reference "P31")
 					(unit 1)
 				)
 			)
@@ -6647,7 +6566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fd9bc59-d438-4e29-bc0c-d18858b66d65")
-		(property "Reference" "P802"
+		(property "Reference" "P27"
 			(at 345.44 181.864 0)
 			(effects
 				(font
@@ -6726,7 +6645,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P802")
+					(reference "P27")
 					(unit 1)
 				)
 			)
@@ -6742,7 +6661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "915c54f7-c299-447c-969a-dc0472ba3325")
-		(property "Reference" "P309"
+		(property "Reference" "P16"
 			(at 91.44 109.474 0)
 			(effects
 				(font
@@ -6821,7 +6740,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P309")
+					(reference "P16")
 					(unit 1)
 				)
 			)
@@ -6837,7 +6756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91f4963f-1d4b-4fb4-ba2e-d57afa8b7843")
-		(property "Reference" "H104"
+		(property "Reference" "H4"
 			(at 325.12 219.7099 0)
 			(effects
 				(font
@@ -6912,7 +6831,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "H104")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -6928,7 +6847,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "96447148-e364-49da-bec4-e7b4f494ea0f")
-		(property "Reference" "P701"
+		(property "Reference" "P17"
 			(at 334.01 116.586 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7008,7 +6927,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P701")
+					(reference "P17")
 					(unit 1)
 				)
 			)
@@ -7024,7 +6943,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7228af7-84fe-4c79-8f26-0df60504722f")
-		(property "Reference" "J701"
+		(property "Reference" "J2"
 			(at 342.9 134.62 90)
 			(effects
 				(font
@@ -7127,7 +7046,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "J701")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7143,7 +7062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b653136a-e457-40aa-9431-87c7f14e4622")
-		(property "Reference" "P800"
+		(property "Reference" "P19"
 			(at 162.56 124.714 0)
 			(effects
 				(font
@@ -7222,7 +7141,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P800")
+					(reference "P19")
 					(unit 1)
 				)
 			)
@@ -7238,7 +7157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bac61015-0770-40a7-92cc-9cd65dfa0c06")
-		(property "Reference" "P787"
+		(property "Reference" "P10"
 			(at 48.26 93.726 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7318,7 +7237,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P787")
+					(reference "P10")
 					(unit 1)
 				)
 			)
@@ -7334,7 +7253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d34f0768-ebe9-48e4-befe-3e208d2c4ff4")
-		(property "Reference" "P4"
+		(property "Reference" "P24"
 			(at 345.44 168.656 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7414,7 +7333,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P4")
+					(reference "P24")
 					(unit 1)
 				)
 			)
@@ -7430,7 +7349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6c7d0b9-a782-4aed-9e24-886c001acf15")
-		(property "Reference" "P799"
+		(property "Reference" "P18"
 			(at 111.76 124.714 0)
 			(effects
 				(font
@@ -7509,7 +7428,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P799")
+					(reference "P18")
 					(unit 1)
 				)
 			)
@@ -7525,7 +7444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7fd48c2-5891-408e-9ecb-8ce6f1833919")
-		(property "Reference" "P803"
+		(property "Reference" "P21"
 			(at 264.16 157.734 0)
 			(effects
 				(font
@@ -7604,7 +7523,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P803")
+					(reference "P21")
 					(unit 1)
 				)
 			)
@@ -7620,7 +7539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dec9151f-fe52-4087-9ce7-9a55685f5346")
-		(property "Reference" "P846"
+		(property "Reference" "P4"
 			(at 111.76 86.106 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7700,7 +7619,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P846")
+					(reference "P4")
 					(unit 1)
 				)
 			)
@@ -7716,7 +7635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e22faaaf-c25d-4f10-8b78-c555e2fd87ed")
-		(property "Reference" "P315"
+		(property "Reference" "P14"
 			(at 162.56 101.346 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7796,7 +7715,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P315")
+					(reference "P14")
 					(unit 1)
 				)
 			)
@@ -7813,7 +7732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2363402-07b2-482c-8c22-a8b2aeeb4fe6")
-		(property "Reference" "P139"
+		(property "Reference" "P29"
 			(at 172.72 186.944 0)
 			(effects
 				(font
@@ -7892,7 +7811,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P139")
+					(reference "P29")
 					(unit 1)
 				)
 			)
@@ -7907,7 +7826,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f98292a4-f601-4f21-b3ef-d3b33f647285")
-		(property "Reference" "J1001"
+		(property "Reference" "J1"
 			(at 354.33 88.9 0)
 			(effects
 				(font
@@ -7991,7 +7910,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "J1001")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8007,7 +7926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9e60de2-f4a0-48e8-bd80-208822d94f56")
-		(property "Reference" "P853"
+		(property "Reference" "P6"
 			(at 264.16 86.106 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8087,7 +8006,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P853")
+					(reference "P6")
 					(unit 1)
 				)
 			)
@@ -8103,7 +8022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe55fba3-5dba-48ff-80f6-d4a6901583f3")
-		(property "Reference" "P852"
+		(property "Reference" "P5"
 			(at 213.36 86.106 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8183,7 +8102,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "P852")
+					(reference "P5")
 					(unit 1)
 				)
 			)
@@ -8199,7 +8118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff92fa9f-6dcd-45b9-b57f-14d5e301c862")
-		(property "Reference" "H103"
+		(property "Reference" "H3"
 			(at 325.12 212.0899 0)
 			(effects
 				(font
@@ -8274,7 +8193,7 @@
 		(instances
 			(project "Strobe_main"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
-					(reference "H103")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -8313,7 +8232,7 @@
 				(justify left top)
 			)
 		)
-		(property "RefDes" "400"
+		(property "RefDes" "50-59"
 			(at 203.2 104.14 0)
 			(effects
 				(font
@@ -8443,7 +8362,7 @@
 				(justify left top)
 			)
 		)
-		(property "RefDes" "300"
+		(property "RefDes" "20-49"
 			(at 152.4 88.9 0)
 			(effects
 				(font
@@ -8563,7 +8482,7 @@
 				(justify left top)
 			)
 		)
-		(property "RefDes" "600"
+		(property "RefDes" "80-99"
 			(at 304.8 88.9 0)
 			(effects
 				(font
@@ -8773,7 +8692,7 @@
 				(justify left top)
 			)
 		)
-		(property "RefDes" "100"
+		(property "RefDes" "10-19"
 			(at 88.9 88.9 0)
 			(effects
 				(font
@@ -8883,7 +8802,7 @@
 				(justify left top)
 			)
 		)
-		(property "RefDes" "500"
+		(property "RefDes" "60-79"
 			(at 254 88.9 0)
 			(effects
 				(font
