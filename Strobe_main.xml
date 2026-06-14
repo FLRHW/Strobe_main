@@ -66,7 +66,7 @@
 	COPPER TO HOLE		0.300 mm
 	COPPER TO EDGE		0.500 mm
 	HOLE TO HOLE			0.250 mm</textvar>
-    <textvar name="GIT_HASH_PCB">51a5f4e</textvar>
+    <textvar name="GIT_HASH_PCB">16e6ec6</textvar>
     <textvar name="GIT_HASH_SCH">c741cc4</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_main</textvar>
     <textvar name="PROJECT_NAME">1 kV strobe</textvar>
@@ -77,8 +77,8 @@ Migrated existing project to template (KDT)</textvar>
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">13-Jun-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-06-13</textvar>
+    <textvar name="RELEASE_DATE">14-Jun-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-06-14</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-04-11</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -4662,14 +4662,14 @@ Migrated existing project to template (KDT)</textvar>
     </comp>
     <comp ref="R45">
       <value>20m</value>
-      <footprint>Resistor_SMD:R_Shunt_Vishay_WSR2_WSR3_KelvinConnection</footprint>
+      <footprint>Personal:R_Shunt_Vishay_WSR2_WSR3_KelvinConnection</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="Config"/>
         <field name="Manufacturer">Vishay Intertech</field>
         <field name="Manufacturer Part Number">WSR3R0200FEA</field>
-        <field name="Footprint">Resistor_SMD:R_Shunt_Vishay_WSR2_WSR3_KelvinConnection</field>
+        <field name="Footprint">Personal:R_Shunt_Vishay_WSR2_WSR3_KelvinConnection</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
@@ -4687,14 +4687,14 @@ Migrated existing project to template (KDT)</textvar>
     </comp>
     <comp ref="R46">
       <value>20m</value>
-      <footprint>Resistor_SMD:R_Shunt_Vishay_WSR2_WSR3_KelvinConnection</footprint>
+      <footprint>Personal:R_Shunt_Vishay_WSR2_WSR3_KelvinConnection</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="Config"/>
         <field name="Manufacturer">Vishay Intertech</field>
         <field name="Manufacturer Part Number">WSR3R0200FEA</field>
-        <field name="Footprint">Resistor_SMD:R_Shunt_Vishay_WSR2_WSR3_KelvinConnection</field>
+        <field name="Footprint">Personal:R_Shunt_Vishay_WSR2_WSR3_KelvinConnection</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
