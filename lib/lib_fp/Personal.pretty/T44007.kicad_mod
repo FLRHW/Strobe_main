@@ -136,17 +136,6 @@
 		(uuid "af6682b3-4111-426c-8059-cb35dba131d3")
 	)
 	(embedded_fonts no)
-	(model "F:/01_Engineering/09_Mixed/3d_electronic_parts/T44007_base.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 	(model "${KIPRJMOD}/lib/3D_models/T44007_base.step"
 		(offset
 			(xyz 0 0 0)

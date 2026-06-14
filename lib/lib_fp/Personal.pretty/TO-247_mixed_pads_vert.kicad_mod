@@ -471,17 +471,6 @@
 		(uuid "2aca2535-3a96-4b2a-b820-0832f5d5908f")
 	)
 	(embedded_fonts no)
-	(model "F:/01_Engineering/09_Mixed/3d_electronic_parts/TO-247-3_mixed_vert.step"
-		(offset
-			(xyz -5.45 0 2.3)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 -0 -0)
-		)
-	)
 	(model "${KIPRJMOD}/lib/3D_models/TO-247-3_mixed_vert.step"
 		(offset
 			(xyz -5.45 0 2.3)

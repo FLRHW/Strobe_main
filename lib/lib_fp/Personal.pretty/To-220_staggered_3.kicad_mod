@@ -393,7 +393,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/lib/3D_models/TO-220-3-Vert_staggered_3.step"
 		(offset
-			(xyz -2.54 0 3.5)
+			(xyz 0 -0.1 5.9)
 		)
 		(scale
 			(xyz 1 1 1)

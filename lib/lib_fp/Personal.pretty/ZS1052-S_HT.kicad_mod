@@ -198,17 +198,6 @@
 		(uuid "908ea1e5-0967-4fe6-bfaf-bc1068429037")
 	)
 	(embedded_fonts no)
-	(model "F:/01_Engineering/09_Mixed/3d_electronic_parts/ZS1052_SHT.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 -0 -0)
-		)
-	)
 	(model "${KIPRJMOD}/lib/3D_models/ZS1052_SHT.step"
 		(offset
 			(xyz 0 0 0)
