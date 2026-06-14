@@ -171,7 +171,7 @@
 	(property "COMPANY" "ChurrasCod Electronics")
 	(property "DESIGNER" "FR")
 	(property "FABRICATION_NOTES" "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)	FABRICATE PER IPC-6012A CLASS 2.\n\n2)	OUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n	\"Edge_Cuts.GBR\" SUFFIX.\n\n	DIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n	DRAWING ARE FOR REFERENCE ONLY.\n\n3)	SEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n	FOR HOLE LOCATIONS.\n\n	SELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n	ARE FOR REFERENCE ONLY.\n\n4)	SURFACE FINISH: HAL SNPB\n\n5)	SOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n	BE LPI, COLOR GREEN.\n\n6)	SILK SCREEN LEGEND TO BE APPLIED PER LAYER \n	STACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.\n\n7)	ALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n	SOLDERMASK OPENED IN GERBER.\n\n8)	VENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n	AND Pb FREE FOR MANUFACTURING\n\n9)	PCB MATERIAL REQUIREMENTS:\n\n	A.	FLAMMABILITY RATING MUST MEET OR EXCEED \n		UL94V-0 REQUIREMENTS.\n	B.	Tg 170 C OR EQUIVALENT.\n	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n		HALOGEN FREE AND APPROVED BY CHURRASCOD ELECTRONICS.\n\n10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n	BOARD SIZE				100.000 × 100.000 mm\n	BOARD THICKNESS		2.278 mm\n	TRACE WIDTH			0.200 mm\n	TRACE TO TRACE		-0.000 mm\n	MIN. HOLE (PTH)			0.300 mm\n	MIN. HOLE (NPTH)		1.000 mm\n	ANNULAR RING			0.150 mm\n	COPPER TO HOLE		0.300 mm\n	COPPER TO EDGE		0.500 mm\n	HOLE TO HOLE			0.250 mm")
-	(property "GIT_HASH_PCB" "51a5f4e")
+	(property "GIT_HASH_PCB" "16e6ec6")
 	(property "GIT_HASH_SCH" "c741cc4")
 	(property "GIT_URL" "https://github.com/FLRHW/Strobe_main")
 	(property "PROJECT_NAME" "1 kV strobe")
@@ -180,8 +180,8 @@
 	(property "RELEASE_BODY_1.0.2" "")
 	(property "RELEASE_BODY_1.1.0" "")
 	(property "RELEASE_BODY_UNRELEASED" "Version Unreleased not found.")
-	(property "RELEASE_DATE" "13-Jun-2026")
-	(property "RELEASE_DATE_NUM" "2026-06-13")
+	(property "RELEASE_DATE" "14-Jun-2026")
+	(property "RELEASE_DATE_NUM" "2026-06-14")
 	(property "RELEASE_TITLE_1.0.0" "Version 1.0.0 - 2026-04-11")
 	(property "RELEASE_TITLE_1.0.1" "Version 1.0.1 not found.")
 	(property "RELEASE_TITLE_1.0.2" "")
@@ -24279,6 +24279,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-1212_2x06_P3.00mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31534,7 +31535,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 42 "/Block Diagram/Lamp driver/Mon_IL")
 			(pintype "passive")
-			(uuid "7bc01f50-8e60-4e60-9462-ad95c551b925")
+			(uuid "9f2603c8-3e8f-431b-9c33-c54b73f4f5ae")
 		)
 		(pad "2" smd rect
 			(at 4.575 0.29)
@@ -31550,7 +31551,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 4 "/Block Diagram/SH0")
 			(pintype "passive")
-			(uuid "a1b2f3ef-80d7-43e7-b930-5657ac0f4dd4")
+			(uuid "ab93a06e-508d-4906-a495-3e506d8283fc")
 		)
 		(embedded_fonts no)
 		(model "/media/data/01_Engineering/10_Kicad_libraries/00_Personal/3D/Vishay_WSR3_union.step"
@@ -33605,7 +33606,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 42 "/Block Diagram/Lamp driver/Mon_IL")
 			(pintype "passive")
-			(uuid "bd82ac35-5ffa-4737-b4eb-ff3b6d111bc2")
+			(uuid "f9d19eca-4726-4df1-b85d-0d2aa7e116f7")
 		)
 		(pad "2" smd rect
 			(at 4.575 0.29)
@@ -33621,7 +33622,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 4 "/Block Diagram/SH0")
 			(pintype "passive")
-			(uuid "b3652e2f-645b-48ca-96e0-dcd060988b09")
+			(uuid "3a63f4c0-7c8c-41f7-8309-6f0df9ced25b")
 		)
 		(embedded_fonts no)
 		(model "/media/data/01_Engineering/10_Kicad_libraries/00_Personal/3D/Vishay_WSR3_union.step"
