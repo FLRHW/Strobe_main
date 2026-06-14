@@ -12645,7 +12645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSR2_WSR3_KelvinConnection"
+		(property "Footprint" "Personal:R_Shunt_Vishay_WSR2_WSR3_KelvinConnection"
 			(at 99.822 204.47 90)
 			(effects
 				(font
@@ -12741,7 +12741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSR2_WSR3_KelvinConnection"
+		(property "Footprint" "Personal:R_Shunt_Vishay_WSR2_WSR3_KelvinConnection"
 			(at 118.872 204.47 90)
 			(effects
 				(font
