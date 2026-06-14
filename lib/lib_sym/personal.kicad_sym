@@ -1989,6 +1989,212 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "B0505S-2W"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "PS"
+			(at -7.62 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B0505S-2W"
+			(at -7.62 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Personal:DCDC_converter_THT_BxxxxS-2W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5198437.pdf?spm=wm.fly.bg.0.pdf___wm.fly.tp.2.ml&lcsc_vid=QFNdBQUER1ANU1EFTwJaBFcFEwAKVABWEgJcVQEFE1UxVlNeR1VYVVFfRVFWUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRFZWSQwSGg0%3D"
+			(at -9.652 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "B0505S-2W_0_0"
+			(pin power_in line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "+Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "-Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "+Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "-Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "B0505S-2W_0_1"
+			(rectangle
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 5.08) (xy 0 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "B0505S-2W_1_0"
+			(pin passive line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Boost_12_450"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2575,12 +2781,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "In_signal"
+			(at 0 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2618,7 +2825,7 @@
 				(stroke
 					(width 0.0254)
 					(type solid)
-					(color 132 94 255 1)
+					(color 0 132 0 1)
 				)
 				(fill
 					(type outline)
@@ -2631,7 +2838,7 @@
 				(stroke
 					(width 0)
 					(type solid)
-					(color 132 94 255 1)
+					(color 0 132 0 1)
 				)
 				(fill
 					(type none)
@@ -2678,12 +2885,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "IO_signal"
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2721,7 +2929,7 @@
 				(stroke
 					(width 0.0254)
 					(type solid)
-					(color 132 94 255 1)
+					(color 0 132 0 1)
 				)
 				(fill
 					(type outline)
@@ -2734,7 +2942,7 @@
 				(stroke
 					(width 0.0254)
 					(type solid)
-					(color 132 94 255 1)
+					(color 0 132 0 1)
 				)
 				(fill
 					(type outline)
@@ -2747,7 +2955,7 @@
 				(stroke
 					(width 0)
 					(type solid)
-					(color 132 94 255 1)
+					(color 0 132 0 1)
 				)
 				(fill
 					(type none)
@@ -2794,12 +3002,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "Out_signal"
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2837,7 +3046,7 @@
 				(stroke
 					(width 0.0254)
 					(type solid)
-					(color 132 94 255 1)
+					(color 0 132 0 1)
 				)
 				(fill
 					(type outline)
@@ -2850,7 +3059,7 @@
 				(stroke
 					(width 0)
 					(type solid)
-					(color 132 94 255 1)
+					(color 0 132 0 1)
 				)
 				(fill
 					(type none)
@@ -2940,7 +3149,7 @@
 				(stroke
 					(width 0.2032)
 					(type solid)
-					(color 132 94 255 1)
+					(color 132 0 0 1)
 				)
 				(fill
 					(type none)
@@ -2953,7 +3162,7 @@
 				(stroke
 					(width 0)
 					(type solid)
-					(color 132 94 255 1)
+					(color 132 0 0 1)
 				)
 				(fill
 					(type none)
@@ -3043,7 +3252,7 @@
 				(stroke
 					(width 0.2032)
 					(type solid)
-					(color 132 94 255 1)
+					(color 132 0 0 1)
 				)
 				(fill
 					(type outline)
@@ -3056,7 +3265,7 @@
 				(stroke
 					(width 0)
 					(type solid)
-					(color 132 94 255 1)
+					(color 132 0 0 1)
 				)
 				(fill
 					(type none)
@@ -4439,6 +4648,146 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "OscTestpoint"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "TP"
+			(at 1.778 0.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Testpoint_osc_probe"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Personal:Testpoint_osc_no_lead"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "OscTestpoint_0_1"
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.635 0)
+				(mid 0 -0.635)
+				(end -0.635 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.635) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "OscTestpoint_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.27)
+				(name "Sig"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "Ref"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
 				)
 			)
 		)
@@ -7434,6 +7783,55 @@
 						)
 					)
 				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "B0524S-2W"
+		(extends "B0505S-2W")
+		(property "Reference" "PS"
+			(at -7.62 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B0524S-2W"
+			(at -7.62 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Personal:DCDC_converter_THT_BxxxxS-2W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5198437.pdf?spm=wm.fly.bg.0.pdf___wm.fly.tp.2.ml&lcsc_vid=QFNdBQUER1ANU1EFTwJaBFcFEwAKVABWEgJcVQEFE1UxVlNeR1VYVVFfRVFWUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRFZWSQwSGg0%3D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(embedded_fonts no)

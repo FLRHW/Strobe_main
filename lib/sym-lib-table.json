@@ -4,10 +4,10 @@
   "unit": "mm",
   "symbol_libs": [
     {
-      "name": "Amplifier_Operational",
+      "name": "Mechanical",
       "type": "KiCad",
-      "uri": "library/symbols/Amplifier_Operational.kicad_sym",
-      "description": "Local copy of Amplifier_Operational"
+      "uri": "library/symbols/Mechanical.kicad_sym",
+      "description": "Local copy of Mechanical"
     },
     {
       "name": "Connector",
@@ -16,34 +16,10 @@
       "description": "Local copy of Connector"
     },
     {
-      "name": "Connector_Generic",
+      "name": "Amplifier_Operational",
       "type": "KiCad",
-      "uri": "library/symbols/Connector_Generic.kicad_sym",
-      "description": "Local copy of Connector_Generic"
-    },
-    {
-      "name": "Converter_ACDC",
-      "type": "KiCad",
-      "uri": "library/symbols/Converter_ACDC.kicad_sym",
-      "description": "Local copy of Converter_ACDC"
-    },
-    {
-      "name": "Device",
-      "type": "KiCad",
-      "uri": "library/symbols/Device.kicad_sym",
-      "description": "Local copy of Device"
-    },
-    {
-      "name": "Diode",
-      "type": "KiCad",
-      "uri": "library/symbols/Diode.kicad_sym",
-      "description": "Local copy of Diode"
-    },
-    {
-      "name": "Driver_FET",
-      "type": "KiCad",
-      "uri": "library/symbols/Driver_FET.kicad_sym",
-      "description": "Local copy of Driver_FET"
+      "uri": "library/symbols/Amplifier_Operational.kicad_sym",
+      "description": "Local copy of Amplifier_Operational"
     },
     {
       "name": "Isolator",
@@ -52,22 +28,10 @@
       "description": "Local copy of Isolator"
     },
     {
-      "name": "MCU_ST_STM32G4",
+      "name": "Regulator_Linear",
       "type": "KiCad",
-      "uri": "library/symbols/MCU_ST_STM32G4.kicad_sym",
-      "description": "Local copy of MCU_ST_STM32G4"
-    },
-    {
-      "name": "Mechanical",
-      "type": "KiCad",
-      "uri": "library/symbols/Mechanical.kicad_sym",
-      "description": "Local copy of Mechanical"
-    },
-    {
-      "name": "personal",
-      "type": "KiCad",
-      "uri": "library/symbols/personal.kicad_sym",
-      "description": "Local copy of personal"
+      "uri": "library/symbols/Regulator_Linear.kicad_sym",
+      "description": "Local copy of Regulator_Linear"
     },
     {
       "name": "power",
@@ -76,16 +40,52 @@
       "description": "Local copy of power"
     },
     {
-      "name": "Regulator_Linear",
+      "name": "Driver_FET",
       "type": "KiCad",
-      "uri": "library/symbols/Regulator_Linear.kicad_sym",
-      "description": "Local copy of Regulator_Linear"
+      "uri": "library/symbols/Driver_FET.kicad_sym",
+      "description": "Local copy of Driver_FET"
     },
     {
       "name": "Transistor_FET",
       "type": "KiCad",
       "uri": "library/symbols/Transistor_FET.kicad_sym",
       "description": "Local copy of Transistor_FET"
+    },
+    {
+      "name": "Converter_ACDC",
+      "type": "KiCad",
+      "uri": "library/symbols/Converter_ACDC.kicad_sym",
+      "description": "Local copy of Converter_ACDC"
+    },
+    {
+      "name": "Connector_Generic",
+      "type": "KiCad",
+      "uri": "library/symbols/Connector_Generic.kicad_sym",
+      "description": "Local copy of Connector_Generic"
+    },
+    {
+      "name": "personal",
+      "type": "KiCad",
+      "uri": "library/symbols/personal.kicad_sym",
+      "description": "Local copy of personal"
+    },
+    {
+      "name": "Diode",
+      "type": "KiCad",
+      "uri": "library/symbols/Diode.kicad_sym",
+      "description": "Local copy of Diode"
+    },
+    {
+      "name": "MCU_ST_STM32G4",
+      "type": "KiCad",
+      "uri": "library/symbols/MCU_ST_STM32G4.kicad_sym",
+      "description": "Local copy of MCU_ST_STM32G4"
+    },
+    {
+      "name": "Device",
+      "type": "KiCad",
+      "uri": "library/symbols/Device.kicad_sym",
+      "description": "Local copy of Device"
     }
   ]
 }

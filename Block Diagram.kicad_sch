@@ -2354,7 +2354,7 @@
 		(uuid "4195c2b0-8c9d-4a11-8d05-08755815bbe3")
 	)
 	(junction
-		(at 187.96 196.85)
+		(at 187.96 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58037e13-e3b2-422e-8a2e-ac18568795cc")
@@ -2396,7 +2396,7 @@
 		(uuid "bfc0d21d-ea72-49bb-b0d0-b8ef99c542a3")
 	)
 	(junction
-		(at 187.96 180.34)
+		(at 172.72 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c59fa338-09d6-4b02-be09-5c09f2230b5a")
@@ -2667,7 +2667,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 191.77) (xy 187.96 196.85)
+			(xy 187.96 187.96) (xy 187.96 193.04)
 		)
 		(stroke
 			(width 0)
@@ -2784,16 +2784,6 @@
 			(type default)
 		)
 		(uuid "3cd319de-9648-4055-aa5b-f76a6093539c")
-	)
-	(wire
-		(pts
-			(xy 187.96 180.34) (xy 187.96 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "450d8802-4574-43a7-bc56-f684e3c58581")
 	)
 	(wire
 		(pts
@@ -2957,7 +2947,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 182.88) (xy 187.96 182.88)
+			(xy 160.02 182.88) (xy 172.72 182.88)
 		)
 		(stroke
 			(width 0)
@@ -2997,7 +2987,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 193.04) (xy 160.02 193.04)
+			(xy 160.02 193.04) (xy 187.96 193.04)
 		)
 		(stroke
 			(width 0)
@@ -3244,26 +3234,6 @@
 			(type default)
 		)
 		(uuid "ae2aa7f4-a365-4e1e-83c0-c90f8a43db99")
-	)
-	(wire
-		(pts
-			(xy 171.45 209.55) (xy 171.45 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae8d293a-6136-44e0-929d-fa6d56e66b7b")
-	)
-	(wire
-		(pts
-			(xy 187.96 209.55) (xy 171.45 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af956488-fddb-4d19-90fd-9ed4cb9990f4")
 	)
 	(wire
 		(pts
@@ -3567,7 +3537,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 175.26) (xy 187.96 180.34)
+			(xy 172.72 177.8) (xy 172.72 182.88)
 		)
 		(stroke
 			(width 0)
@@ -3604,16 +3574,6 @@
 			(type default)
 		)
 		(uuid "f54fd133-a8a8-43bb-ab36-724cb0dd5663")
-	)
-	(wire
-		(pts
-			(xy 187.96 196.85) (xy 187.96 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6d9dc43-eb80-42cd-b963-1c11b61c1ec7")
 	)
 	(wire
 		(pts
@@ -3676,12 +3636,12 @@
 		(uuid "05259bdc-491b-43f7-a3ab-1c745f866a8b")
 	)
 	(label "S1k"
-		(at 187.96 191.77 180)
+		(at 187.96 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "12303857-9d8e-446e-94aa-e0b83a18e50c")
 	)
@@ -3796,7 +3756,7 @@
 		(uuid "7f100d84-1ebb-48b0-a2ba-0ab76de75c85")
 	)
 	(label "SH5"
-		(at 187.96 175.26 0)
+		(at 172.72 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4091,31 +4051,31 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape dot)
-		(at 187.96 194.31 90)
+		(at 187.96 190.5 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "98c1fceb-f1c7-4ed7-b82d-dfa3cdd4ea31")
 		(property "Netclass" "1000V"
-			(at 184.785 194.31 0)
+			(at 191.135 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Component Class" ""
-			(at 665.48 85.09 0)
+			(at -289.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -4914,7 +4874,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 187.96 180.34 270)
+		(at 172.72 182.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4922,7 +4882,7 @@
 		(dnp no)
 		(uuid "328e4b7c-b44c-4122-a8f4-b653498c3360")
 		(property "Reference" "#FLG01"
-			(at 189.865 180.34 0)
+			(at 174.625 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4931,7 +4891,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 190.5 180.34 90)
+			(at 175.26 182.88 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4940,7 +4900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 180.34 0)
+			(at 172.72 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,7 +4909,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 180.34 0)
+			(at 172.72 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4958,7 +4918,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 187.96 180.34 0)
+			(at 172.72 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5466,7 +5426,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_PWR_SRC")
-		(at 187.96 175.26 0)
+		(at 172.72 177.8 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5476,7 +5436,7 @@
 		(fields_autoplaced yes)
 		(uuid "52e0352d-9a88-4c9e-9040-69f72caa48c2")
 		(property "Reference" "P25"
-			(at 187.96 169.926 0)
+			(at 172.72 172.466 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5486,7 +5446,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 187.96 168.91 90)
+			(at 172.72 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5496,7 +5456,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 175.26 0)
+			(at 172.72 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5505,7 +5465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 175.26 0)
+			(at 172.72 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,7 +5474,7 @@
 			)
 		)
 		(property "Description" "Local power symbol (source), cosmetic use only"
-			(at 187.96 175.26 0)
+			(at 172.72 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5523,7 +5483,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 187.96 175.26 0)
+			(at 172.72 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5532,7 +5492,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 187.96 175.26 0)
+			(at 172.72 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,7 +5501,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 187.96 175.26 0)
+			(at 172.72 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5945,8 +5905,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 187.96 196.85 90)
-		(mirror x)
+		(at 187.96 193.04 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5954,7 +5913,7 @@
 		(dnp no)
 		(uuid "60f360d7-6d5a-4a7a-b063-e621d64b58b3")
 		(property "Reference" "#FLG02"
-			(at 186.055 196.85 0)
+			(at 189.865 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5963,7 +5922,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 185.42 196.85 90)
+			(at 190.5 193.04 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5972,7 +5931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 196.85 0)
+			(at 187.96 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5981,7 +5940,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 196.85 0)
+			(at 187.96 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5990,7 +5949,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 187.96 196.85 0)
+			(at 187.96 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6462,7 +6421,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_PWR_SRC")
-		(at 187.96 191.77 0)
+		(at 187.96 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6471,7 +6430,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f3535ae-c453-48aa-b0be-8b26df81d477")
 		(property "Reference" "P31"
-			(at 187.96 186.436 0)
+			(at 187.96 182.626 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6481,7 +6440,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 187.96 185.42 90)
+			(at 187.96 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6491,7 +6450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 191.77 0)
+			(at 187.96 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6500,7 +6459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 191.77 0)
+			(at 187.96 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6509,7 +6468,7 @@
 			)
 		)
 		(property "Description" "Local power symbol (source), cosmetic use only"
-			(at 187.96 191.77 0)
+			(at 187.96 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6518,7 +6477,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 187.96 191.77 0)
+			(at 187.96 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6527,7 +6486,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 187.96 191.77 0)
+			(at 187.96 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6536,7 +6495,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 187.96 191.77 0)
+			(at 187.96 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
