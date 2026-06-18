@@ -66,7 +66,7 @@
 	COPPER TO HOLE		0.300 mm
 	COPPER TO EDGE		0.500 mm
 	HOLE TO HOLE			0.250 mm</textvar>
-    <textvar name="GIT_HASH_PCB">3477b87</textvar>
+    <textvar name="GIT_HASH_PCB">5abcb82</textvar>
     <textvar name="GIT_HASH_SCH">c741cc4</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_main</textvar>
     <textvar name="PROJECT_NAME">1 kV strobe</textvar>
@@ -77,8 +77,8 @@ Migrated existing project to template (KDT)</textvar>
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">17-Jun-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-06-17</textvar>
+    <textvar name="RELEASE_DATE">18-Jun-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-06-18</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-04-11</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -2727,6 +2727,66 @@ Migrated existing project to template (KDT)</textvar>
       <sheetpath names="/Block Diagram/Lamp driver/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1b3d73d6-473d-4741-895e-f4c216aab074/"/>
       <tstamps>749aeee3-6eab-4b81-bebe-fc6235c462ca</tstamps>
     </comp>
+    <comp ref="H20">
+      <value>MountingHole</value>
+      <footprint>Personal:Hole_1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Personal:Hole_1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Lamp driver"/>
+      <property name="Sheetfile" value="Lamp_driver.kicad_sch"/>
+      <property name="RefDes" value="20-49"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Lamp driver/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1b3d73d6-473d-4741-895e-f4c216aab074/"/>
+      <tstamps>265d48d6-614c-4cf3-93ce-f76cfbec19ec</tstamps>
+    </comp>
+    <comp ref="H21">
+      <value>MountingHole</value>
+      <footprint>Personal:Hole_1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Personal:Hole_1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Lamp driver"/>
+      <property name="Sheetfile" value="Lamp_driver.kicad_sch"/>
+      <property name="RefDes" value="20-49"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Lamp driver/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1b3d73d6-473d-4741-895e-f4c216aab074/"/>
+      <tstamps>044c675a-e3da-4f26-acd1-158170e62e03</tstamps>
+    </comp>
+    <comp ref="H22">
+      <value>MountingHole</value>
+      <footprint>Personal:Hole_1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Personal:Hole_1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Lamp driver"/>
+      <property name="Sheetfile" value="Lamp_driver.kicad_sch"/>
+      <property name="RefDes" value="20-49"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Lamp driver/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1b3d73d6-473d-4741-895e-f4c216aab074/"/>
+      <tstamps>db073802-b789-4fd9-b71f-c1d425fe7599</tstamps>
+    </comp>
     <comp ref="J20">
       <value>T44007</value>
       <footprint>Personal:T44007</footprint>
@@ -2809,25 +2869,23 @@ Migrated existing project to template (KDT)</textvar>
       <tstamps>5246d10f-79ad-4bba-a56e-629ca440875d</tstamps>
     </comp>
     <comp ref="J23">
-      <value>10146581-060_M</value>
-      <footprint>Personal:Amphenol_Minitek_10146581-060_mod_0</footprint>
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x03, script generated</description>
       <fields>
-        <field name="Config"/>
-        <field name="Manufacturer">Amphenol</field>
-        <field name="Manufacturer Part Number">10146581-060</field>
-        <field name="Footprint">Personal:Amphenol_Minitek_10146581-060_mod_0</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
       </fields>
-      <libsource lib="personal" part="Amphenol_Minitek_10146581-060_mod" description=""/>
-      <property name="Config" value=""/>
-      <property name="Manufacturer" value="Amphenol"/>
-      <property name="Manufacturer Part Number" value="10146581-060"/>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
       <property name="Sheetname" value="Lamp driver"/>
       <property name="Sheetfile" value="Lamp_driver.kicad_sch"/>
       <property name="RefDes" value="20-49"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/Block Diagram/Lamp driver/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/1b3d73d6-473d-4741-895e-f4c216aab074/"/>
-      <tstamps>385db89f-27d4-4217-ad9e-83f72edbf0e2</tstamps>
+      <tstamps>cb44bf15-c892-4572-bd59-f4b9b08a3ff6</tstamps>
     </comp>
     <comp ref="J24">
       <value>T44007</value>
@@ -10056,21 +10114,6 @@ Migrated existing project to template (KDT)</textvar>
         <pin num="3" name="S" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="personal" part="Amphenol_Minitek_10146581-060_mod">
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value"/>
-        <field name="Footprint">Personal:Amphenol_Minitek_10146581-060_mod</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="5" name="Pin_5" type="passive"/>
-        <pin num="6" name="Pin_6" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="personal" part="B0505S-2W">
       <docs>https://www.lcsc.com/datasheet/C5198437.pdf?spm=wm.fly.bg.0.pdf___wm.fly.tp.2.ml&amp;lcsc_vid=QFNdBQUER1ANU1EFTwJaBFcFEwAKVABWEgJcVQEFE1UxVlNeR1VYVVFfRVFWUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRFZWSQwSGg0%3D</docs>
       <fields>
@@ -10323,17 +10366,17 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="Q21" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R37" pin="2" pintype="passive"/>
     </net>
-    <net code="6" name="/Block Diagram/Lamp driver/G_L_D3" class="Default">
-      <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="Q23" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R39" pin="2" pintype="passive"/>
-    </net>
-    <net code="7" name="/Block Diagram/Lamp driver/G_L_D_2" class="Default">
+    <net code="6" name="/Block Diagram/Lamp driver/G_L_D2" class="Default">
       <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D26" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q22" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R38" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/Block Diagram/Lamp driver/G_L_D3" class="Default">
+      <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q23" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R39" pin="2" pintype="passive"/>
     </net>
     <net code="8" name="/Block Diagram/Lamp driver/G_TP_DRV" class="Default">
       <node ref="D32" pin="1" pinfunction="K" pintype="passive"/>
@@ -10448,7 +10491,7 @@ Migrated existing project to template (KDT)</textvar>
       <node ref="R41" pin="1" pintype="passive"/>
     </net>
     <net code="22" name="/Block Diagram/Lamp driver/TRIG" class="Default">
-      <node ref="J23" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J23" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="P90" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P95" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="PT20" pin="4" pinfunction="S" pintype="passive"/>
@@ -11074,31 +11117,28 @@ Migrated existing project to template (KDT)</textvar>
     <net code="97" name="unconnected-(J23-Pin_1-Pad1)" class="Default">
       <node ref="J23" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
     </net>
-    <net code="98" name="unconnected-(J23-Pin_2-Pad2)" class="Default">
-      <node ref="J23" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    <net code="98" name="unconnected-(J23-Pin_3-Pad3)" class="Default">
+      <node ref="J23" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
     </net>
-    <net code="99" name="unconnected-(J23-Pin_5-Pad5)" class="Default">
-      <node ref="J23" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
-    </net>
-    <net code="100" name="unconnected-(LA20-Pad1)" class="Default">
+    <net code="99" name="unconnected-(LA20-Pad1)" class="Default">
       <node ref="LA20" pin="1" pintype="passive+no_connect"/>
     </net>
-    <net code="101" name="unconnected-(LA20-Pad2)" class="Default">
+    <net code="100" name="unconnected-(LA20-Pad2)" class="Default">
       <node ref="LA20" pin="2" pintype="passive+no_connect"/>
     </net>
-    <net code="102" name="unconnected-(LA20-Pad3)" class="Default">
+    <net code="101" name="unconnected-(LA20-Pad3)" class="Default">
       <node ref="LA20" pin="3" pintype="passive+no_connect"/>
     </net>
-    <net code="103" name="unconnected-(PS10-NC-Pad5)" class="Default">
+    <net code="102" name="unconnected-(PS10-NC-Pad5)" class="Default">
       <node ref="PS10" pin="5" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="104" name="unconnected-(PS11-NC-Pad5)" class="Default">
+    <net code="103" name="unconnected-(PS11-NC-Pad5)" class="Default">
       <node ref="PS11" pin="5" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="105" name="unconnected-(PT20-NC-Pad3)" class="Default">
+    <net code="104" name="unconnected-(PT20-NC-Pad3)" class="Default">
       <node ref="PT20" pin="3" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="106" name="unconnected-(U20-LO-Pad4)" class="Default">
+    <net code="105" name="unconnected-(U20-LO-Pad4)" class="Default">
       <node ref="U20" pin="4" pinfunction="LO" pintype="output+no_connect"/>
     </net>
   </nets>
