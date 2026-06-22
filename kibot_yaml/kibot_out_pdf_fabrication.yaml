@@ -1,4 +1,4 @@
-        # KiBot output for generating Fabrication Document in PDF format
+# KiBot output for generating Fabrication Document in PDF format
 # https://kibot.readthedocs.io/en/latest/configuration/outputs/pcb_print.html
 
 kibot:
@@ -102,7 +102,7 @@ outputs:
 
       - scaling: @SCALING@
         mirror: true
-        mirror_pcb_text: false
+        mirror_pcb_text: true   # test
         title: '@DOC_TITLE@'
         sheet: 'Bottom Fabrication (Scale @SCALING@:1)'
         layer_var: 'Bottom Fabrication (Scale @SCALING@:1)'
@@ -142,71 +142,139 @@ outputs:
           - layer: 'Edge.Cuts'
             color: '#000000'
 
-      - scaling: @SCALING@
-        title: '@DOC_TITLE@'
-        sheet: 'Top Test Points (Scale @SCALING@:1)'
-        layer_var: 'Top Test Points (Scale @SCALING@:1)'
-        sheet_reference_color: '#000000'
-        colored_holes: true
-        holes_color: "#FFFFFF"
-        layers:
-          - layer: Edge.Cuts
-            color: '#000000'
-          - layer: F.Cu
-            color: '#E5E5E5'
-          - layer: F.Mask
-            color: '#CECECE'
-          - layer: F.Paste
-            color: '#CECECE'
-          - layer: F.Silkscreen
-            color: '#C7C7C7'
-          - layer: F.Fab
-            exclude_filter: '@FAB_EXCLUDE_FILTER@'
-            plot_footprint_values: false
-            sketch_pads_on_fab_layers: false
-            color: '#E10000'
-          - layer: '@LAYER_TP_LIST_TOP@'
-            color: '#000000'
+     # - scaling: @SCALING@
+      #  title: '@DOC_TITLE@'
+      #  sheet: 'Top Test Points (Scale @SCALING@:1)'
+      #  layer_var: 'Top Test Points (Scale @SCALING@:1)'
+      #  sheet_reference_color: '#000000'
+      #  colored_holes: true
+      #  holes_color: "#FFFFFF"
+      #  layers:
+      #    - layer: Edge.Cuts
+      #      color: '#000000'
+      #    - layer: F.Cu
+      #      color: '#E5E5E5'
+      #    - layer: F.Mask
+      #      color: '#CECECE'
+      #    - layer: F.Paste
+      #      color: '#CECECE'
+      #    - layer: F.Silkscreen
+      #      color: '#C7C7C7'
+        #  - layer: F.Fab
+        #    exclude_filter: '@FAB_EXCLUDE_FILTER@'
+        #    plot_footprint_values: false
+        #    sketch_pads_on_fab_layers: false
+        #    color: '#E10000'
+      #    - layer: '@LAYER_TP_LIST_TOP@'
+      #      color: '#000000'
+
+      # - scaling: @SCALING@
+        # mirror : true
+        # mirror_pcb_text: true
+        # title: '@DOC_TITLE@'
+        # sheet: 'Bottom Test Points (Scale @SCALING@:1)'
+        # layer_var: 'Bottom Test Points (Scale @SCALING@:1)'
+        # sheet_reference_color: '#000000'
+        # colored_holes: true
+        # holes_color: "#FFFFFF"
+        # layers:
+          # - layer: Edge.Cuts
+            # color: '#000000'
+          # - layer: B.Cu
+            # color: '#E5E5E5'
+          # - layer: B.Mask
+            # color: '#CECECE'
+          # - layer: B.Paste
+            # color: '#CECECE'
+          # - layer: B.Silkscreen
+            # color: '#C7C7C7'
+          # - layer: B.Fab
+            # exclude_filter: '@FAB_EXCLUDE_FILTER@'
+            # plot_footprint_values: false
+            # sketch_pads_on_fab_layers: false
+            # color: '#0B00CC'
+          # - layer: '@LAYER_TP_LIST_BOTTOM@'
+            # color: '#000000'
 
       - scaling: @SCALING@
-        mirror : true
-        mirror_pcb_text: true
-        title: '@DOC_TITLE@'
-        sheet: 'Bottom Test Points (Scale @SCALING@:1)'
-        layer_var: 'Bottom Test Points (Scale @SCALING@:1)'
-        sheet_reference_color: '#000000'
-        colored_holes: true
-        holes_color: "#FFFFFF"
-        layers:
-          - layer: Edge.Cuts
-            color: '#000000'
-          - layer: B.Cu
-            color: '#E5E5E5'
-          - layer: B.Mask
-            color: '#CECECE'
-          - layer: B.Paste
-            color: '#CECECE'
-          - layer: B.Silkscreen
-            color: '#C7C7C7'
-          - layer: B.Fab
-            exclude_filter: '@FAB_EXCLUDE_FILTER@'
-            plot_footprint_values: false
-            sketch_pads_on_fab_layers: false
-            color: '#0B00CC'
-          - layer: '@LAYER_TP_LIST_BOTTOM@'
-            color: '#000000'
-
-      - scaling: @SCALING@
-        sheet: '%ln (Scale @SCALING@:1)'
-        layer_var: '%ln (Scale @SCALING@:1)'
+        # sheet: '%ln (Scale @SCALING@:1)'
+        # layer_var: '%ln (Scale @SCALING@:1)'
+        sheet: 'F.Cu (Scale @SCALING@:1)'           # NEW
+        layer_var: 'F.Cu (Scale @SCALING@:1)'       # NEW
         title: '@DOC_TITLE@'
         sheet_reference_color: '#000000'
         colored_holes: true
         holes_color: "#FFFFFF"
-        repeat_for_layer: 'F.Cu'
-        repeat_layers: 'copper'
+        # repeat_for_layer: 'F.Cu'
+        # repeat_layers: 'copper'
         layers:
           - layer: 'F.Cu'
+          - layer: Edge.Cuts
+            color: '#000000'          
+
+      - scaling: @SCALING@
+        sheet: 'B.Cu (Scale @SCALING@:1)'          
+        layer_var: 'B.Cu (Scale @SCALING@:1)'      
+        title: '@DOC_TITLE@'
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: 'B.Cu'
+          - layer: Edge.Cuts
+            color: '#000000'
+
+      - scaling: @SCALING@
+        sheet: 'F.Mask (Scale @SCALING@:1)'
+        layer_var: 'F.Mask (Scale @SCALING@:1)'
+        title: '@DOC_TITLE@'
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: 'F.Mask'
+          - layer: Edge.Cuts
+            color: '#000000'          
+
+      - scaling: @SCALING@
+        sheet: 'B.Mask (Scale @SCALING@:1)'          
+        layer_var: 'B.Mask (Scale @SCALING@:1)'      
+        title: '@DOC_TITLE@'
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: 'B.Mask'
+          - layer: Edge.Cuts
+            color: '#000000'
+
+      - scaling: @SCALING@
+        sheet: 'F.Silkscreen (Scale @SCALING@:1)'
+        layer_var: 'F.Silkscreen (Scale @SCALING@:1)'
+        title: '@DOC_TITLE@'
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: 'F.Silkscreen'
+            color: '#000000'          
+          - layer: Edge.Cuts
+            color: '#000000'          
+
+      - scaling: @SCALING@
+        sheet: 'B.Silkscreen (Scale @SCALING@:1)'          
+        layer_var: 'B.Silkscreen (Scale @SCALING@:1)'      
+        title: '@DOC_TITLE@'
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: 'B.Silkscreen'
+            color: '#000000'          
+          - layer: Edge.Cuts
+            color: '#000000'
+
+
 
 ...
 definitions:

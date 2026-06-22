@@ -8586,6 +8586,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 228.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f40768d6-1d89-4f26-8e71-fd838029e2e6")
 		)
@@ -8671,6 +8680,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 264.16 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 264.16 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 264.16 196.85 0)
 			(effects
 				(font
@@ -8769,6 +8796,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 160.02 41.91 0)
 			(effects
 				(font
@@ -8889,6 +8925,33 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 49.53 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "DIODES"
+			(at 49.53 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W-7-F"
+			(at 49.53 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8461a4c2-5d00-47e1-860f-f75234efbc68")
 		)
@@ -8968,7 +9031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "CCTC"
+		(property "Manufacturer" "Generic"
 			(at 127 46.99 0)
 			(effects
 				(font
@@ -8977,7 +9040,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "TCC0603X7R104K500CT"
+		(property "Manufacturer Part Number" ""
+			(at 127 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 127 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 127 46.99 0)
 			(effects
 				(font
@@ -9048,6 +9129,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 127 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 127 248.92 0)
 			(effects
 				(font
@@ -9138,6 +9228,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 39.37 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 39.37 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 39.37 170.18 0)
 			(effects
 				(font
@@ -9242,6 +9350,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 194.31 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
+			(at 194.31 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "15557065-82b6-4aeb-89c4-21752d6161de")
 		)
@@ -9331,6 +9457,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 73.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 73.66 134.62 0)
 			(effects
 				(font
@@ -9437,6 +9572,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 194.31 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d365e51-ed95-4b10-9bef-81e1b33df4d0")
 		)
@@ -9523,6 +9667,33 @@
 			)
 		)
 		(property "Manufacturer Part Number" "BZT52C20"
+			(at 250.19 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 250.19 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "HXY MOSFET"
+			(at 250.19 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BZT52C20"
 			(at 250.19 186.69 90)
 			(effects
 				(font
@@ -9630,6 +9801,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 78.74 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1075fe99-23cf-42c3-9f6b-44c5b80f5a07")
 		)
@@ -9716,6 +9896,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 22.86 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 22.86 191.77 0)
 			(effects
 				(font
@@ -9818,6 +10007,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 279.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
+			(at 279.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6c26f24-ab77-4dfb-9e70-a95d9e6868e0")
 		)
@@ -9888,6 +10095,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 241.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "103136a1-f609-47ab-b21b-fae8074b7a38")
 		)
@@ -9950,6 +10166,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 304.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 304.8 87.63 0)
 			(effects
 				(font
@@ -10056,6 +10281,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 306.07 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a439d037-acbf-483f-a885-bdf485dafe6c")
 		)
@@ -10151,6 +10385,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 154.94 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad07bcbb-f1a0-42c7-8214-a88136f5dd84")
 		)
@@ -10227,7 +10470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "CCTC"
+		(property "Manufacturer" "Generic"
 			(at 78.74 55.88 0)
 			(effects
 				(font
@@ -10236,7 +10479,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "TCC0603X7R104K500CT"
+		(property "Manufacturer Part Number" ""
+			(at 78.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 78.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 78.74 55.88 0)
 			(effects
 				(font
@@ -10310,6 +10571,51 @@
 			)
 		)
 		(property "Description" ""
+			(at 322.58 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 322.58 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MDT7N65"
+			(at 322.58 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Minos"
+			(at 322.58 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MDT7N65"
+			(at 322.58 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Minos"
 			(at 322.58 205.74 0)
 			(effects
 				(font
@@ -10419,6 +10725,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 292.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bedcd075-32cf-4ffe-85bb-d792b48decdf")
 		)
@@ -10502,6 +10817,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 208.28 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 208.28 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 208.28 177.8 90)
 			(effects
 				(font
@@ -10606,6 +10939,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 130.81 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
+			(at 130.81 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb3b3202-6c57-4e49-af00-11fbab3bca1c")
 		)
@@ -10668,6 +11019,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 127 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 127 243.84 0)
 			(effects
 				(font
@@ -10767,6 +11127,33 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 143.51 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "HXY MOSFET"
+			(at 143.51 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BZT52C20"
+			(at 143.51 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e2410cf0-d2d9-4bd0-a9e8-eb5d24b0035c")
 		)
@@ -10849,7 +11236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "C42401746"
+		(property "Manufacturer" "Minos"
 			(at 261.62 177.8 0)
 			(effects
 				(font
@@ -10859,6 +11246,33 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MPF3N150"
+			(at 261.62 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 261.62 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Minos"
+			(at 261.62 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MPF3N150"
 			(at 261.62 177.8 0)
 			(effects
 				(font
@@ -10974,6 +11388,33 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 95.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "XFCN"
+			(at 95.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "T44007"
+			(at 95.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30be7d93-0b3e-4981-a2f6-eb0ed995825d")
 		)
@@ -11061,6 +11502,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 279.4 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 279.4 96.52 0)
 			(effects
 				(font
@@ -11164,6 +11614,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 138.43 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54610ca4-5620-4153-9d16-952b0595740c")
 		)
@@ -11250,6 +11709,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 215.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 215.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 215.9 69.85 0)
 			(effects
 				(font
@@ -11358,6 +11835,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 33.02 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b410a9fd-e375-4fa8-9205-988d2b29658c")
 		)
@@ -11444,6 +11930,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 215.9 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 215.9 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 215.9 57.15 0)
 			(effects
 				(font
@@ -11540,6 +12044,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 240.03 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 240.03 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 240.03 185.42 0)
 			(effects
 				(font
@@ -11646,6 +12168,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 166.37 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ca0539e-ac85-4cd5-8b36-16b8be31160d")
 		)
@@ -11732,6 +12263,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 279.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 279.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 279.4 80.01 0)
 			(effects
 				(font
@@ -11872,6 +12421,33 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 294.64 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "LGE"
+			(at 294.64 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "S15M"
+			(at 294.64 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7277ec05-649f-4d8f-9764-3172e5ab8217")
 		)
@@ -11969,6 +12545,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 306.07 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "387b747f-b096-465b-9f72-cd549eaa4227")
 		)
@@ -12055,6 +12640,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 114.3 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 114.3 135.89 0)
 			(effects
 				(font
@@ -12158,6 +12752,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd816948-8528-409b-b3f7-c7ea33ffecd0")
 		)
@@ -12244,6 +12847,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 215.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 215.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 215.9 44.45 0)
 			(effects
 				(font
@@ -12341,6 +12962,33 @@
 			)
 		)
 		(property "Manufacturer Part Number" "B360A-13-F"
+			(at 127 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 127 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "DIODES"
+			(at 127 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B360A-13-F"
 			(at 127 33.02 90)
 			(effects
 				(font
@@ -12453,6 +13101,33 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 95.25 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "XFCN"
+			(at 95.25 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "T44007"
+			(at 95.25 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95ca6802-b028-4856-aebb-2d9d7d1c5b1e")
 		)
@@ -12538,6 +13213,33 @@
 			)
 		)
 		(property "Manufacturer Part Number" "IXYH55N120"
+			(at 106.68 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 106.68 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "IXYS"
+			(at 106.68 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "IXYH55N120"
 			(at 106.68 179.07 0)
 			(effects
 				(font
@@ -12647,6 +13349,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 160.02 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a96143b8-9926-4426-90ee-4623aa0cdcd1")
 		)
@@ -12732,6 +13443,33 @@
 			)
 		)
 		(property "Manufacturer Part Number" "WSR3R0200FEA"
+			(at 101.6 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 101.6 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Vishay Intertech"
+			(at 101.6 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WSR3R0200FEA"
 			(at 101.6 204.47 0)
 			(effects
 				(font
@@ -12828,6 +13566,33 @@
 			)
 		)
 		(property "Manufacturer Part Number" "WSR3R0200FEA"
+			(at 120.65 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 120.65 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Vishay Intertech"
+			(at 120.65 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WSR3R0200FEA"
 			(at 120.65 204.47 0)
 			(effects
 				(font
@@ -12933,6 +13698,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 22.86 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1041ee94-ec42-4cf4-80eb-24786740fab4")
 		)
@@ -13020,6 +13794,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 78.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 78.74 63.5 0)
 			(effects
 				(font
@@ -13123,6 +13906,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 264.16 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2d5abab5-5ec4-4bc7-880a-6ebd920fc6c9")
 		)
@@ -13210,6 +14002,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 111.76 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 111.76 63.5 0)
 			(effects
 				(font
@@ -13313,6 +14114,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 48.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "03efcec5-dcd3-4141-a178-7d3e54057fb0")
 		)
@@ -13399,6 +14209,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 279.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 279.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 279.4 31.75 0)
 			(effects
 				(font
@@ -13505,6 +14333,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 274.32 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42de6848-b1be-483c-9c5a-76e0e810e5fa")
 		)
@@ -13564,6 +14401,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 138.43 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 138.43 204.47 0)
 			(effects
 				(font
@@ -13670,6 +14516,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 48.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1112b41e-1cbb-437a-9f16-a2175f5db6c4")
 		)
@@ -13767,6 +14622,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 33.02 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9989b537-7a3c-44aa-b120-8a2e4df7cd4b")
 		)
@@ -13852,6 +14716,33 @@
 			)
 		)
 		(property "Manufacturer Part Number" "1SMA5953B"
+			(at 194.31 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 194.31 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Jingdao Microelectronics"
+			(at 194.31 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1SMA5953B"
 			(at 194.31 207.01 90)
 			(effects
 				(font
@@ -13957,6 +14848,33 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 306.07 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "HXY MOSFET"
+			(at 306.07 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BZT52C20"
+			(at 306.07 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ede5b6a-36ff-4742-90d5-dca04165f07b")
 		)
@@ -14046,6 +14964,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 279.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 279.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 279.4 90.17 0)
 			(effects
 				(font
@@ -14152,6 +15088,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 304.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d39da79-a621-4172-a17e-03fb051d0ae5")
 		)
@@ -14246,6 +15191,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 215.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
+			(at 215.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b21a58d6-7feb-4443-a41d-7983cde02772")
 		)
@@ -14332,6 +15295,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 39.37 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 39.37 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 39.37 191.77 90)
 			(effects
 				(font
@@ -14438,6 +15419,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 148.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1469655-9b02-4cd8-8c16-a7f6b9187754")
 		)
@@ -14521,6 +15511,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 290.83 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 290.83 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 290.83 205.74 90)
 			(effects
 				(font
@@ -14627,6 +15635,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27965316-6199-4a1c-9a04-ab430da2db7a")
 		)
@@ -14714,6 +15731,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 101.6 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 101.6 212.09 0)
 			(effects
 				(font
@@ -14816,6 +15842,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 195.58 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a19092ff-631d-457f-87a2-c76b164dd624")
 		)
@@ -14902,6 +15937,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 215.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 215.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 215.9 31.75 0)
 			(effects
 				(font
@@ -15008,6 +16061,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5104aae0-7b99-4199-8648-f909ee57aa23")
 		)
@@ -15084,7 +16146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "CCTC"
+		(property "Manufacturer" "Generic"
 			(at 292.1 82.55 0)
 			(effects
 				(font
@@ -15093,7 +16155,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "TCC0603X7R104K500CT"
+		(property "Manufacturer Part Number" ""
+			(at 292.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 292.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 292.1 82.55 0)
 			(effects
 				(font
@@ -15181,7 +16261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "CCTC"
+		(property "Manufacturer" "Generic"
 			(at 154.94 204.47 0)
 			(effects
 				(font
@@ -15190,7 +16270,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "TCC0603X7R104K500CT"
+		(property "Manufacturer Part Number" ""
+			(at 154.94 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 154.94 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 154.94 204.47 0)
 			(effects
 				(font
@@ -15303,6 +16401,33 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 163.83 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "XFCN"
+			(at 163.83 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "T44007"
+			(at 163.83 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "93a45fd7-287f-49d3-80aa-1f2c9474ed69")
 		)
@@ -15389,6 +16514,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 279.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 279.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 279.4 44.45 0)
 			(effects
 				(font
@@ -15512,6 +16655,33 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 140.97 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "DIODES"
+			(at 140.97 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W-7-F"
+			(at 140.97 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "160e53ae-8e9d-4170-9d6b-eef45428f95c")
 		)
@@ -15601,6 +16771,33 @@
 			)
 		)
 		(property "Manufacturer Part Number" "BZT52C20"
+			(at 52.07 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 52.07 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "HXY MOSFET"
+			(at 52.07 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BZT52C20"
 			(at 52.07 185.42 90)
 			(effects
 				(font
@@ -15706,6 +16903,33 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 128.27 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "DIODES"
+			(at 128.27 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B360A-13-F"
+			(at 128.27 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9ce707a-3107-4ff5-bd1b-48004cd9cb1c")
 		)
@@ -15792,6 +17016,33 @@
 			)
 		)
 		(property "Manufacturer Part Number" "ZS1052-S_HT"
+			(at 325.12 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 325.12 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Excelitas Technologies"
+			(at 325.12 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ZS1052-S_HT"
 			(at 325.12 186.69 0)
 			(effects
 				(font
@@ -15904,6 +17155,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 88.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9f6462d-7535-4266-9d01-a363d6781687")
 		)
@@ -15999,6 +17259,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 215.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "96f58cca-7b77-435c-90f3-cd9d351c9ed4")
 		)
@@ -16086,6 +17355,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 342.9 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 342.9 182.88 0)
 			(effects
 				(font
@@ -16206,6 +17484,33 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 95.25 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "DIODES"
+			(at 95.25 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W-7-F"
+			(at 95.25 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25c47e2f-a53b-49af-b2da-cbe62b98bccd")
 		)
@@ -16296,6 +17601,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 96.52 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 96.52 63.5 0)
 			(effects
 				(font
@@ -16399,6 +17713,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cabc774c-5f25-4be0-a9c7-faa2a3c94090")
 		)
@@ -16493,6 +17816,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 207.01 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f8732ba-5b9d-45f0-91dc-75afd6b13f8f")
 		)
@@ -16579,6 +17911,33 @@
 			)
 		)
 		(property "Manufacturer Part Number" "BZT52C20"
+			(at 97.79 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 97.79 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "HXY MOSFET"
+			(at 97.79 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BZT52C20"
 			(at 97.79 185.42 90)
 			(effects
 				(font
@@ -16684,6 +18043,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 279.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
+			(at 279.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ac695ed-5865-466d-ac3f-e593f3886e24")
 		)
@@ -16763,7 +18140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "CCTC"
+		(property "Manufacturer" "Generic"
 			(at 228.6 82.55 0)
 			(effects
 				(font
@@ -16772,7 +18149,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "TCC0603X7R104K500CT"
+		(property "Manufacturer Part Number" ""
+			(at 228.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 228.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 228.6 82.55 0)
 			(effects
 				(font
@@ -16871,6 +18266,33 @@
 			)
 		)
 		(property "Manufacturer Part Number" "IRS2184"
+			(at 111.76 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 111.76 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Infineon"
+			(at 111.76 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "IRS2184"
 			(at 111.76 46.99 0)
 			(effects
 				(font
@@ -16996,6 +18418,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 194.31 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1222706f-fc01-481e-9a48-75d0ad72b800")
 		)
@@ -17081,6 +18512,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 138.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 138.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 138.43 46.99 0)
 			(effects
 				(font
@@ -17187,6 +18636,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 166.37 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53a2e8fe-1d0d-438e-b886-6d16356dd4d2")
 		)
@@ -17272,6 +18730,33 @@
 			)
 		)
 		(property "Manufacturer Part Number" "1SMA5953B"
+			(at 194.31 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 194.31 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Jingdao Microelectronics"
+			(at 194.31 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1SMA5953B"
 			(at 194.31 193.04 90)
 			(effects
 				(font
@@ -17378,6 +18863,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3ab6651-c76d-4d62-a17c-29f11d6be817")
 		)
@@ -17472,6 +18966,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 217.17 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
+			(at 217.17 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b726e4d-0ee7-4f0f-85b9-ddad9c8670df")
 		)
@@ -17506,7 +19018,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "Header"
 			(at 129.54 142.24 0)
 			(effects
 				(font
@@ -17534,6 +19046,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 138.43 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 138.43 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
+			(at 138.43 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
 			(at 138.43 147.32 0)
 			(effects
 				(font
@@ -17631,6 +19170,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 233.68 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 233.68 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 233.68 177.8 90)
 			(effects
 				(font
@@ -17738,6 +19295,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 88.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "15a22f4e-ce9e-4da6-9340-be2c6988db91")
 		)
@@ -17823,6 +19389,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 194.31 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 194.31 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 194.31 139.7 0)
 			(effects
 				(font
@@ -17919,6 +19503,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 309.88 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 309.88 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 309.88 196.85 90)
 			(effects
 				(font
@@ -18026,6 +19628,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 264.16 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18f92dcd-ca37-42fa-b4ed-20e27ef3fbfa")
 		)
@@ -18120,6 +19731,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 154.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "0b3f8e7e-759a-41be-8ed2-18be489b7e14")
 		)
@@ -18185,6 +19805,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 127 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 127 254 0)
 			(effects
 				(font
@@ -18277,6 +19906,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 248.92 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 248.92 74.93 0)
 			(effects
 				(font
@@ -18386,6 +20024,33 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 163.83 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "XFCN"
+			(at 163.83 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "T44007"
+			(at 163.83 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c5b577e-cae8-4b07-81a1-9172d0357285")
 		)
@@ -18445,6 +20110,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 96.52 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 96.52 54.61 0)
 			(effects
 				(font
@@ -18550,6 +20224,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 88.9 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d486072d-1997-4d2e-ae88-6aac62354c62")
 		)
@@ -18636,6 +20319,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 215.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 215.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 215.9 90.17 0)
 			(effects
 				(font
@@ -18743,6 +20444,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 279.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64ecf235-3243-42b5-9277-76d2ade49529")
 		)
@@ -18802,6 +20512,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 148.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 148.59 46.99 0)
 			(effects
 				(font
@@ -18898,6 +20617,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 83.82 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 83.82 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 83.82 170.18 0)
 			(effects
 				(font
@@ -19004,6 +20741,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 217.17 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0fd99104-cccf-429a-a989-890238576189")
 		)
@@ -19089,6 +20835,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 194.31 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 194.31 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 194.31 152.4 0)
 			(effects
 				(font
@@ -19194,6 +20958,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 217.17 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
+			(at 217.17 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af8ed025-4281-4412-84ad-5ed1773dd95f")
 		)
@@ -19282,6 +21064,33 @@
 			)
 		)
 		(property "Manufacturer Part Number" "IXYH55N120"
+			(at 152.4 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 152.4 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "IXYS"
+			(at 152.4 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "IXYH55N120"
 			(at 152.4 179.07 0)
 			(effects
 				(font
@@ -19391,6 +21200,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 313.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab8bd9b2-3f74-440d-ae19-eb2cad1296b3")
 		)
@@ -19476,6 +21294,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 264.16 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 264.16 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 264.16 160.02 0)
 			(effects
 				(font
@@ -19581,6 +21417,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 106.68 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "975a8510-851c-4a9c-abaf-d12d06130693")
 		)
@@ -19666,6 +21511,33 @@
 			)
 		)
 		(property "Manufacturer Part Number" "IXYH55N120"
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "IXYS"
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "IXYH55N120"
 			(at 60.96 179.07 0)
 			(effects
 				(font
@@ -19775,6 +21647,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 241.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b67d0637-cc41-44ab-888d-40d385007d5c")
 		)
@@ -19870,6 +21751,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 120.65 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c2a4a10-430e-4ea7-8177-d14471a11a8b")
 		)
@@ -19957,6 +21847,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 325.12 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 325.12 217.17 0)
 			(effects
 				(font

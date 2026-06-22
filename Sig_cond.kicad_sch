@@ -2331,6 +2331,33 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 96.52 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "ST"
+			(at 96.52 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TSV912IDT"
+			(at 96.52 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "577ac520-cbac-4811-89a0-18014915b362")
 		)
@@ -2447,6 +2474,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff44daf0-f460-4728-859a-a49c3dca7be4")
 		)
@@ -2543,6 +2579,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 78.74 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9d67f8e-8be4-47d4-a7ba-41b152d87471")
 		)
@@ -2628,6 +2673,33 @@
 			)
 		)
 		(property "Manufacturer Part Number" "BAV199LT1G"
+			(at 144.78 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 144.78 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "onsemi"
+			(at 144.78 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAV199LT1G"
 			(at 144.78 34.29 90)
 			(effects
 				(font
@@ -2737,6 +2809,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9d4ee41b-4657-422f-a5ed-22088091a16b")
 		)
@@ -2824,6 +2905,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 182.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 182.88 67.31 0)
 			(effects
 				(font
@@ -2928,6 +3018,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 78.74 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a6564ee-d51c-4bc7-b896-3e76eb843b30")
 		)
@@ -3014,6 +3113,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 121.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 121.92 67.31 0)
 			(effects
 				(font
@@ -3117,6 +3225,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 33.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "266ece97-c9dc-4b3a-beb9-1f341d513f7f")
 		)
@@ -3212,6 +3329,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 184.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c610450-b74d-4f2e-b03d-b83039214ca4")
 		)
@@ -3296,6 +3422,33 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TSV912IDT"
+			(at 162.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 162.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "ST"
+			(at 162.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TSV912IDT"
 			(at 162.56 36.83 0)
 			(effects
 				(font
@@ -3418,6 +3571,33 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 78.74 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "onsemi"
+			(at 78.74 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAV199LT1G"
+			(at 78.74 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99e8dc41-f490-4609-99dc-ad1348dbf18d")
 		)
@@ -3499,7 +3679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "CCTC"
+		(property "Manufacturer" "Generic"
 			(at 151.13 72.39 0)
 			(effects
 				(font
@@ -3508,7 +3688,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "TCC0603X7R104K500CT"
+		(property "Manufacturer Part Number" ""
+			(at 151.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 151.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 151.13 72.39 0)
 			(effects
 				(font
@@ -3615,6 +3813,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 48.26 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2885a94c-9cac-4ee1-8d90-3524d39fc0fa")
 		)
@@ -3710,6 +3917,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 118.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80fe3e06-e8aa-4978-b750-88066a9b5e4b")
 		)
@@ -3795,6 +4011,33 @@
 			)
 		)
 		(property "Manufacturer Part Number" "BAV199LT1G"
+			(at 162.56 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 162.56 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "onsemi"
+			(at 162.56 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAV199LT1G"
 			(at 162.56 67.31 90)
 			(effects
 				(font
@@ -3905,6 +4148,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 162.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "620295f4-229f-402f-84d3-dfb8054b3ed7")
 		)
@@ -3980,7 +4232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "CCTC"
+		(property "Manufacturer" "Generic"
 			(at 81.28 67.31 0)
 			(effects
 				(font
@@ -3989,7 +4241,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "TCC0603X7R104K500CT"
+		(property "Manufacturer Part Number" ""
+			(at 81.28 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 81.28 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 81.28 67.31 0)
 			(effects
 				(font
@@ -4086,6 +4356,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 140.97 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 140.97 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 140.97 72.39 0)
 			(effects
 				(font
@@ -4192,6 +4480,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 144.78 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "317d9ac4-58a2-40e7-8103-b9333475cf62")
 		)
@@ -4280,6 +4577,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 144.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 144.78 25.4 0)
 			(effects
 				(font
@@ -4383,6 +4689,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 140.97 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52817961-4085-4663-a085-d79b1ed4b484")
 		)
@@ -4470,6 +4785,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 78.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 78.74 78.74 0)
 			(effects
 				(font
@@ -4573,6 +4897,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "865b2b25-d248-4016-9bc9-050e9e6a6e52")
 		)
@@ -4660,6 +4993,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 162.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 162.56 78.74 0)
 			(effects
 				(font
@@ -4765,6 +5107,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 33.02 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8c5d8d1-bc05-4430-accf-8e303d752406")
 		)
@@ -4860,6 +5211,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 48.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43919308-a3d7-4325-b742-0f798487fa4c")
 		)
@@ -4946,6 +5306,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 64.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 64.77 34.29 0)
 			(effects
 				(font
@@ -5049,6 +5418,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 78.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7efbdc1-d498-4ab1-b6d5-63cc2dc1ef38")
 		)
@@ -5144,6 +5522,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 48.26 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "23f4c64d-fd53-4bf1-9a17-09bec84fc670")
 		)
@@ -5227,6 +5614,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 135.89 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 135.89 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Generic"
 			(at 135.89 67.31 90)
 			(effects
 				(font
@@ -5332,6 +5737,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 130.81 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "786fc384-885e-407a-9c12-71ee3db0ebb4")
 		)
@@ -5418,6 +5832,33 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TSV912IDT"
+			(at 95.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 95.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "ST"
+			(at 95.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TSV912IDT"
 			(at 95.25 67.31 0)
 			(effects
 				(font
@@ -5534,6 +5975,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 48.26 35.56 0)
 			(effects
 				(font
