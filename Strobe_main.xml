@@ -66,8 +66,8 @@
 	COPPER TO HOLE		0.300 mm
 	COPPER TO EDGE		0.500 mm
 	HOLE TO HOLE			0.250 mm</textvar>
-    <textvar name="GIT_HASH_PCB">0a76482</textvar>
-    <textvar name="GIT_HASH_SCH">0a76482</textvar>
+    <textvar name="GIT_HASH_PCB">58e73ba</textvar>
+    <textvar name="GIT_HASH_SCH">c741cc4</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_main</textvar>
     <textvar name="PROJECT_NAME">1 kV strobe</textvar>
     <textvar name="RELEASE_BODY_1.0.0">___________________________________
@@ -96,7 +96,7 @@ Migrated existing project to template (KDT)</textvar>
     <textvar name="RELEASE_TITLE_1.1.0"/>
     <textvar name="RELEASE_TITLE_2.0.0">Version 2.0.0 - 2026-06-23</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">2.0.0</textvar>
+    <textvar name="REVISION">2.0.0+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">......................................</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
@@ -137,12 +137,12 @@ Migrated existing project to template (KDT)</textvar>
     <textvar name="SHEET_NAME_7">Optical isolation</textvar>
     <textvar name="SHEET_NAME_8">Revision History</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">RELEASED</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>${SHEETNAME}</title>
         <company>ChurrasCod Electronics</company>
-        <rev>2.0.0</rev>
+        <rev>2.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Strobe_main.kicad_sch</source>
         <comment number="1" value=""/>
@@ -160,7 +160,7 @@ Migrated existing project to template (KDT)</textvar>
       <title_block>
         <title>${SHEETNAME}</title>
         <company>ChurrasCod Electronics</company>
-        <rev>2.0.0</rev>
+        <rev>2.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
         <comment number="1" value=""/>
@@ -268,7 +268,7 @@ Migrated existing project to template (KDT)</textvar>
       <title_block>
         <title>${SHEETNAME}</title>
         <company>ChurrasCod Electronics</company>
-        <rev>2.0.0</rev>
+        <rev>2.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
