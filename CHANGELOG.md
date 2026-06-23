@@ -2,17 +2,12 @@
 
 ## [Unreleased]
 
-Documentation of issues / to do list:
-- decrease impedance of Ipeak measurement divider, remove buffer and feed signal directly to MCU
-- rework gate drive resistors
-- rework power input (use DCDC modules instead of ACDC; do not use linear for large Vdrop)
-- increase testpoints hole diameters; add extra "GND testpoints"
-- add reset pull up
-- decrease R324-R327 (total ~100 k for the path)
-- increase R323, R328, R329 (total ~ 1 Meg)
-- increase R330 and R331 (total 220 k)
-- add 100 k in parallel to D303
-- add mlcc to rst line
+- decreased impedance of Ipeak measurement divider, removed buffer and fed signal directly to MCU
+- reworked gate drive resistors
+- reworked power input
+- modified some of the testpoints and added extra "GND testpoints"
+- reworked test pulse circuit to achive higher frequency
+- added mlcc to MCU rst line
 
 ## [1.0.0] - 2026-04-11
 
