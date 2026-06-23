@@ -1,6 +1,6 @@
 (export (version "E")
   (design
-    (source "/tmp/tmp-kibot-net_sch_print-gzwstyn8/Strobe_main.kicad_sch")
+    (source "/tmp/tmp-kibot-net_sch_print-zw_47x8w/Strobe_main.kicad_sch")
     (date "Date")
     (tool "Eeschema 9.0.7+1")
     (textvar (name "ASSEMBLY_NOTES") "ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)	DO NOT POPULATE PARTS MARKED WITH A RED CROSS.\n\n2)	IF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY\n	FILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.\n\n3)	DOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION\n	WHEN VIEWED FROM THE TOP.")
@@ -16,6 +16,7 @@
     (textvar (name "RELEASE_BODY_1.0.1") "Version 1.0.1 not found.")
     (textvar (name "RELEASE_BODY_1.0.2"))
     (textvar (name "RELEASE_BODY_1.1.0"))
+    (textvar (name "RELEASE_BODY_2.0.0") "Version 2.0.0 not found.")
     (textvar (name "RELEASE_BODY_UNRELEASED") "Version Unreleased not found.")
     (textvar (name "RELEASE_DATE") "23-Jun-2026")
     (textvar (name "RELEASE_DATE_NUM") "2026-06-23")
@@ -23,6 +24,7 @@
     (textvar (name "RELEASE_TITLE_1.0.1") "Version 1.0.1 not found.")
     (textvar (name "RELEASE_TITLE_1.0.2"))
     (textvar (name "RELEASE_TITLE_1.1.0"))
+    (textvar (name "RELEASE_TITLE_2.0.0") "Version 2.0.0 not found.")
     (textvar (name "RELEASE_TITLE_UNRELEASED") "Version Unreleased not found.")
     (textvar (name "REVISION") "1.0.0+ (Unreleased)")
     (textvar (name "SHEET_NAME_1") "Cover Page")
