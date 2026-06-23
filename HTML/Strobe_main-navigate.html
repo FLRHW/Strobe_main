@@ -229,38 +229,34 @@
 
 
 # **1 kV strobe - Intro**
-Since my tenage years I spend a great chunk of my spare time on hobby electronics. Back then, much of that time was to build FM transmitters, audio amplifiers and strobe lights. I was always pushing my builds as much as I could, (i.e., extracting pressurised smoke from capacitors!) as an attempt to make the flashes ever brighter. It was somewhat challenging given the limited experience and resources I had at the time, but a lot of fun nonetheless.
-Life went on, priorities changed and for a long time I did not "play" with strobe lights... until recently, after I bumped into an ebay page of a large XOP-15 bulb and, well, nostalgy happened.
+Since my teenage years I spend a great chunk of my spare time on hobby electronics. Back then, much of that time was to build FM transmitters, audio amplifiers and strobe lights. I was always pushing my builds as much as I could, (i.e., extracting pressurised smoke from capacitors!) as an attempt to make the flashes ever brighter. It was somewhat challenging given the limited experience and resources I had at the time, but a lot of fun nonetheless.
+Life went on, priorities changed and for a long time I did not "play" with strobe lights... until recently, after I saw a large XOP-15 bulb for sale and, well, nostalgy happened.
 
-While defining the project scope, I had to decide if I'd use the good old Xenon bulb or move to LEDs, as these have greatly evolved and are ubiquitous nowadays, making their way to commercial strobes (https://www.martin.com/en/products/atomic-3000-led). I have decided to stick to vintage tech, as in my mind this would perhaps bring more interesting power electronics challenges, since the bulb requires a somewhat high bus voltage and can draw very high peak currents when ionised.
+While defining the project scope, I had to decide if I'd use the good old Xenon bulb or move to LEDs, as these have greatly evolved and are ubiquitous nowadays, making their way to commercial strobes (https://www.martin.com/en/products/atomic-3000-led). I have decided to stick to vintage tech, as in my mind this would bring more interesting power electronics challenges due to high voltages and high peak currents required when the lamp is ionised.
 
 So that's what this repo contains: a Xenon-based strobe light, aiming to drive a XOP-15 bulb with up to 1 kV, while controlling the duration and frequency of pulses.
-
 
 ## Project overview
 This repository contains KiCad v9 design files for the main board of a Xenon-based strobe light system.
 The system is divided into three separate modules:
-- HMI - so the user can set desired operating conditions (bus voltage, pulse width and pulse frequency)
-- Main board - drives the Xenon bulb, generating the trigger pulse and actively interrupting the discharge according to the required pulse width
-- Power supply - to produce an adjustable DC supply. To realise that I intend to eventually design an AC-mains powered converter, including a PFC circuit. As an interim solution, off-the-shelf boost converter modules are used: two such modules are connected in series, each providing up to 450 V output while supplied by 12 V batteries.
 
-As a side project, the boost modules have been reverse engineered with the aim to modify them from non-isolated to isolated. This work is covered under the following repos:
+- Main board. This board drives the Xenon bulb, generating the trigger pulse and actively interrupting the discharge according to the required pulse width. The latest STM32 source code is kept on a separate repository:
+https://github.com/FLRHW/Strobe_main_source  
+
+
+- HMI board. This is the user interface, to capture desired operating conditions (bus voltage, pulse width and pulse frequency). That board is covered on a separate repository:
+https://github.com/FLRHW/Strobe_HMI  
+
+- Power supply. This is to produce an adjustable DC supply and to realise that I intend to eventually design an AC-mains powered converter, including a PFC circuit. As an interim solution, off-the-shelf boost converter modules are used: two such modules are connected in series, each providing up to 450 V output while supplied by 12 V batteries. As a side project, the boost modules have been reverse engineered with the aim to modify them from non-isolated to isolated. This work is covered under the following repos:
 - https://github.com/FLRHW/StepUp_module_12to450V
 - https://github.com/FLRHW/Isolated_12to450V.
-
-The STM32 source code for the main board is kept on a separate repository:
-https://github.com/FLRHW/Strobe_main_source
-
-HMI board is also covered on a separate repository:
-https://github.com/FLRHW/Strobe_HMI
-
 
 ## Design targets
 DC bus voltage: 400 V to 1000 V  
 Flash rate: 0.1 Hz to 200 Hz  
 Pulse duration: 20 μs to 10 ms  
 
-Please note that the above parameters are only the limits encoded in SW. This design relies on storing energy on a capacitor bank to then discharge it into the bulb, so, even though the SW currently limits the pulse duration to 50 % of the period, long period durations might be unachievable. The duration strongly depends on on the lamp used, capacitor bank and bus voltage. As an example, with the XOP-15 and a 400 uF bank charged at 700 V, the discharge current reaches 450 A and the bank voltage collapses in less than 1 ms. Additionally, the HV power supply and current limiting resistor bank will determine how fast the capacitor bank is recharged, limiting the flash rate x pulse duration.
+Please note that the above parameters are only the limits encoded in the software. This design relies on storing energy on a capacitor bank to then discharge it into the bulb, so, even though the limit in software for the pulse duration is 50 % of the period, long durations might be unachievable. The duration strongly depends on the lamp, capacitor bank and bus voltage. As an example, with the XOP-15 and a 400 uF bank charged to 700 V, the discharge current reaches 450 A and the bank voltage collapses in less than 1 ms. Additionally, the HV power supply will determine how fast the capacitor bank is recharged, limiting the flash rate and/or pulse duration.
 
 ## Intended use
 This repository is intended for:
@@ -282,16 +278,8 @@ Any reference to third‑party marks is purely descriptive and does not imply en
 * The design is provided as is, with no warranty of any kind
 * Users are responsible for checking any patent, copyright, or regulatory constraints that may apply to their own use
 
-
 ## Known issues / improvement potentials
-- Gate drive circuit needs rework. D306-D308 are useless as the turn-off does not need to be sped up. R337 package is too small should anything other than a 0 Ohm link be used (in terms of power dissipation)
-- There is no capacitor decoupling the MCU reset line, which is sensitive and causes unwanted resets
-- Pulse transformer driver cannot achieve 200 Hz. Change R324-R327 to total ~100 k for that path, change R323, R328, R329 to total ~ 1 Meg, change R330 and R331 to total ~220 k and add 100 k in parallel to D303
-- Ipeak measurement path cuttof frequency is too low. Potentially remove the buffer and feed the signal directly to MCU
-- Power distribution architecture could be improved. The power dissipation on the 3.3 V linear regulator is inconveniently high. Besides replacing that by a SMPS, the AC mains feed and accompanying ACDC converters could be replaced by a low voltage DC feed and DCDC converters.
-- Heatsinks were placed only as "insurance policy". While a proper power loss calculation has not yet been carried out, testing revealed no heating of the IGBTs whatsoever
-- Test points holes are too small for oscilloscope probes. Additional GND test points would also be beneficial
-
+- To be updated once prototype is tested
 
 
 ***

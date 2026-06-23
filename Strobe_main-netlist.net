@@ -1,6 +1,6 @@
 (export (version "E")
   (design
-    (source "/tmp/tmp-kibot-net_sch_print-5ez074zh/Strobe_main.kicad_sch")
+    (source "/tmp/tmp-kibot-net_sch_print-xuv0b90p/Strobe_main.kicad_sch")
     (date "Date")
     (tool "Eeschema 9.0.7+1")
     (textvar (name "ASSEMBLY_NOTES") "ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)	DO NOT POPULATE PARTS MARKED WITH A RED CROSS.\n\n2)	IF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY\n	FILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.\n\n3)	DOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION\n	WHEN VIEWED FROM THE TOP.")
