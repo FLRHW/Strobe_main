@@ -268,9 +268,9 @@
 		)
 		(uuid "afc0bb31-890a-4961-a87a-e0895bcdf665")
 	)
-	(text "${SHEET_NAME_9}"
+	(text "${SHEET_NAME_4}"
 		(exclude_from_sim no)
-		(at 38.1 124.46 0)
+		(at 38.1 86.36 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -351,20 +351,6 @@
 			(href "#6")
 		)
 		(uuid "ea04c009-8a6e-4df8-a10e-287d81493227")
-	)
-	(text "9"
-		(exclude_from_sim no)
-		(at 31.75 124.46 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#9")
-		)
-		(uuid "f5bbe170-3943-4a40-9782-9cbd23ca5c03")
 	)
 	(text "NOTE STYLING CONVENTION"
 		(exclude_from_sim no)
