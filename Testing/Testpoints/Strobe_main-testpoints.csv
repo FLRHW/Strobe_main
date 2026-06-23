@@ -1,13 +1,13 @@
 Testpoint Ref.,Net,Net Class,X,Y,Side,Pad Type,Value,Footprint
 TP20,"/Block Diagram/Lamp driver/DRV_OUT,/Block Diagram/SH0",Default,44.5000,19.0000,top,THRU,Testpoint_osc_probe,Testpoint_osc_no_lead
-TP21,"/Block Diagram/Lamp driver/LMP_EN,/Block Diagram/SH0",Default,36.0000,42.5000,top,THRU,Testpoint_osc_probe,Testpoint_osc_no_lead
-TP22,"/Block Diagram/Lamp driver/Mon_LMP,/Block Diagram/SH0",Default,25.7700,55.0000,top,THRU,Testpoint_osc_probe,Testpoint_osc_no_lead
-TP23,"/Block Diagram/Lamp driver/Mon_S1k,/Block Diagram/SH0",Default,33.5000,55.0000,top,THRU,Testpoint_osc_probe,Testpoint_osc_no_lead
+TP21,"/Block Diagram/SH0,/Block Diagram/Lamp driver/LMP_EN",Default,36.0000,42.5000,top,THRU,Testpoint_osc_probe,Testpoint_osc_no_lead
+TP22,"/Block Diagram/SH0,/Block Diagram/Lamp driver/Mon_LMP",Default,25.7700,55.0000,top,THRU,Testpoint_osc_probe,Testpoint_osc_no_lead
+TP23,"/Block Diagram/SH0,/Block Diagram/Lamp driver/Mon_S1k",Default,33.5000,55.0000,top,THRU,Testpoint_osc_probe,Testpoint_osc_no_lead
 TP24,/Block Diagram/S1k,"1000V,T,P,Q,Default",82.0000,98.5000,top,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
 TP25,/Block Diagram/Lamp driver/LMP,"1000V,N,Default",69.0000,8.0000,top,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
 TP26,/Block Diagram/Lamp driver/TP_REF,"300V,T,Default",64.0000,92.0000,top,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
 TP27,/Block Diagram/Lamp driver/TP_PRI,"300V,T,Default",76.5000,83.5000,top,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
-TP28,"/Block Diagram/Lamp driver/Mon_IL,/Block Diagram/SH0",Default,44.5000,26.5000,top,THRU,Testpoint_osc_probe,Testpoint_osc_no_lead
+TP28,"/Block Diagram/SH0,/Block Diagram/Lamp driver/Mon_IL",Default,44.5000,26.5000,top,THRU,Testpoint_osc_probe,Testpoint_osc_no_lead
 TP60,Net-(U60-PA0),Default,32.0000,17.5000,top,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
 TP61,Net-(U60-PA1),Default,32.0000,20.0000,top,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
 TP62,/Block Diagram/MCU/Mon_S1k_buf,Default,26.0000,30.0000,top,,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
