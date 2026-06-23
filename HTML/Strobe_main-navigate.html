@@ -201,11 +201,7 @@
 <div class="output-comment">README file in Markdown format</div>
 <div class="items-container">
 
-                        <div class="markdown-content" style="display: none;"><p align="center" width="100%">
-  <img alt="Logo" width="33%" src="../Logos/dummy_logo.svg">
-</p>
-
-<h1 align="center">Main board</h1>
+                        <div class="markdown-content" style="display: none;"><h1 align="center">Main board</h1>
 
 <p align="center" width="100%">
   <a href="https://github.com/FLRHW/Strobe_main/actions/workflows/ci.yaml">
@@ -240,16 +236,16 @@ So that's what this repo contains: a Xenon-based strobe light, aiming to drive a
 This repository contains KiCad v9 design files for the main board of a Xenon-based strobe light system.
 The system is divided into three separate modules:
 
-- Main board. This board drives the Xenon bulb, generating the trigger pulse and actively interrupting the discharge according to the required pulse width. The latest STM32 source code is kept on a separate repository:
+- Main board. This board drives the Xenon bulb, generating the trigger pulse and actively interrupting the discharge according to the required pulse width. The latest STM32 source code is kept on a separate repository:  
 https://github.com/FLRHW/Strobe_main_source  
 
 
-- HMI board. This is the user interface, to capture desired operating conditions (bus voltage, pulse width and pulse frequency). That board is covered on a separate repository:
+- HMI board. This is the user interface, to capture desired operating conditions (bus voltage, pulse width and pulse frequency). That board is covered on a separate repository:  
 https://github.com/FLRHW/Strobe_HMI  
 
 - Power supply. This is to produce an adjustable DC supply and to realise that I intend to eventually design an AC-mains powered converter, including a PFC circuit. As an interim solution, off-the-shelf boost converter modules are used: two such modules are connected in series, each providing up to 450 V output while supplied by 12 V batteries. As a side project, the boost modules have been reverse engineered with the aim to modify them from non-isolated to isolated. This work is covered under the following repos:
-- https://github.com/FLRHW/StepUp_module_12to450V
-- https://github.com/FLRHW/Isolated_12to450V.
+https://github.com/FLRHW/StepUp_module_12to450V  
+https://github.com/FLRHW/Isolated_12to450V.
 
 ## Design targets
 DC bus voltage: 400 V to 1000 V  
