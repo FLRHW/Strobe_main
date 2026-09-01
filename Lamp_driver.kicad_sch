@@ -16101,7 +16101,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1n"
 			(at 295.021 83.7621 0)
 			(effects
 				(font
@@ -18095,7 +18095,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1n"
 			(at 231.521 83.7621 0)
 			(effects
 				(font
