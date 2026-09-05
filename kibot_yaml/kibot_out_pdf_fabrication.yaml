@@ -206,7 +206,7 @@ outputs:
         colored_holes: true
         holes_color: "#FFFFFF"
         # repeat_for_layer: 'F.Cu'
-        # repeat_layers: 'copper'
+        repeat_layers: 'copper'
         layers:
           - layer: 'F.Cu'
           - layer: Edge.Cuts
