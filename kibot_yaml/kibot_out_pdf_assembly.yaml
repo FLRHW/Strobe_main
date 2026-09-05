@@ -36,14 +36,14 @@ outputs:
           row_spacing: 3
           column_spacing: 2
     pages:
-      - scaling: @SCALING@
-        layer_var: ''
-        title: '@DOC_TITLE@'
-        sheet: Top/Bottom View
-        sheet_reference_color: '#000000'
-        layers:
-          - layer: '@LAYER_TITLE_PAGE@'
-            color: '#000000'
+      # - scaling: @SCALING@
+      #   layer_var: ''
+      #   title: '@DOC_TITLE@'
+      #   sheet: Top/Bottom View
+      #   sheet_reference_color: '#000000'
+      #   layers:
+      #     - layer: '@LAYER_TITLE_PAGE@'       # this line causes CI to fail
+      #       color: '#000000'
 
       - scaling: @SCALING@
         layer_var: "Top Assembly (Scale @SCALING@:1)"
@@ -66,8 +66,8 @@ outputs:
           - layer: F.Fab
             exclude_filter: '@FAB_EXCLUDE_FILTER@'
             color: '#744679'
-          - layer: '@LAYER_ASSEMBLY_TEXT_TOP@'
-            color: '#000000'
+          # - layer: '@LAYER_ASSEMBLY_TEXT_TOP@'   # this line causes CI to fail
+          #   color: '#000000'
           - layer: '@LAYER_DNP_CROSS_TOP@'
             color: '#D63034'
 
@@ -94,8 +94,8 @@ outputs:
           - layer: B.Fab
             exclude_filter: '@FAB_EXCLUDE_FILTER@'
             color: '#400080'
-          - layer: '@LAYER_ASSEMBLY_TEXT_BOTTOM@'
-            color: '#000000'
+          # - layer: '@LAYER_ASSEMBLY_TEXT_BOTTOM@'   # this line causes CI to fail
+          #   color: '#000000'
           - layer: '@LAYER_DNP_CROSS_BOTTOM@'
             color: '#D63034'
 

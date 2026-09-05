@@ -40,6 +40,20 @@
 		)
 		(uuid "1c576109-caea-431e-8644-8543de749b79")
 	)
+	(text "${SHEET_NAME_4}"
+		(exclude_from_sim no)
+		(at 38.1 86.36 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#4")
+		)
+		(uuid "1e0e8088-735f-4242-9815-aebb4a8fdb8d")
+	)
 	(text "${SHEET_NAME_8}"
 		(exclude_from_sim no)
 		(at 38.1 116.84 0)
@@ -268,20 +282,6 @@
 		)
 		(uuid "afc0bb31-890a-4961-a87a-e0895bcdf665")
 	)
-	(text "${SHEET_NAME_9}"
-		(exclude_from_sim no)
-		(at 38.1 124.46 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#9")
-		)
-		(uuid "b5ff3e63-17a3-45d1-8810-34d8d7fe669a")
-	)
 	(text "8"
 		(exclude_from_sim no)
 		(at 31.75 116.84 0)
@@ -351,20 +351,6 @@
 			(href "#6")
 		)
 		(uuid "ea04c009-8a6e-4df8-a10e-287d81493227")
-	)
-	(text "9"
-		(exclude_from_sim no)
-		(at 31.75 124.46 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#9")
-		)
-		(uuid "f5bbe170-3943-4a40-9782-9cbd23ca5c03")
 	)
 	(text "NOTE STYLING CONVENTION"
 		(exclude_from_sim no)
