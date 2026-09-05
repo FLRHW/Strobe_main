@@ -2,7 +2,9 @@
 
 ## [Unreleased]
 
-- Changed C22 and C23 to 1 nF
+## [2.0.1] - 2026-09-05
+
+-   Changed C22 and C23 to 1 nF
 
 ## [2.0.0] - 2026-06-23
 
@@ -17,7 +19,9 @@
 
 ### Migrated existing project to template (KDT)
 
-[Unreleased]: https://github.com/FLRHW/Strobe_main/compare/2.0.0...HEAD
+[Unreleased]: https://github.com/FLRHW/Strobe_main/compare/2.0.1...HEAD
+
+[2.0.1]: https://github.com/FLRHW/Strobe_main/compare/2.0.0...2.0.1
 
 [2.0.0]: https://github.com/FLRHW/Strobe_main/compare/1.0.0...2.0.0
 
