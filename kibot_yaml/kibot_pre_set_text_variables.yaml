@@ -51,10 +51,10 @@ preflight:
     - variable: '@RELEASE_BODY_VAR@2.0.0'
       command: '@GET_BODY_CMD@ 2.0.0'
 
-    # - variable: '@RELEASE_TITLE_VAR@1.1.0'
-    #   command: '@GET_TITLE_CMD@ 1.1.0'
-    # - variable: '@RELEASE_BODY_VAR@1.1.0'
-    #   command: '@GET_BODY_CMD@ 1.1.0'
+    - variable: '@RELEASE_TITLE_VAR@2.0.1'
+      command: '@GET_TITLE_CMD@ 2.0.1'
+    - variable: '@RELEASE_BODY_VAR@2.0.1'
+      command: '@GET_BODY_CMD@ 2.0.1'
 
     # - variable: '@RELEASE_TITLE_VAR@1.1.1'
     #   command: '@GET_TITLE_CMD@ 1.1.1'

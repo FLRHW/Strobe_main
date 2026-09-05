@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+- Changed C22 and C23 to 1 nF
+
 ## [2.0.0] - 2026-06-23
 
 -   decreased impedance of Ipeak measurement divider, removed buffer and fed signal directly to MCU
