@@ -197,6 +197,20 @@ outputs:
             # color: '#000000'
 
       - scaling: @SCALING@
+        sheet: '%ln (Scale @SCALING@:1)'
+        layer_var: '%ln (Scale @SCALING@:1)'
+        title: '@DOC_TITLE@'
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        repeat_for_layer: 'F.Cu'
+        repeat_layers: 'copper'
+        layers:
+          - layer: 'F.Cu'
+          - layer: Edge.Cuts
+            color: '#000000'
+
+      - scaling: @SCALING@
         # sheet: '%ln (Scale @SCALING@:1)'
         # layer_var: '%ln (Scale @SCALING@:1)'
         sheet: 'F.Cu (Scale @SCALING@:1)'           # NEW
@@ -212,29 +226,29 @@ outputs:
           - layer: Edge.Cuts
             color: '#000000'          
 
-      - scaling: @SCALING@
-        sheet: 'In1.Cu (Scale @SCALING@:1)'
-        layer_var: 'In1.Cu (Scale @SCALING@:1)'
-        title: '@DOC_TITLE@'
-        sheet_reference_color: '#000000'
-        colored_holes: true
-        holes_color: "#FFFFFF"
-        layers:
-          - layer: 'B.Cu'
-          - layer: Edge.Cuts
-            color: '#000000'
-
-      - scaling: @SCALING@
-        sheet: 'In2.Cu (Scale @SCALING@:1)'
-        layer_var: 'In2.Cu (Scale @SCALING@:1)'
-        title: '@DOC_TITLE@'
-        sheet_reference_color: '#000000'
-        colored_holes: true
-        holes_color: "#FFFFFF"
-        layers:
-          - layer: 'B.Cu'
-          - layer: Edge.Cuts
-            color: '#000000'
+      # - scaling: @SCALING@
+      #   sheet: 'In1.Cu (Scale @SCALING@:1)'
+      #   layer_var: 'In1.Cu (Scale @SCALING@:1)'
+      #   title: '@DOC_TITLE@'
+      #   sheet_reference_color: '#000000'
+      #   colored_holes: true
+      #   holes_color: "#FFFFFF"
+      #   layers:
+      #     - layer: 'B.Cu'
+      #     - layer: Edge.Cuts
+      #       color: '#000000'
+      #
+      # - scaling: @SCALING@
+      #   sheet: 'In2.Cu (Scale @SCALING@:1)'
+      #   layer_var: 'In2.Cu (Scale @SCALING@:1)'
+      #   title: '@DOC_TITLE@'
+      #   sheet_reference_color: '#000000'
+      #   colored_holes: true
+      #   holes_color: "#FFFFFF"
+      #   layers:
+      #     - layer: 'B.Cu'
+      #     - layer: Edge.Cuts
+      #       color: '#000000'
 
       - scaling: @SCALING@
         sheet: 'B.Cu (Scale @SCALING@:1)'          
