@@ -66,8 +66,8 @@
 	COPPER TO HOLE		0.300 mm
 	COPPER TO EDGE		0.500 mm
 	HOLE TO HOLE			0.250 mm</textvar>
-    <textvar name="GIT_HASH_PCB">0a76482</textvar>
-    <textvar name="GIT_HASH_SCH">0a76482</textvar>
+    <textvar name="GIT_HASH_PCB">58e73ba</textvar>
+    <textvar name="GIT_HASH_SCH">84f4bdf</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_main</textvar>
     <textvar name="PROJECT_NAME">1 kV strobe</textvar>
     <textvar name="RELEASE_BODY_1.0.0">___________________________________
@@ -87,16 +87,18 @@ Migrated existing project to template (KDT)</textvar>
 -   reworked test pulse circuit to achive higher frequency
 
 -   added mlcc to MCU rst line</textvar>
+    <textvar name="RELEASE_BODY_2.0.1">Version 2.0.1 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">23-Jun-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-06-23</textvar>
+    <textvar name="RELEASE_DATE">05-Sep-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-09-05</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-04-11</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
     <textvar name="RELEASE_TITLE_2.0.0">Version 2.0.0 - 2026-06-23</textvar>
+    <textvar name="RELEASE_TITLE_2.0.1">Version 2.0.1 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">2.0.0</textvar>
+    <textvar name="REVISION">2.0.0+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">......................................</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
@@ -137,12 +139,12 @@ Migrated existing project to template (KDT)</textvar>
     <textvar name="SHEET_NAME_7">Optical isolation</textvar>
     <textvar name="SHEET_NAME_8">Revision History</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">RELEASED</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>${SHEETNAME}</title>
         <company>ChurrasCod Electronics</company>
-        <rev>2.0.0</rev>
+        <rev>2.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Strobe_main.kicad_sch</source>
         <comment number="1" value=""/>
@@ -160,7 +162,7 @@ Migrated existing project to template (KDT)</textvar>
       <title_block>
         <title>${SHEETNAME}</title>
         <company>ChurrasCod Electronics</company>
-        <rev>2.0.0</rev>
+        <rev>2.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
         <comment number="1" value=""/>
@@ -268,7 +270,7 @@ Migrated existing project to template (KDT)</textvar>
       <title_block>
         <title>${SHEETNAME}</title>
         <company>ChurrasCod Electronics</company>
-        <rev>2.0.0</rev>
+        <rev>2.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
@@ -2460,7 +2462,7 @@ Migrated existing project to template (KDT)</textvar>
       <tstamps>2114c00d-cf5f-4456-9c75-0295516c591f</tstamps>
     </comp>
     <comp ref="C22">
-      <value>100n</value>
+      <value>1n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
@@ -2489,7 +2491,7 @@ Migrated existing project to template (KDT)</textvar>
       <tstamps>bd05bae4-425f-4c9d-b8f1-e46c88dfc1b2</tstamps>
     </comp>
     <comp ref="C23">
-      <value>100n</value>
+      <value>1n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
